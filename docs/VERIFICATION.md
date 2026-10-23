@@ -45,7 +45,7 @@ The [CAS record](../cas/CAS.md) distinguishes exact symbolic checks, Magma rank/
 
 ## Clean-checkout procedure
 
-A clean-checkout replay record will be added after execution. The procedure uses a new git clone with no project object files, while allowing the exact pinned third-party dependencies and their public mathlib cache to be reused. No claim of a from-source rebuild of the entire dependency graph is made.
+A new git clone of commit `0d171ab2284e3dc55595d529116405438642a6b3`, with no project object files, completed all four commands above with exit 0; the symbolic map checker also passed with byte-identical output. Its tracked working tree remained clean. All six project modules were rebuilt. The exact pinned third-party dependency directory was linked from the original checkout, reusing downloaded public mathlib cache objects; the separate pinned SymPy environment was also reused for this replay. Logs are `verification/clean-build.log`, `clean-axioms.log`, `clean-leanchecker.log`, and `clean-python.json`. No from-source rebuild of the entire dependency graph is claimed. Subsequent initial-publication changes contain only documentation, attribution and validation records; the tested Lean source hashes are fixed in `verification/source-hashes.json`.
 
 ## Trust and review boundaries
 

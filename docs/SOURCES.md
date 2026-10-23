@@ -19,7 +19,7 @@ The original equal-length, disjoint, positive-integer conditions; exact carry fa
 
 ## Still unverified or unresolved
 
-The journal paper's full historical search and supplementary computations have not all been independently reproduced. Their finite reported ranges are not new results here. No certified complete original-curve integer-point list, effective exhaustive bound, k=6 noncollision theorem, or genuine collision is available in this repository. The Magma rank/basis output has a different trust boundary from the Lean theorems. The inaccessible primary-text hypotheses noted in the [detailed source audit](../cas/SOURCE_AUDIT.md) are not used as mathematical premises.
+The journal paper's full historical search and supplementary computations have not all been independently reproduced. Their finite reported ranges are not new results here. No certified complete original-curve integer-point list, effective exhaustive bound, k=6 noncollision theorem, or genuine collision is available in this repository. The Magma rank/basis output has a different trust boundary from the Lean theorems. The inaccessible primary-text hypotheses noted in the [detailed source audit](../cas/SOURCE_AUDIT.md) and [Farhi–Kane / Saradha–Shorey supplement](../cas/LITERATURE_SUPPLEMENT.md) are not used as mathematical premises.
 
 ## Errors found in examined claims
 

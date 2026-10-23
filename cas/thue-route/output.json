@@ -1,0 +1,70 @@
+{
+  "status": "symbolic identities and invariants checked; no completeness certificate",
+  "python": "3.14.6",
+  "sympy": "1.14.0",
+  "quartic": "a**2*t**4 + 3*a*b*t**3 - 8*a*b*t**2 + 3*a*b*t + b**2",
+  "discriminant_numerator": "-243*a**4*b**4*(a - b)**2*(243*a**2 + 886*a*b + 243*b**2)",
+  "curves": [
+    {
+      "a": 1,
+      "b": 2,
+      "j": "-120472576/26883",
+      "I": 196,
+      "J": -6460,
+      "U_zero_fiber_discriminant": 13185684
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "j": "-11764900/24183",
+      "I": 1225,
+      "J": -182950,
+      "U_zero_fiber_discriminant": -1694691
+    },
+    {
+      "a": 1,
+      "b": 10,
+      "j": "-3011814400/24350787",
+      "I": 4900,
+      "J": -2654300,
+      "U_zero_fiber_discriminant": -81170316
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "j": "-3011814400/1288467",
+      "I": 4900,
+      "J": -904700,
+      "U_zero_fiber_discriminant": 198627444
+    }
+  ],
+  "gcd_carry_only_denominator_examples": [
+    {
+      "n": 0,
+      "m": 6,
+      "X": 7,
+      "Y": 19,
+      "center_gcd": 1,
+      "projection_t": "15/2",
+      "curve_equation_satisfied": false
+    },
+    {
+      "n": 60,
+      "m": 66,
+      "X": 127,
+      "Y": 139,
+      "center_gcd": 1,
+      "projection_t": "115/96",
+      "curve_equation_satisfied": false
+    },
+    {
+      "n": 120,
+      "m": 126,
+      "X": 247,
+      "Y": 259,
+      "center_gcd": 1,
+      "projection_t": "2795/2542",
+      "curve_equation_satisfied": false
+    }
+  ]
+}

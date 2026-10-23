@@ -15,7 +15,7 @@ For natural numbers n,k, define M(n,k) = lcm(n+1,...,n+k). The original question
 - `LcmSix.CarryGcd` specializes the known gcd restrictions with the exact carry filters: the center gcd divides 15,3,9,3 and the slope gcd divides 15,12,81,9 in the respective four branches. These bounds do not bound the interval starts.
 - `LcmSix.ModularObstruction` proves that specified product-congruence and carry sieves have positive disjoint surviving representatives for every positive modulus. These are congruence witnesses, **not integer-product equalities or LCM counterexamples**.
 
-The coefficient reduction and centered gcd ideas build on the cited paper. The contribution here is the checked formalization, independent audit, explicit integrality diagnostics, and reproducible research material. No worldwide mathematical or formalization priority is claimed.
+The product/LCM periodicity is prior work of Farhi–Kane; the four-coefficient reduction and centered gcd ideas build on Danesh–Bianchetti. The contribution here is the checked formalization, independent audit, explicit integrality diagnostics, and reproducible research material. No worldwide mathematical or formalization priority is claimed.
 
 ## Reproduce
 
@@ -40,6 +40,9 @@ The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, adm
 - [Prior submissions and current eligibility](docs/PRIOR_WORK.md)
 - [Lean theorem-to-proof correspondence and actual validation](docs/VERIFICATION.md)
 - [Curve calculations and the next completeness obligation](cas/CAS.md)
+- [Earlier period results and unverified literature hypotheses](cas/LITERATURE_SUPPLEMENT.md)
+- [Direct Thue-substitution route and its obstruction](cas/thue-route/README.md)
+- [Current research obligations and failed uniform route](docs/RESEARCH_STATUS.md)
 
 The current awards rules require a complete solution of the original problem. This repository is a partial formalization, so it is not submitted as an original-problem solution and does not support a whole-problem award claim. Complete determination of admissible points on the four branches remains necessary to finish k=6; proving k=6 alone would still not settle the all-length conjecture.
 
