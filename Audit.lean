@@ -1,0 +1,28 @@
+import LcmSix
+#print axioms LcmSix.product_eq_defect_mul_window
+#print axioms LcmSix.defect_six
+#print axioms LcmSix.product_six
+#print axioms LcmSix.no_collision_of_carry_le
+#print axioms LcmSix.collision_iff_four_curves
+#print axioms LcmSix.center_constraints
+#print axioms LcmSixGcd.common_divisor_square_dvd
+#print axioms LcmSix.ModularObstruction.ratio_two_survives_every_modulus
+#print axioms LcmSix.ModularObstruction.ratio_five_survives_every_modulus
+#print axioms LcmSix.ModularObstruction.ratio_ten_survives_every_modulus
+#print axioms LcmSix.ModularObstruction.ratio_five_halves_survives_every_modulus
+
+
+#print axioms LcmSix.centerGcd_not_two_dvd
+#print axioms LcmSix.centerGcd_not_five_dvd
+#print axioms LcmSix.first_residue_ne_four
+#print axioms LcmSix.centerGcd_square_dvd
+#print axioms LcmSix.centerGcd_dvd_15_of_branch_1_2
+#print axioms LcmSix.centerGcd_dvd_3_of_branch_1_5
+#print axioms LcmSix.centerGcd_dvd_9_of_branch_1_10
+#print axioms LcmSix.centerGcd_dvd_3_of_branch_2_5
+#print axioms LcmSix.slope_gcd_dvd_difference_mul_gcd
+#print axioms LcmSix.slopeGcd_dvd_difference_mul_centerGcd
+#print axioms LcmSix.slopeGcd_dvd_15_of_branch_1_2
+#print axioms LcmSix.slopeGcd_dvd_12_of_branch_1_5
+#print axioms LcmSix.slopeGcd_dvd_81_of_branch_1_10
+#print axioms LcmSix.slopeGcd_dvd_9_of_branch_2_5

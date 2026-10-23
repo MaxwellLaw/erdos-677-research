@@ -1,0 +1,26 @@
+# Fixed sources and audit status
+
+Audit dates: 2026-10-23–24 (Asia/Shanghai). Sources and submission states were rechecked immediately before the initial public release. No global priority claim is made.
+
+| Source | Fixed version or content hash | Observed status |
+| --- | --- | --- |
+| [awards](https://github.com/TheJustinSunPrize/awards/tree/5b7126acf3d3d31c71e5964525807d1532cba892) | `5b7126acf3d3d31c71e5964525807d1532cba892` | Catalog, templates, verification, attribution, award process and MathDB pilot checked. JSP-000550 remains open, Lean No, Eligible No; not in the pilot. |
+| [Formal Conjectures, initial snapshot](https://github.com/google-deepmind/formal-conjectures/blob/ac02cd5f50407650b37344083b7c1f0f4ed1f96c/FormalConjectures/ErdosProblems/677.lean) | `ac02cd5f50407650b37344083b7c1f0f4ed1f96c` | Exact quantified problem has `by sorry`. Lean and mathlib dependencies were pinned from this revision. |
+| [Formal Conjectures, publication recheck](https://github.com/google-deepmind/formal-conjectures/blob/dbc2db9ee32219c8c1e26db64b2b7f3ed7b33324/FormalConjectures/ErdosProblems/677.lean) | `dbc2db9ee32219c8c1e26db64b2b7f3ed7b33324` | Same problem file blob `303699d56147eb8edd96b0c493dd2b1e53af23e3`; no full proof added. |
+| [Danesh and Bianchetti 2026](https://ijmttjournal.org/public/assets/volume-72/issue-9/IJMTT-V72I9P101.pdf) | SHA256 `99f3db586d45c66f87280a78466b191892a030ef4577309297acd6061aab5f3f` | Section 8.2 explicitly leaves k=6 unresolved. Four coefficients, product identity and smoothness independently checked. |
+| [Erdős, Mathematics Magazine 52 (1979), 67–70](https://www.renyi.hu/~p_erdos/1979-22.pdf) | SHA256 `772e2f84dff324b363dc6fbb74a9449f36c42569027b29efb3b71af84ff18964` | The site's p.67 source; visual inspection confirms the equal-length conjecture includes m>=n+k. |
+| [Erdős, Acta Math. Acad. Sci. Hungar. 33 (1979), 71–80](https://users.renyi.hu/~p_erdos/1979-23.pdf) | SHA256 `a4703a104adcbbde0ed605c9ff81379adee8b7ceda3714ea455b5b68ae720dfd` | A different same-titled paper, cited by Danesh–Bianchetti; p.78 also includes m>=n+k. |
+
+The [original problem](https://www.erdosproblems.com/677), [all eight discussion comments](https://www.erdosproblems.com/forum/thread/677), and [proof-claims page](https://www.erdosproblems.com/forum/thread/677/proof-claims) were successfully read in a browser after direct requests returned 403. The page reported last edited 30 September 2025, zero proof expositions and zero proof claims; the latest discussion post was 2 April 2026. The comments link qrdlgit's partial formalization and explicitly distinguish fixed-gap finiteness from the already known fixed-length finiteness. Neither is a solution of k=6. The adjacent solved Problem #678 is different.
+
+## Verified
+
+The original equal-length, disjoint, positive-integer conditions; exact carry factor; the four coefficient pairs; equivalence when carry conditions are retained; no denominator or zero-factor issue in the centered product transformation; smoothness of the four plane cubics by an independent critical-value argument; failure of a naive Weierstrass-integral-point replacement; actual scopes of the examined third-party submissions. The carry-refined gcd bounds directly specialize the paper's Proposition 25; they are not a new structural descent theorem.
+
+## Still unverified or unresolved
+
+The journal paper's full historical search and supplementary computations have not all been independently reproduced. Their finite reported ranges are not new results here. No certified complete original-curve integer-point list, effective exhaustive bound, k=6 noncollision theorem, or genuine collision is available in this repository. The Magma rank/basis output has a different trust boundary from the Lean theorems. The inaccessible primary-text hypotheses noted in the [detailed source audit](../cas/SOURCE_AUDIT.md) are not used as mathematical premises.
+
+## Errors found in examined claims
+
+The [prior-work report](PRIOR_WORK.md) documents wrong-problem submissions and finite closed computations advertised as full results. A later research page's claim that Erdős originally required the strict inequality m>n+k conflicts with both visually inspected equal-length statements; OCR confused that symbol with the subsequent different-length extension. These are source and scope findings, not evidence that this repository solves the problem.

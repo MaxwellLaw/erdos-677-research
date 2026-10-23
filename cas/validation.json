@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "fresh_environment": true,
+  "pip_download_cache_used": true,
+  "lean_cache_used": false,
+  "external_CAS_service_needed_for_symbolic_checks": false,
+  "byte_identical_reproduction": true,
+  "exact_integrality_examples_checked": 2,
+  "status": "auxiliary calculations only; no integral-point completeness proof",
+  "map_identity_checks": 24,
+  "independent_human_style_review": "A separate research agent checked the positive-branch inequalities and height estimate; not a Lean check."
+}
