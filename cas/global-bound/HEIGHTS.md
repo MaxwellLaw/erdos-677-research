@@ -8,8 +8,8 @@ coefficient bound M0, complete point enumeration, or solution of k=6.
 The primary normalization was checked directly in Sinnou David,
 [Minorations de formes linéaires de logarithmes elliptiques](https://smf.emath.fr/system/files/filepdf/MSMF_1995_2_62__1_0.pdf),
 Mémoires SMF 62 (1995), printed pp.9–10, especially the definitions preceding
-Théorème 2.1. The pinned local PDF and page images are described in
-`INITIAL_BOUND.md`. David uses absolute logarithmic Weil
+Théorème 2.1. The inspected source and its SHA256 are recorded in
+`INITIAL_BOUND.md`; the PDF and page images are not vendored. David uses absolute logarithmic Weil
 height on projective space and the plane-cubic canonical height
 `hat_h_D(P)=lim_(n→∞) h([n]P)/n²`.
 

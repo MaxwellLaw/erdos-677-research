@@ -146,7 +146,7 @@ The lattice-area expression and its geometric interpretation are recorded separa
 
 The output's advertised bound is only `width<10^(-400)`. That bound alone would **not** justify rounding after multiplication by `10^420`. The actual saved rational intervals are much narrower, and the lattice verifier checks their endpoints directly at every scale it uses.
 
-For an interval `[l,h]` and C=10^s, it computes
+For an interval `[l,h]` and C=10^s, the proposal generator computes
 
 ```
 a=floor(C*l+1/2), b=floor(C*h+1/2)
@@ -158,7 +158,7 @@ and requires a=b, equal to the recorded rounded integer n. This proves
 n-1/2 <= C*l <= C*h < n+1/2.
 ```
 
-Every enclosed true value therefore rounds to n under this convention, and its rounding error is at most 1/2. The saved four lattice chains contain 125 such endpoint checks, for the three basis logarithms, the real period and the target logarithm at each retained step. All 125 were checked by exact rational arithmetic, including the largest scale `C=10^420`. The correctness assertion is the checked cell containment, not the weaker summary width.
+The independent verifier instead checks the closed containment `n-1/2 <= C*l <= C*h <= n+1/2` directly. This is sufficient for the rounding-error bound of 1/2, without relying on a tie-breaking convention or reproducing the generator. The saved four lattice chains contain 125 such endpoint checks, for the three basis logarithms, the real period and the target logarithm at each retained step. All 125 were checked by exact rational arithmetic, including the largest scale `C=10^420`. The correctness assertion is the checked cell containment, not the weaker summary width.
 
 ## Replay and trust boundary
 

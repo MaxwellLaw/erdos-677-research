@@ -86,6 +86,24 @@ The official Magma service was rerun with the unchanged `cas/mordell_weil.m`, se
 
 All 46 existing Lean audit declarations are unchanged. The new analytic arguments, elliptic-integral identities, finite-group reduction theorem and Python arithmetic are outside the Lean kernel. They are documented rather than imported as axioms. Primary sources and their normalization conventions are fixed in the new proof notes. `verification/global-source-hashes.json` records the code and mathematical artifact set for this checkpoint.
 
+### Clean clone of the global computation checkpoint
+
+A fresh clone of `42ea95b0cad686a5ca1d3575e6e9bba4d1a74756`, with no project objects initially present, completed all of the following with exit 0:
+
+```sh
+lake --wfail build
+python3 scripts/check_axioms.py
+lake env leanchecker -v LcmSix
+python3 scripts/verify_reduction.py
+python3 scripts/verify_global_bound.py
+# Using the separate environment pinned by cas/requirements-cas.txt:
+python cas/verify_k6_maps.py
+```
+
+All seven Lean modules rebuilt, all 46 axiom reports used only the standard logical axioms, and project kernel replay passed. The global replay executed every arithmetic stage and both exhaustive implementations; the symbolic-map output was byte-identical to the saved original. The clone remained clean. Only pinned third-party dependency/cache directories and the separately pinned SymPy environment were reused. No network CAS was used in this clean replay; the Magma recheck described above was a separate recorded run.
+
+Actual commands and exit codes are in `verification/global-clean-record.json`; full output is in `global-clean-build.log`, `global-clean-axioms.log`, `global-clean-leanchecker.log`, `global-clean-reduction.log`, `global-clean-global.log`, and `global-clean-maps.log` in that directory. The subsequent publication changes add these records and correct two explanatory documentation sentences; no tested code or certificate changed.
+
 ## Trust and review boundaries
 
 The final definitions, quantifiers, carry hypotheses and domain boundaries were inspected separately from tactic success. Additional agents reconstructed the human mathematics and reviewed the formal endpoint types; this is AI-assisted cross-checking, not an independent human referee report. No external mathematical review or award acceptance is claimed.
