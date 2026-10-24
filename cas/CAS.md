@@ -113,7 +113,7 @@ A reproducible next stage is:
 5. Enumerate the *proved* final coefficient box exactly, use the inverse maps, and retain only integer odd squares and the original disjointness and LCM conditions. Finish all exceptional-map cases. A box chosen experimentally is not complete.
 6. For a Lean endpoint, the completeness proof and arithmetic certificates must be proved or checked by the Lean kernel. Neither Magma's assertion flags nor this symbolic verifier can be imported as mathematical axioms.
 
-No David-constant computation, certified logarithm intervals, LLL distance certificate, or complete final enumeration has been executed in this directory. Earlier experimental searches of small Mordell–Weil coefficient boxes are deliberately not used as evidence of completeness and are not part of this publication set.
+No David-constant computation, certified elliptic-logarithm or real-period intervals, LLL distance certificate, or complete final enumeration has been executed in this directory. Earlier experimental searches of small Mordell–Weil coefficient boxes are deliberately not used as evidence of completeness and are not part of this publication set.
 
 ## Reproduction
 

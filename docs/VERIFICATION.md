@@ -68,6 +68,12 @@ The separate standard-library Python verifier recomputes the polynomial identiti
 
 This numerical certification is exact arithmetic plus the stated human canonical-height argument. Its logarithm bounds, limiting argument, quadraticity and matrix analysis are **not Lean theorems**. Only the specified integer algebra is kernel checked. Extending the subgroup statement to a representation of every rational point still uses the separately recorded Magma full-basis assertion; this calculation does not independently certify saturation. No finite coefficient search, effective initial coefficient bound, elliptic-logarithm lower bound or LLL completeness conclusion is supplied.
 
+### Clean clone of the height-certificate checkpoint
+
+A fresh clone of `d1943b5e9ca475f0922101786d2ae56387c96973`, initially without project object files, completed all five commands above with exit 0. All seven project modules were rebuilt, all 46 axiom reports passed, kernel replay succeeded, and both Python checks passed. Its tracked working tree remained clean. Only the pinned `.lake/packages` directory was linked from the working checkout; downloaded public dependency cache objects were reused. This replay did not require SymPy, a network CAS, or a full source rebuild of Mathlib.
+
+The machine-readable command/exit record is `verification/height-clean-record.json`; full logs are `height-clean-build.log`, `height-clean-axioms.log`, `height-clean-leanchecker.log`, `height-clean-reduction.log`, and `height-clean-python.log` in the same directory. Subsequent changes in this checkpoint add those validation records and clarify documentation only; the tested source/certificate hashes remain those in `verification/height-source-hashes.json`.
+
 ## Trust and review boundaries
 
 The final definitions, quantifiers, carry hypotheses and domain boundaries were inspected separately from tactic success. Additional agents reconstructed the human mathematics and reviewed the formal endpoint types; this is AI-assisted cross-checking, not an independent human referee report. No external mathematical review or award acceptance is claimed.

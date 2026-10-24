@@ -1,0 +1,57 @@
+{
+  "tested_commit": "d1943b5e9ca475f0922101786d2ae56387c96973",
+  "project_objects_initially_absent": true,
+  "dependencies": "symlinked pinned .lake/packages; public dependency cache reused",
+  "git_status_after": "clean",
+  "commands": [
+    {
+      "name": "build",
+      "command": [
+        "lake",
+        "--wfail",
+        "build"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 20.889
+    },
+    {
+      "name": "axioms",
+      "command": [
+        "python3",
+        "scripts/check_axioms.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.445
+    },
+    {
+      "name": "leanchecker",
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "LcmSix"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 15.983
+    },
+    {
+      "name": "reduction",
+      "command": [
+        "python3",
+        "scripts/verify_reduction.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.097
+    },
+    {
+      "name": "python",
+      "command": [
+        "python3",
+        "scripts/verify_heights.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.81
+    }
+  ]
+}

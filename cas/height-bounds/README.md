@@ -74,7 +74,7 @@ by `2|mi*mj|≤mi²+mj²`. The script checks that all three leading principal mi
 
 `B−(1/100+rho)I`
 
-are strictly positive rational numbers. Sylvester's criterion then proves the stated lower bound. All four cases passed. The largest coordinate bit lengths after seven duplications were respectively 45575, 216285, 221662, and 101106.
+are strictly positive rational numbers. Sylvester's criterion then proves the stated lower bound. All four cases passed. Since H(O)=0, the inequality also proves that each displayed triple has no nonzero integer relation, independently of the Magma basis assertion; it does not prove full-group generation. The largest coordinate bit lengths after seven duplications were respectively 45575, 216285, 221662, and 101106.
 
 ## Uniform height error S=5
 
