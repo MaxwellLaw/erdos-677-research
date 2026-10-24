@@ -1,6 +1,6 @@
-# Erdős 677: verified length-six reductions
+# Erdős 677: length-six reduction and computational certificate
 
-**Status: neither the full k = 6 noncollision theorem nor Erdős Problem 677 is solved here.** No valid disjoint equal-length collision is known from this work. JSP-000550 denotes Erdős Problem 677, not Erdős Problem 550.
+**Status: the analytic proof and exact arithmetic exclude length-six collisions within four explicit generated subgroups. The recorded external Magma full-basis flags give a CAS-supported computational k = 6 corollary.** A full-group certificate independently checkable outside Magma has not been exported, and there is no Lean k = 6 endpoint. The original all-length Erdős Problem 677 remains open. JSP-000550 denotes Erdős Problem 677, not Erdős Problem 550.
 
 Author and Lean formalization author: MaxwellLaw. The author, MaxwellLaw, used AI as an assistive tool.
 
@@ -16,9 +16,9 @@ For natural numbers n,k, define M(n,k) = lcm(n+1,...,n+k). The original question
 - `HeightCertificates` proves the integer Bézout identities for all four duplication-polynomial pairs, their common-divisor bounds at primitive integer coordinates, and the exact coefficient sums C,D. The interpretation as elliptic-curve duplication and the resulting analytic height bounds are separate human proofs.
 - `LcmSix.ModularObstruction` proves that specified product-congruence and carry sieves have positive disjoint surviving representatives for every positive modulus. These are congruence witnesses, **not integer-product equalities or LCM counterexamples**.
 
-The separate [rigorous height calculation](cas/height-bounds/README.md) establishes `H(P)-h(x(P))<5` on all four elliptic curves and `H(sum m_i P_i)>=sum m_i²/100` on each displayed generated subgroup, using exact rational intervals and a human canonical-height argument. Here H is the x-normalized canonical height. Coverage of the entire rational-point group still relies on the external Magma full-basis certificates. These estimates do not supply an effective coefficient bound or complete the integer-point calculation.
+The separate [rigorous height calculation](cas/height-bounds/README.md) establishes `H(P)-h(x(P))<5` on all four elliptic curves and `H(sum m_i P_i)>=sum m_i²/100` on each displayed generated subgroup, using exact rational intervals and a human canonical-height argument. Here H is the x-normalized canonical height. The [global coefficient bound and residual certificate](cas/global-bound/README.md) now combine these estimates with David's elliptic-logarithm theorem, certified real logarithms and exact lattice-distance bounds. They reduce the four coefficient boxes to closed bounds 60,60,62,64 and exhaust all 7,642,936 triples. No admissible disjoint odd-square pair remains. Coverage of the entire rational-point group relies on the external Magma full-basis flags; the analytic and enumeration layers are not Lean proofs.
 
-The product/LCM periodicity is prior work of Farhi–Kane; the four-coefficient reduction and centered gcd ideas build on Danesh–Bianchetti. The contribution here is the checked formalization, independent audit, explicit integrality diagnostics, and reproducible research material. No worldwide mathematical or formalization priority is claimed.
+The product/LCM periodicity is prior work of Farhi–Kane; the four-coefficient reduction and centered gcd ideas build on Danesh–Bianchetti. The contribution here includes the checked reductions, integrality diagnostics, explicit analytic constants, exact lattice-distance certificates and complete residual enumeration. These layers are documented with separate trust boundaries. No worldwide mathematical or formalization priority is claimed.
 
 ## Reproduce
 
@@ -33,9 +33,10 @@ python3 scripts/check_axioms.py
 lake env leanchecker -v LcmSix
 python3 scripts/verify_reduction.py
 python3 scripts/verify_heights.py
+python3 scripts/verify_global_bound.py
 ```
 
-The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, admit, custom mathematical axioms, or native_decide. Externally discovered polynomial coefficients are supplied as explicit data and their identities are proved by the kernel; no CAS assertion is accepted as an axiom. The printed dependencies are standard Lean logical axioms only. Mathlib dependency binaries may come from its public cache; all project modules are rebuilt for the clean-checkout test. The reduction sanity check is finite. The height replay verifies exact arithmetic certificates whose global implications use the documented human height theory, which is not formalized here. Neither check asserts noncollision for all starts. Magma rank and full-basis results remain external CAS evidence, not Lean assumptions.
+The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, admit, custom mathematical axioms, or native_decide. Externally discovered polynomial coefficients are supplied as explicit data and their identities are proved by the kernel; no CAS assertion is accepted as an axiom. The printed dependencies are standard Lean logical axioms only. Mathlib dependency binaries may come from its public cache; all project modules are rebuilt for the clean-checkout test. The reduction sanity check is finite. The height replay verifies exact arithmetic certificates whose global implications use the documented human height theory, which is not formalized here. The global-bound replay checks the recorded height parameters, real-logarithm intervals, initial-bound constants, lattice reductions and complete coefficient boxes. Its mathematical interpretation also uses the documented analytic and reduction theorems. Magma rank and full-basis results remain external CAS evidence, not Lean assumptions.
 
 ## Research and submission record
 
@@ -43,12 +44,13 @@ The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, adm
 - [Fixed source versions and audit status](docs/SOURCES.md)
 - [Prior submissions and current eligibility](docs/PRIOR_WORK.md)
 - [Lean theorem-to-proof correspondence and actual validation](docs/VERIFICATION.md)
-- [Curve calculations and the next completeness obligation](cas/CAS.md)
+- [Curve calculations, exact maps and CAS trust boundary](cas/CAS.md)
+- [Global bounds, residual exhaustion and computational k = 6 corollary](cas/global-bound/README.md)
 - [Rigorous height bounds and their trust boundary](cas/height-bounds/README.md)
 - [Earlier period results and unverified literature hypotheses](cas/LITERATURE_SUPPLEMENT.md)
 - [Direct Thue-substitution route and its obstruction](cas/thue-route/README.md)
 - [Current research obligations and failed uniform route](docs/RESEARCH_STATUS.md)
 
-The current awards rules require a complete solution of the original problem. This repository is a partial formalization, so it is not submitted as an original-problem solution and does not support a whole-problem award claim. Complete determination of admissible points on the four branches remains necessary to finish k=6; proving k=6 alone would still not settle the all-length conjecture.
+The current awards rules require a complete solution of the original problem. The computational fixed-length result and partial Lean formalization do not settle the all-length conjecture. No awards solution PR or whole-problem award claim is justified by this result. Remaining obligations include an independently exported full-group certificate, a Lean k = 6 endpoint, and a separate argument or counterexample for arbitrary k.
 
 License: Apache-2.0. Referenced third-party papers and proof repositories retain their own authorship and licenses; they are linked rather than vendored here.

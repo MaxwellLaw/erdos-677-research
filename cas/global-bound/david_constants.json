@@ -1,0 +1,33 @@
+{
+  "status": "Exact constants pass; mathematical theorem/period/height/calculus argument is in README.md, outside Lean",
+  "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "cited_source_sha256": {
+    "David1995.pdf": "aefffcbf1d8475a4f17ce95a0de0240db687a9108d0ced5d8d972c844dc504ae",
+    "Tzanakis1996.pdf": "00beb2e622143f0847590c85ca4adf07fecfb380468d68dc77e6f70ff7a203ff"
+  },
+  "input_sha256": {
+    "height_parameters.json": "47b068529bf0cb334a61c2df9876d754add78f05fdb19a921d57961b752fdb5b",
+    "period_parameters.json": "d01117a9fd907d68e9183a2c7b5747459868b873cb55d9ca10df2ee8e7f707d4"
+  },
+  "david_elliptic_factors": 5,
+  "nonperiod_logarithms": 4,
+  "field_degree": 3,
+  "common_logV": 1000,
+  "auxiliary_E": "exp(1)",
+  "logB": "max(log N, 1000/3, 66)",
+  "N": "max(1,abs(m0),abs(m1),abs(m2),abs(m3)) <= 3 M + 1",
+  "rounded_david_coefficient": "2143816762595199278885227853808090050991387585006082387242012860324868661129129509065908184857708196732308805234010252902400000000000000000000000000000000000000000000000000",
+  "rounded_david_coefficient_strict_upper": "10^172",
+  "e3_positive_series_lower": "89641/4480",
+  "F_at_logM0_upper_integer": 3089608832000,
+  "F_at_logM0_strict_upper": "10^13",
+  "proposed_verified_initial_coefficient_cutoff": "M < 10^100",
+  "scope": "Admissible points in the explicit rank-three subgroup; whole rational group additionally uses external Magma full-basis verification",
+  "not_proved": [
+    "complete LLL reduction",
+    "complete residual point enumeration",
+    "k=6 noncollision",
+    "general Erdos677",
+    "Lean formalization of this analytic bound"
+  ]
+}

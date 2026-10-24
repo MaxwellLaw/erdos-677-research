@@ -20,7 +20,7 @@ Audit performed 2026-10-23–24, Asia/Shanghai. This record distinguishes source
 - The 2026 paper names computational scripts but the inspected PDF and journal landing page did not provide a retrievable supplementary-code location. Its complete claimed computation tables therefore remain unreplicated here.
 - The paper's Saradha–Shorey reference was identified, but its full primary text was not obtained. Its abstract cannot establish which ratio theorem hypotheses apply to this problem. No theorem from that inaccessible text is used in this work.
 - Targeted searches for a completed k=6 proof or stronger explicit scale tables did not locate one. This is a record of search results, not a guarantee that no competing proof exists.
-- Full-basis Magma flags and exact map identities do not determine all integral points of the original cubics. The missing effective lower-bound and LLL certification steps are specified in `CAS.md`.
+- Full-basis Magma flags and exact map identities do not determine all integral points of the original cubics. The subsequent effective lower-bound, exact lattice-distance certificates and residual enumeration are now specified in `global-bound/README.md`. Full-group coverage still uses external Magma certification, and the analytic/computational chain is not Lean verified.
 
 ## Correction recorded during this audit
 
@@ -40,3 +40,8 @@ The source PDFs are retained locally for audit and are **not redistributed** in 
 | Stroeker–de Weger, Acta Arith. 87 (1999), 339–365 | `650510eaed255fd0cdaab9497951f20a6a1408a90cc0e67c922069059e1d9a1c` |
 | Chern, arXiv:1412.6736v2 | `d8cda5becdefc9445f720811dd4159bb6a9aeedae6f507ea09118419223d49a8` |
 | Chern, program appendix | `6b6ae4fd85739a60658255dd8ddc43a6c72bc9bdfcc2ece166189214a15a741a` |
+
+| Additional inspected source | SHA-256 |
+|---|---|
+| David, Mémoires SMF 62 (1995) | `aefffcbf1d8475a4f17ce95a0de0240db687a9108d0ced5d8d972c844dc504ae` |
+| Tzanakis, Acta Arith. 75 (1996), 165–190 | `00beb2e622143f0847590c85ca4adf07fecfb380468d68dc77e6f70ff7a203ff` |

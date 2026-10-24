@@ -1,0 +1,6984 @@
+{
+  "mode": "complete enumeration of specified closed coefficient boxes; global scope requires bound proof and full-group evidence",
+  "map_sha256": "a481c2d430435e328b9f6b93739b26ff024de2a9d2b7f64733694dd56d158560",
+  "bound_certificate_sha256": "68b64fdcdf8ec03d3d6628c9cdedf9ab407126adde6122813c37aa7107dade27",
+  "bound_certificate_file": "lattice_reduction.json",
+  "curves": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "closed_bound": 60,
+      "total_triples": 1771561,
+      "sieves": [
+        {
+          "p": 11,
+          "order": 15,
+          "generator": [
+            1,
+            3
+          ],
+          "logs": [
+            11,
+            7,
+            2
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "4600a716091f0bdb3324b2c71f816d2a24b903d1318947a1b6f3b2deb5a67ade",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            9,
+            11,
+            13,
+            14
+          ],
+          "tested": 1771561,
+          "rejected": 472416,
+          "retained": 1299145,
+          "retained_packed_sha256": "c23b9ee4bb3c38f5c052d83e76b608710814b3e9e79d968a084f26f26dd8042d"
+        },
+        {
+          "p": 13,
+          "order": 19,
+          "generator": [
+            0,
+            1
+          ],
+          "logs": [
+            11,
+            18,
+            5
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "c454758e19a9bb67a0b5bea05c7173622c85ef6bbf1f59bfae46ec0a3c52ea8a",
+          "allowed_indices": [
+            0,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            18
+          ],
+          "tested": 1299145,
+          "rejected": 478716,
+          "retained": 820429,
+          "retained_packed_sha256": "b86ee6dad2cc9d1d0ff5b9dcb81a663edbcf23a795b682f3faddc781374e1c2c"
+        },
+        {
+          "p": 17,
+          "order": 26,
+          "generator": [
+            1,
+            3
+          ],
+          "logs": [
+            10,
+            7,
+            12
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "ab0e064e663bd28df8ba2ae58329074a283e007bfb667a907a0900758e2cbbc3",
+          "allowed_indices": [
+            0,
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16,
+            19,
+            22,
+            24
+          ],
+          "tested": 820429,
+          "rejected": 441254,
+          "retained": 379175,
+          "retained_packed_sha256": "b30bb4e1a3c8aab683a96490f6bf009f667ce263e00c041a318ac06177d977b0"
+        },
+        {
+          "p": 19,
+          "order": 20,
+          "generator": [
+            4,
+            7
+          ],
+          "logs": [
+            12,
+            10,
+            7
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "1bc4a7208dabc74a9628e6e3dfcab4b0a627c10ae90f8de5e6b7cd84f1660477",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            7,
+            8,
+            9,
+            12,
+            14,
+            15,
+            17,
+            19
+          ],
+          "tested": 379175,
+          "rejected": 170696,
+          "retained": 208479,
+          "retained_packed_sha256": "6216026d7f5b915dda7079f65d52d778b67712af79d162daf8d69305c0b86146"
+        },
+        {
+          "p": 23,
+          "order": 27,
+          "generator": [
+            0,
+            10
+          ],
+          "logs": [
+            19,
+            2,
+            15
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "faf771e01ef03cb1e57e44f5daff78df1c5830f9dfd975aff122364e2592793a",
+          "allowed_indices": [
+            0,
+            1,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            14,
+            15,
+            17,
+            18,
+            19,
+            20,
+            23,
+            26
+          ],
+          "tested": 208479,
+          "rejected": 84973,
+          "retained": 123506,
+          "retained_packed_sha256": "3da33323d152eaaeb25a44fed232ef8327c31ab69b0dc482376c29110026fae0"
+        },
+        {
+          "p": 31,
+          "order": 37,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            20,
+            33,
+            6
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "5baf5389d779ace88a2f8f0040de9dfb4dafd77567927b347217536dbd242ac0",
+          "allowed_indices": [
+            0,
+            2,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            17,
+            18,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29,
+            32
+          ],
+          "tested": 123506,
+          "rejected": 56693,
+          "retained": 66813,
+          "retained_packed_sha256": "82e06792404c052b83b67359b5bb010904d08eebc1067650b2277970ca6942b6"
+        },
+        {
+          "p": 37,
+          "order": 47,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            32,
+            29,
+            12
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "8a48c8c8a4b8fcefbb79c38812fd71edff2a6d58816f953844aafec45dee303d",
+          "allowed_indices": [
+            0,
+            7,
+            9,
+            11,
+            12,
+            15,
+            18,
+            24,
+            26,
+            27,
+            32,
+            36,
+            41,
+            42,
+            44,
+            45
+          ],
+          "tested": 66813,
+          "rejected": 43834,
+          "retained": 22979,
+          "retained_packed_sha256": "5f8227a91f3eed54a074472acd192b050e62d43e339e5f53bc074b652ad245df"
+        },
+        {
+          "p": 41,
+          "order": 52,
+          "generator": [
+            3,
+            17
+          ],
+          "logs": [
+            27,
+            28,
+            40
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "bcc77f36b5ae25b046330790cc62c217b48b3b4061410b15f04d4e69c6bf4786",
+          "allowed_indices": [
+            0,
+            12,
+            13,
+            15,
+            16,
+            18,
+            19,
+            21,
+            25,
+            26,
+            27,
+            28,
+            31,
+            34,
+            40,
+            43,
+            48,
+            51
+          ],
+          "tested": 22979,
+          "rejected": 14994,
+          "retained": 7985,
+          "retained_packed_sha256": "7655d11655157585d8ff3ed1e556430011421ce47ff2cbfe9bd5c1bdd2df04ea"
+        },
+        {
+          "p": 43,
+          "order": 47,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            22,
+            2,
+            7
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "0dac81616e47de31621cfca35369f0e9c035f7cac97bf86009181f889768a1e8",
+          "allowed_indices": [
+            0,
+            6,
+            7,
+            9,
+            11,
+            14,
+            15,
+            16,
+            17,
+            22,
+            25,
+            29,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            41
+          ],
+          "tested": 7985,
+          "rejected": 4798,
+          "retained": 3187,
+          "retained_packed_sha256": "9251f15bae14ad233760edbc80e7c73525ffbbe74f886bcf62da48d278b591af"
+        },
+        {
+          "p": 47,
+          "order": 57,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            52,
+            9,
+            16
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "5a8c1dfa5711c1cce6b5bcfe7b5263e0c7840095d8cd1514b005ce987b416bc7",
+          "allowed_indices": [
+            0,
+            3,
+            5,
+            11,
+            15,
+            16,
+            19,
+            20,
+            21,
+            25,
+            28,
+            31,
+            32,
+            34,
+            38,
+            41,
+            42,
+            49,
+            52
+          ],
+          "tested": 3187,
+          "rejected": 2107,
+          "retained": 1080,
+          "retained_packed_sha256": "b7f0476c23a7558760b2e6c4cc2c06e9c4ceba6e2cc28fffd62186010ccf1102"
+        },
+        {
+          "p": 53,
+          "order": 56,
+          "generator": [
+            0,
+            7
+          ],
+          "logs": [
+            44,
+            45,
+            31
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "9c61f1ab6bd3b8b9b185f3fd9e891076e3febc137dab688678744dddcf7684ef",
+          "allowed_indices": [
+            0,
+            4,
+            6,
+            8,
+            12,
+            13,
+            14,
+            15,
+            17,
+            19,
+            20,
+            23,
+            25,
+            27,
+            28,
+            31,
+            32,
+            34,
+            35,
+            39,
+            40,
+            43,
+            44,
+            48,
+            51,
+            52
+          ],
+          "tested": 1080,
+          "rejected": 565,
+          "retained": 515,
+          "retained_packed_sha256": "752cf43897d40a1b91af3377b78d5baf2c4ebb30802b888a67bb040f07072954"
+        },
+        {
+          "p": 59,
+          "order": 71,
+          "generator": [
+            0,
+            5
+          ],
+          "logs": [
+            10,
+            63,
+            23
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "fe7a341de1b80dc6e75d56a5e8d883e2b4b69bbdaeac5acfa3bdf8334421ddeb",
+          "allowed_indices": [
+            0,
+            6,
+            9,
+            10,
+            13,
+            15,
+            17,
+            18,
+            23,
+            25,
+            32,
+            33,
+            35,
+            36,
+            46,
+            47,
+            49,
+            55,
+            57,
+            61
+          ],
+          "tested": 515,
+          "rejected": 376,
+          "retained": 139,
+          "retained_packed_sha256": "b0955ca9552bc857805a5bca47bb0da54368a454131472b85da49dc89a52454e"
+        },
+        {
+          "p": 67,
+          "order": 80,
+          "generator": [
+            0,
+            23
+          ],
+          "logs": [
+            8,
+            54,
+            47
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "b6c5c124d4514b6c9e66e3320bb633b7756939b05420590b1cc544380a633e0c",
+          "allowed_indices": [
+            0,
+            2,
+            4,
+            8,
+            9,
+            13,
+            14,
+            21,
+            25,
+            29,
+            30,
+            35,
+            37,
+            38,
+            39,
+            43,
+            47,
+            48,
+            51,
+            55,
+            57,
+            67,
+            69,
+            72
+          ],
+          "tested": 139,
+          "rejected": 82,
+          "retained": 57,
+          "retained_packed_sha256": "612d0e5194f15c8a34dd915881e97081371fce5311c5ac64c3fc452980460bf1"
+        },
+        {
+          "p": 71,
+          "order": 86,
+          "generator": [
+            0,
+            30
+          ],
+          "logs": [
+            52,
+            44,
+            45
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "2487ae9f00e2d78c25b622a4eafa4ed21c1481518e13573af3c60740fae1b9d2",
+          "allowed_indices": [
+            0,
+            3,
+            4,
+            7,
+            9,
+            11,
+            21,
+            22,
+            25,
+            29,
+            30,
+            31,
+            34,
+            36,
+            37,
+            45,
+            50,
+            52,
+            53,
+            55,
+            57,
+            59,
+            60,
+            65,
+            70,
+            72,
+            79,
+            81,
+            85
+          ],
+          "tested": 57,
+          "rejected": 32,
+          "retained": 25,
+          "retained_packed_sha256": "6607ea4983f74cfbe8b709311a6d2f7aaba5ad9f0ab055ae246ffe52a9573b26"
+        },
+        {
+          "p": 79,
+          "order": 66,
+          "generator": [
+            4,
+            7
+          ],
+          "logs": [
+            61,
+            32,
+            4
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "8fa356f1580cf6cccff9d83292f578d2e77ef8ea74a2b252a788bfbb938b3530",
+          "allowed_indices": [
+            0,
+            2,
+            4,
+            5,
+            8,
+            9,
+            10,
+            17,
+            26,
+            27,
+            31,
+            36,
+            39,
+            40,
+            44,
+            48,
+            51,
+            52,
+            56,
+            61,
+            63,
+            65
+          ],
+          "tested": 25,
+          "rejected": 8,
+          "retained": 17,
+          "retained_packed_sha256": "888d76573ac58d5a9098d34812c1ecc1e4078e237c48bda1f582ba5830a506f7"
+        },
+        {
+          "p": 83,
+          "order": 85,
+          "generator": [
+            0,
+            26
+          ],
+          "logs": [
+            80,
+            28,
+            48
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "18575bce7a5482ee0c6b53e04b26e49895b09e0e745856ccbbea2a50767b167c",
+          "allowed_indices": [
+            0,
+            2,
+            5,
+            10,
+            11,
+            14,
+            15,
+            19,
+            22,
+            24,
+            30,
+            43,
+            45,
+            48,
+            51,
+            53,
+            61,
+            66,
+            67,
+            70,
+            71,
+            72,
+            76,
+            80,
+            82,
+            83,
+            84
+          ],
+          "tested": 17,
+          "rejected": 4,
+          "retained": 13,
+          "retained_packed_sha256": "381051b1ac3b62b97b4196072ba60def8facce1694e586d5e7bcbe9f81b59a37"
+        },
+        {
+          "p": 89,
+          "order": 89,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            71,
+            35,
+            67
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "e923e212dbb52535a9c2320e60ea1159588fd7571a7a22ba1ba4e23bc1659a56",
+          "allowed_indices": [
+            0,
+            3,
+            6,
+            7,
+            9,
+            11,
+            13,
+            17,
+            18,
+            21,
+            23,
+            25,
+            27,
+            32,
+            44,
+            45,
+            49,
+            53,
+            58,
+            63,
+            64,
+            65,
+            66,
+            67,
+            70,
+            71,
+            75,
+            77,
+            80,
+            84,
+            85,
+            86
+          ],
+          "tested": 13,
+          "rejected": 1,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 97,
+          "order": 108,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            64,
+            87,
+            77
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "718abbe3f5e5464fa551730800ed8c0bb3dac67df8b5cea0f211b37b7010b2a8",
+          "allowed_indices": [
+            0,
+            3,
+            4,
+            12,
+            13,
+            15,
+            19,
+            22,
+            25,
+            29,
+            32,
+            33,
+            35,
+            38,
+            40,
+            43,
+            44,
+            46,
+            52,
+            56,
+            60,
+            61,
+            63,
+            64,
+            76,
+            77,
+            84,
+            85,
+            86,
+            87,
+            88,
+            91,
+            101,
+            105,
+            107
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 101,
+          "order": 111,
+          "generator": [
+            4,
+            7
+          ],
+          "logs": [
+            105,
+            57,
+            5
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "6945be2b83d52950abe968978c2051518741f74216507c406a06df80ccba6d5e",
+          "allowed_indices": [
+            0,
+            5,
+            6,
+            10,
+            11,
+            13,
+            18,
+            20,
+            32,
+            40,
+            44,
+            45,
+            50,
+            56,
+            61,
+            62,
+            64,
+            66,
+            67,
+            71,
+            79,
+            86,
+            91,
+            92,
+            93,
+            96,
+            97,
+            102,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 107,
+          "order": 99,
+          "generator": [
+            4,
+            7
+          ],
+          "logs": [
+            27,
+            60,
+            71
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "60b2d1ef18752d0e36adc0e0ccfc111628f64eb170f1d0862843a181939afa88",
+          "allowed_indices": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            13,
+            14,
+            15,
+            23,
+            25,
+            27,
+            32,
+            36,
+            37,
+            38,
+            43,
+            44,
+            51,
+            59,
+            61,
+            62,
+            65,
+            68,
+            69,
+            71,
+            72,
+            74,
+            76,
+            77,
+            81,
+            86,
+            90,
+            96,
+            98
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 109,
+          "order": 124,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            27,
+            69,
+            5
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "6347874286b82dc1a4237ac0c58d3a6ecb7187e7b4b3010ac7c600ea006ee924",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            15,
+            16,
+            18,
+            19,
+            25,
+            26,
+            27,
+            28,
+            32,
+            36,
+            44,
+            45,
+            48,
+            52,
+            55,
+            58,
+            64,
+            74,
+            76,
+            78,
+            79,
+            81,
+            84,
+            85,
+            90,
+            94,
+            96,
+            97,
+            100,
+            101,
+            102,
+            115,
+            120,
+            122
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 127,
+          "order": 133,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            14,
+            104,
+            75
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "fdfc7d33cc677381ad9950d360c6334779524f149a486202e2f5bb92bdf11dab",
+          "allowed_indices": [
+            0,
+            3,
+            5,
+            6,
+            8,
+            9,
+            10,
+            14,
+            17,
+            20,
+            29,
+            38,
+            43,
+            44,
+            46,
+            48,
+            53,
+            59,
+            60,
+            61,
+            62,
+            66,
+            67,
+            74,
+            75,
+            77,
+            78,
+            79,
+            81,
+            84,
+            89,
+            91,
+            95,
+            97,
+            101,
+            111,
+            112,
+            114,
+            115,
+            116,
+            119,
+            126,
+            127,
+            131,
+            132
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 131,
+          "order": 138,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            38,
+            61,
+            46
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "9c76aca2d1a2e064695ccc1ad29b5ec44cd50f17f2ede573ba201ecf22dc4a79",
+          "allowed_indices": [
+            0,
+            3,
+            5,
+            7,
+            8,
+            13,
+            14,
+            16,
+            19,
+            21,
+            32,
+            36,
+            37,
+            38,
+            41,
+            43,
+            45,
+            46,
+            47,
+            60,
+            62,
+            70,
+            71,
+            73,
+            75,
+            76,
+            78,
+            79,
+            84,
+            85,
+            86,
+            92,
+            93,
+            98,
+            99,
+            100,
+            105,
+            107,
+            111,
+            117,
+            118,
+            119,
+            125,
+            137
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 137,
+          "order": 160,
+          "generator": [
+            4,
+            7
+          ],
+          "logs": [
+            136,
+            156,
+            23
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "2feb9224502ff0cd45f4187e265cf995c7869f7a6bb343cec1a91b09277315ed",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            3,
+            12,
+            15,
+            18,
+            19,
+            22,
+            23,
+            24,
+            27,
+            28,
+            29,
+            35,
+            37,
+            38,
+            39,
+            41,
+            46,
+            47,
+            51,
+            54,
+            56,
+            61,
+            62,
+            64,
+            77,
+            78,
+            80,
+            81,
+            84,
+            85,
+            89,
+            93,
+            96,
+            107,
+            110,
+            111,
+            112,
+            118,
+            131,
+            132,
+            136,
+            142,
+            149,
+            155,
+            157,
+            159
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 139,
+          "order": 135,
+          "generator": [
+            0,
+            20
+          ],
+          "logs": [
+            60,
+            47,
+            85
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "03e310abf39fe90ae1fcaff065342cf67371330719389b032292d04dad5c3e1f",
+          "allowed_indices": [
+            0,
+            2,
+            3,
+            6,
+            10,
+            18,
+            21,
+            25,
+            29,
+            32,
+            34,
+            35,
+            37,
+            42,
+            46,
+            47,
+            56,
+            57,
+            60,
+            65,
+            75,
+            76,
+            81,
+            83,
+            85,
+            86,
+            87,
+            114,
+            117,
+            119,
+            124,
+            127,
+            128,
+            132
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 151,
+          "order": 158,
+          "generator": [
+            0,
+            67
+          ],
+          "logs": [
+            52,
+            85,
+            5
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "40e88ae5ee65d42ef7a4e3014f539886c030dbdc9d252268d9e26304ef26b750",
+          "allowed_indices": [
+            0,
+            5,
+            6,
+            8,
+            10,
+            11,
+            16,
+            18,
+            19,
+            20,
+            21,
+            24,
+            25,
+            35,
+            36,
+            38,
+            40,
+            47,
+            50,
+            52,
+            56,
+            57,
+            64,
+            71,
+            77,
+            81,
+            82,
+            90,
+            92,
+            95,
+            97,
+            99,
+            101,
+            106,
+            111,
+            117,
+            120,
+            122,
+            123,
+            131,
+            139,
+            140,
+            142,
+            147,
+            148,
+            150,
+            151
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 157,
+          "order": 175,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            71,
+            32,
+            156
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "9f463b8e32f8cdea0d950fa197ff5ae9b31f75567f67f0d2f2e8fa8d0112eb64",
+          "allowed_indices": [
+            0,
+            8,
+            13,
+            15,
+            16,
+            19,
+            20,
+            31,
+            33,
+            36,
+            38,
+            49,
+            50,
+            52,
+            54,
+            59,
+            61,
+            62,
+            63,
+            65,
+            71,
+            73,
+            79,
+            84,
+            85,
+            90,
+            91,
+            92,
+            94,
+            97,
+            104,
+            105,
+            106,
+            107,
+            110,
+            114,
+            119,
+            123,
+            129,
+            135,
+            137,
+            143,
+            145,
+            149,
+            150,
+            155,
+            156,
+            165,
+            166,
+            170
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 163,
+          "order": 176,
+          "generator": [
+            2,
+            61
+          ],
+          "logs": [
+            82,
+            62,
+            90
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "988cc9fcbf6f46bd28b0508033dce375a0cd62167c586f620bcdc3c10e99ab43",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            4,
+            8,
+            12,
+            13,
+            17,
+            27,
+            28,
+            30,
+            35,
+            36,
+            38,
+            39,
+            40,
+            42,
+            48,
+            51,
+            52,
+            54,
+            58,
+            61,
+            66,
+            71,
+            77,
+            82,
+            85,
+            90,
+            94,
+            96,
+            97,
+            101,
+            103,
+            104,
+            108,
+            119,
+            124,
+            138,
+            139,
+            140,
+            152,
+            155,
+            163,
+            166,
+            169,
+            172,
+            174
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 167,
+          "order": 177,
+          "generator": [
+            1,
+            14
+          ],
+          "logs": [
+            110,
+            133,
+            136
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "f1d934396315d1aa6f6f36132a31e1a76635c808232f2f7cacae15fb3d86dba4",
+          "allowed_indices": [
+            0,
+            8,
+            14,
+            16,
+            17,
+            20,
+            24,
+            25,
+            26,
+            34,
+            36,
+            37,
+            42,
+            45,
+            47,
+            48,
+            51,
+            56,
+            57,
+            64,
+            65,
+            67,
+            69,
+            75,
+            76,
+            80,
+            82,
+            92,
+            93,
+            95,
+            97,
+            101,
+            110,
+            114,
+            116,
+            117,
+            122,
+            127,
+            130,
+            135,
+            136,
+            137,
+            138,
+            139,
+            142,
+            143,
+            152,
+            156,
+            159,
+            162,
+            168,
+            171
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        },
+        {
+          "p": 173,
+          "order": 180,
+          "generator": [
+            4,
+            7
+          ],
+          "logs": [
+            95,
+            17,
+            84
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "78bb757d71780cd24ece7dafb584a1ab15481cc9c2cfe45767037c262164dae2",
+          "allowed_indices": [
+            0,
+            3,
+            4,
+            16,
+            20,
+            21,
+            29,
+            35,
+            37,
+            44,
+            45,
+            46,
+            49,
+            52,
+            54,
+            61,
+            62,
+            65,
+            69,
+            80,
+            84,
+            85,
+            91,
+            94,
+            95,
+            97,
+            101,
+            102,
+            103,
+            110,
+            111,
+            113,
+            114,
+            121,
+            126,
+            132,
+            144,
+            159,
+            168,
+            169,
+            173,
+            177,
+            179
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7ded64ffd8a31aaf19322f9b0612418af80978c20aecc3e98243cc2eb7255931"
+        }
+      ],
+      "exact_survivors": [
+        {
+          "coefficients": [
+            -2,
+            -1,
+            -1
+          ],
+          "point": [
+            "23",
+            "-102"
+          ],
+          "point_sha256": "e9d4ed594cd2da0880568c088dc347ca640d31949ce5aeaf826129bf2bac8fde",
+          "coordinate_max_bits": 7,
+          "inverse_values": [
+            "1089",
+            "1369"
+          ],
+          "inverse_sha256": "a6f7421c2098faeeed8d048cf1267b8a39c3cd4a2ccf759b58b38c7aaa0bb3e3",
+          "U_V": [
+            "1089",
+            "1369"
+          ],
+          "n_m": [
+            "13",
+            "15"
+          ],
+          "lcm_values": [
+            "1627920",
+            "1627920"
+          ],
+          "lcm_equal": true,
+          "status": "gap_below_six"
+        },
+        {
+          "coefficients": [
+            -1,
+            -1,
+            -2
+          ],
+          "point": [
+            "65/16",
+            "-441/64"
+          ],
+          "point_sha256": "986b37e0e3e48b658c2b0bd1c4c6e85d41ee0649922545acdea73458d2ea086e",
+          "coordinate_max_bits": 9,
+          "status": "inverse_denominator_zero"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            0
+          ],
+          "point": [
+            "5",
+            "-6"
+          ],
+          "point_sha256": "dc75e18fd64ebd73133c1f18f7123fa597934e8c82cf743b4b1baf792a70f673",
+          "coordinate_max_bits": 3,
+          "inverse_values": [
+            "25",
+            "9"
+          ],
+          "inverse_sha256": "acaf70053bf932cd20da264d2a8d9cd9f9133a21307c90e359cd78e076ccfbe2",
+          "U_V": [
+            "25",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            1
+          ],
+          "point": [
+            "7",
+            "10"
+          ],
+          "point_sha256": "2906d78221455e07810227e9767e8ec573564885ad4aff8784aa157b2239f9e5",
+          "coordinate_max_bits": 4,
+          "inverse_values": [
+            "1",
+            "25"
+          ],
+          "inverse_sha256": "d23fc61c521d5640981089e77355d4264d96ed6841053685c1c420432b58ed20",
+          "U_V": [
+            "1",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0
+          ],
+          "point": null,
+          "point_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "status": "elliptic_identity"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            1
+          ],
+          "point": [
+            "-7",
+            "18"
+          ],
+          "point_sha256": "27f0f120cff96c12dbac6ab7cca7385122a307fca2ca99df9afdcc9138189bb1",
+          "coordinate_max_bits": 5,
+          "inverse_values": [
+            "9",
+            "9"
+          ],
+          "inverse_sha256": "ff18c037a9f8f421378b0587e164619dc99d052d20f9c1f3b471d9e61bdc3d4b",
+          "U_V": [
+            "9",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            2
+          ],
+          "point": [
+            "199/9",
+            "-2582/27"
+          ],
+          "point_sha256": "0f7289da317db6d31e2dc6b2a6ce624e70d39783f377ef488f80af841f842d27",
+          "coordinate_max_bits": 12,
+          "inverse_values": [
+            "289",
+            "361"
+          ],
+          "inverse_sha256": "1b17191687d6098e598d01fc36a05f34d5957fa8708f295efe7959b38741297b",
+          "U_V": [
+            "289",
+            "361"
+          ],
+          "n_m": [
+            "5",
+            "6"
+          ],
+          "lcm_values": [
+            "27720",
+            "27720"
+          ],
+          "lcm_equal": true,
+          "status": "gap_below_six"
+        },
+        {
+          "coefficients": [
+            0,
+            1,
+            1
+          ],
+          "point": [
+            "-4",
+            "-21"
+          ],
+          "point_sha256": "8aab07bc27a4cf4b7b412901daed1644a868855b50d743c077c9f7284c7f4ef5",
+          "coordinate_max_bits": 5,
+          "inverse_values": [
+            "9",
+            "1"
+          ],
+          "inverse_sha256": "8a560fefb67cce4799c7d819e8ba646c42cd5b2c202ec2626e1a5676407e6c45",
+          "U_V": [
+            "9",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            0,
+            0
+          ],
+          "point": [
+            "5",
+            "6"
+          ],
+          "point_sha256": "7379a989157b621ec587d974770b1fa8ebf05e03444adf895f9e1f5594c27f78",
+          "coordinate_max_bits": 3,
+          "inverse_values": [
+            "9",
+            "25"
+          ],
+          "inverse_sha256": "2a6b2e0b0129532230194fa25d2917cfa437e1695a3b94170a3cfdcdc6595028",
+          "U_V": [
+            "9",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            0,
+            1
+          ],
+          "point": [
+            "4",
+            "-7"
+          ],
+          "point_sha256": "5c4490345571d115bb90184c703d3dbb64b4c9715888029bb102d0e341764335",
+          "coordinate_max_bits": 3,
+          "inverse_values": [
+            "25",
+            "1"
+          ],
+          "inverse_sha256": "4763bb37b5b59118a55baefe6e914c4cd7c49e7fdbbde190d692a2534f86c9e5",
+          "U_V": [
+            "25",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            1
+          ],
+          "point": [
+            "9",
+            "-18"
+          ],
+          "point_sha256": "3fbc7ce4769397770e46e63b5d1406ee3fc78a4af4c4e08499ba8941fa77d816",
+          "coordinate_max_bits": 5,
+          "inverse_values": [
+            "25",
+            "25"
+          ],
+          "inverse_sha256": "3bde511fff60ef190094dc314bf137ec09dbe103a04a6933cbc85140882dee3e",
+          "U_V": [
+            "25",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            2,
+            1,
+            1
+          ],
+          "point": [
+            "23",
+            "102"
+          ],
+          "point_sha256": "74b16daaa333eeaec9fc6285475220956380454d14386e192e078d139f883838",
+          "coordinate_max_bits": 7,
+          "inverse_values": [
+            "1",
+            "9"
+          ],
+          "inverse_sha256": "e3a70d31b8ffc2e056b545a651a9dd4f0c7c9f8ccfe908f2a9cd6739b050c5b7",
+          "U_V": [
+            "1",
+            "9"
+          ],
+          "status": "below_target"
+        }
+      ],
+      "exact_status_counts": {
+        "below_target": 8,
+        "elliptic_identity": 1,
+        "gap_below_six": 2,
+        "inverse_denominator_zero": 1
+      }
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "closed_bound": 60,
+      "total_triples": 1771561,
+      "sieves": [
+        {
+          "p": 11,
+          "order": 16,
+          "generator": [
+            0,
+            2
+          ],
+          "logs": [
+            7,
+            3,
+            9
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "16b0595f50104d5448fe9cf636c017df4313afdaaa91c7456189ee77074ca43a",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            4,
+            6,
+            7,
+            8,
+            9,
+            11,
+            15
+          ],
+          "tested": 1771561,
+          "rejected": 664335,
+          "retained": 1107226,
+          "retained_packed_sha256": "f3aaa9a8a936a28c7ee4c2247ad161f300f81209e46889eb96608ac0c36d5c7b"
+        },
+        {
+          "p": 13,
+          "order": 19,
+          "generator": [
+            0,
+            3
+          ],
+          "logs": [
+            11,
+            13,
+            18
+          ],
+          "exceptional_kept": 4,
+          "table_sha256": "f4dc56f2d6f3bdb8d3d972547aa8b63886b33cd8e14e2d72d413e359b1ade680",
+          "allowed_indices": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            15
+          ],
+          "tested": 1107226,
+          "rejected": 407928,
+          "retained": 699298,
+          "retained_packed_sha256": "93fe06553f30baaae724583e72021f69105957f22ff3909e317e608ffcbd0f1a"
+        },
+        {
+          "p": 17,
+          "order": 21,
+          "generator": [
+            5,
+            5
+          ],
+          "logs": [
+            19,
+            6,
+            3
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "1c5cee8c4ab54950a49194f4e516a0e2f57539358b21ed19f6ba0f43eefb5368",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            5,
+            7,
+            9,
+            14,
+            15,
+            17,
+            18,
+            19,
+            20
+          ],
+          "tested": 699298,
+          "rejected": 299705,
+          "retained": 399593,
+          "retained_packed_sha256": "98c561e03342fc614e7bd684150dfb2a84ae6f976dfaba8bd05bf63563d1e6f1"
+        },
+        {
+          "p": 19,
+          "order": 21,
+          "generator": [
+            1,
+            5
+          ],
+          "logs": [
+            18,
+            6,
+            14
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "e625355053756dd950f4d2c5fd71d3acbff53e6e90ee9ac701c963ae5e5372e8",
+          "allowed_indices": [
+            0,
+            2,
+            3,
+            8,
+            11,
+            14,
+            17,
+            18,
+            19,
+            20
+          ],
+          "tested": 399593,
+          "rejected": 209459,
+          "retained": 190134,
+          "retained_packed_sha256": "1e06986bbafc985f63b41399f308c2c07b3cee9eeed1fe3f57c6c4e54e3b3095"
+        },
+        {
+          "p": 29,
+          "order": 30,
+          "generator": [
+            5,
+            10
+          ],
+          "logs": [
+            24,
+            19,
+            20
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "ad3df9dea90708f347847ecb6810d1d2bf7e118b2f2746d125abbe186d46e408",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            21,
+            24,
+            26,
+            28
+          ],
+          "tested": 190134,
+          "rejected": 101151,
+          "retained": 88983,
+          "retained_packed_sha256": "6e9aa1b59ab7a9bb5f1390b8fef67e66507d3b70c92bc4e1d31e97289f554acb"
+        },
+        {
+          "p": 31,
+          "order": 41,
+          "generator": [
+            1,
+            5
+          ],
+          "logs": [
+            31,
+            25,
+            32
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "8fa46c3b446258a51b0080bc9f4fd4d1fbcfd4c96cf1e23b8da41a93dc0e11d3",
+          "allowed_indices": [
+            0,
+            1,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            21,
+            22,
+            27,
+            31,
+            35
+          ],
+          "tested": 88983,
+          "rejected": 58616,
+          "retained": 30367,
+          "retained_packed_sha256": "71e86573491ce00452b12164ab1b9217c72b28b03deaaedf3cec3073899e6bad"
+        },
+        {
+          "p": 37,
+          "order": 34,
+          "generator": [
+            9,
+            15
+          ],
+          "logs": [
+            29,
+            13,
+            17
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "2d1437a2d68a6dcb500d8695c8482e4bd14ba073ebc4d97d281fd9b5d3921e3e",
+          "allowed_indices": [
+            0,
+            4,
+            5,
+            6,
+            9,
+            10,
+            14,
+            15,
+            20,
+            22,
+            23,
+            27,
+            28,
+            29,
+            32,
+            33
+          ],
+          "tested": 30367,
+          "rejected": 15918,
+          "retained": 14449,
+          "retained_packed_sha256": "db9fb0d9602200d530e551c98cef5384cb1ffbd76a58ed72b45f84d8be456d84"
+        },
+        {
+          "p": 41,
+          "order": 42,
+          "generator": [
+            4,
+            11
+          ],
+          "logs": [
+            17,
+            30,
+            12
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "bef0dd5190fcf4ac64c0a09ff753cd323ca490cbd5587b190b4f229f0c948e09",
+          "allowed_indices": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            14,
+            15,
+            17,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            30,
+            32,
+            37,
+            38,
+            40
+          ],
+          "tested": 14449,
+          "rejected": 6761,
+          "retained": 7688,
+          "retained_packed_sha256": "85d3e61e82c22e3ec1ba4f7cbc2be75cb4eb3ece0b44e794cf5de9abcbb99960"
+        },
+        {
+          "p": 43,
+          "order": 38,
+          "generator": [
+            8,
+            21
+          ],
+          "logs": [
+            6,
+            31,
+            17
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "7ddd41ca344831d13e4ab5aaa6da1b056f74d4c04b6f30ee9021aada5fec59b1",
+          "allowed_indices": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            15,
+            18,
+            21,
+            22,
+            24,
+            25,
+            27,
+            31,
+            32,
+            37
+          ],
+          "tested": 7688,
+          "rejected": 3822,
+          "retained": 3866,
+          "retained_packed_sha256": "0eeb9c2ed4a6e8d2295a2ea326ecb39562f88bed7a1dec0913306b7c2867c7a1"
+        },
+        {
+          "p": 47,
+          "order": 54,
+          "generator": [
+            0,
+            12
+          ],
+          "logs": [
+            9,
+            42,
+            29
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "b9b14b78d1d836f583897b699eb10b4bac268f7fd6ce7351375084e280f0df52",
+          "allowed_indices": [
+            0,
+            2,
+            6,
+            8,
+            9,
+            11,
+            20,
+            22,
+            23,
+            24,
+            32,
+            35,
+            36,
+            39,
+            40,
+            41,
+            45,
+            47,
+            49,
+            53
+          ],
+          "tested": 3866,
+          "rejected": 2072,
+          "retained": 1794,
+          "retained_packed_sha256": "c014dc4aaf87315ba51c2e5d0bfebaecd594e39dc437c1816762d226e50c18d4"
+        },
+        {
+          "p": 53,
+          "order": 63,
+          "generator": [
+            4,
+            9
+          ],
+          "logs": [
+            24,
+            17,
+            45
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "4946fd7b7fa04879197c99eb22341b9564ddbeb5a0be246bd4a27ed0a07e0d35",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            5,
+            10,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21,
+            24,
+            28,
+            32,
+            36,
+            39,
+            40,
+            43,
+            46,
+            47,
+            48,
+            52,
+            57,
+            58,
+            60,
+            62
+          ],
+          "tested": 1794,
+          "rejected": 1076,
+          "retained": 718,
+          "retained_packed_sha256": "bbebfe0534bf6d09cff5830ecee32da487e9f81abc99abe23e4af3fa992e2079"
+        },
+        {
+          "p": 59,
+          "order": 63,
+          "generator": [
+            0,
+            3
+          ],
+          "logs": [
+            54,
+            33,
+            41
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "9bf1b1ce8005d83d4bc3e199c104693892cb0930a2550fb94b3b84d2540ff307",
+          "allowed_indices": [
+            0,
+            5,
+            7,
+            8,
+            9,
+            11,
+            14,
+            17,
+            22,
+            24,
+            26,
+            27,
+            30,
+            32,
+            34,
+            43,
+            44,
+            45,
+            47,
+            49,
+            50,
+            54,
+            55,
+            59
+          ],
+          "tested": 718,
+          "rejected": 341,
+          "retained": 377,
+          "retained_packed_sha256": "0f7a4a32c79bf408a6a5d5db8b9ae98db34d138dc4ad2556b6304c8503b3af08"
+        },
+        {
+          "p": 67,
+          "order": 71,
+          "generator": [
+            4,
+            13
+          ],
+          "logs": [
+            5,
+            53,
+            19
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "fc28e42f6df6415be27ec824eb95f45a483d0ea739ec14f1d9f453faeb1365d6",
+          "allowed_indices": [
+            0,
+            4,
+            5,
+            6,
+            7,
+            9,
+            12,
+            14,
+            15,
+            18,
+            19,
+            24,
+            27,
+            30,
+            32,
+            34,
+            36,
+            37,
+            39,
+            42,
+            44,
+            49,
+            50,
+            51,
+            54,
+            55,
+            58,
+            60,
+            61,
+            64,
+            65,
+            66
+          ],
+          "tested": 377,
+          "rejected": 208,
+          "retained": 169,
+          "retained_packed_sha256": "6c527e4b3a705e6b82d13d8e0762122408768fc190ddaa30030230cdf1e0c2d1"
+        },
+        {
+          "p": 71,
+          "order": 84,
+          "generator": [
+            1,
+            16
+          ],
+          "logs": [
+            47,
+            54,
+            51
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "deff59890c506da773284739171135b501786bb75084019c56113fa729905ce9",
+          "allowed_indices": [
+            0,
+            2,
+            4,
+            9,
+            16,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26,
+            29,
+            34,
+            37,
+            39,
+            41,
+            47,
+            60,
+            67,
+            71,
+            74,
+            75,
+            78,
+            81,
+            82
+          ],
+          "tested": 169,
+          "rejected": 112,
+          "retained": 57,
+          "retained_packed_sha256": "f29f3e381f9785dc35fe738ce6bf2d3ff9b6f276327917bbe2b771f8fee76cf4"
+        },
+        {
+          "p": 73,
+          "order": 88,
+          "generator": [
+            0,
+            14
+          ],
+          "logs": [
+            62,
+            4,
+            59
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "1ea7ceef5ec7622a60794b056e22e679f650a8f7de0ee87f01bc3fbeb4192a1f",
+          "allowed_indices": [
+            0,
+            2,
+            13,
+            15,
+            19,
+            23,
+            26,
+            30,
+            38,
+            39,
+            46,
+            47,
+            49,
+            52,
+            55,
+            62,
+            72,
+            73,
+            77,
+            81,
+            83,
+            84,
+            85,
+            87
+          ],
+          "tested": 57,
+          "rejected": 34,
+          "retained": 23,
+          "retained_packed_sha256": "1fe8a2e811d3eaf35a5ee542b5cb2262ac04f36379a4e594f7167b01f60f1561"
+        },
+        {
+          "p": 79,
+          "order": 90,
+          "generator": [
+            7,
+            20
+          ],
+          "logs": [
+            54,
+            2,
+            26
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "cec6afb584fcee7ecb84953ac87de6108c7dc8d38ae31839a4c4f7923e19fc1a",
+          "allowed_indices": [
+            0,
+            6,
+            8,
+            10,
+            12,
+            13,
+            16,
+            17,
+            22,
+            24,
+            36,
+            44,
+            48,
+            54,
+            55,
+            57,
+            58,
+            60,
+            62,
+            65,
+            71,
+            78,
+            86,
+            89
+          ],
+          "tested": 23,
+          "rejected": 9,
+          "retained": 14,
+          "retained_packed_sha256": "ffe91696175cd26259e019446db40395b6752b0f0eccd6580d14de12e8dd24e2"
+        },
+        {
+          "p": 83,
+          "order": 84,
+          "generator": [
+            4,
+            4
+          ],
+          "logs": [
+            3,
+            74,
+            52
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "6ccc66f5d335eeda7a8c675af9b482a998d52bfffcf4f52420c799081fdd78f9",
+          "allowed_indices": [
+            0,
+            3,
+            4,
+            6,
+            7,
+            8,
+            19,
+            22,
+            29,
+            32,
+            33,
+            37,
+            43,
+            46,
+            49,
+            55,
+            56,
+            59,
+            62,
+            63,
+            77,
+            78,
+            80,
+            81
+          ],
+          "tested": 14,
+          "rejected": 2,
+          "retained": 12,
+          "retained_packed_sha256": "853b69e5ece39f7284c13187bbed21e089e2f246b4384349851edadaa2de64fa"
+        },
+        {
+          "p": 89,
+          "order": 87,
+          "generator": [
+            3,
+            30
+          ],
+          "logs": [
+            20,
+            41,
+            72
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "ca063b6d4cb5e1430a10663cb95066cc046a31fd6b326e3d80b96f7f2ddf8f34",
+          "allowed_indices": [
+            0,
+            4,
+            10,
+            11,
+            12,
+            20,
+            24,
+            31,
+            32,
+            33,
+            34,
+            36,
+            39,
+            40,
+            43,
+            44,
+            52,
+            60,
+            61,
+            62,
+            64,
+            67,
+            78,
+            83,
+            84
+          ],
+          "tested": 12,
+          "rejected": 1,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 97,
+          "order": 112,
+          "generator": [
+            0,
+            5
+          ],
+          "logs": [
+            75,
+            3,
+            93
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "1e25f80f46ea1e17429e3d72c8f913241f8d6fef52c5b8e7340ce9a13b16af0f",
+          "allowed_indices": [
+            0,
+            1,
+            3,
+            4,
+            15,
+            16,
+            18,
+            26,
+            30,
+            34,
+            35,
+            37,
+            42,
+            44,
+            47,
+            50,
+            52,
+            54,
+            55,
+            59,
+            69,
+            72,
+            75,
+            78,
+            80,
+            86,
+            90,
+            92,
+            95,
+            98,
+            99,
+            101,
+            102,
+            108,
+            110
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 101,
+          "order": 98,
+          "generator": [
+            5,
+            15
+          ],
+          "logs": [
+            60,
+            80,
+            76
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "738c1381baeb4da3a3361e7ceb3b56f600903fcc51de5bd85a46a77e1e195dab",
+          "allowed_indices": [
+            0,
+            3,
+            6,
+            9,
+            10,
+            16,
+            21,
+            22,
+            26,
+            30,
+            31,
+            34,
+            35,
+            38,
+            45,
+            54,
+            60,
+            65,
+            66,
+            67,
+            69,
+            72,
+            73,
+            76,
+            80,
+            84,
+            87,
+            92,
+            94,
+            96
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 107,
+          "order": 120,
+          "generator": [
+            0,
+            8
+          ],
+          "logs": [
+            76,
+            9,
+            4
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "bc5fc92872c4589e62c13e14238edb94c679b2e7da46aab5ec6cc93606a9f340",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            3,
+            11,
+            16,
+            17,
+            26,
+            29,
+            31,
+            34,
+            39,
+            43,
+            44,
+            46,
+            47,
+            48,
+            60,
+            62,
+            64,
+            68,
+            72,
+            73,
+            75,
+            76,
+            80,
+            81,
+            83,
+            88,
+            91,
+            92,
+            95,
+            105,
+            106,
+            109,
+            114,
+            115
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 109,
+          "order": 101,
+          "generator": [
+            0,
+            46
+          ],
+          "logs": [
+            78,
+            26,
+            76
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "1659747b7b546b4e28872eed388f16eeb83a53b16ceacd12c0b20b81d4e73ae0",
+          "allowed_indices": [
+            0,
+            3,
+            6,
+            7,
+            11,
+            21,
+            22,
+            23,
+            24,
+            29,
+            31,
+            37,
+            40,
+            42,
+            44,
+            45,
+            50,
+            56,
+            61,
+            64,
+            70,
+            73,
+            75,
+            78,
+            84,
+            86,
+            91,
+            92,
+            95,
+            96,
+            97,
+            99
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 127,
+          "order": 135,
+          "generator": [
+            2,
+            2
+          ],
+          "logs": [
+            20,
+            81,
+            66
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "3151c07c5bc35251e692368f624e6df1bccd6191115f8a662314d03e82977fc4",
+          "allowed_indices": [
+            0,
+            6,
+            9,
+            15,
+            18,
+            20,
+            24,
+            26,
+            27,
+            28,
+            32,
+            41,
+            45,
+            46,
+            50,
+            52,
+            56,
+            57,
+            59,
+            61,
+            67,
+            68,
+            73,
+            75,
+            80,
+            81,
+            82,
+            85,
+            86,
+            89,
+            90,
+            91,
+            93,
+            94,
+            95,
+            100,
+            101,
+            106,
+            110,
+            115,
+            120,
+            121,
+            123,
+            124
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 137,
+          "order": 120,
+          "generator": [
+            2,
+            49
+          ],
+          "logs": [
+            112,
+            107,
+            57
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "65c556e8dd15d24376206def5aaf70e467dc7039c3d4811dba5ff216ebd3a52a",
+          "allowed_indices": [
+            0,
+            5,
+            6,
+            8,
+            9,
+            10,
+            14,
+            16,
+            26,
+            37,
+            38,
+            45,
+            47,
+            50,
+            52,
+            56,
+            57,
+            60,
+            62,
+            63,
+            65,
+            70,
+            73,
+            75,
+            78,
+            81,
+            86,
+            89,
+            92,
+            96,
+            97,
+            105,
+            112,
+            113,
+            114,
+            116,
+            119
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 139,
+          "order": 160,
+          "generator": [
+            3,
+            29
+          ],
+          "logs": [
+            125,
+            8,
+            37
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "6fd736e6599936ab63d94e0b9c14d46aa5e82735af2f170022d680de75f6245d",
+          "allowed_indices": [
+            0,
+            1,
+            6,
+            8,
+            13,
+            14,
+            15,
+            18,
+            28,
+            29,
+            30,
+            35,
+            44,
+            51,
+            52,
+            53,
+            54,
+            58,
+            59,
+            62,
+            64,
+            65,
+            70,
+            72,
+            86,
+            91,
+            94,
+            99,
+            100,
+            107,
+            110,
+            125,
+            126,
+            130,
+            133,
+            138,
+            141,
+            142,
+            146,
+            148,
+            149,
+            150,
+            157
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 149,
+          "order": 129,
+          "generator": [
+            2,
+            17
+          ],
+          "logs": [
+            22,
+            29,
+            120
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "8362d98fbde14a359b6c074d6bd22bef45b425fccd90e395d7252dd150b64a6f",
+          "allowed_indices": [
+            0,
+            2,
+            4,
+            5,
+            8,
+            12,
+            14,
+            22,
+            23,
+            24,
+            26,
+            31,
+            32,
+            33,
+            35,
+            40,
+            46,
+            47,
+            51,
+            54,
+            60,
+            61,
+            68,
+            69,
+            74,
+            76,
+            79,
+            80,
+            81,
+            85,
+            91,
+            93,
+            95,
+            98,
+            106,
+            107,
+            110,
+            113,
+            116,
+            117,
+            120,
+            121,
+            123,
+            124,
+            127,
+            128
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 151,
+          "order": 137,
+          "generator": [
+            1,
+            39
+          ],
+          "logs": [
+            133,
+            78,
+            25
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "260dcdbea6fa85fc68c60bb30d4de92f8782ad628f3f1ae4f555f95a8bcce423",
+          "allowed_indices": [
+            0,
+            4,
+            5,
+            8,
+            10,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            23,
+            29,
+            33,
+            35,
+            37,
+            43,
+            44,
+            48,
+            56,
+            57,
+            63,
+            64,
+            66,
+            83,
+            84,
+            88,
+            89,
+            90,
+            92,
+            94,
+            101,
+            117,
+            127,
+            133,
+            135,
+            136
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 157,
+          "order": 144,
+          "generator": [
+            4,
+            33
+          ],
+          "logs": [
+            29,
+            26,
+            102
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "5d330e13a9e4b607d7b02f862a12f2282f4307d0fa966b9a7ba2fcf6d8f54c98",
+          "allowed_indices": [
+            0,
+            1,
+            3,
+            15,
+            16,
+            18,
+            24,
+            25,
+            28,
+            29,
+            31,
+            41,
+            42,
+            43,
+            44,
+            45,
+            47,
+            50,
+            53,
+            54,
+            55,
+            58,
+            59,
+            72,
+            73,
+            74,
+            76,
+            80,
+            81,
+            86,
+            87,
+            88,
+            93,
+            94,
+            96,
+            98,
+            105,
+            107,
+            115,
+            119,
+            128,
+            130,
+            132
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 167,
+          "order": 193,
+          "generator": [
+            0,
+            30
+          ],
+          "logs": [
+            180,
+            112,
+            22
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "f69b1e18206d27660e5267f192862c922dc39fcff2847e5d960fd143944c4120",
+          "allowed_indices": [
+            0,
+            2,
+            6,
+            8,
+            11,
+            13,
+            17,
+            22,
+            24,
+            27,
+            29,
+            35,
+            40,
+            42,
+            44,
+            48,
+            58,
+            61,
+            62,
+            66,
+            68,
+            71,
+            73,
+            78,
+            79,
+            80,
+            86,
+            90,
+            93,
+            96,
+            103,
+            106,
+            110,
+            114,
+            116,
+            119,
+            124,
+            128,
+            129,
+            130,
+            135,
+            136,
+            144,
+            152,
+            153,
+            167,
+            168,
+            173,
+            174,
+            177,
+            179,
+            180,
+            183,
+            192
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        },
+        {
+          "p": 173,
+          "order": 159,
+          "generator": [
+            7,
+            5
+          ],
+          "logs": [
+            38,
+            92,
+            116
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "97d96408965f5629e4d20a958163da08a030f13b8790b9a1599bff5c10fcb8bd",
+          "allowed_indices": [
+            0,
+            2,
+            13,
+            14,
+            16,
+            24,
+            25,
+            28,
+            30,
+            36,
+            38,
+            40,
+            41,
+            45,
+            46,
+            63,
+            69,
+            76,
+            78,
+            79,
+            80,
+            83,
+            87,
+            96,
+            102,
+            107,
+            108,
+            112,
+            120,
+            121,
+            123,
+            128,
+            129,
+            131,
+            133,
+            135,
+            136,
+            140,
+            145,
+            146,
+            149,
+            151,
+            155,
+            157,
+            158
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "ecb0ce91217ad6b592f127b838ac00504a76136ac2f192db643cdf87ba523531"
+        }
+      ],
+      "exact_survivors": [
+        {
+          "coefficients": [
+            -4,
+            0,
+            2
+          ],
+          "point": [
+            "433/9",
+            "-8380/27"
+          ],
+          "point_sha256": "f87c964158d33c29ca2e700d8a96ade4c58edc47342b3bca420a3d23ce223a69",
+          "coordinate_max_bits": 14,
+          "inverse_values": [
+            "64",
+            "100"
+          ],
+          "inverse_sha256": "786f3b417ec56d63b828cc5e648d145ff1b74f72920ea88dcb3bd8bc8795d6a6",
+          "U_V": [
+            "64",
+            "100"
+          ],
+          "status": "even_square_root"
+        },
+        {
+          "coefficients": [
+            -3,
+            0,
+            1
+          ],
+          "point": [
+            "8",
+            "-64"
+          ],
+          "point_sha256": "7274b5f5d4080c36ef0665f4be9f6d16e223013654dacfc9fdf8c7a1ec44395e",
+          "coordinate_max_bits": 7,
+          "inverse_values": [
+            "25",
+            "1"
+          ],
+          "inverse_sha256": "4763bb37b5b59118a55baefe6e914c4cd7c49e7fdbbde190d692a2534f86c9e5",
+          "U_V": [
+            "25",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -2,
+            -1,
+            1
+          ],
+          "point": [
+            "192",
+            "2640"
+          ],
+          "point_sha256": "32ccf763566e26e495d026841cc49e7e18bfb6e65ddde4ff4be21656f8518b24",
+          "coordinate_max_bits": 12,
+          "inverse_values": [
+            "1",
+            "9"
+          ],
+          "inverse_sha256": "e3a70d31b8ffc2e056b545a651a9dd4f0c7c9f8ccfe908f2a9cd6739b050c5b7",
+          "U_V": [
+            "1",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -2,
+            0,
+            1
+          ],
+          "point": [
+            "-18",
+            "90"
+          ],
+          "point_sha256": "bd487b61dc6638280fdc0c3c53c697cad55c356c0828854167f43077261c5a96",
+          "coordinate_max_bits": 7,
+          "inverse_values": [
+            "9",
+            "9"
+          ],
+          "inverse_sha256": "ff18c037a9f8f421378b0587e164619dc99d052d20f9c1f3b471d9e61bdc3d4b",
+          "U_V": [
+            "9",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            -1,
+            1
+          ],
+          "point": [
+            "22",
+            "-90"
+          ],
+          "point_sha256": "6db49eb8951f4062c5ca9c9643639699821118682ea9410be0d147e9da95dad0",
+          "coordinate_max_bits": 7,
+          "inverse_values": [
+            "25",
+            "25"
+          ],
+          "inverse_sha256": "3bde511fff60ef190094dc314bf137ec09dbe103a04a6933cbc85140882dee3e",
+          "U_V": [
+            "25",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            0
+          ],
+          "point": [
+            "12",
+            "60"
+          ],
+          "point_sha256": "e4ca077b67721b37a748e748df8f98295f9448c7e9f60b994e0c589e9483ec48",
+          "coordinate_max_bits": 6,
+          "inverse_values": [
+            "9",
+            "25"
+          ],
+          "inverse_sha256": "2a6b2e0b0129532230194fa25d2917cfa437e1695a3b94170a3cfdcdc6595028",
+          "U_V": [
+            "9",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            1
+          ],
+          "point": [
+            "32",
+            "160"
+          ],
+          "point_sha256": "0c0c2ef20e9c7402461f26363d756fe4cae0766cb68bdf093bf2b43ac73f2603",
+          "coordinate_max_bits": 8,
+          "inverse_values": [
+            "1",
+            "25"
+          ],
+          "inverse_sha256": "d23fc61c521d5640981089e77355d4264d96ed6841053685c1c420432b58ed20",
+          "U_V": [
+            "1",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            -1,
+            1
+          ],
+          "point": [
+            "-24",
+            "-48"
+          ],
+          "point_sha256": "05f0d9798ad69ac72c8d4dcc32de665211a1fd9c28b696eae807b2fa7e8e9ebc",
+          "coordinate_max_bits": 6,
+          "inverse_values": [
+            "9",
+            "1"
+          ],
+          "inverse_sha256": "8a560fefb67cce4799c7d819e8ba646c42cd5b2c202ec2626e1a5676407e6c45",
+          "U_V": [
+            "9",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0
+          ],
+          "point": null,
+          "point_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "status": "elliptic_identity"
+        },
+        {
+          "coefficients": [
+            1,
+            0,
+            0
+          ],
+          "point": [
+            "12",
+            "-60"
+          ],
+          "point_sha256": "67c09ecf1aeac3196110761a3101472b7515e39a2db1aa75a3c9f091583a4885",
+          "coordinate_max_bits": 6,
+          "inverse_values": [
+            "25",
+            "9"
+          ],
+          "inverse_sha256": "acaf70053bf932cd20da264d2a8d9cd9f9133a21307c90e359cd78e076ccfbe2",
+          "U_V": [
+            "25",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            3,
+            1,
+            -2
+          ],
+          "point": [
+            "69/4",
+            "-549/8"
+          ],
+          "point_sha256": "0509ef1d0aac085278b5c1d0cf73fe458fd91b95d6978a3928c5623f7290091e",
+          "coordinate_max_bits": 10,
+          "status": "inverse_denominator_zero"
+        }
+      ],
+      "exact_status_counts": {
+        "below_target": 8,
+        "elliptic_identity": 1,
+        "even_square_root": 1,
+        "inverse_denominator_zero": 1
+      }
+    },
+    {
+      "pair": [
+        1,
+        10
+      ],
+      "closed_bound": 62,
+      "total_triples": 1953125,
+      "sieves": [
+        {
+          "p": 13,
+          "order": 18,
+          "generator": [
+            1,
+            6
+          ],
+          "logs": [
+            6,
+            1,
+            3
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "b4b6275e3e37d47969dce4e6db76775721b7835f207be5d0fd7def6f2f2f1853",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            8,
+            9,
+            11,
+            13,
+            14,
+            15,
+            17
+          ],
+          "tested": 1953125,
+          "rejected": 867209,
+          "retained": 1085916,
+          "retained_packed_sha256": "e9b395f938223ed50dff9af08c00b50b51407fb61949a34ef1b549f57b7349d6"
+        },
+        {
+          "p": 17,
+          "order": 15,
+          "generator": [
+            4,
+            2
+          ],
+          "logs": [
+            10,
+            11,
+            13
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "7c17254c9d191b6412ef3c6e6b06a91f5626c6a269c132420e3a0ad95e7181cf",
+          "allowed_indices": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "tested": 1085916,
+          "rejected": 289626,
+          "retained": 796290,
+          "retained_packed_sha256": "931785bbea2730064b0a0c33ae895c3344e9bc7fe30bd46f6bb60f246d713ce5"
+        },
+        {
+          "p": 19,
+          "order": 20,
+          "generator": [
+            1,
+            7
+          ],
+          "logs": [
+            2,
+            15,
+            13
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "9eed2ad724d09474561dcc1d7bf9812a667acc895f630d2f892642a9461e7960",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            11,
+            12,
+            16,
+            17
+          ],
+          "tested": 796290,
+          "rejected": 350358,
+          "retained": 445932,
+          "retained_packed_sha256": "19d07d7a070cfe295a499b1089d0083e8236ada5890de3bdaa5491494c5e78d7"
+        },
+        {
+          "p": 23,
+          "order": 31,
+          "generator": [
+            0,
+            6
+          ],
+          "logs": [
+            15,
+            10,
+            26
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "96c6340e177dc6655a4546fd540bc93c2c0259f4bd12464797dbe56288fc8979",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            8,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            25,
+            28,
+            30
+          ],
+          "tested": 445932,
+          "rejected": 230225,
+          "retained": 215707,
+          "retained_packed_sha256": "5195ea143cf6f7c7aae0a5a2bd8f60cd1112a731b0cd578d83570cb60f8231df"
+        },
+        {
+          "p": 29,
+          "order": 39,
+          "generator": [
+            0,
+            2
+          ],
+          "logs": [
+            10,
+            30,
+            9
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "6b9a5669c78e93c42c55c479641757f64a03064a9131739870b103797ed05f29",
+          "allowed_indices": [
+            0,
+            8,
+            9,
+            14,
+            17,
+            22,
+            25,
+            30,
+            31,
+            34,
+            35,
+            36,
+            38
+          ],
+          "tested": 215707,
+          "rejected": 143704,
+          "retained": 72003,
+          "retained_packed_sha256": "9905631bb629a8405311d2e81e88f8c74940cf5116a81e0fe36ab880f15075ed"
+        },
+        {
+          "p": 31,
+          "order": 34,
+          "generator": [
+            0,
+            12
+          ],
+          "logs": [
+            28,
+            17,
+            7
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "c630e6aee73b655bbc7f6e15a78fbd877999da0b1ab3259358973971482ef867",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            6,
+            9,
+            13,
+            16,
+            17,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30,
+            31
+          ],
+          "tested": 72003,
+          "rejected": 38068,
+          "retained": 33935,
+          "retained_packed_sha256": "0fcc40b920c3dd436be970f89be69a3db9b32d30b7038ca642b2b56e04610327"
+        },
+        {
+          "p": 37,
+          "order": 40,
+          "generator": [
+            3,
+            17
+          ],
+          "logs": [
+            13,
+            22,
+            7
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "214592275f9928fffc95abfa30a981b7a0daf52dd6385cee7f1148848270ad79",
+          "allowed_indices": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            8,
+            10,
+            11,
+            12,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            28,
+            29,
+            30,
+            33,
+            38,
+            39
+          ],
+          "tested": 33935,
+          "rejected": 16090,
+          "retained": 17845,
+          "retained_packed_sha256": "31071051403e65073b95c77bafe489fa4f7d8ee7adcf4e3fb1c36bf023d864c9"
+        },
+        {
+          "p": 41,
+          "order": 48,
+          "generator": [
+            4,
+            2
+          ],
+          "logs": [
+            47,
+            4,
+            8
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "fb4af888356bea563ae74cf7a871d4474da9126e3eeaac93f01146b65988f47a",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            13,
+            17,
+            20,
+            21,
+            23,
+            26,
+            27,
+            35,
+            40,
+            42,
+            43,
+            44,
+            45
+          ],
+          "tested": 17845,
+          "rejected": 10976,
+          "retained": 6869,
+          "retained_packed_sha256": "3f745b47fa5fd7bb04f8945efc336b37e527f49c448396677d80c9673b21d342"
+        },
+        {
+          "p": 43,
+          "order": 52,
+          "generator": [
+            0,
+            14
+          ],
+          "logs": [
+            19,
+            13,
+            51
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "5d2c1bb86155154370a4e31b9da0daee242955e5bec119192dd42e3e1f4b97a6",
+          "allowed_indices": [
+            0,
+            1,
+            6,
+            8,
+            11,
+            12,
+            19,
+            20,
+            24,
+            25,
+            27,
+            30,
+            31,
+            33,
+            34,
+            37,
+            39,
+            41,
+            42,
+            45
+          ],
+          "tested": 6869,
+          "rejected": 4183,
+          "retained": 2686,
+          "retained_packed_sha256": "27329cbe692280411eec2b37973d1a27eef066684b62d654aeb09f5ba385109d"
+        },
+        {
+          "p": 47,
+          "order": 57,
+          "generator": [
+            0,
+            12
+          ],
+          "logs": [
+            47,
+            51,
+            12
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "34afb9c0b3d00a117b99ed2495c0373a22d2a45a9bbdd6ab958e16007278a6ae",
+          "allowed_indices": [
+            0,
+            5,
+            6,
+            10,
+            11,
+            13,
+            15,
+            16,
+            17,
+            25,
+            27,
+            28,
+            29,
+            32,
+            34,
+            35,
+            45,
+            51,
+            52
+          ],
+          "tested": 2686,
+          "rejected": 1804,
+          "retained": 882,
+          "retained_packed_sha256": "006903d35f5522a0bdabc05e38eb67b58466d05698dfc54d11e3485a47a1b2b3"
+        },
+        {
+          "p": 53,
+          "order": 55,
+          "generator": [
+            1,
+            19
+          ],
+          "logs": [
+            16,
+            10,
+            33
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "7a8ce0432311e497cf08563203be032daf30a97f255f6971e3722840fddd301f",
+          "allowed_indices": [
+            0,
+            4,
+            6,
+            7,
+            9,
+            12,
+            15,
+            19,
+            22,
+            23,
+            29,
+            36,
+            38,
+            39,
+            45,
+            47,
+            48,
+            49,
+            51,
+            52
+          ],
+          "tested": 882,
+          "rejected": 558,
+          "retained": 324,
+          "retained_packed_sha256": "4d9048877857c3e14e6486b00e1a3c9bb31a167fdb5faa975af043a844b5c0e7"
+        },
+        {
+          "p": 59,
+          "order": 68,
+          "generator": [
+            6,
+            22
+          ],
+          "logs": [
+            11,
+            17,
+            43
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "f4adc347e9cb0794c511ef58f479d03ca8911c1ede7d64554411d96574e5a13e",
+          "allowed_indices": [
+            0,
+            6,
+            10,
+            12,
+            13,
+            15,
+            16,
+            22,
+            25,
+            28,
+            32,
+            33,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            51,
+            52,
+            53,
+            55,
+            57,
+            61,
+            64,
+            66
+          ],
+          "tested": 324,
+          "rejected": 187,
+          "retained": 137,
+          "retained_packed_sha256": "e25dfe92a45ecfc33c142eaf25690ad46e348eba4a842d539c20777529415d77"
+        },
+        {
+          "p": 67,
+          "order": 74,
+          "generator": [
+            0,
+            12
+          ],
+          "logs": [
+            49,
+            14,
+            65
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "d61c00d942552e080ac264db2ba49ff8de05affbba1d6ba9b563ad4470b11479",
+          "allowed_indices": [
+            0,
+            2,
+            3,
+            7,
+            9,
+            10,
+            11,
+            18,
+            24,
+            25,
+            33,
+            37,
+            45,
+            50,
+            54,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            71,
+            72
+          ],
+          "tested": 137,
+          "rejected": 82,
+          "retained": 55,
+          "retained_packed_sha256": "2a19e1b6090058d97ea81b35ba967cf487073d854cffc4581574581264fc571c"
+        },
+        {
+          "p": 71,
+          "order": 87,
+          "generator": [
+            2,
+            24
+          ],
+          "logs": [
+            1,
+            54,
+            80
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "852941b60d94614135165d3a44bf5023caad29cb8fe7da6b6d9fc6e0ceee3860",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            7,
+            9,
+            10,
+            15,
+            16,
+            22,
+            25,
+            29,
+            30,
+            32,
+            33,
+            38,
+            39,
+            40,
+            51,
+            53,
+            56,
+            57,
+            58,
+            59,
+            61,
+            62,
+            69,
+            72,
+            75,
+            78,
+            79,
+            83,
+            85
+          ],
+          "tested": 55,
+          "rejected": 32,
+          "retained": 23,
+          "retained_packed_sha256": "8085c8908b6c2aeb7b75bfc81de96d3a208a109cdf153df1b237a137283a1ac8"
+        },
+        {
+          "p": 73,
+          "order": 84,
+          "generator": [
+            0,
+            4
+          ],
+          "logs": [
+            71,
+            3,
+            54
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "3d1b492b957df87bb1db2df2e770c58d6f013330fbfb7b29796fdfbf4b3af1d2",
+          "allowed_indices": [
+            0,
+            3,
+            7,
+            8,
+            10,
+            15,
+            17,
+            20,
+            24,
+            25,
+            29,
+            30,
+            37,
+            38,
+            41,
+            43,
+            44,
+            47,
+            48,
+            50,
+            51,
+            52,
+            53,
+            61,
+            64,
+            66,
+            72,
+            76,
+            77,
+            81
+          ],
+          "tested": 23,
+          "rejected": 7,
+          "retained": 16,
+          "retained_packed_sha256": "092f9c4961c9d6638967bfe5877780442609f1c03a2b1e2b4c4d1ad0348ddcf4"
+        },
+        {
+          "p": 79,
+          "order": 76,
+          "generator": [
+            5,
+            2
+          ],
+          "logs": [
+            39,
+            13,
+            68
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "28432aecbfe3a9b70b7f8b1e52c3099236c6a21a265fa67b51c6c29c294d76de",
+          "allowed_indices": [
+            0,
+            3,
+            6,
+            7,
+            8,
+            16,
+            18,
+            19,
+            20,
+            22,
+            24,
+            27,
+            31,
+            33,
+            37,
+            38,
+            40,
+            42,
+            47,
+            48,
+            56,
+            57,
+            60,
+            63,
+            65,
+            66,
+            68,
+            75
+          ],
+          "tested": 16,
+          "rejected": 3,
+          "retained": 13,
+          "retained_packed_sha256": "70f77c5a8b6bec74487d2d6514b2dd9015d72b27e15509a957e4569d01029726"
+        },
+        {
+          "p": 83,
+          "order": 90,
+          "generator": [
+            10,
+            23
+          ],
+          "logs": [
+            74,
+            35,
+            80
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "68afc484f2b612cb4c326956d803de53b7fdb42507a176fad4c2b751e53c1972",
+          "allowed_indices": [
+            0,
+            3,
+            10,
+            16,
+            21,
+            23,
+            24,
+            26,
+            29,
+            30,
+            31,
+            39,
+            46,
+            52,
+            53,
+            54,
+            55,
+            61,
+            66,
+            67,
+            69,
+            71,
+            75,
+            76,
+            78,
+            80,
+            85,
+            87
+          ],
+          "tested": 13,
+          "rejected": 1,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 89,
+          "order": 76,
+          "generator": [
+            2,
+            13
+          ],
+          "logs": [
+            18,
+            68,
+            62
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "9d8c03619a8a360b95f084374f617dde1df50ee27b921f02980ca88399d716c9",
+          "allowed_indices": [
+            0,
+            2,
+            7,
+            8,
+            14,
+            16,
+            19,
+            24,
+            25,
+            28,
+            30,
+            36,
+            38,
+            40,
+            44,
+            46,
+            49,
+            52,
+            54,
+            56,
+            59,
+            60,
+            64,
+            66,
+            70,
+            73
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 97,
+          "order": 111,
+          "generator": [
+            2,
+            15
+          ],
+          "logs": [
+            106,
+            60,
+            104
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "51f67d80dd620a90dd824d74bec0c50ad4588134361fff794133f6b65a105c63",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            5,
+            7,
+            10,
+            15,
+            20,
+            22,
+            38,
+            39,
+            48,
+            49,
+            51,
+            55,
+            56,
+            60,
+            62,
+            64,
+            69,
+            70,
+            72,
+            73,
+            75,
+            84,
+            86,
+            89,
+            94,
+            100
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 101,
+          "order": 98,
+          "generator": [
+            0,
+            46
+          ],
+          "logs": [
+            2,
+            61,
+            35
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "00232333a17ff9cc183ec3811e6425873d24d9df74e5a2365a288fd485b63ef2",
+          "allowed_indices": [
+            0,
+            5,
+            9,
+            13,
+            15,
+            18,
+            19,
+            22,
+            26,
+            28,
+            35,
+            37,
+            40,
+            42,
+            47,
+            48,
+            51,
+            56,
+            59,
+            60,
+            63,
+            67,
+            70,
+            75,
+            79,
+            90,
+            91,
+            92,
+            93,
+            95,
+            96
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 103,
+          "order": 109,
+          "generator": [
+            0,
+            4
+          ],
+          "logs": [
+            27,
+            65,
+            57
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "0a5259748032d7ae9db5d9af889494eb88f0b4da6b51930af11187aac84954dd",
+          "allowed_indices": [
+            0,
+            3,
+            4,
+            7,
+            9,
+            17,
+            18,
+            24,
+            26,
+            29,
+            35,
+            36,
+            42,
+            44,
+            45,
+            47,
+            48,
+            51,
+            52,
+            53,
+            55,
+            58,
+            61,
+            62,
+            68,
+            74,
+            83,
+            87,
+            96,
+            100,
+            103,
+            104,
+            108
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 107,
+          "order": 118,
+          "generator": [
+            6,
+            7
+          ],
+          "logs": [
+            82,
+            85,
+            91
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "95d4c09fd86a27e80c2ded5d864273c4d9714111d248b0a83e5d412238bf1c20",
+          "allowed_indices": [
+            0,
+            1,
+            16,
+            17,
+            23,
+            25,
+            27,
+            32,
+            33,
+            36,
+            39,
+            42,
+            49,
+            57,
+            63,
+            65,
+            68,
+            69,
+            75,
+            76,
+            81,
+            84,
+            85,
+            89,
+            90,
+            94,
+            103,
+            105,
+            107,
+            109,
+            111,
+            112,
+            117
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 109,
+          "order": 101,
+          "generator": [
+            4,
+            29
+          ],
+          "logs": [
+            20,
+            78,
+            86
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "d02964b2995d82a6592734d3e7d387812815e4c7abbdc5102c88a17a15cecbbc",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            12,
+            14,
+            15,
+            17,
+            20,
+            22,
+            23,
+            27,
+            28,
+            29,
+            31,
+            32,
+            35,
+            55,
+            57,
+            59,
+            65,
+            71,
+            73,
+            75,
+            78,
+            82,
+            85,
+            87,
+            88,
+            89,
+            95,
+            99,
+            100
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 113,
+          "order": 132,
+          "generator": [
+            2,
+            43
+          ],
+          "logs": [
+            121,
+            119,
+            22
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "30aa073d0636acc26e07e6b1853be51cbc0dc28908827e03b6ad43b5b6700482",
+          "allowed_indices": [
+            0,
+            5,
+            9,
+            13,
+            16,
+            18,
+            21,
+            24,
+            27,
+            28,
+            35,
+            45,
+            46,
+            48,
+            54,
+            56,
+            59,
+            64,
+            65,
+            66,
+            69,
+            70,
+            72,
+            75,
+            76,
+            83,
+            86,
+            92,
+            94,
+            95,
+            98,
+            99,
+            105,
+            108,
+            110,
+            114,
+            118,
+            120,
+            128,
+            130
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 127,
+          "order": 128,
+          "generator": [
+            0,
+            10
+          ],
+          "logs": [
+            55,
+            6,
+            56
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "a5b082da401e91427952f272f1cdcc4cc1e8d6466b0330496270d53617b91fb4",
+          "allowed_indices": [
+            0,
+            5,
+            11,
+            12,
+            13,
+            14,
+            16,
+            20,
+            21,
+            22,
+            31,
+            34,
+            38,
+            47,
+            51,
+            56,
+            57,
+            66,
+            67,
+            70,
+            72,
+            77,
+            82,
+            83,
+            88,
+            91,
+            95,
+            105,
+            106,
+            112,
+            117,
+            122,
+            123,
+            124
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 131,
+          "order": 142,
+          "generator": [
+            1,
+            41
+          ],
+          "logs": [
+            24,
+            51,
+            137
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "9294ef8fdb058de8744301d6f25d3b84861a70c94dc20504aab72fb13f3d87b0",
+          "allowed_indices": [
+            0,
+            2,
+            5,
+            11,
+            19,
+            22,
+            29,
+            32,
+            35,
+            37,
+            46,
+            51,
+            57,
+            61,
+            62,
+            63,
+            67,
+            68,
+            69,
+            73,
+            74,
+            76,
+            78,
+            80,
+            83,
+            85,
+            88,
+            90,
+            91,
+            99,
+            103,
+            108,
+            109,
+            121,
+            126,
+            136,
+            139
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 137,
+          "order": 131,
+          "generator": [
+            3,
+            39
+          ],
+          "logs": [
+            31,
+            59,
+            13
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "344aca5970d9d29069f6b3511a97a30bf72a62b760c0036feae5d68267c966bb",
+          "allowed_indices": [
+            0,
+            3,
+            10,
+            12,
+            13,
+            16,
+            18,
+            22,
+            35,
+            36,
+            41,
+            44,
+            49,
+            50,
+            52,
+            54,
+            62,
+            64,
+            71,
+            72,
+            75,
+            77,
+            78,
+            81,
+            82,
+            85,
+            88,
+            89,
+            92,
+            93,
+            94,
+            103,
+            106,
+            108,
+            116,
+            118,
+            119,
+            120,
+            121,
+            124,
+            125,
+            126,
+            127,
+            130
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 139,
+          "order": 147,
+          "generator": [
+            0,
+            18
+          ],
+          "logs": [
+            94,
+            133,
+            20
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "aa83137a81ac0c73d4ee5f82282ab7e8c56b5ac73b1917586f5486ba4a219b18",
+          "allowed_indices": [
+            0,
+            3,
+            4,
+            7,
+            14,
+            16,
+            24,
+            25,
+            29,
+            31,
+            34,
+            37,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            47,
+            48,
+            51,
+            52,
+            55,
+            59,
+            60,
+            62,
+            63,
+            66,
+            67,
+            71,
+            80,
+            84,
+            85,
+            86,
+            87,
+            92,
+            95,
+            96,
+            100,
+            101,
+            103,
+            106,
+            111,
+            118,
+            120,
+            122,
+            126,
+            127,
+            131,
+            134,
+            143,
+            144
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 149,
+          "order": 152,
+          "generator": [
+            0,
+            67
+          ],
+          "logs": [
+            69,
+            140,
+            55
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "c62414ea099cf2a5eb6c3e64319483c7513820ac311c8cab22de6dd42a6c32f1",
+          "allowed_indices": [
+            0,
+            2,
+            8,
+            10,
+            12,
+            19,
+            20,
+            29,
+            30,
+            43,
+            45,
+            49,
+            55,
+            67,
+            68,
+            70,
+            76,
+            80,
+            90,
+            91,
+            95,
+            96,
+            97,
+            99,
+            102,
+            104,
+            106,
+            110,
+            114,
+            117,
+            121,
+            123,
+            130,
+            131,
+            139,
+            142,
+            143,
+            144,
+            150
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        },
+        {
+          "p": 151,
+          "order": 156,
+          "generator": [
+            21,
+            36
+          ],
+          "logs": [
+            138,
+            36,
+            113
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "331778c2e1830c1a6b4e564036f405dd37adacc8db7bbb3fbc484d2c66525723",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            10,
+            12,
+            14,
+            18,
+            21,
+            23,
+            28,
+            29,
+            40,
+            43,
+            44,
+            50,
+            54,
+            55,
+            57,
+            58,
+            59,
+            61,
+            67,
+            69,
+            74,
+            82,
+            90,
+            91,
+            95,
+            102,
+            104,
+            111,
+            113,
+            114,
+            118,
+            120,
+            123,
+            126,
+            127,
+            129,
+            135,
+            137,
+            138,
+            139,
+            152,
+            154
+          ],
+          "tested": 12,
+          "rejected": 0,
+          "retained": 12,
+          "retained_packed_sha256": "7dfae7a0aab3f760085ae18748746cc98d440bec16e04f3b0bed70564cf7fa54"
+        }
+      ],
+      "exact_survivors": [
+        {
+          "coefficients": [
+            -2,
+            -4,
+            2
+          ],
+          "point": [
+            "10433/121",
+            "-1035630/1331"
+          ],
+          "point_sha256": "03464d004ff52b24e7864fcbb90aa5ce8067641ea1a46b606734e0f016ac122a",
+          "coordinate_max_bits": 20,
+          "inverse_values": [
+            "361/9",
+            "625/9"
+          ],
+          "inverse_sha256": "2bf2e5980cafd27721492119df8ec90a7bec2afa2d10fc9ad9ebb8b1933382e5",
+          "status": "noninteger_inverse"
+        },
+        {
+          "coefficients": [
+            -2,
+            -3,
+            2
+          ],
+          "point": [
+            "113",
+            "1170"
+          ],
+          "point_sha256": "9e0b38b5df5ecc3c8b61b01d24b065a87e5c2d24961aeaab4e04b6518db0eaec",
+          "coordinate_max_bits": 11,
+          "inverse_values": [
+            "1",
+            "25"
+          ],
+          "inverse_sha256": "d23fc61c521d5640981089e77355d4264d96ed6841053685c1c420432b58ed20",
+          "U_V": [
+            "1",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            -2,
+            1
+          ],
+          "point": [
+            "-37",
+            "330"
+          ],
+          "point_sha256": "0293525eba40977a99e508a40a76e526dc4870d700026baae49d1cc54e5c8604",
+          "coordinate_max_bits": 9,
+          "inverse_values": [
+            "9",
+            "9"
+          ],
+          "inverse_sha256": "ff18c037a9f8f421378b0587e164619dc99d052d20f9c1f3b471d9e61bdc3d4b",
+          "U_V": [
+            "9",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            -1,
+            0
+          ],
+          "point": [
+            "-58",
+            "27"
+          ],
+          "point_sha256": "23839ee968ecace6fae6ea849151885180a0244d9a76fb47fdf7b7d74bac2f75",
+          "coordinate_max_bits": 6,
+          "inverse_values": [
+            "9",
+            "1"
+          ],
+          "inverse_sha256": "8a560fefb67cce4799c7d819e8ba646c42cd5b2c202ec2626e1a5676407e6c45",
+          "U_V": [
+            "9",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            -1,
+            1
+          ],
+          "point": [
+            "23",
+            "-270"
+          ],
+          "point_sha256": "d23c0cdd9c8ce3e123ced6ac1afd69164de72042c25dcac56cfe50af2d55cb5c",
+          "coordinate_max_bits": 9,
+          "inverse_values": [
+            "25",
+            "9"
+          ],
+          "inverse_sha256": "acaf70053bf932cd20da264d2a8d9cd9f9133a21307c90e359cd78e076ccfbe2",
+          "U_V": [
+            "25",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            -1,
+            0
+          ],
+          "point": [
+            "14",
+            "-279"
+          ],
+          "point_sha256": "d607c4182896070dc5625303220efa1627d8cb6e19987d6a4e29e6e172d7d1d0",
+          "coordinate_max_bits": 9,
+          "inverse_values": [
+            "25",
+            "1"
+          ],
+          "inverse_sha256": "4763bb37b5b59118a55baefe6e914c4cd7c49e7fdbbde190d692a2534f86c9e5",
+          "U_V": [
+            "25",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            -1
+          ],
+          "point": [
+            "43",
+            "-330"
+          ],
+          "point_sha256": "f2ffce0029c745799929fdfd6ba8cde3ad9df26713c79e221b9ee39f6483b925",
+          "coordinate_max_bits": 9,
+          "inverse_values": [
+            "25",
+            "25"
+          ],
+          "inverse_sha256": "3bde511fff60ef190094dc314bf137ec09dbe103a04a6933cbc85140882dee3e",
+          "U_V": [
+            "25",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0
+          ],
+          "point": null,
+          "point_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "status": "elliptic_identity"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            -2
+          ],
+          "point": [
+            "833",
+            "24030"
+          ],
+          "point_sha256": "b5586549c7bf5f72735d6d408dbc278df8403033f719ca005e8ad0d8aaa9b81f",
+          "coordinate_max_bits": 15,
+          "inverse_values": [
+            "1",
+            "9"
+          ],
+          "inverse_sha256": "e3a70d31b8ffc2e056b545a651a9dd4f0c7c9f8ccfe908f2a9cd6739b050c5b7",
+          "U_V": [
+            "1",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            -1
+          ],
+          "point": [
+            "23",
+            "270"
+          ],
+          "point_sha256": "e7adb84ec357e407767ed17ebcfb195490834ae6c949b64c1a7ebdbff02ff670",
+          "coordinate_max_bits": 9,
+          "inverse_values": [
+            "9",
+            "25"
+          ],
+          "inverse_sha256": "2a6b2e0b0129532230194fa25d2917cfa437e1695a3b94170a3cfdcdc6595028",
+          "U_V": [
+            "9",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            2,
+            0
+          ],
+          "point": [
+            "977/16",
+            "-30657/64"
+          ],
+          "point_sha256": "bcc4c23079e74e63136c6f79b4c6eabfc83e39e7ef9d3f7e0f0f37bae628b9a7",
+          "coordinate_max_bits": 15,
+          "status": "inverse_denominator_zero"
+        },
+        {
+          "coefficients": [
+            2,
+            3,
+            -2
+          ],
+          "point": [
+            "113",
+            "-1170"
+          ],
+          "point_sha256": "ae1c7f30606c048c3d502bae68866ce2835ff693ab59e6f742d8d0636c445a63",
+          "coordinate_max_bits": 11,
+          "inverse_values": [
+            "841/9",
+            "1681/9"
+          ],
+          "inverse_sha256": "f4337e5721479451c3de5a8f88d3e430f811d4277da804c26f1e7101fd836196",
+          "status": "noninteger_inverse"
+        }
+      ],
+      "exact_status_counts": {
+        "below_target": 8,
+        "elliptic_identity": 1,
+        "inverse_denominator_zero": 1,
+        "noninteger_inverse": 2
+      }
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "closed_bound": 64,
+      "total_triples": 2146689,
+      "sieves": [
+        {
+          "p": 11,
+          "order": 16,
+          "generator": [
+            1,
+            2
+          ],
+          "logs": [
+            15,
+            10,
+            4
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "1ff775962b881f177bd04ed35c1fcb07e6bc156c9dac140e2f7fde4ca78eeb16",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "tested": 2146689,
+          "rejected": 671864,
+          "retained": 1474825,
+          "retained_packed_sha256": "9bb86747ce5e16e66dd923726dd24597476c22802e69b0b07766b55ebdd57956"
+        },
+        {
+          "p": 13,
+          "order": 14,
+          "generator": [
+            2,
+            2
+          ],
+          "logs": [
+            11,
+            4,
+            2
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "239bb80e9e3eb28c16d474e7b36d742ed9f2cb1b48cd11d652bbffa56bba191f",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            10,
+            11,
+            12,
+            13
+          ],
+          "tested": 1474825,
+          "rejected": 421383,
+          "retained": 1053442,
+          "retained_packed_sha256": "5c405def9a2a27217c774236fbb849a4d7d602a456e5da364434bd8296c91b45"
+        },
+        {
+          "p": 17,
+          "order": 24,
+          "generator": [
+            3,
+            4
+          ],
+          "logs": [
+            3,
+            12,
+            20
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "6a38a8c9a0d673a977a3c6fd3cb4ee76acedae42e308ab487abdc2719e5746aa",
+          "allowed_indices": [
+            0,
+            1,
+            3,
+            6,
+            11,
+            12,
+            13,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "tested": 1053442,
+          "rejected": 479181,
+          "retained": 574261,
+          "retained_packed_sha256": "c84550d085f4a8cffdd89aba5468f24d0f24c911a3f8037b0cc0a0e3e7902f4d"
+        },
+        {
+          "p": 19,
+          "order": 26,
+          "generator": [
+            0,
+            6
+          ],
+          "logs": [
+            11,
+            3,
+            16
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "05a86802ce4adaa376aaba9d5ac3f0e3a7fc2b9f6711344115ad4c369968ddbe",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            3,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            18,
+            19,
+            20,
+            24,
+            25
+          ],
+          "tested": 574261,
+          "rejected": 198869,
+          "retained": 375392,
+          "retained_packed_sha256": "481bb8748218f7d59259757ada743a0f182e40a502f6ed8756068033019454a3"
+        },
+        {
+          "p": 29,
+          "order": 40,
+          "generator": [
+            9,
+            9
+          ],
+          "logs": [
+            36,
+            7,
+            13
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "b8a8f3a33610995bf87c04c528ebe6d54980cdabeb605b24c9c2834eae3cc1b6",
+          "allowed_indices": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            11,
+            18,
+            22,
+            26,
+            27,
+            29,
+            30,
+            36,
+            39
+          ],
+          "tested": 375392,
+          "rejected": 225315,
+          "retained": 150077,
+          "retained_packed_sha256": "0e693ef9dc6ea911b75ce3240cc1b3b9b4f4960f4749be251dd221a1a860d4b3"
+        },
+        {
+          "p": 31,
+          "order": 26,
+          "generator": [
+            10,
+            1
+          ],
+          "logs": [
+            17,
+            2,
+            13
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "8410bf07231d0aaa44ac2eea98fafe47b2af94551270a73f56db82658d3e7d10",
+          "allowed_indices": [
+            0,
+            2,
+            6,
+            9,
+            10,
+            11,
+            12,
+            14,
+            17,
+            19,
+            23
+          ],
+          "tested": 150077,
+          "rejected": 86703,
+          "retained": 63374,
+          "retained_packed_sha256": "0373af0e1e84ef69c561fd2a157d87a21b2a896b25614607b3ed0efd3ef0d7be"
+        },
+        {
+          "p": 37,
+          "order": 33,
+          "generator": [
+            0,
+            12
+          ],
+          "logs": [
+            27,
+            5,
+            23
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "cce386fd14bf7f0ed510a5e7e638f484ced1d400cd1cb09a1091ef2662e674f5",
+          "allowed_indices": [
+            0,
+            3,
+            5,
+            6,
+            9,
+            10,
+            12,
+            14,
+            20,
+            23,
+            24,
+            26,
+            27,
+            29,
+            30,
+            31,
+            32
+          ],
+          "tested": 63374,
+          "rejected": 30651,
+          "retained": 32723,
+          "retained_packed_sha256": "941ab5055737cc0342df1785842033277f26e103f60f8dfb3c29d1337906f1d0"
+        },
+        {
+          "p": 41,
+          "order": 39,
+          "generator": [
+            0,
+            9
+          ],
+          "logs": [
+            34,
+            8,
+            13
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "cce7f216edee9876d7e4e7dba9f07b9f1c3085a206c51d75199a23e577d0829b",
+          "allowed_indices": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            19,
+            22,
+            24,
+            25,
+            27,
+            28,
+            29,
+            34,
+            37
+          ],
+          "tested": 32723,
+          "rejected": 18559,
+          "retained": 14164,
+          "retained_packed_sha256": "4834451054cb5b18b04f42a79bac34f9994e53ee61f4b46f4d60d76d929146f8"
+        },
+        {
+          "p": 43,
+          "order": 38,
+          "generator": [
+            4,
+            18
+          ],
+          "logs": [
+            7,
+            22,
+            10
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "278c1e6bca9e950bdef41e817705697225d6c9ae159969887bc7e0c856c78d78",
+          "allowed_indices": [
+            0,
+            7,
+            8,
+            13,
+            14,
+            19,
+            20,
+            21,
+            22,
+            23,
+            26,
+            29,
+            30,
+            31,
+            33,
+            36
+          ],
+          "tested": 14164,
+          "rejected": 8160,
+          "retained": 6004,
+          "retained_packed_sha256": "4b4c7b6b860aeb84bbd4c7cc4289b9509c7898a450ea91fd0ab3bb8ee59c7327"
+        },
+        {
+          "p": 47,
+          "order": 40,
+          "generator": [
+            4,
+            12
+          ],
+          "logs": [
+            35,
+            28,
+            11
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "1913e0b55031f3b29a1399dacbc588360d8e1db97b4e89bf31d4fc022394148e",
+          "allowed_indices": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14,
+            18,
+            23,
+            24,
+            28,
+            29,
+            32,
+            35,
+            37
+          ],
+          "tested": 6004,
+          "rejected": 2942,
+          "retained": 3062,
+          "retained_packed_sha256": "a8571e1d6e4179878d5c13fe01bef53ce8305092c043ca6edb743c91daef4d66"
+        },
+        {
+          "p": 53,
+          "order": 67,
+          "generator": [
+            1,
+            3
+          ],
+          "logs": [
+            41,
+            7,
+            24
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "4049b57ffbea211d9edf614a60a3d10adb73be56579364d956b8f96bc60236d8",
+          "allowed_indices": [
+            0,
+            2,
+            3,
+            6,
+            7,
+            11,
+            21,
+            22,
+            23,
+            24,
+            26,
+            29,
+            31,
+            39,
+            41,
+            48,
+            50,
+            58,
+            60,
+            65,
+            66
+          ],
+          "tested": 3062,
+          "rejected": 2108,
+          "retained": 954,
+          "retained_packed_sha256": "0a0811eed7019eada6f2a0c4901422dadc7a895bc9e0d87e4268890749a7c52c"
+        },
+        {
+          "p": 59,
+          "order": 64,
+          "generator": [
+            0,
+            10
+          ],
+          "logs": [
+            59,
+            19,
+            47
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "4d1df5985a2b6dca5a0c46573f6ff40f6c355e2f0110c80a12035938aa3f13d8",
+          "allowed_indices": [
+            0,
+            2,
+            5,
+            9,
+            10,
+            14,
+            19,
+            21,
+            24,
+            26,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            40,
+            54,
+            59
+          ],
+          "tested": 954,
+          "rejected": 668,
+          "retained": 286,
+          "retained_packed_sha256": "c9adde8126a01ef3f1eb887e9e42c02df0d584c4f1806bf3abd0db9cc1693567"
+        },
+        {
+          "p": 61,
+          "order": 73,
+          "generator": [
+            1,
+            10
+          ],
+          "logs": [
+            28,
+            32,
+            10
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "fb93fb8846e5ea5dffbf3167f29eb7d03c60511501d38ef0505a998360d53531",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            5,
+            7,
+            8,
+            13,
+            14,
+            15,
+            17,
+            20,
+            21,
+            28,
+            32,
+            33,
+            34,
+            37,
+            44,
+            45,
+            47,
+            50,
+            52,
+            58,
+            60,
+            62,
+            63,
+            66,
+            68
+          ],
+          "tested": 286,
+          "rejected": 158,
+          "retained": 128,
+          "retained_packed_sha256": "14b4e7d9e39ba36ea80fcac661e4abf1a8305ca94d62f40f0835bb20c4f1c026"
+        },
+        {
+          "p": 67,
+          "order": 71,
+          "generator": [
+            5,
+            15
+          ],
+          "logs": [
+            24,
+            36,
+            22
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "f2991ae3e6d773e829a7f3d42b49769aee6bab6528f10b9c72b9f147ff23b320",
+          "allowed_indices": [
+            0,
+            4,
+            5,
+            13,
+            15,
+            16,
+            19,
+            20,
+            22,
+            24,
+            26,
+            36,
+            37,
+            38,
+            41,
+            44,
+            45,
+            46,
+            47,
+            49,
+            60,
+            62,
+            69
+          ],
+          "tested": 128,
+          "rejected": 91,
+          "retained": 37,
+          "retained_packed_sha256": "8b43c6811885105dc493d52c7de75f59feacc874e2b45db440e2e68a6ff8ae91"
+        },
+        {
+          "p": 71,
+          "order": 84,
+          "generator": [
+            10,
+            14
+          ],
+          "logs": [
+            78,
+            43,
+            8
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "299718c656479b258248e8f5c709988f8e4d9e0febd427fc0d5ab17c42e8c85f",
+          "allowed_indices": [
+            0,
+            2,
+            3,
+            6,
+            9,
+            16,
+            17,
+            23,
+            24,
+            29,
+            31,
+            37,
+            38,
+            43,
+            47,
+            50,
+            54,
+            61,
+            65,
+            72,
+            74,
+            78,
+            79,
+            81,
+            82
+          ],
+          "tested": 37,
+          "rejected": 15,
+          "retained": 22,
+          "retained_packed_sha256": "a3f9913629e4276c194251aafe62878c3bbd6efae1f3cea07d511b87be2bca51"
+        },
+        {
+          "p": 73,
+          "order": 90,
+          "generator": [
+            2,
+            12
+          ],
+          "logs": [
+            6,
+            31,
+            20
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "15952006e4ad40dd82c5da275c31647068b6a733cb59f96f3c0841f7efc503c2",
+          "allowed_indices": [
+            0,
+            6,
+            17,
+            18,
+            23,
+            25,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            37,
+            39,
+            41,
+            43,
+            44,
+            45,
+            47,
+            53,
+            54,
+            63,
+            66,
+            69,
+            74,
+            84,
+            87
+          ],
+          "tested": 22,
+          "rejected": 8,
+          "retained": 14,
+          "retained_packed_sha256": "db857d6d683dfc66a838161678a9a1ac723e59a547d5d66430c316857242ebfc"
+        },
+        {
+          "p": 89,
+          "order": 102,
+          "generator": [
+            2,
+            28
+          ],
+          "logs": [
+            97,
+            28,
+            99
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "9458d0d836ee02c9843451273e6af6a0056d444130797e99044dc8f5e90f0af7",
+          "allowed_indices": [
+            0,
+            5,
+            6,
+            8,
+            9,
+            11,
+            13,
+            15,
+            16,
+            17,
+            18,
+            21,
+            23,
+            26,
+            28,
+            39,
+            40,
+            43,
+            46,
+            49,
+            50,
+            58,
+            60,
+            68,
+            72,
+            90,
+            91,
+            97,
+            98
+          ],
+          "tested": 14,
+          "rejected": 3,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 97,
+          "order": 99,
+          "generator": [
+            7,
+            14
+          ],
+          "logs": [
+            34,
+            91,
+            79
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "5df5c62ca99ea4119cfa63423ae4217c8bd0cb35422ed79ce59219de0c177480",
+          "allowed_indices": [
+            0,
+            2,
+            5,
+            6,
+            8,
+            15,
+            19,
+            23,
+            26,
+            27,
+            34,
+            36,
+            37,
+            38,
+            41,
+            43,
+            44,
+            46,
+            52,
+            53,
+            55,
+            58,
+            60,
+            61,
+            62,
+            63,
+            65,
+            73,
+            76,
+            80,
+            91,
+            92
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 101,
+          "order": 110,
+          "generator": [
+            5,
+            1
+          ],
+          "logs": [
+            93,
+            8,
+            37
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "e5403cd856c0c7b73bef3ec813f6aa25e5cd5831e7a093b3f07e3f17ea03899b",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            5,
+            8,
+            17,
+            19,
+            20,
+            22,
+            23,
+            24,
+            25,
+            30,
+            35,
+            42,
+            44,
+            47,
+            53,
+            55,
+            58,
+            63,
+            64,
+            67,
+            69,
+            72,
+            82,
+            84,
+            92,
+            93,
+            94,
+            95,
+            97,
+            101,
+            102
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 103,
+          "order": 113,
+          "generator": [
+            6,
+            6
+          ],
+          "logs": [
+            37,
+            111,
+            61
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "d41d762d5afb0d915e56cb1ebfaef009b63d8d3f23f33289db473d71f41d6faf",
+          "allowed_indices": [
+            0,
+            6,
+            7,
+            11,
+            27,
+            28,
+            34,
+            35,
+            37,
+            48,
+            62,
+            67,
+            70,
+            72,
+            74,
+            76,
+            77,
+            79,
+            84,
+            87,
+            89,
+            90,
+            91,
+            98,
+            103,
+            104,
+            105,
+            111,
+            112
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 107,
+          "order": 93,
+          "generator": [
+            9,
+            43
+          ],
+          "logs": [
+            79,
+            2,
+            17
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "6e87d0f476e0846fa5e439331e14a49166b3c9c0a4c8d6fe27435dfdb8947bea",
+          "allowed_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            9,
+            10,
+            14,
+            17,
+            18,
+            20,
+            21,
+            23,
+            27,
+            29,
+            31,
+            32,
+            34,
+            35,
+            36,
+            38,
+            46,
+            48,
+            50,
+            52,
+            53,
+            55,
+            57,
+            64,
+            67,
+            68,
+            69,
+            79,
+            81,
+            86,
+            87,
+            91
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 127,
+          "order": 144,
+          "generator": [
+            0,
+            18
+          ],
+          "logs": [
+            95,
+            43,
+            136
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "4323abf78e1b0d450caeaf6ed2f5488c988b5f9eef110a4bd03c90f6a1cb8ead",
+          "allowed_indices": [
+            0,
+            2,
+            3,
+            5,
+            12,
+            13,
+            14,
+            15,
+            20,
+            28,
+            36,
+            37,
+            39,
+            41,
+            42,
+            43,
+            44,
+            47,
+            48,
+            49,
+            53,
+            54,
+            55,
+            63,
+            73,
+            74,
+            80,
+            83,
+            84,
+            87,
+            89,
+            95,
+            97,
+            99,
+            100,
+            101,
+            105,
+            108,
+            109,
+            111,
+            114,
+            121,
+            132,
+            138,
+            141
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 131,
+          "order": 129,
+          "generator": [
+            6,
+            19
+          ],
+          "logs": [
+            32,
+            25,
+            35
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "0c28ac89a05d9daa2925800b5fec3ed0a4a51ed81f9376840abd17e19ce27c24",
+          "allowed_indices": [
+            0,
+            6,
+            8,
+            10,
+            11,
+            12,
+            18,
+            22,
+            25,
+            26,
+            32,
+            33,
+            34,
+            40,
+            41,
+            54,
+            57,
+            61,
+            63,
+            64,
+            66,
+            68,
+            72,
+            82,
+            83,
+            86,
+            89,
+            91,
+            97,
+            99,
+            107,
+            110,
+            113,
+            114,
+            116,
+            125,
+            128
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 137,
+          "order": 135,
+          "generator": [
+            5,
+            39
+          ],
+          "logs": [
+            17,
+            50,
+            3
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "624bcc24f989908258cd3559983911e37845db19c5aa08108c4276d6f3613ce2",
+          "allowed_indices": [
+            0,
+            9,
+            17,
+            18,
+            22,
+            28,
+            30,
+            34,
+            38,
+            43,
+            44,
+            45,
+            46,
+            48,
+            49,
+            50,
+            58,
+            63,
+            64,
+            65,
+            67,
+            70,
+            73,
+            76,
+            81,
+            84,
+            86,
+            88,
+            89,
+            91,
+            94,
+            95,
+            98,
+            102,
+            103,
+            108,
+            115,
+            118,
+            122,
+            134
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 149,
+          "order": 155,
+          "generator": [
+            1,
+            41
+          ],
+          "logs": [
+            69,
+            5,
+            66
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "7c546326f54359f890e5a2ddc55cee79028d639dcaddc0ad222fbd00367e0101",
+          "allowed_indices": [
+            0,
+            1,
+            4,
+            5,
+            7,
+            8,
+            9,
+            19,
+            26,
+            29,
+            39,
+            40,
+            43,
+            46,
+            49,
+            53,
+            55,
+            58,
+            62,
+            63,
+            65,
+            69,
+            72,
+            74,
+            77,
+            83,
+            84,
+            86,
+            91,
+            121,
+            129,
+            131,
+            137,
+            138,
+            140,
+            141,
+            142,
+            143,
+            146,
+            148,
+            152
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 151,
+          "order": 171,
+          "generator": [
+            4,
+            29
+          ],
+          "logs": [
+            33,
+            85,
+            71
+          ],
+          "exceptional_kept": 5,
+          "table_sha256": "6724cfb6cb9ba7ac52a6474c236bef076fda3a92cdcdc0d327c826aaf1aa6583",
+          "allowed_indices": [
+            0,
+            1,
+            3,
+            8,
+            10,
+            14,
+            15,
+            16,
+            17,
+            19,
+            29,
+            30,
+            31,
+            33,
+            41,
+            47,
+            51,
+            61,
+            62,
+            65,
+            80,
+            81,
+            84,
+            85,
+            88,
+            98,
+            99,
+            101,
+            102,
+            108,
+            110,
+            113,
+            118,
+            120,
+            123,
+            124,
+            130,
+            132,
+            138,
+            139,
+            141,
+            144,
+            147,
+            150,
+            151,
+            154,
+            159,
+            165,
+            168
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 157,
+          "order": 156,
+          "generator": [
+            11,
+            76
+          ],
+          "logs": [
+            40,
+            53,
+            99
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "58aea72bb3fd792b386a7e47305d35a7d9061046341a1900c02b40b74bf00447",
+          "allowed_indices": [
+            0,
+            1,
+            19,
+            29,
+            30,
+            31,
+            34,
+            36,
+            40,
+            44,
+            46,
+            53,
+            54,
+            56,
+            58,
+            61,
+            63,
+            65,
+            70,
+            74,
+            78,
+            79,
+            81,
+            82,
+            88,
+            89,
+            91,
+            92,
+            93,
+            94,
+            97,
+            105,
+            110,
+            113,
+            116,
+            117,
+            119,
+            121,
+            124,
+            132,
+            133,
+            139,
+            146,
+            147,
+            150,
+            155
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 163,
+          "order": 178,
+          "generator": [
+            3,
+            8
+          ],
+          "logs": [
+            59,
+            71,
+            164
+          ],
+          "exceptional_kept": 2,
+          "table_sha256": "645e2412a806646aaaf28ba4c2d7f0703812b7547eb6dedc1131650a2e1642a6",
+          "allowed_indices": [
+            0,
+            4,
+            6,
+            7,
+            9,
+            10,
+            11,
+            13,
+            18,
+            20,
+            22,
+            23,
+            25,
+            26,
+            30,
+            35,
+            39,
+            57,
+            59,
+            63,
+            68,
+            71,
+            73,
+            77,
+            78,
+            81,
+            82,
+            84,
+            88,
+            94,
+            96,
+            100,
+            101,
+            111,
+            117,
+            119,
+            122,
+            129,
+            130,
+            141,
+            144,
+            149,
+            150,
+            163,
+            164,
+            168,
+            174,
+            176,
+            177
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 167,
+          "order": 170,
+          "generator": [
+            3,
+            82
+          ],
+          "logs": [
+            40,
+            11,
+            33
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "d5be05fd4bca578bc953df335365dc946605d972a23310ba33aa4269e26d8655",
+          "allowed_indices": [
+            0,
+            11,
+            15,
+            16,
+            18,
+            22,
+            29,
+            33,
+            36,
+            39,
+            40,
+            46,
+            50,
+            51,
+            58,
+            60,
+            61,
+            68,
+            71,
+            76,
+            77,
+            91,
+            95,
+            96,
+            98,
+            101,
+            102,
+            104,
+            107,
+            111,
+            115,
+            126,
+            130,
+            133,
+            134,
+            139,
+            146,
+            147,
+            158,
+            168,
+            169
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        },
+        {
+          "p": 173,
+          "order": 161,
+          "generator": [
+            2,
+            68
+          ],
+          "logs": [
+            120,
+            51,
+            156
+          ],
+          "exceptional_kept": 3,
+          "table_sha256": "e262b6771475a01cba1e76b3b56c04aba1d656b179a311fe98435e5e4742b3b4",
+          "allowed_indices": [
+            0,
+            2,
+            6,
+            8,
+            10,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            26,
+            37,
+            41,
+            44,
+            45,
+            51,
+            59,
+            65,
+            70,
+            79,
+            91,
+            94,
+            99,
+            100,
+            102,
+            104,
+            109,
+            112,
+            113,
+            115,
+            118,
+            120,
+            125,
+            130,
+            131,
+            132,
+            135,
+            136,
+            140,
+            147,
+            148,
+            154
+          ],
+          "tested": 11,
+          "rejected": 0,
+          "retained": 11,
+          "retained_packed_sha256": "31fd34921524445cdf054612e648fb44d90d994a1ef8511a595e8577cfafafd4"
+        }
+      ],
+      "exact_survivors": [
+        {
+          "coefficients": [
+            -3,
+            -2,
+            1
+          ],
+          "point": [
+            "329/16",
+            "-5901/64"
+          ],
+          "point_sha256": "19d762d1475c513f7ecc014c1b011a96985dec360f8ba1ee65f344a0145ed6b2",
+          "coordinate_max_bits": 13,
+          "status": "inverse_denominator_zero"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            0
+          ],
+          "point": [
+            "23",
+            "90"
+          ],
+          "point_sha256": "4879ae5c4656ce526d81b63d747d57a5378962388f4e46fc15aeb568fbd92f35",
+          "coordinate_max_bits": 7,
+          "inverse_values": [
+            "9",
+            "25"
+          ],
+          "inverse_sha256": "2a6b2e0b0129532230194fa25d2917cfa437e1695a3b94170a3cfdcdc6595028",
+          "U_V": [
+            "9",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0
+          ],
+          "point": null,
+          "point_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "status": "elliptic_identity"
+        },
+        {
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "point": [
+            "17",
+            "-102"
+          ],
+          "point_sha256": "131471099e0b0361bd397829d0ed5b81e9e8522b212a480a896c40e605b39b47",
+          "coordinate_max_bits": 7,
+          "inverse_values": [
+            "25",
+            "1"
+          ],
+          "inverse_sha256": "4763bb37b5b59118a55baefe6e914c4cd7c49e7fdbbde190d692a2534f86c9e5",
+          "U_V": [
+            "25",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            0,
+            0
+          ],
+          "point": [
+            "23",
+            "-90"
+          ],
+          "point_sha256": "7d30793214497f2e46a737d28bca29c8e3b0826983610ae98f7f44a20ecf8cc9",
+          "coordinate_max_bits": 7,
+          "inverse_values": [
+            "25",
+            "9"
+          ],
+          "inverse_sha256": "acaf70053bf932cd20da264d2a8d9cd9f9133a21307c90e359cd78e076ccfbe2",
+          "U_V": [
+            "25",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            -1
+          ],
+          "point": [
+            "158",
+            "1935"
+          ],
+          "point_sha256": "928569c2d510b5f6d2e5c1a7cfdc172b2510718fd360a1e0bd1473b05bb47604",
+          "coordinate_max_bits": 11,
+          "inverse_values": [
+            "1",
+            "9"
+          ],
+          "inverse_sha256": "e3a70d31b8ffc2e056b545a651a9dd4f0c7c9f8ccfe908f2a9cd6739b050c5b7",
+          "U_V": [
+            "1",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            0
+          ],
+          "point": [
+            "-37",
+            "210"
+          ],
+          "point_sha256": "e0357f555f0aabe9fea62af25b041a7581eef598bc7f7f154bcd6fb72f9d706e",
+          "coordinate_max_bits": 8,
+          "inverse_values": [
+            "9",
+            "9"
+          ],
+          "inverse_sha256": "ff18c037a9f8f421378b0587e164619dc99d052d20f9c1f3b471d9e61bdc3d4b",
+          "U_V": [
+            "9",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            2,
+            1,
+            -1
+          ],
+          "point": [
+            "43",
+            "-210"
+          ],
+          "point_sha256": "df66e83d186d438b0e29deff5eb5fbe956aa3fd9174a565ac5a88bf6d41d16a2",
+          "coordinate_max_bits": 8,
+          "inverse_values": [
+            "25",
+            "25"
+          ],
+          "inverse_sha256": "3bde511fff60ef190094dc314bf137ec09dbe103a04a6933cbc85140882dee3e",
+          "U_V": [
+            "25",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            2,
+            1,
+            0
+          ],
+          "point": [
+            "38",
+            "165"
+          ],
+          "point_sha256": "36530a27aed94b85d40284f085149e0723405b2707a7d3752f5519470da98777",
+          "coordinate_max_bits": 8,
+          "inverse_values": [
+            "1",
+            "25"
+          ],
+          "inverse_sha256": "d23fc61c521d5640981089e77355d4264d96ed6841053685c1c420432b58ed20",
+          "U_V": [
+            "1",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            0
+          ],
+          "point": [
+            "5177/49",
+            "-351630/343"
+          ],
+          "point_sha256": "db3bc03f41eaf28ef661ef4ecc4f15211fc0d47f31cebbd0bf205d48ccb02202",
+          "coordinate_max_bits": 19,
+          "inverse_values": [
+            "169",
+            "225"
+          ],
+          "inverse_sha256": "499e506fa8035aab8bf09cb31da3daa9978481e7441cb925246101a0e341af43",
+          "U_V": [
+            "169",
+            "225"
+          ],
+          "n_m": [
+            "3",
+            "4"
+          ],
+          "lcm_values": [
+            "2520",
+            "2520"
+          ],
+          "lcm_equal": true,
+          "status": "gap_below_six"
+        },
+        {
+          "coefficients": [
+            3,
+            1,
+            -1
+          ],
+          "point": [
+            "-31",
+            "-234"
+          ],
+          "point_sha256": "00a3c9af59b52328a56aab86174a6fc0276a90ef3338860b54efb09eb350a892",
+          "coordinate_max_bits": 8,
+          "inverse_values": [
+            "9",
+            "1"
+          ],
+          "inverse_sha256": "8a560fefb67cce4799c7d819e8ba646c42cd5b2c202ec2626e1a5676407e6c45",
+          "U_V": [
+            "9",
+            "1"
+          ],
+          "status": "below_target"
+        }
+      ],
+      "exact_status_counts": {
+        "below_target": 8,
+        "elliptic_identity": 1,
+        "gap_below_six": 1,
+        "inverse_denominator_zero": 1
+      }
+    }
+  ],
+  "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]"
+}

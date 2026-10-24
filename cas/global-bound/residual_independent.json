@@ -1,0 +1,2547 @@
+{
+  "scope": "Exact exhaustive closed coefficient-box replay only; global completeness still requires the separate bound proof and full rational-group coverage.",
+  "method": "complete E(Fp) point set, translation permutations, no cyclic generator/discrete log; descending primes >257",
+  "inputs": {
+    "bounds": {
+      "file": "lattice_reduction.json",
+      "sha256": "68b64fdcdf8ec03d3d6628c9cdedf9ab407126adde6122813c37aa7107dade27"
+    },
+    "maps": {
+      "file": "verify_k6_maps.output.json",
+      "sha256": "a481c2d430435e328b9f6b93739b26ff024de2a9d2b7f64733694dd56d158560"
+    },
+    "basis": {
+      "file": "real_logs.json",
+      "sha256": "c6b26c02c0f0babae5ffd328572357de495ec5608ad1e6f9a2f587a6fa3e5f9d"
+    }
+  },
+  "curves": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "bound": 60,
+      "total_triples": 1771561,
+      "self_tests": [
+        {
+          "prime": 503,
+          "box_bound": 2,
+          "exact_rational_comparisons": 125,
+          "pass": true
+        }
+      ],
+      "sieves": [
+        {
+          "prime": 503,
+          "group_order": 498,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 139,
+          "points_sha256": "a2addaeb9e5cd92efb8d27036fbb6fb5f6c35a726e8f9269df8c20ab7ffbc00a",
+          "allowed_points_sha256": "723103c42352712483b20bdfbf53f96501c003f93a45bfa24823bb0f65f2995a",
+          "tested": 1771561,
+          "retained": 520197,
+          "retained_indices_sha256": "7d3c958f1d321756378b84179c34a16de4dc4b06f3f62ab46140a7e514c53f25"
+        },
+        {
+          "prime": 499,
+          "group_order": 460,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 120,
+          "points_sha256": "7123162efde4f8087e0cfb9c799701ad57b018e2f2fedabf2716ff22a70545af",
+          "allowed_points_sha256": "b63270d35ebcc74b227a04c8739c551fc727c4e53e720655c194c70ffa7d65a8",
+          "tested": 520197,
+          "retained": 135572,
+          "retained_indices_sha256": "ea8a3412ba06b4bfa9e9026db1ede45e73ea7059ab667db5d7da4b6d8e7335a0"
+        },
+        {
+          "prime": 491,
+          "group_order": 464,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 134,
+          "points_sha256": "ba85e394fec3abe589ef1037de23576e2ea0a7ee1f03086d3871586feeb848f9",
+          "allowed_points_sha256": "4bb68569415ee570898b81ac29369b43e8f1abdc5dadbee9b4eeef7f42e7bbce",
+          "tested": 135572,
+          "retained": 39054,
+          "retained_indices_sha256": "15ff624d912909a9a769abb7d586326fbf03a163f6d1a55df8afed0dad5ad2e5"
+        },
+        {
+          "prime": 487,
+          "group_order": 512,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 125,
+          "points_sha256": "a64e15705599502da3033700e330bbe2ab90f0fda7a45ae06a21d7702f38ae55",
+          "allowed_points_sha256": "d273c60ac80975711add72a92e68c8ee32d84f19d0104c8e75a09668f9d11ea0",
+          "tested": 39054,
+          "retained": 9641,
+          "retained_indices_sha256": "6f0f479f1b10f515ab403d5dc74879b3f46812722b52617b9fbc2640fd9656a5"
+        },
+        {
+          "prime": 479,
+          "group_order": 489,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 131,
+          "points_sha256": "63b0fd68895d14007d80b657220380b266673ecf1e97d317f7ce77cf6b5040c1",
+          "allowed_points_sha256": "fd27f0acf1d5ccf84b11b38689ab2547e3a57303079336e5fb103714c190bf13",
+          "tested": 9641,
+          "retained": 2640,
+          "retained_indices_sha256": "96788b3f2223c2bfa938ea5866b56a6f325fc2a7d37e493c10bcb9304667e68c"
+        },
+        {
+          "prime": 467,
+          "group_order": 476,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 124,
+          "points_sha256": "63f861628125122972640423c7cb7f8592009d638c1d6b194ec336b861a1edd1",
+          "allowed_points_sha256": "ca1aebae294fc69632c56fe7e2cd4961788970600a6a42fb8c980c5f7d6ce347",
+          "tested": 2640,
+          "retained": 676,
+          "retained_indices_sha256": "00e095bad59e3152c45fcf61564d6d1e169a41f77f2247020322dc689d606bc4"
+        },
+        {
+          "prime": 463,
+          "group_order": 490,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 120,
+          "points_sha256": "91eb7a0b506a40d2536767478fa83c36fc4de60c959901e555e06eaaffc874b9",
+          "allowed_points_sha256": "7c8928c3aeef44c85f3595d8bc0f78ac09fe6a2cf0964cdc872d9bc67cee2ac9",
+          "tested": 676,
+          "retained": 185,
+          "retained_indices_sha256": "2c0625331c29504de458ec9220e4266390a7adcadb70b50058c752df8d6e059b"
+        },
+        {
+          "prime": 461,
+          "group_order": 504,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 127,
+          "points_sha256": "20fba4472b53ecff67597a801499490cf078615b6005c082f51cc7af00f5fced",
+          "allowed_points_sha256": "e93ce030d7afe5c372238ae2eb517b70682cb65c54472b0566ea280c0faf51f4",
+          "tested": 185,
+          "retained": 55,
+          "retained_indices_sha256": "3eda43690f57f1e9cc2e8b8d3e29c2a686d34bf46bb02cb8a88af9f4197f43fa"
+        },
+        {
+          "prime": 457,
+          "group_order": 428,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 103,
+          "points_sha256": "c0bf4fa19ac8d4ca9e8832089b1c320cbf6ffdc4b418eb76d87d023db5e3ac46",
+          "allowed_points_sha256": "265009373af982663c38bba810d63960e4bade9b5ded3e2ee29f32c90e15576f",
+          "tested": 55,
+          "retained": 20,
+          "retained_indices_sha256": "ed59792eb5f71abe85c127909d89e98bd1c24ca731b6366c0696fd45409dc00a"
+        },
+        {
+          "prime": 449,
+          "group_order": 477,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 115,
+          "points_sha256": "49fe8a5cebf6a9b67fd0a69fe76b8f0ad3fa328b1bbb56b77afd9ce88e887a96",
+          "allowed_points_sha256": "ada62202c05572d2040f7f18328f47d594ec73424ee800a8b2744f9d38861529",
+          "tested": 20,
+          "retained": 15,
+          "retained_indices_sha256": "81acf7f86d54b0c58d6754bf3032e4168da976a796d819e26403bebe1c4b1639"
+        },
+        {
+          "prime": 443,
+          "group_order": 483,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 115,
+          "points_sha256": "e4bf4b1c6f0f492095f4368ce535e9c1eb9440976cba8663eb68675ce8d96e17",
+          "allowed_points_sha256": "123ac6874a0121f083c9953dc5bc549eb5f5148586c347b7a54fa5e379f49871",
+          "tested": 15,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 439,
+          "group_order": 454,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 125,
+          "points_sha256": "561b9023a7f0fb8feb8670dc05f748c3ab96cce33f4cdc092de86bbddb4e7109",
+          "allowed_points_sha256": "b3ccfaa9a0e7dbf3ac88581714beaebf916082cc2379609afb182ed3f24c0c74",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 433,
+          "group_order": 445,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 131,
+          "points_sha256": "a4c2d44ac9c01f06b667e97de4f89ffd502275affcfc605baa946fc4fdaf89fa",
+          "allowed_points_sha256": "8cc37bdcbcd55e2133afb042050280c01ae3f0134d701daddf7850d402e903cc",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 431,
+          "group_order": 403,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 104,
+          "points_sha256": "d6b1f362cd43412709a2803de3fa1a49e53997a63d9595bb8d24ccc99d6838ab",
+          "allowed_points_sha256": "36b36cfbd539ea9abe820db16e73f19c2a9e824eff93cba58bb3f54ccafcb27f",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 421,
+          "group_order": 430,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 117,
+          "points_sha256": "1336ba72d40d87ec22bc8bc735e1c1d57caeb6a1f75eb15612c79e31e098a530",
+          "allowed_points_sha256": "47c47ce50a355658e2aeca5090b98394273adf60788454d35786b7e1a6d15b36",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 419,
+          "group_order": 440,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 117,
+          "points_sha256": "10bd553c3935f40b683b6486c4b55065955b03ffcfac1d7d786b8f603221e5b3",
+          "allowed_points_sha256": "943ecd5d98a2c240695e09a882410e9c36facde32570b9ccdef25c0f3030c7a1",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 409,
+          "group_order": 376,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 96,
+          "points_sha256": "73f3a99b9c21677242e590f242374ecd335bbcaabb08aaa433ddcbd19e18b53b",
+          "allowed_points_sha256": "6a60b3ed862e18eaf9369dcb13a64e0404720937a8155967269e0cc7b5d7e509",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 401,
+          "group_order": 419,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 117,
+          "points_sha256": "9b8b651c369123a85a6bea44f41124f8a11a624e54559e1b2edfb7be44de826e",
+          "allowed_points_sha256": "448a7ecbc03c27133dab067a7acf110cb8b3a85fa74ebd051732f7e951d58707",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 397,
+          "group_order": 392,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 100,
+          "points_sha256": "cf5be45b28379c6005ba21058f3aa94596ca0545818f1a2e26d379ebb6d5136e",
+          "allowed_points_sha256": "4cdcdeb1ee8ee44b2d2d8f05afe556d6e54467c1905f928e93cd2a5797125f8b",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 389,
+          "group_order": 365,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 100,
+          "points_sha256": "992fe721fc4209817643235fba2d97d3fd718739baae9201918b030b125f41a9",
+          "allowed_points_sha256": "3d1fb4e180064c28e0e92078d24142d419fafe670129e3d119a9c556c2605910",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 383,
+          "group_order": 390,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 106,
+          "points_sha256": "e81e2e1eb1f5bd702bdb2e710f12cf664a1b125deae0ca886330f8a04346fd06",
+          "allowed_points_sha256": "eedf3721f4b58ff63a49a1440284ce65213de67ea17858d4668be89618f5bf50",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 379,
+          "group_order": 408,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 106,
+          "points_sha256": "751c0c451b4b09c262094ae87adb422582b27f3cdefa2f500f2544ec5832e45b",
+          "allowed_points_sha256": "a6a76be2923d14328970af793c76032e059c2d5e275bc87fa91c46388009767d",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 373,
+          "group_order": 403,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 101,
+          "points_sha256": "d50fa8c2cb191d37795b0c6ace64b3acaa117461b358f76d59603bc6edf4d267",
+          "allowed_points_sha256": "a3d1981b26807d7f5c336297d8fa671937caab9ddb6e00a9aad78b6f840db3e9",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 367,
+          "group_order": 356,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 106,
+          "points_sha256": "bf862591873f189c17a6d1d673c2d827e9eca0b19e949e32641b51f6d7864edb",
+          "allowed_points_sha256": "82d573f27d303efb311ce9cf5ab3f487b8b71578cbe3cccaf8a371e5861953fb",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 359,
+          "group_order": 362,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 83,
+          "points_sha256": "49356f0ed5118eb34e376f38befa39bfc63e1585dc0404b33bcb345b53eafebe",
+          "allowed_points_sha256": "604fe7c923be5c963fd2f6d7f4717343ce1466a767a00d8198bbc4893e84aef0",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 353,
+          "group_order": 346,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 94,
+          "points_sha256": "6232da27921a72d090ec5d81c02c57dfd0b6c17a5555b16a6e6e6b72368060f5",
+          "allowed_points_sha256": "0162b8f2eab977ce13a0f1be3f193c91cc5f9ccd573399a7f50e60eee47e2e29",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 349,
+          "group_order": 330,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 86,
+          "points_sha256": "5830f48047c42c22e68c9a5eaaa4649815f5315508574fa1a8f79e5259651804",
+          "allowed_points_sha256": "854bf06202c1d1f7dbc6398cd32efc22114b90c2415719a2e71fe08e2316f407",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 347,
+          "group_order": 327,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 86,
+          "points_sha256": "af8583359907ae0dcdde92b4c42e09584368f65d720f183cf2c1548fa3cc62aa",
+          "allowed_points_sha256": "069ab3d17d835e2e29fe44ea5b39316c2a2791c3dc856bf4ab47b18a19b5537a",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 337,
+          "group_order": 346,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 91,
+          "points_sha256": "331a98f779dd2de79cf526c6025a592534ca9a0bd7d4d319a8b942394afc6b70",
+          "allowed_points_sha256": "831a131f292c1db2c594e9008d3054a9aa58638fc1f4323aec572e6657208e9f",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        },
+        {
+          "prime": 331,
+          "group_order": 301,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 83,
+          "points_sha256": "f9514880cab1494251bf3040eb684f3db5c919008df9c7a4dff4f125ce14de19",
+          "allowed_points_sha256": "925b1fbe36924312578fcd750ca68e13dd5ac8a40625071cc1d2dbde40a7b127",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "e48129acc5c6cdaf189876d5027c1edcaeba9c7dab2f8389eeb5c843b3a89c7f"
+        }
+      ],
+      "survivors": [
+        {
+          "coefficients": [
+            -2,
+            -1,
+            -1
+          ],
+          "point": [
+            "23",
+            "-102"
+          ],
+          "inverse": [
+            "1089",
+            "1369"
+          ],
+          "U_V": [
+            "1089",
+            "1369"
+          ],
+          "n_m": [
+            "13",
+            "15"
+          ],
+          "carry_equation": true,
+          "lcm_values": [
+            "1627920",
+            "1627920"
+          ],
+          "status": "gap_below_six"
+        },
+        {
+          "coefficients": [
+            -1,
+            -1,
+            -2
+          ],
+          "point": [
+            "65/16",
+            "-441/64"
+          ],
+          "status": "inverse_denominator_zero"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            0
+          ],
+          "point": [
+            "5",
+            "-6"
+          ],
+          "inverse": [
+            "25",
+            "9"
+          ],
+          "U_V": [
+            "25",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            1
+          ],
+          "point": [
+            "7",
+            "10"
+          ],
+          "inverse": [
+            "1",
+            "25"
+          ],
+          "U_V": [
+            "1",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0
+          ],
+          "point": null,
+          "status": "elliptic_identity"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            1
+          ],
+          "point": [
+            "-7",
+            "18"
+          ],
+          "inverse": [
+            "9",
+            "9"
+          ],
+          "U_V": [
+            "9",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            2
+          ],
+          "point": [
+            "199/9",
+            "-2582/27"
+          ],
+          "inverse": [
+            "289",
+            "361"
+          ],
+          "U_V": [
+            "289",
+            "361"
+          ],
+          "n_m": [
+            "5",
+            "6"
+          ],
+          "carry_equation": true,
+          "lcm_values": [
+            "27720",
+            "27720"
+          ],
+          "status": "gap_below_six"
+        },
+        {
+          "coefficients": [
+            0,
+            1,
+            1
+          ],
+          "point": [
+            "-4",
+            "-21"
+          ],
+          "inverse": [
+            "9",
+            "1"
+          ],
+          "U_V": [
+            "9",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            0,
+            0
+          ],
+          "point": [
+            "5",
+            "6"
+          ],
+          "inverse": [
+            "9",
+            "25"
+          ],
+          "U_V": [
+            "9",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            0,
+            1
+          ],
+          "point": [
+            "4",
+            "-7"
+          ],
+          "inverse": [
+            "25",
+            "1"
+          ],
+          "U_V": [
+            "25",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            1
+          ],
+          "point": [
+            "9",
+            "-18"
+          ],
+          "inverse": [
+            "25",
+            "25"
+          ],
+          "U_V": [
+            "25",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            2,
+            1,
+            1
+          ],
+          "point": [
+            "23",
+            "102"
+          ],
+          "inverse": [
+            "1",
+            "9"
+          ],
+          "U_V": [
+            "1",
+            "9"
+          ],
+          "status": "below_target"
+        }
+      ],
+      "status_counts": {
+        "below_target": 8,
+        "elliptic_identity": 1,
+        "gap_below_six": 2,
+        "inverse_denominator_zero": 1
+      }
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "bound": 60,
+      "total_triples": 1771561,
+      "self_tests": [
+        {
+          "prime": 503,
+          "box_bound": 2,
+          "exact_rational_comparisons": 125,
+          "pass": true
+        }
+      ],
+      "sieves": [
+        {
+          "prime": 503,
+          "group_order": 522,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 130,
+          "points_sha256": "dbe4a152d7d1ff391dd165bbe26fcca4c04e1554fd7e2a4e96e29da2af46a610",
+          "allowed_points_sha256": "96a65df5b5b7e38f24aa5441ddc8f240bbba0fd7ae4b7ab989cbc456ce7c36e1",
+          "tested": 1771561,
+          "retained": 441224,
+          "retained_indices_sha256": "1220db5e44069f354a5beafe73700fcff8dea369692f079ec82e1c70d33abf1e"
+        },
+        {
+          "prime": 499,
+          "group_order": 519,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 138,
+          "points_sha256": "34ce6d249f1b2f1db4ac88d3e296d440b01c173f7569659fbbae9cf4b5fca238",
+          "allowed_points_sha256": "8674d2a1796708fcf7d56b147b96f7ccb22eddda0d924e065452b27c5c78d539",
+          "tested": 441224,
+          "retained": 117201,
+          "retained_indices_sha256": "252d7ad29a7d55bf3f23695760d53ca9f0e5e7eeb03e5634e5e14c0c3525179b"
+        },
+        {
+          "prime": 491,
+          "group_order": 472,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 118,
+          "points_sha256": "db99dba02969a8bd52d9bfb57006503eaef1edfb2e353c46108e960eaed83a9c",
+          "allowed_points_sha256": "91f9ee2ece9f1393f23ae8af27a87a42a4500fcc2be03a166484d6813dceafff",
+          "tested": 117201,
+          "retained": 29267,
+          "retained_indices_sha256": "61928bb587f434b12857abb09f16e4ef69a886be42700be8f592e6173f4d79ee"
+        },
+        {
+          "prime": 487,
+          "group_order": 475,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 126,
+          "points_sha256": "2be17d2b02549780d6e5100bd5847c43f0ac2290831e67a9a20534c782987374",
+          "allowed_points_sha256": "55fa9304ae6347146b24575ef51f297519a9e28c2ba455f9eca30a45abcf9342",
+          "tested": 29267,
+          "retained": 7695,
+          "retained_indices_sha256": "1d8a425b8b0a20ae3e689c940da3d71b1fca35efdb291346c7f6eb0491b3adea"
+        },
+        {
+          "prime": 479,
+          "group_order": 456,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 115,
+          "points_sha256": "ff9ffacad8ae687830315b83e80403f127f138c5a1cb6aeee33a5b5b383fd33a",
+          "allowed_points_sha256": "2aafc7f1909fa9f1d0829d0ad8f0b3a7fd4c3b5299cec5659448bf6dad1b7944",
+          "tested": 7695,
+          "retained": 2016,
+          "retained_indices_sha256": "1031cbd7a5fd9f419bfc84042b2eb104f4b23e672728e51f234e6de4f71c1df2"
+        },
+        {
+          "prime": 467,
+          "group_order": 488,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 136,
+          "points_sha256": "76588bc5a84bdc6384176f963c63a1ebdc90ef9d343179d2a94e06cb5ae25098",
+          "allowed_points_sha256": "6fc8b3ad36348ade0e468a2e1a49b7211196aa5d9cdedf3f281379b25b56a3e8",
+          "tested": 2016,
+          "retained": 568,
+          "retained_indices_sha256": "7979efdef0e12f989238216acae300f274a6db8974817496d4ae74f56effbb60"
+        },
+        {
+          "prime": 463,
+          "group_order": 469,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 107,
+          "points_sha256": "b8f3aedc0de34a4574d36253f3f51a1a41bf1909c223e64a19c28c57a78c6332",
+          "allowed_points_sha256": "6f8a0cc0761eddd0c168d00404cdfece7c023549186a969fe147c17eca7e91b2",
+          "tested": 568,
+          "retained": 128,
+          "retained_indices_sha256": "0ef827c3061864507d0e7322be28a173526050e65ee5866920d2d5cba605043f"
+        },
+        {
+          "prime": 461,
+          "group_order": 434,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 119,
+          "points_sha256": "bb1c56e90c372dd53e036be2c023849f6ef335e312087b7e1840481a188d8116",
+          "allowed_points_sha256": "62dc3c8f4dc4dfc468b336a9b510f4cef88f5fca34016f4cc53948b76376335f",
+          "tested": 128,
+          "retained": 42,
+          "retained_indices_sha256": "86a74727df30b17f03c52dd822a28b0a9f37bd81df2d37f4c78344c339b1af90"
+        },
+        {
+          "prime": 457,
+          "group_order": 441,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 118,
+          "points_sha256": "5ea4cb7798a57d2f83dd26ec8f5a6562255f270bd268f2367763a85dd2c2acb9",
+          "allowed_points_sha256": "9abc451e6f8a4de232b1ea63ce37b51db6c8b23e7cc1867e469b8011e34a2ba7",
+          "tested": 42,
+          "retained": 21,
+          "retained_indices_sha256": "d454f7e341dc915cfdcb22a0267be8db181237660c5fc8640ca12602fc10eeae"
+        },
+        {
+          "prime": 449,
+          "group_order": 445,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 122,
+          "points_sha256": "12cf77c03f901ae463492dbffc82392b79a8035920650849d20e18d81f725fcd",
+          "allowed_points_sha256": "03d04ed93bb39a5277a661b1d084cfbe58d4f2fd081ad1296b4c57810de5d63b",
+          "tested": 21,
+          "retained": 12,
+          "retained_indices_sha256": "1df1764f6568a10c4ce2bac32a77b9e5af539783cbe6718489e184e2e21ab7c0"
+        },
+        {
+          "prime": 443,
+          "group_order": 445,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 117,
+          "points_sha256": "66c955fabce704e3add67366945c86cb46696976a3f8a58f64734854fa88f2c1",
+          "allowed_points_sha256": "6173b1dc7827963d6e602348fe9b44cef5e8334a95412f531e13609eea8ed687",
+          "tested": 12,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 439,
+          "group_order": 456,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 124,
+          "points_sha256": "c3eeba2cbac2c987abda451b7ddbb66c64dfaf7bb46506cd97404a9de6c8c2fa",
+          "allowed_points_sha256": "32f9e1182df3e3dd4706b1886790891f6b35a2517935fa2f626f3905b26f7b09",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 433,
+          "group_order": 446,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 122,
+          "points_sha256": "a93bfd9170954da622484fff6eae5258124d18156f619190483900f1531866cb",
+          "allowed_points_sha256": "bbfa282a919737049ca3bf29b9ef1298d116d9b732a2d5708d98a233c7228b8d",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 431,
+          "group_order": 440,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 110,
+          "points_sha256": "24f0b880fd8417edcc5d9c0a5cce8a2ecbc3f3209c9443d66df0fef5e50f3f85",
+          "allowed_points_sha256": "b80fd52b7b22dff8777461dbb7891d9765cd88e089090390fe0c56fc22193f5f",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 421,
+          "group_order": 450,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 129,
+          "points_sha256": "b7e86ad1c84f11ec0bc97e7400b00a3790f43c0e0255c31f35c0f520b3e7519b",
+          "allowed_points_sha256": "e5ce077e36a6a271b998310193df7faeb728c62bddc73aaa367e5f6ffbb6b218",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 419,
+          "group_order": 432,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 123,
+          "points_sha256": "d742c1296c644522d683d7a026b604b77cdd8fc0d365f82d3e31bfe4eed7f9a9",
+          "allowed_points_sha256": "41ad3978150cd66469ffa8f4ae3bb37f266e3e8e1039c8cf03a948767fd79b51",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 409,
+          "group_order": 434,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 125,
+          "points_sha256": "cf69fce1c887e4088eee3573b91f88285a708dd8d6a7405e205bd54bff5dab39",
+          "allowed_points_sha256": "e085234f9b38ddd22e9c8f63135c6ff8e3f67111b36371d2a5f7c2f7e608088c",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 401,
+          "group_order": 390,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 105,
+          "points_sha256": "672e023c361918cfdbb82c98e5b995fc3be0feab35bf8c1cf9441a8905d70a01",
+          "allowed_points_sha256": "dfb4f50697758976541e8a1b5da1ab2f181b6e73a67638bd61d9630abddccaf6",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 397,
+          "group_order": 400,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 107,
+          "points_sha256": "9d07c0f2dc009b0b40670ecd93fd12d0c00433f7cd6e9c84afbd3897d5efe177",
+          "allowed_points_sha256": "6b6ac248fbe13d4d9c53094322c5ec879ed9f7650d3f7f62a7683c6e63896d25",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 389,
+          "group_order": 419,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 112,
+          "points_sha256": "b691bd5faba9ff8994e812afa27e1d738871e13108955708ec52d05df6a67221",
+          "allowed_points_sha256": "c9e3feae318e846c1121bda0901dfafe4e64295f919b21a5bb337c30ad4676e3",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 383,
+          "group_order": 392,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 92,
+          "points_sha256": "70c4048e28d9b3d5633cf050cbc6c5bfd72c378e6db3db5aa8f295892aea50b3",
+          "allowed_points_sha256": "530592e5d84d954d995865114d81b8cb7c4a898a4a8859861ae62e354416d0b0",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 379,
+          "group_order": 394,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 103,
+          "points_sha256": "d3b982eb7bbefa5e94ed73d89c8f06fbb009345a771db290a53917a2cf3d8d1b",
+          "allowed_points_sha256": "be2b76e4fbff2ecab18a75b3c1bb45ab5b6b4732c00e5ceee712a701b9e6edd9",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 373,
+          "group_order": 338,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 87,
+          "points_sha256": "0fdeb6bae2962ad6eb08054541134073e3fede732f1c647dc7403860c88221a0",
+          "allowed_points_sha256": "22f45cef05e409a2868ccf66238b8ad4bfbeff14adec584136ed2e831bf029d5",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 367,
+          "group_order": 384,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 105,
+          "points_sha256": "75e00295925a093b6a86a4d8e53b68905d6e414df20733134525783175d2ba4f",
+          "allowed_points_sha256": "511ea657cc02022b094e7d33a424e9ec3a33ed69091821ccf892426bfc05303a",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 359,
+          "group_order": 359,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 100,
+          "points_sha256": "2464b5b0638982a02173ce2db7e2053ab7f898078de855dbb6bf6a378a911a19",
+          "allowed_points_sha256": "d8f2c77c8f41027224ef60bbb12dc1907a6559d0bfbe94ed1b7a6b62b82cdf9b",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 353,
+          "group_order": 344,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 88,
+          "points_sha256": "d0d8e141c82a3f7abbd9d4e0f75b82a124ee5f760441851833e87a663fc1a199",
+          "allowed_points_sha256": "53aecf1a33b1da9c13c4b390a2eaf5b134c6b23784dfaf12d021bfdb8e9f65b6",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 349,
+          "group_order": 340,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 89,
+          "points_sha256": "cf0b94ab685e3ab6970111ed15e84cabf21190e917d8eae0ea01e44752e29ff6",
+          "allowed_points_sha256": "f82767035bb815a396777f0d61bd01706469dae640906da9ba30136f0a6dde03",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 347,
+          "group_order": 320,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 95,
+          "points_sha256": "8821de74c3486ce196b4e627b6c69707ff2852c2779ce9ad26c003921d2adee1",
+          "allowed_points_sha256": "82568d8d2d5e836ab0d2a79ae65d5bccc258fda385913ec8b6d9c7fa7b69c7d5",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 337,
+          "group_order": 315,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 82,
+          "points_sha256": "f7aaca7da5d186a894eae478586ac1a45add5b03fe10c4e4d62a197db26974e1",
+          "allowed_points_sha256": "731fb45a0e4d4fe42dc8ef469d1fefb37542e9504db8bc43bc487d17326e3584",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        },
+        {
+          "prime": 331,
+          "group_order": 328,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 87,
+          "points_sha256": "ceecce055366ec773f32b0b3bb3abd246431afb6079b7585c3a911ef89baedfb",
+          "allowed_points_sha256": "f091f7c239c3034d4c07b6c6425e36a74b4bff575b34e0bc47036facd0337753",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "53fae35fe57703f9e3a1b45adcb374a80e77461023898053d3241471631e8ba0"
+        }
+      ],
+      "survivors": [
+        {
+          "coefficients": [
+            -4,
+            0,
+            2
+          ],
+          "point": [
+            "433/9",
+            "-8380/27"
+          ],
+          "inverse": [
+            "64",
+            "100"
+          ],
+          "U_V": [
+            "64",
+            "100"
+          ],
+          "status": "even_square_root"
+        },
+        {
+          "coefficients": [
+            -3,
+            0,
+            1
+          ],
+          "point": [
+            "8",
+            "-64"
+          ],
+          "inverse": [
+            "25",
+            "1"
+          ],
+          "U_V": [
+            "25",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -2,
+            -1,
+            1
+          ],
+          "point": [
+            "192",
+            "2640"
+          ],
+          "inverse": [
+            "1",
+            "9"
+          ],
+          "U_V": [
+            "1",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -2,
+            0,
+            1
+          ],
+          "point": [
+            "-18",
+            "90"
+          ],
+          "inverse": [
+            "9",
+            "9"
+          ],
+          "U_V": [
+            "9",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            -1,
+            1
+          ],
+          "point": [
+            "22",
+            "-90"
+          ],
+          "inverse": [
+            "25",
+            "25"
+          ],
+          "U_V": [
+            "25",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            0
+          ],
+          "point": [
+            "12",
+            "60"
+          ],
+          "inverse": [
+            "9",
+            "25"
+          ],
+          "U_V": [
+            "9",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            1
+          ],
+          "point": [
+            "32",
+            "160"
+          ],
+          "inverse": [
+            "1",
+            "25"
+          ],
+          "U_V": [
+            "1",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            -1,
+            1
+          ],
+          "point": [
+            "-24",
+            "-48"
+          ],
+          "inverse": [
+            "9",
+            "1"
+          ],
+          "U_V": [
+            "9",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0
+          ],
+          "point": null,
+          "status": "elliptic_identity"
+        },
+        {
+          "coefficients": [
+            1,
+            0,
+            0
+          ],
+          "point": [
+            "12",
+            "-60"
+          ],
+          "inverse": [
+            "25",
+            "9"
+          ],
+          "U_V": [
+            "25",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            3,
+            1,
+            -2
+          ],
+          "point": [
+            "69/4",
+            "-549/8"
+          ],
+          "status": "inverse_denominator_zero"
+        }
+      ],
+      "status_counts": {
+        "below_target": 8,
+        "elliptic_identity": 1,
+        "even_square_root": 1,
+        "inverse_denominator_zero": 1
+      }
+    },
+    {
+      "pair": [
+        1,
+        10
+      ],
+      "bound": 62,
+      "total_triples": 1953125,
+      "self_tests": [
+        {
+          "prime": 503,
+          "box_bound": 2,
+          "exact_rational_comparisons": 125,
+          "pass": true
+        }
+      ],
+      "sieves": [
+        {
+          "prime": 503,
+          "group_order": 492,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 117,
+          "points_sha256": "87a99ac0f1d8afb10b2a87aa4a9665c052bd243dc00c232b3f9d37a6a2570809",
+          "allowed_points_sha256": "e31197610dee7b209a47b671ecf3e420f1ab3e6a2f57e0bccdfb46202a9b3769",
+          "tested": 1953125,
+          "retained": 464462,
+          "retained_indices_sha256": "f184546211523db162b598cd72a53513361353ffe0c59eb2105324529824c675"
+        },
+        {
+          "prime": 499,
+          "group_order": 513,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 134,
+          "points_sha256": "d2fafc510b016d617b7df761d2a9fcb95ec9ed7bc39d2b5b4c7ae3977027960f",
+          "allowed_points_sha256": "064899ebf1f2fe9984aff8ca913a8b4fa39ca693a05a370850e3da7f5d49c463",
+          "tested": 464462,
+          "retained": 120688,
+          "retained_indices_sha256": "437aa3e17880e98693e9692ac2bf1783bc5f6c729019b09575d8172d6909c85b"
+        },
+        {
+          "prime": 491,
+          "group_order": 514,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 141,
+          "points_sha256": "d5524914c9fd2c4708631223e32b6385ebf8a28e1b410a9485961b4549b494f5",
+          "allowed_points_sha256": "0efd59a22a62db6fb789269c13c29959d463172e2d2567622ea392035eb83c22",
+          "tested": 120688,
+          "retained": 33037,
+          "retained_indices_sha256": "8ee8552d57652dd9e7b0dc4ec5a927ed9983d3efe3903d37d322518accd7969c"
+        },
+        {
+          "prime": 487,
+          "group_order": 513,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 138,
+          "points_sha256": "11d40d223f3d464f74c777c54563582f36b42a5a499daf5ed56115d6eecd6026",
+          "allowed_points_sha256": "27f4f9caed2d3d985ba82d3649964108dbfa5ab70924dd6672208214b5641eab",
+          "tested": 33037,
+          "retained": 8870,
+          "retained_indices_sha256": "62180a49f5aa0d17862b2a253bdce2486aa29ae1f5b8e8a4524050bb77c6e146"
+        },
+        {
+          "prime": 479,
+          "group_order": 504,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 143,
+          "points_sha256": "788e2dd9b59421867d937a92144b8235db6b6f34b39e37c168e0fd40cddf83fc",
+          "allowed_points_sha256": "36d5c6e75e974dbadda4c58aaefc62a671f7bd9a9c1d236143fe6e595a44900c",
+          "tested": 8870,
+          "retained": 2550,
+          "retained_indices_sha256": "12f678f511e8adf35701256a65cfa5c0682b8ce8f468a33ef132a7f9d507608e"
+        },
+        {
+          "prime": 467,
+          "group_order": 463,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 125,
+          "points_sha256": "2fabaeb23397ec591cdbb6ed4d00f41720975084c76bdeb5d565ed9b268e27de",
+          "allowed_points_sha256": "57b7c8aca9837f22d431ab482b2434bdf6c8f6a82e6d6f0c2208c598381dd394",
+          "tested": 2550,
+          "retained": 692,
+          "retained_indices_sha256": "ae4b90ddbd89137e7a678b2c080b8e1da1a861731b929036ac782a8e8144c2f0"
+        },
+        {
+          "prime": 463,
+          "group_order": 460,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 124,
+          "points_sha256": "6e3e4121369d95fe91cf1cd48b4a72311c6bcab84b7552f7ac74a3f0462b8713",
+          "allowed_points_sha256": "cfb9d05b757278b5639d841f6e1865ac0d3a96f46628c67ad0aec1930e9967ae",
+          "tested": 692,
+          "retained": 207,
+          "retained_indices_sha256": "5b535f7a15ae4ace80a5fd66ebd62f2abf9730d044150648e66d0f1f8c36a334"
+        },
+        {
+          "prime": 461,
+          "group_order": 502,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 147,
+          "points_sha256": "45f2bb9b991979e156e8ef0735f3549eac192c064b6acffd2b88306c510af809",
+          "allowed_points_sha256": "ef1364b4725590c759fd141f38176941cdbb61b01a1d0e060e254f53237c32de",
+          "tested": 207,
+          "retained": 84,
+          "retained_indices_sha256": "747ef545ca78f9bb400b34104d2f0ad1563213d8e02120ccd12696d03d93b2b1"
+        },
+        {
+          "prime": 457,
+          "group_order": 431,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 117,
+          "points_sha256": "1a622fd3e0a5608a754aca4b74170137b54434f5bf3aa01c6a55b64163c0d283",
+          "allowed_points_sha256": "7c8d68602c39c92eada650de2842220f59301cb1d547d7ba345aa04cf40c724d",
+          "tested": 84,
+          "retained": 31,
+          "retained_indices_sha256": "894543e7cb4de69e520db2a0e0964de96f46082ec911c16cc2148b9b623100f3"
+        },
+        {
+          "prime": 449,
+          "group_order": 482,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 104,
+          "points_sha256": "5c4150ee432235e79782e4dad38da8b5b0b78d7ad0bbea618c7601504649d9d4",
+          "allowed_points_sha256": "8d232a3355c921f13344e50511f3f06893cbfcff7949e07fb73c2ae28269738f",
+          "tested": 31,
+          "retained": 17,
+          "retained_indices_sha256": "4f064ef0cc45603912ee6a802e0729eadde0678be4aaa6ac1bb86c6cf8a47ca0"
+        },
+        {
+          "prime": 443,
+          "group_order": 423,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 113,
+          "points_sha256": "375dc93968815d55b84469d7a6fbe3e72b4d24b184ac44e5d6614d21b0ec7cf5",
+          "allowed_points_sha256": "61c1bfd3a62301b1de9f6da2421c2d1b104cf0526376cdcf2f62f916a886642f",
+          "tested": 17,
+          "retained": 13,
+          "retained_indices_sha256": "ae1eef7e00a09f7453293ec272dbdb0663f16ae13c7909487ad000e9dfecabc3"
+        },
+        {
+          "prime": 439,
+          "group_order": 405,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 111,
+          "points_sha256": "607e7c093194ae1e86055204461d32c276a3c304043408f0a9cd1fc83e976884",
+          "allowed_points_sha256": "5bfd4f3a2cd1c593703e5bd08fcad2cf3a227436cd04a8c6be8ea4ae678775e8",
+          "tested": 13,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 433,
+          "group_order": 426,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 104,
+          "points_sha256": "906693fa169875a6924632f09c4af85daf39ab20ddb080309c516afebd30865a",
+          "allowed_points_sha256": "0b91301ea0d98058af7a2736c9ce5b488cc6848e848d48cdc2164b1a4bbf5213",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 431,
+          "group_order": 428,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 116,
+          "points_sha256": "4a0d108447b2e66016a503cac7298856e2b7433c2f29a61135b6802b8eec3e90",
+          "allowed_points_sha256": "34030bc58d6ac0a79705c8c3222c3b8eb59db760d9e8b9085ed404f30255e733",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 421,
+          "group_order": 396,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 99,
+          "points_sha256": "ad978af3e16c30e634b5a8d5d3c0c6f530aaf0fbf6284cc761cbdf98a2b1d6cb",
+          "allowed_points_sha256": "e243f000e3b525d6bc0311ac6482c2b7355a5e670d3c84af45ec221bc2c2ce37",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 419,
+          "group_order": 439,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 120,
+          "points_sha256": "35ee35a905bd6039f4ac31fdec970270e7548ee7029d3be3edaadc42f28ae413",
+          "allowed_points_sha256": "86249c6d8a674c0cc9af362da0d0d8fa5e1870b1da173a05ae9ed98d8aa51475",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 409,
+          "group_order": 384,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 99,
+          "points_sha256": "a9e6713a889714c344a708a11910918498f3a805708a235f52e038da638a0737",
+          "allowed_points_sha256": "509bad0f8f3aeee8ea7cf4352184578a208a446ad0982abc20dda3955aff21c8",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 401,
+          "group_order": 428,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 122,
+          "points_sha256": "0e99015500603da8667c2acf7492cb0a55a04613c76ff2b1ed7e97083e08e020",
+          "allowed_points_sha256": "05fb2eedb7b4058b1e4a80b7cd56a0689b8946a7db5978197641ff981310c7fa",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 397,
+          "group_order": 390,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 107,
+          "points_sha256": "e4f61eb0e200db87f3bea5d657d01de362cfb147d7ff8123e97e0ee1c0ce224b",
+          "allowed_points_sha256": "a696160c970d7f6a168489900a97fba1d371c46319bd45d4c9378b8ffc9389a5",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 389,
+          "group_order": 374,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 107,
+          "points_sha256": "2e00af916512177640c5c955691107624b40b48fe2a108d80f8d0087bfd999f1",
+          "allowed_points_sha256": "393d25733d90da12e2991df08ed55de6043e79c0f7e19b140dd99632db3c155a",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 383,
+          "group_order": 376,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 99,
+          "points_sha256": "3a9bca4c5da2f03499de773bcfbf76617d0c0507b6a9cfefb4d1b2ff8a649230",
+          "allowed_points_sha256": "a0e0a35c937c5b5af635545de30fea8ef79dcfe92a52a5bcbb0ecc5a72f96f96",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 379,
+          "group_order": 360,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 102,
+          "points_sha256": "7432516d30bef9dbce4b04781c0e6e274a29b23846f26722e2488329d123d67c",
+          "allowed_points_sha256": "133a8e84f9974104e9298b85c05950a5b28baff1262c20d5b5552357941bd0ca",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 373,
+          "group_order": 338,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 84,
+          "points_sha256": "ea1c8b7a97eb981ebae0d4d8fd2450329ffbf0eb848931e3aba8795c3ab2020b",
+          "allowed_points_sha256": "bf1b49da2408c659681f76e674f79d4dcdab944036f2e28499f44c375c764042",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 367,
+          "group_order": 359,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 85,
+          "points_sha256": "c5f042904c80577bf16eaf555f7f2299b81455b9726356dd1cc6b2513dff744e",
+          "allowed_points_sha256": "767e1b6f2973851863d285d0a92c517e3246a473b805315bb6959ea80ab29210",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 359,
+          "group_order": 348,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 86,
+          "points_sha256": "4678852c0e3f3f8dc9a85a138edc5f9e1011098c161ebcfc93cafcf286455d40",
+          "allowed_points_sha256": "cdeb268dc18f70b95ca0f1c4fd008f234e9dfed3c797c4f3d967ef0ce5af05d8",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 353,
+          "group_order": 378,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 111,
+          "points_sha256": "378aa8141a34d685829cb37f84a9a4eedd99e8b661eb3c7895f6f7233d68ae16",
+          "allowed_points_sha256": "bae3e8ab2ef4224ab6bb426c5be9c2f9d13046707acb5562a74372e6dcb23304",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 349,
+          "group_order": 378,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 102,
+          "points_sha256": "7bd9efd9901a35fbe2524444af422f25d34afbb5d0372ec883e1f7177a97e873",
+          "allowed_points_sha256": "7610cb90fed9ea35fc93e20fb15e796181c846f5c4870a62f0a5becd5c695c10",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 347,
+          "group_order": 384,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 112,
+          "points_sha256": "68aa40131d06e94032b6831c5057f5e64275a292bc8a9d78333afd3dfe7da731",
+          "allowed_points_sha256": "968a1a0855b4b6d1f6e0fcb848d4efb7d1f197255756ca33cf5eb6493dd6e96f",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 337,
+          "group_order": 352,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 89,
+          "points_sha256": "cfedc6c9367b1e9f7a6290df4f47179183c169bf1ebf24354297d5b98d09d7d9",
+          "allowed_points_sha256": "d415774cb73f02081c56ea0716b19bbe204b62b0e1fd0bd8de76753c1fff044f",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        },
+        {
+          "prime": 331,
+          "group_order": 358,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 91,
+          "points_sha256": "00800175c60b22bef5b9b70e3810b4934bcb4aac7fc6696abea90084f41e2a6b",
+          "allowed_points_sha256": "63455114ec82cb8ebc6f879fca9dd3fa78ea8913f89d4d4cdefbe43eff9d1db5",
+          "tested": 12,
+          "retained": 12,
+          "retained_indices_sha256": "1ea8d14cc6050d1fdbfd7004e3ec412bac1597dbbefd4dbd3ead85bbfb097425"
+        }
+      ],
+      "survivors": [
+        {
+          "coefficients": [
+            -2,
+            -4,
+            2
+          ],
+          "point": [
+            "10433/121",
+            "-1035630/1331"
+          ],
+          "inverse": [
+            "361/9",
+            "625/9"
+          ],
+          "status": "noninteger_inverse"
+        },
+        {
+          "coefficients": [
+            -2,
+            -3,
+            2
+          ],
+          "point": [
+            "113",
+            "1170"
+          ],
+          "inverse": [
+            "1",
+            "25"
+          ],
+          "U_V": [
+            "1",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            -2,
+            1
+          ],
+          "point": [
+            "-37",
+            "330"
+          ],
+          "inverse": [
+            "9",
+            "9"
+          ],
+          "U_V": [
+            "9",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            -1,
+            0
+          ],
+          "point": [
+            "-58",
+            "27"
+          ],
+          "inverse": [
+            "9",
+            "1"
+          ],
+          "U_V": [
+            "9",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            -1,
+            -1,
+            1
+          ],
+          "point": [
+            "23",
+            "-270"
+          ],
+          "inverse": [
+            "25",
+            "9"
+          ],
+          "U_V": [
+            "25",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            -1,
+            0
+          ],
+          "point": [
+            "14",
+            "-279"
+          ],
+          "inverse": [
+            "25",
+            "1"
+          ],
+          "U_V": [
+            "25",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            -1
+          ],
+          "point": [
+            "43",
+            "-330"
+          ],
+          "inverse": [
+            "25",
+            "25"
+          ],
+          "U_V": [
+            "25",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0
+          ],
+          "point": null,
+          "status": "elliptic_identity"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            -2
+          ],
+          "point": [
+            "833",
+            "24030"
+          ],
+          "inverse": [
+            "1",
+            "9"
+          ],
+          "U_V": [
+            "1",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            -1
+          ],
+          "point": [
+            "23",
+            "270"
+          ],
+          "inverse": [
+            "9",
+            "25"
+          ],
+          "U_V": [
+            "9",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            2,
+            0
+          ],
+          "point": [
+            "977/16",
+            "-30657/64"
+          ],
+          "status": "inverse_denominator_zero"
+        },
+        {
+          "coefficients": [
+            2,
+            3,
+            -2
+          ],
+          "point": [
+            "113",
+            "-1170"
+          ],
+          "inverse": [
+            "841/9",
+            "1681/9"
+          ],
+          "status": "noninteger_inverse"
+        }
+      ],
+      "status_counts": {
+        "below_target": 8,
+        "elliptic_identity": 1,
+        "inverse_denominator_zero": 1,
+        "noninteger_inverse": 2
+      }
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "bound": 64,
+      "total_triples": 2146689,
+      "self_tests": [
+        {
+          "prime": 503,
+          "box_bound": 2,
+          "exact_rational_comparisons": 125,
+          "pass": true
+        }
+      ],
+      "sieves": [
+        {
+          "prime": 503,
+          "group_order": 493,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 131,
+          "points_sha256": "40bfe3fa1636e3264939216ca5edc1b587f707fef797a976794ad33b5d390d2c",
+          "allowed_points_sha256": "4d80426b837815b2ba7f812e7bcadcea2844903fd96f9d22e0fed7fed5d26921",
+          "tested": 2146689,
+          "retained": 570369,
+          "retained_indices_sha256": "47d9d4e2127839e1dacf362e858f0df27dab8918842dea1be13edfc72f742c79"
+        },
+        {
+          "prime": 499,
+          "group_order": 514,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 132,
+          "points_sha256": "10fcc83e50bf70f8705ee1a92984809148fdb6d6989905c76e21d05176af24b2",
+          "allowed_points_sha256": "4728bd53898047dbdff0e0199b683736c99e51d9fa3e467a3ebf2e5c31ee2fdd",
+          "tested": 570369,
+          "retained": 148960,
+          "retained_indices_sha256": "93d6c31f9d45fe9f69189040320515883b3898d2a9e7029180610c07dcba2303"
+        },
+        {
+          "prime": 491,
+          "group_order": 482,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 130,
+          "points_sha256": "6370d73310c748d6e9c5234666e54565e7b6e0e3b339439c2b46f20349ffa248",
+          "allowed_points_sha256": "14acb5f6c4018a4032767bd6f86186dde1cf3eef4c0b527d93370a814e6d2435",
+          "tested": 148960,
+          "retained": 40108,
+          "retained_indices_sha256": "77d1c86ddbec07a924773844d7152ca50d2f2d48b1a4cb497e610d2f7d36b265"
+        },
+        {
+          "prime": 487,
+          "group_order": 508,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 153,
+          "points_sha256": "6229db5c2ca2030680cd71a02779586c854672fc1b391655fca6396b9dd0ede6",
+          "allowed_points_sha256": "44901587305dce7c27fe0867dcd7ee3e216483d4048800f7ff614013b612c2f8",
+          "tested": 40108,
+          "retained": 11997,
+          "retained_indices_sha256": "e8846f8bae6c816e2b1d5bd7a8fa6c6d2a4905b0552500dcac81607cb211de8b"
+        },
+        {
+          "prime": 479,
+          "group_order": 466,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 122,
+          "points_sha256": "795bbc82480e32e8d008e12cd92db8b97e878766e6db69603c3d33ef7eebed0c",
+          "allowed_points_sha256": "98199e7b68d52aad1ed19f3222a2ff3d06ae820b8f95de9140fcfc6d1996499f",
+          "tested": 11997,
+          "retained": 3125,
+          "retained_indices_sha256": "34b3e3167bfd60bb229a08ce13dab7e1bc5acd12433d86a11eacdde9dd711798"
+        },
+        {
+          "prime": 467,
+          "group_order": 507,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 134,
+          "points_sha256": "08215daa31e653a4295182a869ab3279fc0209328b437d72f91999ebe08b8284",
+          "allowed_points_sha256": "24953b867b5b661fddabb16a19fbb53559ce9f9e7c399ca466ba1136c9b9b021",
+          "tested": 3125,
+          "retained": 849,
+          "retained_indices_sha256": "16145714a592bc6bd3572b827d894bc27bd23d75b96523358992b3ff40066366"
+        },
+        {
+          "prime": 463,
+          "group_order": 479,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 158,
+          "points_sha256": "8d3c6e0f59aadb7178ed18ce00e2b31aa3edb44b9537c0d551483e293b5b0e34",
+          "allowed_points_sha256": "ba156c15dcee6c01d09c6c83abc06cd8dd3089487362dbf9bd7c911376e0a3b7",
+          "tested": 849,
+          "retained": 284,
+          "retained_indices_sha256": "0a85cec2cf93dd9f18cf332665ac9718ec8e42679051a0c430d8f6fc5ea1ae04"
+        },
+        {
+          "prime": 461,
+          "group_order": 452,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 129,
+          "points_sha256": "6e2677c542ee236969c052119c3019e009a5b3618572ac53fc1822899f95012f",
+          "allowed_points_sha256": "8d988f403cf7dd192a4de8301262c7d25a954fe3a36879133845da6e6864692a",
+          "tested": 284,
+          "retained": 82,
+          "retained_indices_sha256": "15947af4373616c6e4e394d57b6ea0deb454af859d0945fc3e7f37512f566548"
+        },
+        {
+          "prime": 457,
+          "group_order": 450,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 134,
+          "points_sha256": "c7fc652965cb59dfbc66c8ba7024768865009f659e429888de9f2c978d08d01a",
+          "allowed_points_sha256": "34a469804bc941acf6948ad79f186dabe04581ff53773b2ce18ca3914c0e791f",
+          "tested": 82,
+          "retained": 35,
+          "retained_indices_sha256": "8bc71b9a7f40859f36d9cae1face32a51a6056de03daf7ef44933468b8b01b35"
+        },
+        {
+          "prime": 449,
+          "group_order": 426,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 109,
+          "points_sha256": "793927d8666ad346a36d070531ed70ca876f122bef88ba76773e1ad503f79dee",
+          "allowed_points_sha256": "8fe863f7a9a2d5882d91c2d80ff7abffec0d5f7495976c55f78e2b97b6edc130",
+          "tested": 35,
+          "retained": 15,
+          "retained_indices_sha256": "555e9bd651dd9fe7623f2ec53bb96421bc125c7186bf4b9a9d98968ad8a52c27"
+        },
+        {
+          "prime": 443,
+          "group_order": 452,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 109,
+          "points_sha256": "903d5b497061a7d970cce47e935e646cb4c3e17dc868ed599324300ae2b114de",
+          "allowed_points_sha256": "a8aeb9dcf155d0df11219945149ade80103800df02ece15deba2cb0af825c202",
+          "tested": 15,
+          "retained": 13,
+          "retained_indices_sha256": "a7b159f81507655df302886346fd0fac27ed7287933cea4a6a018fe85727327e"
+        },
+        {
+          "prime": 439,
+          "group_order": 480,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 131,
+          "points_sha256": "31a2c365d4ccc60f0ec05f0fa60a89e725e55898f91b05ec5df2a774828a3295",
+          "allowed_points_sha256": "48100e4a8e4e74b95ad4d9e2019a739d8870ada5a5382f206638cf7b894baac3",
+          "tested": 13,
+          "retained": 13,
+          "retained_indices_sha256": "a7b159f81507655df302886346fd0fac27ed7287933cea4a6a018fe85727327e"
+        },
+        {
+          "prime": 433,
+          "group_order": 462,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 121,
+          "points_sha256": "6e82f8cef2bd90bec43d3d58738d509909c93c3e3fc8580fe4f9c7be9ff04680",
+          "allowed_points_sha256": "721b5c71cab2e437f9cbf65f273e6e484ddde80200a6f3b865b1d429c04afb92",
+          "tested": 13,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 431,
+          "group_order": 392,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 90,
+          "points_sha256": "050199b9c5b649dbdfa3d7993c1994958d2ff5bb6023d2d2198e2d993aeb28ef",
+          "allowed_points_sha256": "2703c31f0624ae543b2fd224c47253f24d0f5d9a9b171ca2194d71f2e29ab43c",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 421,
+          "group_order": 458,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 120,
+          "points_sha256": "52c109516f7749a7d25eaed113495c34153a475ec012b6d86bec7c9f8fb5f193",
+          "allowed_points_sha256": "d7c51400d49002efa418c6ea57a1a047e445a126b8a0f07b6a7ba3868e432817",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 419,
+          "group_order": 435,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 120,
+          "points_sha256": "bb21af5b16d8719faa2c2f64340223333a66100428590e8816c19e9336288a9f",
+          "allowed_points_sha256": "0621d46518d23ab616ae4f2701396fab3a8861b7f12ad8fe690e70e0626c724a",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 409,
+          "group_order": 386,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 98,
+          "points_sha256": "10eb3ea85aec0c655424c7195c20ba18dd35630d6548273747f915cb1a67b555",
+          "allowed_points_sha256": "66eab674b3e0e0d315f3d61b7733382b680e0ecbc218eaff3261b8dd2667a6d3",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 401,
+          "group_order": 436,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 109,
+          "points_sha256": "db97fc4194b668be4e22a4cb8f807b51cadbe276d9582ce90393e181a58113ad",
+          "allowed_points_sha256": "3222cc5ac0e901023facf4a4e91f379a99b8b8dbd8b45726c6227adc9fb8ca5e",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 397,
+          "group_order": 391,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 107,
+          "points_sha256": "4c94afa5cfec2da86ced672046530e3b3c566fbbb0b47b6d5ff28ad06340b1e3",
+          "allowed_points_sha256": "990ff61a5afdda5e3265822c44ec84b3921c5c9bb7cb0dc8d2d2e151192e5baf",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 389,
+          "group_order": 416,
+          "nonidentity_two_torsion_count": 3,
+          "noncyclic_witness": true,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 116,
+          "points_sha256": "836b4aeb2f76785134be054741cb7d559616d27df91ff5883c2524763abaac2c",
+          "allowed_points_sha256": "ce83796bf2e2613772c775c3eb937eed4a4009f3f79758bc852abf9ef180d729",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 383,
+          "group_order": 384,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 96,
+          "points_sha256": "4ce4c34bad4a6219367ed0225154f5d597f837b73d166706543409e164f360a1",
+          "allowed_points_sha256": "5d73befd36d80b9ed93a303209c6b68ef2aaa2560c2986d75905261590a1d712",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 379,
+          "group_order": 348,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 96,
+          "points_sha256": "e142eeef601135b76cd15371597034846b088a0ceb2c35c617fd9fa47db93429",
+          "allowed_points_sha256": "910b53dd39876b26454cf89ee88933ef697fe4fc19c46df91777deb01d068a4a",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 373,
+          "group_order": 338,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 5,
+          "allowed_point_count": 99,
+          "points_sha256": "c3502cc0451f59680d778adb3bb06c4d85cb857bdc4ecc310f7b77eebc6efe14",
+          "allowed_points_sha256": "bb4b6767773c2c63bd16b0dc0fd969d5ab60f88e7359cedeed62aae1fece25f8",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 367,
+          "group_order": 386,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 98,
+          "points_sha256": "83734cae3f243ec7e573496adfebbd87a8d4fa59106e28ae6d671819dad12b63",
+          "allowed_points_sha256": "7d0c73e2c2388f78cc50e564ee26523832523b7405afdf628982bb72389232f9",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 359,
+          "group_order": 336,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 90,
+          "points_sha256": "ce31e4346cc46be2c718c1e1f5779ba91bd48b1837ead3b44dd5392267f2dd8c",
+          "allowed_points_sha256": "4739738648c214d002d5827b8a72234faf81e9aaf11c622fbb317db3afa14739",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 353,
+          "group_order": 371,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 102,
+          "points_sha256": "3e1078f813db947e300dce0e5cecc110a268330580c78f879a45d93d185c7220",
+          "allowed_points_sha256": "0131ba86ddd64ddf37577e315bca4e9f8e8daeba6079551de0b917d5bd18da75",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 349,
+          "group_order": 355,
+          "nonidentity_two_torsion_count": 0,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 96,
+          "points_sha256": "f04f17c33f93ec03d444f10cca8a16d6fa7cd1958f9592dd5a060992e786adaa",
+          "allowed_points_sha256": "0ce6bfb1575fcb0303b65f5a87fe21062eb96e3c6bfc935d546080904474b447",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 347,
+          "group_order": 358,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 3,
+          "allowed_point_count": 95,
+          "points_sha256": "e04923cbeec5cf537d9babd29d68557fdfc96292e376d3a6e78b424c273e5df9",
+          "allowed_points_sha256": "f5540aff5d5a79785a6ec20c7d7976b1644abb03dc35fcd3e9edf9de1ecc21e2",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 337,
+          "group_order": 316,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 100,
+          "points_sha256": "5316e40b2c03ed5792c9acbad56ed7f0ca763c8098138b8d1e6650b13ec6daca",
+          "allowed_points_sha256": "ec94335ea2f7b04f8c77f868a775e20680597af649c36fb41dd2e1cdd5bab02d",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        },
+        {
+          "prime": 331,
+          "group_order": 336,
+          "nonidentity_two_torsion_count": 1,
+          "noncyclic_witness": false,
+          "exceptional_O_or_Dzero_retained": 2,
+          "allowed_point_count": 102,
+          "points_sha256": "f647d66c3cdd38a1806f572aae826a2f3400cbb9c9cb8a65e6f7f0e7431b9424",
+          "allowed_points_sha256": "9de34a997f936238c1b8ed3a393451f475564b07bf0415ec1a9b0a350e308bef",
+          "tested": 11,
+          "retained": 11,
+          "retained_indices_sha256": "40554f4a4d3055baf6998c73525f52990181018529f96ccd028a4a6fb16dfff5"
+        }
+      ],
+      "survivors": [
+        {
+          "coefficients": [
+            -3,
+            -2,
+            1
+          ],
+          "point": [
+            "329/16",
+            "-5901/64"
+          ],
+          "status": "inverse_denominator_zero"
+        },
+        {
+          "coefficients": [
+            -1,
+            0,
+            0
+          ],
+          "point": [
+            "23",
+            "90"
+          ],
+          "inverse": [
+            "9",
+            "25"
+          ],
+          "U_V": [
+            "9",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0
+          ],
+          "point": null,
+          "status": "elliptic_identity"
+        },
+        {
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "point": [
+            "17",
+            "-102"
+          ],
+          "inverse": [
+            "25",
+            "1"
+          ],
+          "U_V": [
+            "25",
+            "1"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            0,
+            0
+          ],
+          "point": [
+            "23",
+            "-90"
+          ],
+          "inverse": [
+            "25",
+            "9"
+          ],
+          "U_V": [
+            "25",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            -1
+          ],
+          "point": [
+            "158",
+            "1935"
+          ],
+          "inverse": [
+            "1",
+            "9"
+          ],
+          "U_V": [
+            "1",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            1,
+            1,
+            0
+          ],
+          "point": [
+            "-37",
+            "210"
+          ],
+          "inverse": [
+            "9",
+            "9"
+          ],
+          "U_V": [
+            "9",
+            "9"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            2,
+            1,
+            -1
+          ],
+          "point": [
+            "43",
+            "-210"
+          ],
+          "inverse": [
+            "25",
+            "25"
+          ],
+          "U_V": [
+            "25",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            2,
+            1,
+            0
+          ],
+          "point": [
+            "38",
+            "165"
+          ],
+          "inverse": [
+            "1",
+            "25"
+          ],
+          "U_V": [
+            "1",
+            "25"
+          ],
+          "status": "below_target"
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            0
+          ],
+          "point": [
+            "5177/49",
+            "-351630/343"
+          ],
+          "inverse": [
+            "169",
+            "225"
+          ],
+          "U_V": [
+            "169",
+            "225"
+          ],
+          "n_m": [
+            "3",
+            "4"
+          ],
+          "carry_equation": true,
+          "lcm_values": [
+            "2520",
+            "2520"
+          ],
+          "status": "gap_below_six"
+        },
+        {
+          "coefficients": [
+            3,
+            1,
+            -1
+          ],
+          "point": [
+            "-31",
+            "-234"
+          ],
+          "inverse": [
+            "9",
+            "1"
+          ],
+          "U_V": [
+            "9",
+            "1"
+          ],
+          "status": "below_target"
+        }
+      ],
+      "status_counts": {
+        "below_target": 8,
+        "elliptic_identity": 1,
+        "gap_below_six": 1,
+        "inverse_denominator_zero": 1
+      }
+    }
+  ]
+}

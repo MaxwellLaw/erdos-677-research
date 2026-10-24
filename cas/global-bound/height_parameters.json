@@ -1,0 +1,204 @@
+{
+  "status": "exact arithmetic checks passed; height deductions are human proofs",
+  "python": "3.14.6",
+  "height_input_sha256": "2a988af3758fc58d84e7220160fc608e73194f703033099c96a97b580595f450",
+  "duplication_input_sha256": "a1a6bcad2fe868c4f476587bb1657a64bb5b4649e41af37fb9d113fdb89e6d71",
+  "normalization": "David canonical plane height = (3/2) Hx",
+  "scope": "curve and point heights only; period terms and M0 not certified here",
+  "positive_exponential_partial_sums": [
+    {
+      "power": 7,
+      "degree": 8,
+      "lower_target": 747,
+      "positive_partial_sum": "4605383/5760",
+      "positive_gap": "302663/5760"
+    },
+    {
+      "power": 3,
+      "degree": 3,
+      "lower_target": 10,
+      "positive_partial_sum": "13",
+      "positive_gap": "3"
+    },
+    {
+      "power": 22,
+      "degree": 27,
+      "lower_target": 3011814400,
+      "positive_partial_sum": "6749346963996500262098856679/2145544448257153125",
+      "positive_gap": "287365298895551577218856679/2145544448257153125"
+    },
+    {
+      "power": 5,
+      "degree": 10,
+      "lower_target": 146,
+      "positive_partial_sum": "7082479/48384",
+      "positive_gap": "18415/48384"
+    }
+  ],
+  "curves": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "original_a2_a4_a6": [
+        -1,
+        -65,
+        261
+      ],
+      "short_A_B": [
+        "-196/3",
+        "6460/27"
+      ],
+      "David_g2_g3": [
+        "784/3",
+        "-25840/27"
+      ],
+      "David_discriminant": "-6882048",
+      "j": "-120472576/26883",
+      "primitive_curve_height_coordinates": [
+        27,
+        7056,
+        -25840
+      ],
+      "curve_height_max_integer": 120472576,
+      "x_Q0_linear_map_coefficient_abs_row_max": 17,
+      "x_Q0_linear_map_nonzero_determinant_abs": 18,
+      "alpha_height": "log(2)/3",
+      "h_x_Q0_upper": "log(17)+log(2)/3",
+      "h_x_Q0_strict_uniform_upper": 8,
+      "canonical_Hx_Q0_strict_uniform_upper": 13,
+      "David_canonical_Q0_strict_uniform_upper": "39/2",
+      "canonical_Hx_basis_certified_upper": [
+        "138285411780399/281474976710656",
+        "249898581473929/140737488355328",
+        "327534452995343/281474976710656"
+      ],
+      "David_canonical_basis_strict_uniform_upper": "15/2",
+      "David_curve_h_strict_uniform_upper": 22
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "original_a2_a4_a6": [
+        -1,
+        -408,
+        6912
+      ],
+      "short_A_B": [
+        "-1225/3",
+        "182950/27"
+      ],
+      "David_g2_g3": [
+        "4900/3",
+        "-731800/27"
+      ],
+      "David_discriminant": "-15477120000",
+      "j": "-11764900/24183",
+      "primitive_curve_height_coordinates": [
+        27,
+        44100,
+        -731800
+      ],
+      "curve_height_max_integer": 11764900,
+      "x_Q0_linear_map_coefficient_abs_row_max": 168,
+      "x_Q0_linear_map_nonzero_determinant_abs": 360,
+      "alpha_height": "log(5)/3",
+      "h_x_Q0_upper": "log(168)+log(5)/3",
+      "h_x_Q0_strict_uniform_upper": 8,
+      "canonical_Hx_Q0_strict_uniform_upper": 13,
+      "David_canonical_Q0_strict_uniform_upper": "39/2",
+      "canonical_Hx_basis_certified_upper": [
+        "45568291910769/70368744177664",
+        "674520486805863/281474976710656",
+        "453356110702411/140737488355328"
+      ],
+      "David_canonical_basis_strict_uniform_upper": "15/2",
+      "David_curve_h_strict_uniform_upper": 22
+    },
+    {
+      "pair": [
+        1,
+        10
+      ],
+      "original_a2_a4_a6": [
+        1,
+        -1633,
+        97763
+      ],
+      "short_A_B": [
+        "-4900/3",
+        "2654300/27"
+      ],
+      "David_g2_g3": [
+        "19600/3",
+        "-10617200/27"
+      ],
+      "David_discriminant": "-3896125920000",
+      "j": "-3011814400/24350787",
+      "primitive_curve_height_coordinates": [
+        27,
+        176400,
+        -10617200
+      ],
+      "curve_height_max_integer": 3011814400,
+      "x_Q0_linear_map_coefficient_abs_row_max": 747,
+      "x_Q0_linear_map_nonzero_determinant_abs": 2970,
+      "alpha_height": "log(10)/3",
+      "h_x_Q0_upper": "log(747)+log(10)/3",
+      "h_x_Q0_strict_uniform_upper": 8,
+      "canonical_Hx_Q0_strict_uniform_upper": 13,
+      "David_canonical_Q0_strict_uniform_upper": "39/2",
+      "canonical_Hx_basis_certified_upper": [
+        "695633705718799/140737488355328",
+        "393210708062387/140737488355328",
+        "683563948117081/281474976710656"
+      ],
+      "David_canonical_basis_strict_uniform_upper": "15/2",
+      "David_curve_h_strict_uniform_upper": 22
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "original_a2_a4_a6": [
+        1,
+        -1633,
+        32963
+      ],
+      "short_A_B": [
+        "-4900/3",
+        "904700/27"
+      ],
+      "David_g2_g3": [
+        "19600/3",
+        "-3618800/27"
+      ],
+      "David_discriminant": "-206154720000",
+      "j": "-3011814400/1288467",
+      "primitive_curve_height_coordinates": [
+        27,
+        176400,
+        -3618800
+      ],
+      "curve_height_max_integer": 3011814400,
+      "x_Q0_linear_map_coefficient_abs_row_max": 249,
+      "x_Q0_linear_map_nonzero_determinant_abs": 630,
+      "alpha_height": "log(5)/3",
+      "h_x_Q0_upper": "log(249)+log(5)/3",
+      "h_x_Q0_strict_uniform_upper": 8,
+      "canonical_Hx_Q0_strict_uniform_upper": 13,
+      "David_canonical_Q0_strict_uniform_upper": "39/2",
+      "canonical_Hx_basis_certified_upper": [
+        "177113449569131/281474976710656",
+        "609155120608493/281474976710656",
+        "153795781347767/70368744177664"
+      ],
+      "David_canonical_basis_strict_uniform_upper": "15/2",
+      "David_curve_h_strict_uniform_upper": 22
+    }
+  ]
+}

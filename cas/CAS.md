@@ -4,7 +4,7 @@ Author: MaxwellLaw. Source audit started **2026-10-23**; artifact verification d
 
 The author, MaxwellLaw, used AI as an assistive tool.
 
-**This is an auxiliary research result. It does not solve k = 6 or Erdős #677.** The rank and full-basis flags below are Magma results, outside the Lean kernel. The exact map checks are independent SymPy calculations, also outside Lean. The later height certificates have a kernel-checked integer-polynomial layer; their canonical-height interpretation and rational-interval argument remain human mathematics with exact Python arithmetic. No external result in this directory is used as a Lean axiom.
+**The analytic and exact-arithmetic certificate excludes all target points in the four displayed generated subgroups. The recorded Magma full-basis flags give a CAS-supported computational k = 6 corollary; no independently exported full-group certificate or Lean k = 6 endpoint is supplied. Erdős #677 for all lengths remains open.** The rank and full-basis flags below are Magma results, outside the Lean kernel. The exact map checks are independent SymPy calculations, also outside Lean. The later height certificates have a kernel-checked integer-polynomial layer; their canonical-height interpretation and rational-interval argument remain human mathematics with exact Python arithmetic. No external result in this directory is used as a Lean axiom.
 
 ## Inputs and executed computations
 
@@ -96,31 +96,49 @@ Here `h` is the absolute logarithmic rational height. The four numerators are po
 
 `0 < |L(P)| <= 26892 exp(5-M^2/100)`.
 
-This is an upper bound only; it does not give an absolute bound on M by itself. Representation of every rational point in the displayed basis remains supported by the external Magma full-group certification. Height normalizations require care: another common canonical height is `H/2`. Magma's `SilvermanBound` bounds `h-H` from above, the opposite direction to the inequality needed here. Our bound uses the coefficient estimate for duplication to prove `H-h<=log(C)/3<5`, with the direction tracked explicitly. See also the [height-difference API](https://docs.magma-maths.org/ArithmeticGeometry/EllipticCurvesOverQAndNumberFields/over_anf.html).
+This upper bound is now combined with David's theorem and the exact lattice certificates in [global-bound/README.md](global-bound/README.md), giving an initial bound `M<10^100` and final closed bounds 60,60,62,64. Representation of every rational point in the displayed basis remains supported by the external Magma full-group certification. Height normalizations require care: another common canonical height is `H/2`. Magma's `SilvermanBound` bounds `h-H` from above, the opposite direction to the inequality needed here. Our bound uses the coefficient estimate for duplication to prove `H-h<=log(C)/3<5`, with the direction tracked explicitly. See also the [height-difference API](https://docs.magma-maths.org/ArithmeticGeometry/EllipticCurvesOverQAndNumberFields/over_anf.html).
 
 The height computation uses seven exact duplications of each basis point and pairwise sum, rational logarithm enclosures, and positive rational principal minors for the pairing-matrix lower bound. `LcmSix/HeightCertificates.lean` proves the supplied integer Bézout identities, common-divisor bounds, and coefficient sums. It does not formalize the elliptic duplication formula, the real norm inequalities, canonical heights, or their quadratic-form law. Those steps and the exact arithmetic replay are documented separately; no floating-point eigenvalue is used as a certificate.
 
-## Concrete remaining computation
+## Completed analytic and finite computation
 
-[Stroeker and de Weger (1999)](https://matwbn.icm.edu.pl/ksiazki/aa/aa87/aa8743.pdf) gives an effective method for general smooth plane cubics with a rational point. [Chern (2015)](https://arxiv.org/abs/1412.6736) and its [program appendix](https://shanechern.github.io/publications/appendices/Appendix.%20Programs%20for%20%27A%20note%20on%20balancing%20binomial%20coefficients%27.pdf) illustrate the nonrational Q0 case with rank 3. The constants for those different curves cannot be imported here.
+[Stroeker and de Weger (1999)](https://matwbn.icm.edu.pl/ksiazki/aa/aa87/aa8743.pdf)
+gives the general cubic method, while
+[Chern (2015)](https://arxiv.org/abs/1412.6736) illustrates a nonrational Q0
+with rank three. Their numerical constants were not imported. The implemented
+argument uses [David's original Théorème 2.1](https://smf.emath.fr/system/files/filepdf/MSMF_1995_2_62__1_0.pdf)
+and the period conventions checked against
+[Tzanakis, §7](https://matwbn.icm.edu.pl/ksiazki/aa/aa75/aa7525.pdf).
 
-A reproducible next stage is:
+The [global-bound certificate](global-bound/README.md) now supplies:
 
-1. Start with each model and full basis in the table. Recheck the Magma flags and export independently checkable rank and saturation evidence if a stronger trust claim is wanted.
-2. Compute rigorous real interval enclosures for the period, the three basis logarithms, and the logarithm of the exact degree-three point Q0, all using `dx/(2y)`. Track real components and the integer period coefficient.
-3. Apply an explicit elliptic-logarithm lower-bound theorem with the actual curve, degree-three field, heights, and normalizations. Verify that its hypotheses hold and calculate a valid initial integer coefficient bound M0. **No M0 has been proved here.**
-4. For an integer scale C, build the four-dimensional integer lattice whose columns have identity in the first three rows and rounded `C*log(P_i)`, `C*period` in the last row. The target is `(0,0,0,round(C*log(Q0)))`. Supply interval-certified roundings, exact LLL transformations, and a rigorous lower bound on the distance from that target to the lattice. Convert this and the upper bound above into a smaller coefficient bound. Repeat as justified.
-5. Enumerate the *proved* final coefficient box exactly, use the inverse maps, and retain only integer odd squares and the original disjointness and LCM conditions. Finish all exceptional-map cases. A box chosen experimentally is not complete.
-6. For a Lean endpoint, the completeness proof and arithmetic certificates must be proved or checked by the Lean kernel. Neither Magma's assertion flags nor this symbolic verifier can be imported as mathematical axioms.
+1. Algebraic height bounds over Q(cuberoot(b/a)), with degree three, David's
+   plane-cubic height normalized as `(3/2)H`, and a proved period-area bound.
+2. The fully admissible David parameters giving `M<10^100`, including the
+   period coefficient and small coefficient values.
+3. Certified real logarithm intervals using `dx/(2y)`, exact unimodular
+   lattice transformations and inhomogeneous distance bounds. All 25 recorded
+   reductions pass the independent exact verifier and give closed coefficient
+   bounds 60,60,62,64.
+4. Complete exact enumeration of all 7,642,936 triples in those boxes, with
+   conservative treatment of modular map exceptions and rational reconstruction
+   of every survivor. No original disjoint odd-square candidate remains.
 
-No David-constant computation, certified elliptic-logarithm or real-period intervals, LLL distance certificate, or complete final enumeration has been executed in this directory. Earlier experimental searches of small Mordell–Weil coefficient boxes are deliberately not used as evidence of completeness and are not part of this publication set.
+These steps prove exclusion for each explicit generated subgroup. Applying
+that conclusion to all rational points retains the external Magma full-basis
+certification. There is no exported independent full-group certificate, and
+none of this analytic completeness argument is imported into Lean as an axiom.
+The remaining formal endpoint must prove or replace that argument and verify
+the finite computation in the kernel. The original arbitrary-length problem
+requires a separate advance.
 
 ## Reproduction
 
-Replay the exact height certificates from the repository root with:
+Replay the exact height and global-bound certificates from the repository root with:
 
 ```sh
 python3 scripts/verify_heights.py
+python3 scripts/verify_global_bound.py
 ```
 
 This uses Python standard-library exact arithmetic and compares every mathematical output field with the saved certificate; only the Python version metadata is excluded. The integer-polynomial layer is also checked by the project's Lean build and axiom audit. Actual validation records are maintained in [VERIFICATION.md](../docs/VERIFICATION.md).

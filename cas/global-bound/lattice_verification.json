@@ -1,0 +1,277 @@
+{
+  "status": "PASS: every exact lattice step independently verified",
+  "scope": "initial M bound and real logarithm enclosures remain documented mathematical inputs; no residual enumeration or Lean claim",
+  "python": "3.14.6",
+  "uses_sympy": false,
+  "checks_LLL_quality": false,
+  "certificate_sha256": "68b64fdcdf8ec03d3d6628c9cdedf9ab407126adde6122813c37aa7107dade27",
+  "real_logs_sha256": "c6b26c02c0f0babae5ffd328572357de495ec5608ad1e6f9a2f587a6fa3e5f9d",
+  "exp7_positive_partial_sum": "14603038643/13685760",
+  "exp7_positive_gap_above1000": "917278643/13685760",
+  "exp11_positive_partial_sum": "3229335268039583/59439744000",
+  "exp11_positive_gap_above26892": "1630881672391583/59439744000",
+  "total_verified_steps": 25,
+  "curves": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "verified_steps": [
+        {
+          "input_bound": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "scale": 420,
+          "q": 104,
+          "output_bound": 274,
+          "verified_inverse_row": 2,
+          "strict_squared_upper": "226000/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "274",
+          "scale": 30,
+          "q": 7,
+          "output_bound": 83,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "20900/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "83",
+          "scale": 20,
+          "q": 4,
+          "output_bound": 73,
+          "verified_inverse_row": 2,
+          "strict_squared_upper": "16000/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "73",
+          "scale": 16,
+          "q": 3,
+          "output_bound": 68,
+          "verified_inverse_row": 0,
+          "strict_squared_upper": "13900/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "68",
+          "scale": 14,
+          "q": 3,
+          "output_bound": 64,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "12500/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "64",
+          "scale": 12,
+          "q": 2,
+          "output_bound": 62,
+          "verified_inverse_row": 2,
+          "strict_squared_upper": "11800/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "62",
+          "scale": 11,
+          "q": 2,
+          "output_bound": 60,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "3700",
+          "all_exact_checks": true
+        }
+      ],
+      "final_closed_coefficient_bound": 60
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "verified_steps": [
+        {
+          "input_bound": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "scale": 420,
+          "q": 104,
+          "output_bound": 274,
+          "verified_inverse_row": 1,
+          "strict_squared_upper": "226000/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "274",
+          "scale": 30,
+          "q": 7,
+          "output_bound": 83,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "20900/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "83",
+          "scale": 20,
+          "q": 4,
+          "output_bound": 73,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "16000/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "73",
+          "scale": 16,
+          "q": 3,
+          "output_bound": 68,
+          "verified_inverse_row": 2,
+          "strict_squared_upper": "13900/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "68",
+          "scale": 14,
+          "q": 3,
+          "output_bound": 64,
+          "verified_inverse_row": 2,
+          "strict_squared_upper": "12500/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "64",
+          "scale": 12,
+          "q": 2,
+          "output_bound": 62,
+          "verified_inverse_row": 0,
+          "strict_squared_upper": "11800/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "62",
+          "scale": 11,
+          "q": 2,
+          "output_bound": 60,
+          "verified_inverse_row": 2,
+          "strict_squared_upper": "3700",
+          "all_exact_checks": true
+        }
+      ],
+      "final_closed_coefficient_bound": 60
+    },
+    {
+      "pair": [
+        1,
+        10
+      ],
+      "verified_steps": [
+        {
+          "input_bound": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "scale": 420,
+          "q": 104,
+          "output_bound": 274,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "226000/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "274",
+          "scale": 30,
+          "q": 7,
+          "output_bound": 83,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "20900/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "83",
+          "scale": 20,
+          "q": 4,
+          "output_bound": 73,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "16000/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "73",
+          "scale": 16,
+          "q": 3,
+          "output_bound": 68,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "13900/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "68",
+          "scale": 14,
+          "q": 3,
+          "output_bound": 64,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "12500/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "64",
+          "scale": 12,
+          "q": 2,
+          "output_bound": 62,
+          "verified_inverse_row": 1,
+          "strict_squared_upper": "11800/3",
+          "all_exact_checks": true
+        }
+      ],
+      "final_closed_coefficient_bound": 62
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "verified_steps": [
+        {
+          "input_bound": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "scale": 420,
+          "q": 104,
+          "output_bound": 274,
+          "verified_inverse_row": 1,
+          "strict_squared_upper": "226000/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "274",
+          "scale": 30,
+          "q": 7,
+          "output_bound": 83,
+          "verified_inverse_row": 2,
+          "strict_squared_upper": "20900/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "83",
+          "scale": 20,
+          "q": 4,
+          "output_bound": 73,
+          "verified_inverse_row": 1,
+          "strict_squared_upper": "16000/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "73",
+          "scale": 16,
+          "q": 3,
+          "output_bound": 68,
+          "verified_inverse_row": 0,
+          "strict_squared_upper": "13900/3",
+          "all_exact_checks": true
+        },
+        {
+          "input_bound": "68",
+          "scale": 14,
+          "q": 3,
+          "output_bound": 64,
+          "verified_inverse_row": 3,
+          "strict_squared_upper": "12500/3",
+          "all_exact_checks": true
+        }
+      ],
+      "final_closed_coefficient_bound": 64
+    }
+  ]
+}

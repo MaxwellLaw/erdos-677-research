@@ -103,7 +103,7 @@ The inspected records provide no qualifying complete k=6 proof, no valid disjoin
 
 A reliable new k=6 theorem would be a fixed-length subresult. It may be published accurately in the author's research repository, but under the inspected awards rules it cannot support an original-problem solution PR or award claim. A genuine k=6 collision satisfying all original constraints would refute the full conjecture and could be prepared for full-solution review.
 
-This audit does not submit an awards PR or claim. The accompanying research repository publishes only the stated partial formalization. No source scanning, metadata flag, CI claim or unchecked axiom was treated as a full proof.
+This audit does not submit an awards PR or claim. The research repository now publishes the partial formalization and a scoped analytic/computational length-six result; its all-length and Lean-completeness boundaries are stated in the current research status. No source scanning, metadata flag, CI claim or unchecked axiom was treated as a full proof.
 
 ## Publication recheck, 2026-10-24
 

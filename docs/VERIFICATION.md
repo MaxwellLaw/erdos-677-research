@@ -1,6 +1,6 @@
 # Statement correspondence and actual verification
 
-This document verifies the auxiliary results in this repository. **There is no theorem proving all k=6 starts collision-free, and no theorem resolving all lengths.**
+This document verifies the auxiliary results in this repository. **There is no Lean theorem proving all k=6 starts collision-free, and no theorem resolving all lengths. The later analytic/computational result and its separate trust boundary are described below.**
 
 ## Mathematical steps and Lean declarations
 
@@ -66,7 +66,7 @@ The build reported 1096 jobs, reusing dependency objects. The axiom audit passed
 
 The separate standard-library Python verifier recomputes the polynomial identities, seven rational doublings for each of 24 point inputs, outward rational logarithm intervals, and positive principal minors of four rational matrices. It proves the numerical certificate obligations used in the [human height proof](../cas/height-bounds/README.md): globally `H(P)-h(x(P))<5`, and `H(sum m_i P_i)>=sum m_i^2/100` on each displayed generated subgroup. Every mathematical JSON field must match the saved output; only the Python runtime string is excluded. The saved output has SHA256 `2a988af3758fc58d84e7220160fc608e73194f703033099c96a97b580595f450`. A separate replay reproduced it byte-for-byte on Python 3.14.6.
 
-This numerical certification is exact arithmetic plus the stated human canonical-height argument. Its logarithm bounds, limiting argument, quadraticity and matrix analysis are **not Lean theorems**. Only the specified integer algebra is kernel checked. Extending the subgroup statement to a representation of every rational point still uses the separately recorded Magma full-basis assertion; this calculation does not independently certify saturation. No finite coefficient search, effective initial coefficient bound, elliptic-logarithm lower bound or LLL completeness conclusion is supplied.
+This numerical certification is exact arithmetic plus the stated human canonical-height argument. Its logarithm bounds, limiting argument, quadraticity and matrix analysis are **not Lean theorems**. Only the specified integer algebra is kernel checked. Extending the subgroup statement to a representation of every rational point still uses the separately recorded Magma full-basis assertion; this calculation does not independently certify saturation. That height-only checkpoint supplied no initial coefficient bound or lattice completeness conclusion; the subsequent global calculation is recorded below.
 
 ### Clean clone of the height-certificate checkpoint
 
@@ -74,8 +74,20 @@ A fresh clone of `d1943b5e9ca475f0922101786d2ae56387c96973`, initially without p
 
 The machine-readable command/exit record is `verification/height-clean-record.json`; full logs are `height-clean-build.log`, `height-clean-axioms.log`, `height-clean-leanchecker.log`, `height-clean-reduction.log`, and `height-clean-python.log` in the same directory. Subsequent changes in this checkpoint add those validation records and clarify documentation only; the tested source/certificate hashes remain those in `verification/height-source-hashes.json`.
 
+## Global analytic and residual verification, 2026-10-24 evening
+
+The [scoped theorem](../cas/global-bound/README.md) excludes every original-domain square point whose image lies in the specified rank-three subgroup, in each of four models. David's theorem gives `M<10^100`; 25 exact lattice-distance steps give the closed bounds `[60,60,62,64]`. Two independently implemented finite-field sieves then exhaust the same 7,642,936 coefficient triples and reconstruct the same 46 residual rational points. None satisfies the original disjointness and square conditions. The three odd-square inverses with U,V>=49 give only overlapping intervals `(13,15)`, `(5,6)`, `(3,4)`.
+
+The primary sieve uses complete cyclic-group tables at 30 good primes per curve. The second uses complete-group translation permutations at 30 different good primes above 257, including noncyclic groups. Their candidate ordering, group representation and rational reconstruction implementations differ. Both retain every identity/zero-denominator reduction conservatively. The replay compares every residual coefficient triple, rational point, inverse pair and classification; it also checks that the prime sets are disjoint. This is independent arithmetic implementation, not an external human referee report.
+
+The working checkout completed `python3 scripts/verify_global_bound.py` with exit 0; the actual output is `verification/global-replay.log`. It reruns the prior height certificate, algebraic height parameters, period-area bounds, David scalar constants, rigorous real-log intervals, the independent lattice checker, and both exhaustive sieves. Saved mathematical outputs must match exactly; only top-level Python runtime metadata is omitted from comparisons. No floating-point estimate is used as a proof bound. The proposal generator's first attempt with SymPy LLL raised an internal assertion; it was replaced by explicit rational basis reduction. The independent checker verifies unimodularity and distances directly and assumes no LLL quality assertion.
+
+The official Magma service was rerun with the unchanged `cas/mordell_weil.m`, seed 550. Magma 2.30-1 again returned the same four bases, free groups Z^3, and `rankproved=true`, `fullproved=true`; the complete mathematical stdout matches the initial saved record. The new raw transcript is `cas/global-bound/mordell_weil_recheck.result.json`. No GRH setting or analytic-rank assumption was enabled. Those flags remain external CAS certification, not independently exported descent/saturation certificates. Together with the subgroup result they give a CAS-supported computational k=6 corollary. They do not supply a Lean k=6 theorem or settle all lengths.
+
+All 46 existing Lean audit declarations are unchanged. The new analytic arguments, elliptic-integral identities, finite-group reduction theorem and Python arithmetic are outside the Lean kernel. They are documented rather than imported as axioms. Primary sources and their normalization conventions are fixed in the new proof notes. `verification/global-source-hashes.json` records the code and mathematical artifact set for this checkpoint.
+
 ## Trust and review boundaries
 
 The final definitions, quantifiers, carry hypotheses and domain boundaries were inspected separately from tactic success. Additional agents reconstructed the human mathematics and reviewed the formal endpoint types; this is AI-assisted cross-checking, not an independent human referee report. No external mathematical review or award acceptance is claimed.
 
-Neither successful compilation, source-token scanning, nor finite tests alone establish that a theorem answers the original question. The declarations above deliberately state their narrower scope. The unresolved proof obligation remains emptiness of all four exact branches in the original disjoint domain, or one exact admissible collision.
+Neither successful compilation, source-token scanning, nor finite tests alone establish that a theorem answers the original question. The declarations above deliberately state their narrower scope. The later calculation excludes those branches in four explicit generated subgroups. Extending that exclusion to all rational points currently uses external Magma full-basis certification; exporting an independent full-group certificate and proving a Lean k=6 endpoint remain unfinished. The unrestricted all-length question remains unresolved.

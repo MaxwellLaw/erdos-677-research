@@ -86,7 +86,7 @@ with the last positive difference equal to `18415/48384`. Thus, on all four curv
 
 `H(P)−h(x(P))≤log(C)/3<log(146)<5`.
 
-Together with the separately derived geometric upper bound this supplies `26892*exp(5−M²/100)` for the relevant elliptic-logarithm difference. It **does not** provide a coefficient bound M by itself. An applicable explicit lower bound and a complete lattice reduction remain missing.
+Together with the separately derived geometric upper bound this supplies `26892*exp(5−M²/100)` for the relevant elliptic-logarithm difference. It **does not** provide a coefficient bound M by itself. The subsequent [global-bound calculation](../global-bound/README.md) supplies an applicable explicit lower bound and exact lattice-distance certificates. Those additional arguments are separate from this height calculation.
 
 ## Theory and trust boundary
 
