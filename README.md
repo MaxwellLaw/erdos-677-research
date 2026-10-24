@@ -13,7 +13,10 @@ For natural numbers n,k, define M(n,k) = lcm(n+1,...,n+k). The original question
 - `LcmSix.no_collision_of_carry_le` excludes all n<m whose later carry factor is at most the earlier one. This is an infinite subfamily, not all starts.
 - `LcmSixGcd.common_divisor_square_dvd` proves that any common divisor d of X,Y satisfies d² | 225(b-a) under the curve equation.
 - `LcmSix.CarryGcd` specializes the known gcd restrictions with the exact carry filters: the center gcd divides 15,3,9,3 and the slope gcd divides 15,12,81,9 in the respective four branches. These bounds do not bound the interval starts.
+- `HeightCertificates` proves the integer Bézout identities for all four duplication-polynomial pairs, their common-divisor bounds at primitive integer coordinates, and the exact coefficient sums C,D. The interpretation as elliptic-curve duplication and the resulting analytic height bounds are separate human proofs.
 - `LcmSix.ModularObstruction` proves that specified product-congruence and carry sieves have positive disjoint surviving representatives for every positive modulus. These are congruence witnesses, **not integer-product equalities or LCM counterexamples**.
+
+The separate [rigorous height calculation](cas/height-bounds/README.md) establishes `H(P)-h(x(P))<5` on all four elliptic curves and `H(sum m_i P_i)>=sum m_i²/100` on each displayed generated subgroup, using exact rational intervals and a human canonical-height argument. Here H is the x-normalized canonical height. Coverage of the entire rational-point group still relies on the external Magma full-basis certificates. These estimates do not supply an effective coefficient bound or complete the integer-point calculation.
 
 The product/LCM periodicity is prior work of Farhi–Kane; the four-coefficient reduction and centered gcd ideas build on Danesh–Bianchetti. The contribution here is the checked formalization, independent audit, explicit integrality diagnostics, and reproducible research material. No worldwide mathematical or formalization priority is claimed.
 
@@ -29,9 +32,10 @@ lake --wfail build
 python3 scripts/check_axioms.py
 lake env leanchecker -v LcmSix
 python3 scripts/verify_reduction.py
+python3 scripts/verify_heights.py
 ```
 
-The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, admit, custom mathematical axioms, native_decide, or imported CAS certificates. The printed dependencies are standard Lean logical axioms only. Mathlib dependency binaries may come from its public cache; all project modules are rebuilt for the clean-checkout test. Python checks are finite sanity checks and are never used to assert noncollision for all starts. Magma calculations are separate exploratory evidence, not Lean assumptions.
+The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, admit, custom mathematical axioms, or native_decide. Externally discovered polynomial coefficients are supplied as explicit data and their identities are proved by the kernel; no CAS assertion is accepted as an axiom. The printed dependencies are standard Lean logical axioms only. Mathlib dependency binaries may come from its public cache; all project modules are rebuilt for the clean-checkout test. The reduction sanity check is finite. The height replay verifies exact arithmetic certificates whose global implications use the documented human height theory, which is not formalized here. Neither check asserts noncollision for all starts. Magma rank and full-basis results remain external CAS evidence, not Lean assumptions.
 
 ## Research and submission record
 
@@ -40,6 +44,7 @@ The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, adm
 - [Prior submissions and current eligibility](docs/PRIOR_WORK.md)
 - [Lean theorem-to-proof correspondence and actual validation](docs/VERIFICATION.md)
 - [Curve calculations and the next completeness obligation](cas/CAS.md)
+- [Rigorous height bounds and their trust boundary](cas/height-bounds/README.md)
 - [Earlier period results and unverified literature hypotheses](cas/LITERATURE_SUPPLEMENT.md)
 - [Direct Thue-substitution route and its obstruction](cas/thue-route/README.md)
 - [Current research obligations and failed uniform route](docs/RESEARCH_STATUS.md)

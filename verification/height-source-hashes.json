@@ -1,0 +1,19 @@
+{
+  ".github/workflows/lean.yml": "20312e2da06f9f24f46e52408b3761774e4877d41bebc7025499c87d91a21c1b",
+  "Audit.lean": "9af6af85d39c144e8c4f3f3b000e526f34e45b5e30f649700762513ca3b38ebc",
+  "LcmSix/CarryGcd.lean": "aa37434370cf5ae69bcf956df7d7e365de5fcc7bbd76d941e050905ad85d3071",
+  "LcmSix/Core.lean": "f49e54cae7d5c233e38d38f5b56b34e673f6d8903a33bda5446ad9d42b128280",
+  "LcmSix/GcdBound.lean": "d3e292cc7c551e64aeb0b55918fdd547e7208eb6014e52ee7d27563d13da81f6",
+  "LcmSix/HeightCertificates.lean": "425c4558d52458b111d7c0b61a3153b5397711f37b9bd4534dc5807fa55ce61c",
+  "LcmSix/ModularObstruction.lean": "a78d0251411586a72540f9820d269a74877a6ab2858b8a83fc3efe51f9a5fbf4",
+  "LcmSix/Reduction.lean": "b17ced2e9b3334ece3d1533ee01a02ff6017e20dfe559d2db494488c13b2971b",
+  "LcmSix.lean": "cb71e68fa6dd990e780cad9cfcd73adb0d405ec5700a9f6d2b846dc5d6644268",
+  "cas/height-bounds/certify_height_intervals.py": "f1c0262fedab6f93764420505164170715729c185be2308c7f2d70f98276a70b",
+  "cas/height-bounds/duplication_bounds.json": "a1a6bcad2fe868c4f476587bb1657a64bb5b4649e41af37fb9d113fdb89e6d71",
+  "cas/height-bounds/duplication_bounds.py": "58270808b2255011e301ae95bc7730fabe1ea7c6c768c0e3d94496bcbb6f8614",
+  "cas/height-bounds/height_intervals.json": "2a988af3758fc58d84e7220160fc608e73194f703033099c96a97b580595f450",
+  "lake-manifest.json": "04c2c7bc54b8bce13ac4030389a7af36cf838b011307c27230ae25db08acfd5d",
+  "lakefile.toml": "f01aa20247e1b2bb41c8c23898d20718f6547a0e550afba1ba28fe9854ae4d69",
+  "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "scripts/verify_heights.py": "d17a4b1fb7226307dec586a037925de0f851c37b05bcf06b7683013457bf1370"
+}

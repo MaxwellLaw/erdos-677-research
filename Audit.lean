@@ -26,3 +26,25 @@ import LcmSix
 #print axioms LcmSix.slopeGcd_dvd_12_of_branch_1_5
 #print axioms LcmSix.slopeGcd_dvd_81_of_branch_1_10
 #print axioms LcmSix.slopeGcd_dvd_9_of_branch_2_5
+
+#print axioms HeightCertificates.common_divisor_of_bezout7
+#print axioms HeightCertificates.Branch1_2.bezout_p7
+#print axioms HeightCertificates.Branch1_2.bezout_q7
+#print axioms HeightCertificates.Branch1_2.common_divisor_bound
+#print axioms HeightCertificates.Branch1_2.coefficient_C
+#print axioms HeightCertificates.Branch1_2.coefficient_D
+#print axioms HeightCertificates.Branch1_5.bezout_p7
+#print axioms HeightCertificates.Branch1_5.bezout_q7
+#print axioms HeightCertificates.Branch1_5.common_divisor_bound
+#print axioms HeightCertificates.Branch1_5.coefficient_C
+#print axioms HeightCertificates.Branch1_5.coefficient_D
+#print axioms HeightCertificates.Branch1_10.bezout_p7
+#print axioms HeightCertificates.Branch1_10.bezout_q7
+#print axioms HeightCertificates.Branch1_10.common_divisor_bound
+#print axioms HeightCertificates.Branch1_10.coefficient_C
+#print axioms HeightCertificates.Branch1_10.coefficient_D
+#print axioms HeightCertificates.Branch2_5.bezout_p7
+#print axioms HeightCertificates.Branch2_5.bezout_q7
+#print axioms HeightCertificates.Branch2_5.common_divisor_bound
+#print axioms HeightCertificates.Branch2_5.coefficient_C
+#print axioms HeightCertificates.Branch2_5.coefficient_D

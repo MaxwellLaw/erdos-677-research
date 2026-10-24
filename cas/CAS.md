@@ -4,7 +4,7 @@ Author: MaxwellLaw. Source audit started **2026-10-23**; artifact verification d
 
 The author, MaxwellLaw, used AI as an assistive tool.
 
-**This is an auxiliary research result. It does not solve k = 6 or Erdős #677.** The rank and full-basis flags below are Magma results, outside the Lean kernel. The exact map checks are independent SymPy calculations, also outside Lean. No external result in this directory is used as a Lean axiom.
+**This is an auxiliary research result. It does not solve k = 6 or Erdős #677.** The rank and full-basis flags below are Magma results, outside the Lean kernel. The exact map checks are independent SymPy calculations, also outside Lean. The later height certificates have a kernel-checked integer-polynomial layer; their canonical-height interpretation and rational-interval argument remain human mathematics with exact Python arithmetic. No external result in this directory is used as a Lean axiom.
 
 ## Inputs and executed computations
 
@@ -72,7 +72,7 @@ Let `alpha=(b/a)^(1/3)` denote the positive real cube root. The image `Q0` of th
 
 Each x coordinate is a nonconstant rational linear-fractional function of a degree-three irrational number, so `Q0` is not rational. It must not be replaced by the elliptic curve identity. The exact verifier checks the equations modulo `a alpha^3-b`.
 
-There are useful uniform estimates on the entire positive target branch. They are human mathematical deductions supported by the exact identities and independently checked by a second research agent, **not Lean theorems in this directory**. Use the standard invariant differential `eta=dx/(2y)`. Exact differentiation along each cubic gives
+There are useful uniform estimates on the entire positive target branch. They are human mathematical deductions supported by the exact identities and the documented verification, **not Lean theorems in this directory**. Use the standard invariant differential `eta=dx/(2y)`. Exact differentiation along each cubic gives
 
 `eta = -8 dV / (b Phi'(U))`.
 
@@ -92,11 +92,13 @@ The lift must later be expressed using a consistently normalized real period and
 
 `h(x(P)) <= log(747)+log(V)`.
 
-Here `h` is the absolute logarithmic rational height. Cancellation only improves this bound. Define the x-normalized canonical height by `H(P)=lim_j 4^(-j) h(x(2^j P))`. If independently certified constants satisfy `H(P)>=lambda M^2` and `h(x(P))>=H(P)-S`, where `M=max |m_i|` in the full basis, then
+Here `h` is the absolute logarithmic rational height. The four numerators are positive and bounded by `747V`; the absolute denominator is at most `bU+aV+(b-a)<12V`. Cancellation only improves the rational-height bound. Define the x-normalized canonical height by `H(P)=lim_j 4^(-j) h(x(2^j P))`. The [height certificates](height-bounds/README.md) now give `H(P)-h(x(P))<5` on all four models and `H(sum m_i P_i)>=sum m_i²/100` for their respective displayed triples of points. Thus for a target-branch point represented by that triple, with `M=max |m_i|`,
 
-`0 < |L(P)| <= 26892 exp(S-lambda M^2)`.
+`0 < |L(P)| <= 26892 exp(5-M^2/100)`.
 
-This is an upper bound only; it does not give an absolute bound on M by itself. Height normalizations require care: the frequently used canonical height is `H/2`. Moreover Magma's `SilvermanBound` bounds `h-H` from above, the opposite direction to the inequality needed here. A valid lower bound for `h-H` is required; see the [height-difference API](https://docs.magma-maths.org/ArithmeticGeometry/EllipticCurvesOverQAndNumberFields/over_anf.html).
+This is an upper bound only; it does not give an absolute bound on M by itself. Representation of every rational point in the displayed basis remains supported by the external Magma full-group certification. Height normalizations require care: another common canonical height is `H/2`. Magma's `SilvermanBound` bounds `h-H` from above, the opposite direction to the inequality needed here. Our bound uses the coefficient estimate for duplication to prove `H-h<=log(C)/3<5`, with the direction tracked explicitly. See also the [height-difference API](https://docs.magma-maths.org/ArithmeticGeometry/EllipticCurvesOverQAndNumberFields/over_anf.html).
+
+The height computation uses seven exact duplications of each basis point and pairwise sum, rational logarithm enclosures, and positive rational principal minors for the pairing-matrix lower bound. `LcmSix/HeightCertificates.lean` proves the supplied integer Bézout identities, common-divisor bounds, and coefficient sums. It does not formalize the elliptic duplication formula, the real norm inequalities, canonical heights, or their quadratic-form law. Those steps and the exact arithmetic replay are documented separately; no floating-point eigenvalue is used as a certificate.
 
 ## Concrete remaining computation
 
@@ -105,16 +107,23 @@ This is an upper bound only; it does not give an absolute bound on M by itself. 
 A reproducible next stage is:
 
 1. Start with each model and full basis in the table. Recheck the Magma flags and export independently checkable rank and saturation evidence if a stronger trust claim is wanted.
-2. Certify a positive lower eigenvalue bound for the x-normalized height-pairing matrix, and a uniform S in the correct direction. Numerical eigenvalues without error bounds do not suffice.
-3. Compute rigorous real interval enclosures for the period, the three basis logarithms, and the logarithm of the exact degree-three point Q0, all using `dx/(2y)`. Track real components and the integer period coefficient.
-4. Apply an explicit elliptic-logarithm lower-bound theorem with the actual curve, degree-three field, heights, and normalizations. Verify that its hypotheses hold and calculate a valid initial integer coefficient bound M0. **No M0 has been proved here.**
-5. For an integer scale C, build the four-dimensional integer lattice whose columns have identity in the first three rows and rounded `C*log(P_i)`, `C*period` in the last row. The target is `(0,0,0,round(C*log(Q0)))`. Supply interval-certified roundings, exact LLL transformations, and a rigorous lower bound on the distance from that target to the lattice. Convert this and the upper bound above into a smaller coefficient bound. Repeat as justified.
-6. Enumerate the *proved* final coefficient box exactly, use the inverse maps, and retain only integer odd squares and the original disjointness and LCM conditions. Finish all exceptional-map cases. A box chosen experimentally is not complete.
-7. For a Lean endpoint, the completeness proof and arithmetic certificates must be proved or checked by the Lean kernel. Neither Magma's assertion flags nor this symbolic verifier can be imported as mathematical axioms.
+2. Compute rigorous real interval enclosures for the period, the three basis logarithms, and the logarithm of the exact degree-three point Q0, all using `dx/(2y)`. Track real components and the integer period coefficient.
+3. Apply an explicit elliptic-logarithm lower-bound theorem with the actual curve, degree-three field, heights, and normalizations. Verify that its hypotheses hold and calculate a valid initial integer coefficient bound M0. **No M0 has been proved here.**
+4. For an integer scale C, build the four-dimensional integer lattice whose columns have identity in the first three rows and rounded `C*log(P_i)`, `C*period` in the last row. The target is `(0,0,0,round(C*log(Q0)))`. Supply interval-certified roundings, exact LLL transformations, and a rigorous lower bound on the distance from that target to the lattice. Convert this and the upper bound above into a smaller coefficient bound. Repeat as justified.
+5. Enumerate the *proved* final coefficient box exactly, use the inverse maps, and retain only integer odd squares and the original disjointness and LCM conditions. Finish all exceptional-map cases. A box chosen experimentally is not complete.
+6. For a Lean endpoint, the completeness proof and arithmetic certificates must be proved or checked by the Lean kernel. Neither Magma's assertion flags nor this symbolic verifier can be imported as mathematical axioms.
 
 No David-constant computation, certified logarithm intervals, LLL distance certificate, or complete final enumeration has been executed in this directory. Earlier experimental searches of small Mordell–Weil coefficient boxes are deliberately not used as evidence of completeness and are not part of this publication set.
 
 ## Reproduction
+
+Replay the exact height certificates from the repository root with:
+
+```sh
+python3 scripts/verify_heights.py
+```
+
+This uses Python standard-library exact arithmetic and compares every mathematical output field with the saved certificate; only the Python version metadata is excluded. The integer-polynomial layer is also checked by the project's Lean build and axiom audit. Actual validation records are maintained in [VERIFICATION.md](../docs/VERIFICATION.md).
 
 For the exact symbolic checks, from this directory:
 

@@ -3,3 +3,4 @@ import LcmSix.Reduction
 import LcmSix.GcdBound
 import LcmSix.ModularObstruction
 import LcmSix.CarryGcd
+import LcmSix.HeightCertificates

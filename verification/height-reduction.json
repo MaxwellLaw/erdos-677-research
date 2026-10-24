@@ -1,0 +1,47 @@
+{
+  "python": "3.14.6",
+  "scope": "Finite exact-arithmetic checks of reduction formulas; no noncollision claim",
+  "product_lcm_identity_checked_n": [
+    0,
+    9999
+  ],
+  "coefficient_residue_class_counts": {
+    "(1, 2)": 68,
+    "(1, 5)": 32,
+    "(1, 10)": 16,
+    "(2, 5)": 16
+  },
+  "modular_construction_checked_moduli_count": 276,
+  "largest_modulus_checked": 11622614670000000000000000000,
+  "gcd_limits": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "odd_d_must_divide": 15
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "odd_d_must_divide": 15
+    },
+    {
+      "pair": [
+        1,
+        10
+      ],
+      "odd_d_must_divide": 45
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "odd_d_must_divide": 15
+    }
+  ],
+  "status": "all assertions passed"
+}

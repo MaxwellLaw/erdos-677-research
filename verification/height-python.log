@@ -1,0 +1,6 @@
+CERTIFIED [1, 2] lambda 1/100 N 7 maxbits 45575
+CERTIFIED [1, 5] lambda 1/100 N 7 maxbits 216285
+CERTIFIED [1, 10] lambda 1/100 N 7 maxbits 221662
+CERTIFIED [2, 5] lambda 1/100 N 7 maxbits 101106
+OUTPUT_SHA256 2a988af3758fc58d84e7220160fc608e73194f703033099c96a97b580595f450
+PASS: four exact height certificates; S=5, lambda=1/100; all mathematical fields match.
