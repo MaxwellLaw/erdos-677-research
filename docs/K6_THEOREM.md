@@ -69,9 +69,13 @@ lemmas, integer height-certificate algebra, the universal integer lattice
 argument, all 25 concrete lattice-distance certificates, conditional
 real rounding-error transfer, and an abstract saturation bridge. The
 [verification table](VERIFICATION.md) names their exact types and scopes.
-There are 105 explicit audited declarations, using only standard logical axioms.
+There are 172 explicit audited declarations, using only standard logical axioms. The later
+[coordinate-height formalization](../cas/height-bounds/LEAN_DYNAMICS.md) also
+proves the actual four gcd-normalized dynamical limits, geometric errors,
+uniqueness, and H-h<5, with all polynomial and divisor premises discharged.
 
-Canonical-height theory, David's theorem, elliptic integration, Kummer descent,
+Elliptic-group identification and quadraticity of the canonical height,
+David's theorem, elliptic integration, Kummer descent,
 number-field completeness, actual finite reductions and the full residual
 computation are documented mathematics with exact arithmetic outside Lean.
 They are not imported as axioms. Completing a kernel-checked k=6 endpoint

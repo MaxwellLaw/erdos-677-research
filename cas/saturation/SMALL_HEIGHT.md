@@ -279,3 +279,13 @@ not establish a rank upper bound, do not themselves solve all lengths,
 and do not provide a complete Lean `k=6` endpoint. The analytic use of the
 canonical height and Minkowski theorem and the finite-field reduction
 interpretation remain outside Lean in this directory.
+
+## Subsequent formalization of the real bound
+
+The 34 Bernstein leaves, complete real-chart coverage and universal quartic
+lower bounds from section 2 are now kernel checked in
+`LcmSix/DuplicationCertificates.lean`. The associated logarithmic transfer
+and canonical coordinate dynamics are described in
+[LEAN_DYNAMICS.md](../height-bounds/LEAN_DYNAMICS.md). This does not formalize
+the strong local-square gcd bound, tiny-box exhaustion, global minimum-height
+argument or lattice-index proof in the other sections of this document.

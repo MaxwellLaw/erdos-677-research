@@ -1,0 +1,121 @@
+{
+  "checked_at_utc": "2026-10-25T14:13:30.457294+00:00",
+  "awards": {
+    "main": "c06d67a66a8ba426c68e475eff22ee98a86f4e75",
+    "previous": "5b7126acf3d3d31c71e5964525807d1532cba892",
+    "merged_pr": 5135,
+    "change": "Legacy screening flags now Yes/No; 21 formerly deferred entries changed to Yes; pilot swaps in three-dimensional Poincare, removes smooth four-dimensional Poincare; old JSP001030..1073 shift down one.",
+    "effect_on_this_task": "None. JSP000550 unchanged Open / Lean No / eligibility No. Still outside MathDB pilot; full original-problem solution requirement remains unchanged.",
+    "files": [
+      {
+        "path": "CONTRIBUTING.md",
+        "sha": "a1444535f721828524ad1e6689c5a7bf6ab1bcb4"
+      },
+      {
+        "path": ".github/PULL_REQUEST_TEMPLATE.md",
+        "sha": "97bcca1687029819621b37bec25fec3af52f42ad"
+      },
+      {
+        "path": "docs/award-process.md",
+        "sha": "86d01189244568cfc55d966f72225c8fac4df53d"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/claim-award.yml",
+        "sha": "ecc98aae0b66743a7836086b96c0a7b79bb228b8"
+      },
+      {
+        "path": "problems/mathdb-pilot.md",
+        "sha": "6321c22f775ef050060b0dd4253124a338057b7e"
+      },
+      {
+        "path": "problems/catalog-0501-0600.md",
+        "sha": "1adf510bd9492acb7caf72ffc7c29900be1f45c8"
+      },
+      {
+        "path": "formal677",
+        "sha": "303699d56147eb8edd96b0c493dd2b1e53af23e3"
+      },
+      {
+        "path": "docs/verification.md",
+        "sha": "30cce06b9817102690e6e07c73338ebdd490154e"
+      },
+      {
+        "path": "docs/attribution.md",
+        "sha": "e57aeac5d6a69c0c28031a749c85423187c251e0"
+      },
+      {
+        "path": "problems/mathdb-pilot.json",
+        "sha": "c4b400372057a3f8a72ac0cfa99a9c7406cca451"
+      }
+    ]
+  },
+  "formal_conjectures": {
+    "main": "49ba26bac3212084999860c575fcc70af42b3128",
+    "problem677_blob": "303699d56147eb8edd96b0c493dd2b1e53af23e3",
+    "main_theorem": "research open, proof by sorry; exact original quantifiers unchanged"
+  },
+  "original_site": {
+    "method": "Read-only IAB browser successful after web/urllib both HTTP403",
+    "urls": [
+      "https://www.erdosproblems.com/677",
+      "https://www.erdosproblems.com/forum/thread/677",
+      "https://www.erdosproblems.com/forum/thread/677/proof-claims"
+    ],
+    "comments": 8,
+    "latest_post": 5214,
+    "latest_date": "2026-04-02 22:59 (page display)",
+    "proof_expositions": 0,
+    "proof_claims": 0,
+    "claim_page_text": "No proof claims have been submitted yet.",
+    "comment_posting": "suspended"
+  },
+  "search_summary": {
+    "method": "GitHub connector plus gh REST exact query/count fallback; no state filter; 6 all-date focused searches and 12 updated-since searches. Companion REST record has complete queries/results.",
+    "since": "2026-10-25T02:40:00Z",
+    "updated_since_hits": 0,
+    "incomplete_results": false,
+    "scope_caveat": "Search absence does not certify worldwide absence."
+  },
+  "new_to_audit_prior_work": {
+    "repository": "HuanHuanHuanFFF/lean-math-lab",
+    "pr": 1,
+    "pr_merged": true,
+    "updated_at": "2026-09-11T09:30:37Z",
+    "source_commit": "37e42aca251c33c62cbc2c40f286daa0526d79ee",
+    "actual_theorem": "B677Analytic.adopted_regions_noncollision_of_dusart",
+    "path": "research/tasks/B677-Lcm/runs/20260908-formalization-92c221/lean/analytic/RegionConsumer.lean",
+    "assumptions": "DusartPrimeInterval; k>0; n+k<=m; m-n<=8k OR n<=369k",
+    "mathematical_region": "Written argument cites unconditional Dusart and finite certificate; residual n>369k AND m-n>8k remains unbounded. No full k6 or all-k endpoint.",
+    "formal_scope": "Explicit unproved Dusart premise; finite m<89693 certificate claimed kernel checked by source, not reexecuted in this audit.",
+    "files": [
+      {
+        "path": "research/tasks/B677-Lcm/runs/20260908-formalization-92c221/frontier.md",
+        "sha": "bfb00b155f26cd986b44b93a7f84cb83669deb09"
+      },
+      {
+        "path": "research/tasks/B677-Lcm/runs/20260908-formalization-92c221/README.md",
+        "sha": "8ee585a44f4cf33e922f9b992873a4fef3bef110"
+      },
+      {
+        "path": "research/tasks/B677-Lcm/runs/20260908-interval-lcm-f0a6539/frontier.md",
+        "sha": "ff6756c040e5cfb0685d29e2357c020ec0c8b187"
+      },
+      {
+        "path": "Math/B677/IntervalLcm.lean",
+        "sha": "aee1817dfffa991e487bc6cd10c187c7096eb477"
+      },
+      {
+        "path": "research/tasks/B677-Lcm/runs/20260908-formalization-92c221/lean/analytic/DusartBridge.lean",
+        "sha": "3ce88e5205fba37f778356965698cf1fa9b374c3"
+      },
+      {
+        "path": "research/tasks/B677-Lcm/runs/20260908-formalization-92c221/lean/analytic/RegionConsumer.lean",
+        "sha": "f326e8d905d5f75535f2f26e86f075fb0a9ffa55"
+      },
+      {
+        "path": "research/tasks/B677-Lcm/runs/20260908-interval-lcm-f0a6539/report.md"
+      }
+    ],
+    "written_proof_url": "https://github.com/HuanHuanHuanFFF/lean-math-lab/blob/37e42aca251c33c62cbc2c40f286daa0526d79ee/research/tasks/B677-Lcm/runs/20260908-interval-lcm-f0a6539/explorer/complete-proof.md"
+  }
+}

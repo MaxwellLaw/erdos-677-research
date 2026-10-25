@@ -117,3 +117,30 @@ independent rank and saturation certificates; its complete Lean endpoint is
 still missing. The all-length requirement, lack of MathDB migration for this
 problem, and ineligibility for a whole-problem award submission remain
 unchanged. No awards solution PR or award claim has been created.
+
+## 2026-10-25 evening rules and additional prior work
+
+The latest [awards revision](https://github.com/TheJustinSunPrize/awards/tree/c06d67a66a8ba426c68e475eff22ee98a86f4e75)
+updates MathDB and renumbers later entries. JSP-000550 and its original-problem
+requirements are unchanged. It remains outside the pilot. No whole-problem
+solution PR or award claim is justified by this repository's k=6 result.
+
+[HuanHuanHuanFFF/lean-math-lab PR 1](https://github.com/HuanHuanHuanFFF/lean-math-lab/pull/1)
+is older work, merged in September 2026 and newly included in this audit.
+At full SHA `37e42aca251c33c62cbc2c40f286daa0526d79ee`, the inspected
+[RegionConsumer.lean](https://github.com/HuanHuanHuanFFF/lean-math-lab/blob/37e42aca251c33c62cbc2c40f286daa0526d79ee/research/tasks/B677-Lcm/runs/20260908-formalization-92c221/lean/analytic/RegionConsumer.lean)
+has the actual theorem `B677Analytic.adopted_regions_noncollision_of_dusart`.
+Besides k>0 and n+k<=m, it explicitly assumes `DusartPrimeInterval` and
+`m-n<=8*k OR n<=369*k`. The Dusart statement is a hypothesis, not a theorem
+proved in that endpoint's source. Its reported finite m<89693 certificate
+was not rerun in this audit. The written argument cites an unconditional
+prime-interval result, but its frontier still leaves the unbounded region
+`n>369*k AND m-n>8*k`. Consequently neither the inspected formal endpoint nor
+the written region argument settles all k=6 starts or the full question.
+The new [ownership two-factor condition](UNIFORM_STRUCTURE.md) does not reuse
+that Lean code or assume its conditional theorem.
+
+Live checks of all states, the three specifically watched awards PRs, the
+original discussion and proof-claim pages found no new complete competing
+proof or review action. This source inspection does not assert worldwide
+absence or mathematical priority.

@@ -1,0 +1,29 @@
+{
+  "scope": "Exact Lean source, generated-certificate input and pinned dependencies for the coordinate-dynamics checkpoint. This is not a full k=6 endpoint.",
+  "sha256": {
+    "Audit.lean": "2211709bf5af8a4aaf00d156c9de7ccea73b65d939ed73dd43cbe807a2aa7a74",
+    "LcmSix/CanonicalLimit.lean": "b6da8490eb03031a5a814c2c41c5eb7187f84dfffc9b506428ee0383855523fe",
+    "LcmSix/CarryGcd.lean": "aa37434370cf5ae69bcf956df7d7e365de5fcc7bbd76d941e050905ad85d3071",
+    "LcmSix/Core.lean": "f49e54cae7d5c233e38d38f5b56b34e673f6d8903a33bda5446ad9d42b128280",
+    "LcmSix/DuplicationBounds.lean": "30eab39030ebb6ee650e0e7307b08d9b49e35d4384871023baab6df00d087c30",
+    "LcmSix/DuplicationCertificates.lean": "0d9fb8047aa887570471dc4d42d3b9ccab166a19fd08d6ed95ecaad1de88ae9e",
+    "LcmSix/DuplicationHeight.lean": "5eb256fa0041f43ffaaaa7deed3a40cff8a7f8065579ef9c8fe41674c31a1da9",
+    "LcmSix/GcdBound.lean": "d3e292cc7c551e64aeb0b55918fdd547e7208eb6014e52ee7d27563d13da81f6",
+    "LcmSix/HeightCertificates.lean": "425c4558d52458b111d7c0b61a3153b5397711f37b9bd4534dc5807fa55ce61c",
+    "LcmSix/HeightConstants.lean": "6889c77a589e1f5219df70b15ef48f93fd2ac8972c168d63bd27644c53f1f737",
+    "LcmSix/LatticeCertificates.lean": "415a6e160481e72fcda7fafac6f525b2c055c7ccd1d12fbec6452d482485b701",
+    "LcmSix/LatticeDistance.lean": "7213cafb6ca4690e12d4643cc75fd4dabd826ce984fc27c630462a56e9c56be0",
+    "LcmSix/LatticeRounding.lean": "4c2082621fcc0aa0d1ea16cf743a2624edbc65de9075e46f636d0ed8118d4989",
+    "LcmSix/ModularObstruction.lean": "a78d0251411586a72540f9820d269a74877a6ab2858b8a83fc3efe51f9a5fbf4",
+    "LcmSix/PrimitiveDynamics.lean": "98ed4234c68381c06a5659fa8a977f89b8481a5730e9176f124c661a465c9287",
+    "LcmSix/Reduction.lean": "b17ced2e9b3334ece3d1533ee01a02ff6017e20dfe559d2db494488c13b2971b",
+    "LcmSix/SaturationBridge.lean": "ef250a06d2aaeb385980f1159534e3e3337e96418a6242d7bab6c8a7c2b5a3f9",
+    "LcmSix.lean": "8fdc28c4eb70e2a2dfbd578a5846e141483c47a604bc086a0cb08ddd0ee7ae9f",
+    "cas/saturation/small_height_certificate.json": "61dbc9566c9dee8a3e3cbfcbf5b34ca0c746e2a0dea4fba838d74a19730c5075",
+    "lake-manifest.json": "04c2c7bc54b8bce13ac4030389a7af36cf838b011307c27230ae25db08acfd5d",
+    "lakefile.toml": "f01aa20247e1b2bb41c8c23898d20718f6547a0e550afba1ba28fe9854ae4d69",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "scripts/check_axioms.py": "5daf2e19327035904273d8a964d9305580c534c9d046edce25ab5219b980b029",
+    "scripts/export_duplication_certificates.py": "60fad1bfe5a1bc898531297d2d1f211a529aba80cefb0a20de2542c506c18af2"
+  }
+}

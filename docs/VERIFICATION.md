@@ -19,11 +19,15 @@ This document verifies the auxiliary results in this repository. **There is no L
 | Integer lattice distances | Four generic theorems and 25 validity/distance pairs in `LatticeDistance.lean` and `LatticeCertificates.lean` | Every integer coefficient quadruple; explicit original rounded inputs and strict radius. No real-logarithm, rank, or k=6 endpoint assumption. |
 | Real rounding transfer | `rounding_error_bound`, `Certificate.real_linear_form_large` | Explicit rounding-error and coefficient hypotheses imply a strict bound on the scaled real linear form. Actual elliptic-logarithm enclosures remain external. |
 | Abstract saturation bridge | Three theorems in `SaturationBridge.lean` | Joint reduction detection and no ell-torsion imply ell-saturation; no claim that an actual elliptic curve satisfies these hypotheses. |
+| Real duplication bounds | `DuplicationBounds.Branch*.global_lower`, `integer_lower` | Every real or integer p,q on each of the four actual quartic pairs, with all 34 Bernstein leaves and two-chart coverage proved. |
+| Logarithmic transfer | `DuplicationBounds.logarithmic_defect`, `Branch*.defect_bounds` | Explicit divisor bounds and nonzero coordinate pair; specialized strong gcd bounds remain hypotheses here. |
+| Elementary canonical limit | `CanonicalLimit.tendsto_normalized`, `limit_tail_bounds`, `canonical_map`, `limit_eq_of_bounded_difference`, `canonical_unique` | Explicit bounded recurrence defects; convergence, asymmetric tails, scaling, bounded-change invariance and uniqueness are proved. |
+| Actual coordinate dynamics | `PrimitiveDynamics.branch*_converges`, `branch*_height_error`; `Model.canonical_enclosure` | All primitive integer pairs; actual gcd-normalized steps, with every polynomial/divisor premise discharged for all four models. Proves H-h<5; elliptic-group identification and pairing remain unformalized. |
 | Congruence-sieve limitation | Four `ratio_*_survives_every_modulus` theorems in `ModularObstruction.lean` | For every positive modulus, nonnegative disjoint representatives satisfy the product congruence and carry residues. Not integer product equalities or LCM collisions. |
 
 The Lean proof of `defect_six` first proves a universal gcd-periodicity identity, then exhausts its 60 residue classes. This is a finite proof of an explicitly proved periodic formula, not a bounded search over interval starts. The small gcd case splits likewise follow proved uniform bounds on the gcd. Integer subtraction is used in Phi and the centered formulas, so natural subtraction cannot silently truncate a curve coefficient.
 
-`Audit.lean` now names 105 declarations: the previous 46, including 21 for height-certificate algebra, plus six generic lattice/rounding lemmas, 25 concrete validity/distance pairs, and three abstract saturation lemmas. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. All 105 passed; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
+`Audit.lean` now names 172 declarations: the previous 105 plus 67 for real quartic bounds, logarithmic transfer, canonical limits, exact constants and the four actual primitive-coordinate maps. Earlier dated checkpoints below retain their historical counts. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. The allowed dependency set is unchanged; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
 
 ## Toolchain and recorded checks
 
@@ -164,3 +168,33 @@ no tested Lean/Python source or mathematical certificate changed.
 The final definitions, quantifiers, carry hypotheses and domain boundaries were inspected separately from tactic success. Additional agents reconstructed the human mathematics and reviewed the formal endpoint types; this is AI-assisted cross-checking, not an independent human referee report. No external mathematical review or award acceptance is claimed.
 
 Neither successful compilation, source-token scanning, nor finite tests alone establish that a theorem answers the original question. The declarations above deliberately state their narrower scope. The later calculation excludes those branches in four explicit generated subgroups. The subsequent independent rank and saturation proof extends that exclusion to all rational points without Magma completion flags. Its mathematical theory and exact Python arithmetic remain outside Lean; a complete Lean k=6 endpoint is unfinished. The unrestricted all-length question remains unresolved.
+
+## Real-bound and coordinate-height formalization, 2026-10-25 evening
+
+Six added Lean modules prove the [precise coordinate-dynamics statements](../cas/height-bounds/LEAN_DYNAMICS.md).
+The concrete convergence and strict H-h<5 endpoints have only a primitive
+integer pair as input. They have no assumed height defect, convergence,
+external numerical certificate or unspecified model proof. The total step
+uses the actual positive gcd; integer divisibility proves that division is
+exact and the output remains primitive. The finite-iterate enclosures use
+the coarse existing integral Bezout R, not the stronger rational-point-only
+gcd bound from the independent saturation argument.
+
+The elementary limit proofs formalize standard height-limit theory; this is
+a new formalization contribution, not a claim to new canonical-height theory.
+The 34 rational Bernstein witnesses are the previously published exact data;
+new proofs verify their full real-domain implications inside Lean. The
+exporter checks their exact correspondence with the saved input. Elliptic
+group-law identification, quadraticity and the remaining k=6 chain are still
+outside these new endpoints. The [uniform two-factor note](UNIFORM_STRUCTURE.md)
+is a separate written necessary condition and is not part of the Lean audit.
+
+The working checkout completed `lake --wfail build` (1988 jobs),
+`python3 scripts/check_axioms.py` (172 explicit declarations),
+`lake env leanchecker -v LcmSix` (all seventeen project modules), and
+`python3 scripts/export_duplication_certificates.py`, all with exit 0.
+Actual output is in `verification/dynamics-build.log`, `dynamics-axioms.log`,
+`dynamics-leanchecker.log`, and `dynamics-correspondence.log`. The pinned
+public dependency cache was reused. No new collision enumeration was needed
+for these additions; the existing complete residual proof and certificates
+are unchanged. A separate fresh-clone record follows when completed.

@@ -8,3 +8,9 @@ import LcmSix.LatticeDistance
 import LcmSix.LatticeCertificates
 import LcmSix.LatticeRounding
 import LcmSix.SaturationBridge
+import LcmSix.CanonicalLimit
+import LcmSix.DuplicationBounds
+import LcmSix.DuplicationCertificates
+import LcmSix.DuplicationHeight
+import LcmSix.HeightConstants
+import LcmSix.PrimitiveDynamics

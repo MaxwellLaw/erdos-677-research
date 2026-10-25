@@ -42,3 +42,28 @@ PDF at the linked author site has SHA256
 Milne *Algebraic Number Theory*, version 3.08 (19 July 2020), supplies the
 Minkowski and S-unit theorems cited in the ideal-certificate notes. Third-party
 PDFs are linked and attributed, not vendored into this repository.
+
+## 2026-10-25 evening refresh
+
+Awards advanced via [merged PR 5135](https://github.com/TheJustinSunPrize/awards/pull/5135)
+to `c06d67a66a8ba426c68e475eff22ee98a86f4e75`. The current templates,
+contribution/claim rules, verification and attribution instructions, and both
+MathDB registers were read. The renumbering affects later catalog entries;
+JSP-000550 remains Erdős #677, with unchanged catalog blob
+`1adf510bd9492acb7caf72ffc7c29900be1f45c8`, Open / Lean No / Eligible No.
+It is still outside the MathDB pilot and still requires a complete original
+solution. The update supplies no new eligibility for this fixed-length work.
+
+Formal Conjectures advanced to `49ba26bac3212084999860c575fcc70af42b3128`;
+its 677 blob remained `303699d56147eb8edd96b0c493dd2b1e53af23e3`.
+The original problem, forum and proof-claim pages were read in a browser
+again after direct HTTP returned 403: eight comments, latest post5214 on
+2 April 2026, zero proof expositions and zero claims. Posting remained suspended.
+The original research repository had successful CI and no external review or
+PR. Twelve all-state updated-since searches returned no new relevant item,
+with incomplete_results=false; this is scoped search evidence only.
+
+An older HuanHuanHuanFFF submission was newly added to the scope audit;
+[PRIOR_WORK.md](PRIOR_WORK.md) records its explicit Dusart hypothesis and
+unbounded remaining region. It is not a competing complete k=6 or all-length
+endpoint in the inspected source. No third-party build is claimed.

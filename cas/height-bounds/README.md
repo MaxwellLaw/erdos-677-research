@@ -4,7 +4,7 @@ Author: MaxwellLaw. Research checkpoint, 2026-10-24 (Asia/Shanghai).
 
 The author, MaxwellLaw, used AI as an assistive tool.
 
-This calculation has a kernel-checked integer-polynomial layer and a human proof of the height-theoretic implications supported by exact rational arithmetic. **Canonical-height theory is not formalized here. This is not an exhaustive integral-point calculation or a solution of k=6.**
+This calculation has a kernel-checked integer-polynomial layer and a human proof of the height-theoretic implications supported by exact rational arithmetic. **This original checkpoint did not formalize canonical-height theory. The later [Lean coordinate-height layer](LEAN_DYNAMICS.md) now proves its elementary limit, real polynomial bounds and actual primitive-coordinate dynamics; elliptic-group identification and quadraticity remain outside Lean.** This height calculation by itself is not an exhaustive integral-point calculation or a solution of k=6.
 
 For each of the four [model and point triples](../CAS.md#inputs-and-executed-computations), the certificate proves
 

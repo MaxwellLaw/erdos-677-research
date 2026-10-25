@@ -24,7 +24,7 @@ The integer Bézout identities, gcd bounds and coefficient sums are proved in
 Lean. The 2026-10-25 addition also proves the universal integral dual-functional
 distance argument and all 25 concrete lattice distances, including their
 explicit rounded integer inputs and strict thresholds. See
-[the exact Lean scope](../cas/global-bound/LEAN_LATTICE.md). Canonical heights, David's theorem, elliptic uniformization, logarithm
+[the exact Lean scope](../cas/global-bound/LEAN_LATTICE.md). Elliptic-group height identification and quadraticity, David's theorem, elliptic uniformization, logarithm
 integration and the interpretation of the finite-field sieve remain human
 mathematics with exact Python certificates. The exported lattice verifier
 checks unimodularity, inverse matrices, rounding cells and rational distance
@@ -54,9 +54,11 @@ assumes a Magma rank, class-group or full-basis flag.
 ## Remaining fixed-length obligations
 
 1. Develop a complete Lean endpoint for all n>=0 and m>=n+6. The current
-   105 audited declarations cover specified reductions, certificate algebra,
+   172 audited declarations cover specified reductions, certificate algebra,
    integer lattice distances, conditional rounding and an abstract saturation
-   bridge. The full height, analytic, descent and finite computation chain
+   bridge, real quartic bounds and actual primitive coordinate-height limits.
+   Elliptic-group height identification and quadraticity, and the analytic,
+   descent and finite computation chain
    remains outside Lean and must be proved or replaced there.
 2. Continue source/priority checks and address substantive external review.
    The completed independent group certificate is not an unfinished task to
@@ -89,3 +91,20 @@ This does not obstruct the finite-field sieves used after the global bound,
 and it does not rule out congruences combined with descent or additional
 arithmetic information. No uniform all-k proof or valid counterexample has
 been obtained.
+
+## Uniform structure follow-up, 2026-10-25 evening
+
+The [two-factor argument](UNIFORM_STRUCTURE.md) strengthens the earlier Hall
+observation: beyond an explicit k-dependent threshold, every genuine
+collision's q>k ownership graph must contain two edge-disjoint perfect
+matchings. It uses the paper's quadratic lift, an explicit polynomial root
+bound excluding vanishing lifts, and exact cut products. This is written
+mathematics, not a Lean endpoint or an all-length solution. Nonvanishing
+alternating cycles remain uncontrolled; the abstract permitted growth pattern
+is not an integer counterexample. No additional collision enumeration was run.
+
+The [new Lean height layer](../cas/height-bounds/LEAN_DYNAMICS.md) now proves
+real quartic bounds and unconditional canonical limits for all four actual
+primitive coordinate maps, including H-h<5. It does not yet connect them to
+Mathlib's elliptic group law or formalize the pairing, descent, analytic or
+residual-computation chain. These are now the precise formalization boundaries.
