@@ -23,9 +23,15 @@ jobs:
           leanchecker-args: 'LcmSix'
       - name: Axiom dependency report
         run: python3 scripts/check_axioms.py
+      - name: Integral lattice certificate correspondence
+        run: python3 scripts/export_lattice_certificates.py
       - name: Independent exact-arithmetic sanity checks
         run: python3 scripts/verify_reduction.py
       - name: Exact rational height certificates
         run: python3 scripts/verify_heights.py
       - name: Global analytic and exact arithmetic certificates
         run: python3 scripts/verify_global_bound.py
+      - name: Independent saturation and minimum-height certificates
+        run: python3 cas/saturation/verify_all.py
+      - name: Independent descent and rank certificates
+        run: python3 cas/descent/verify_all.py

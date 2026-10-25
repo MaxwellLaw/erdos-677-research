@@ -144,3 +144,12 @@ The input logarithm intervals and the analytic initial M bound retain their
 separate human mathematical proofs. This finite checker does not establish
 those analytic facts, complete the residual enumeration, or replace a Lean
 proof.
+
+## Subsequent Lean verification
+
+The 2026-10-25 [integral dual-functional formalization](LEAN_LATTICE.md) proves
+the universal squared-distance argument and all 25 concrete bounds in Lean.
+It clears the selected row denominators and verifies membership in the dual
+lattice directly. The generic conditional rounding comparison is also proved in Lean. Actual
+real-logarithm enclosures, the initial coefficient bound and the
+exponential/logarithmic cutoff remain separately documented human mathematics. The finite elliptic-point exhaustion also remains outside Lean.

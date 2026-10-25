@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "scope": "four integral S-supported norm-square classes with independent localization in split K tensor Q3; human Hensel/Kummer interpretation, not Lean",
+  "source_sha256": "61632519fdae0c08d6eff76c6ff227bc96a42cd8e1a92dc982d933d6c5db2352",
+  "root_proofs": [
+    {
+      "v_derivative": 1,
+      "f_divisible_by_3_to": 81
+    },
+    {
+      "v_derivative": 1,
+      "f_divisible_by_3_to": 81
+    },
+    {
+      "v_derivative": 0,
+      "f_divisible_by_3_to": 80
+    }
+  ],
+  "witnesses": [
+    {
+      "norm": "18014398509481984",
+      "monic_characteristic_polynomial": [
+        "-18014398509481984",
+        "598074195968",
+        "-8653967",
+        "1"
+      ],
+      "local_squareclasses": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "norm": "18014398509481984",
+      "monic_characteristic_polynomial": [
+        "-18014398509481984",
+        "275951648768",
+        "1073113",
+        "1"
+      ],
+      "local_squareclasses": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "norm": "58149737003040059690390169",
+      "monic_characteristic_polynomial": [
+        "-58149737003040059690390169",
+        "34134390715085225986563",
+        "-4194794987",
+        "1"
+      ],
+      "local_squareclasses": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "norm": "58149737003040059690390169",
+      "monic_characteristic_polynomial": [
+        "-58149737003040059690390169",
+        "11219694922801198703583",
+        "132232338713",
+        "1"
+      ],
+      "local_squareclasses": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "odd_four_by_four_minor_columns": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "rank": 4
+}

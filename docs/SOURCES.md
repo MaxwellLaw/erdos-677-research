@@ -19,8 +19,26 @@ The original equal-length, disjoint, positive-integer conditions; exact carry fa
 
 ## Still unverified or unresolved
 
-The journal paper's full historical search and supplementary computations have not all been independently reproduced. Their finite reported ranges are not new results here. No certified complete original-curve integer-point list, effective exhaustive bound, k=6 noncollision theorem, or genuine collision is available in this repository. The Magma rank/basis output has a different trust boundary from the Lean theorems. The inaccessible primary-text hypotheses noted in the [detailed source audit](../cas/SOURCE_AUDIT.md) and [Farhi–Kane / Saradha–Shorey supplement](../cas/LITERATURE_SUPPLEMENT.md) are not used as mathematical premises.
+The journal paper's full historical search and supplementary computations have not all been independently reproduced. Their finite reported ranges are not new results here. The later [k=6 proof chain](K6_THEOREM.md) supplies effective bounds, complete target-domain exclusion, and independent group certificates. It supplies no complete Lean k=6 endpoint or all-length result. Historical Magma rank/basis flags are cross-checks, not assumptions of the later independent proof. The inaccessible primary-text hypotheses noted in the [detailed source audit](../cas/SOURCE_AUDIT.md) and [Farhi–Kane / Saradha–Shorey supplement](../cas/LITERATURE_SUPPLEMENT.md) are not used as mathematical premises.
 
 ## Errors found in examined claims
 
 The [prior-work report](PRIOR_WORK.md) documents wrong-problem submissions and finite closed computations advertised as full results. A later research page's claim that Erdős originally required the strict inequality m>n+k conflicts with both visually inspected equal-length statements; OCR confused that symbol with the subsequent different-length extension. These are source and scope findings, not evidence that this repository solves the problem.
+
+## 2026-10-25 source refresh
+
+The original problem/forum still had eight comments, zero proof claims and zero
+expositions when checked. Awards remained at
+`5b7126acf3d3d31c71e5964525807d1532cba892`; JSP-000550 was still outside the
+MathDB pilot. Formal Conjectures advanced to
+`37f0808b83c56c8cef4ea5816b8329c09b8905a8` via an unrelated Brennan change.
+No new qualifying competing solution or external review was found in the
+recorded all-state searches. This is a scoped source audit, not a claim of
+worldwide priority.
+
+For the independent rank proof, the inspected CFOSS *Explicit n-Descent III*
+PDF at the linked author site has SHA256
+`c2fd51b9b0fe6aab25114b98d9cce48846c351e555395c87aed4bd1b659ff5b1`.
+Milne *Algebraic Number Theory*, version 3.08 (19 July 2020), supplies the
+Minkowski and S-unit theorems cited in the ideal-certificate notes. Third-party
+PDFs are linked and attributed, not vendored into this repository.

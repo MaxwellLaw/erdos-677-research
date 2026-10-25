@@ -4,7 +4,7 @@ Author: MaxwellLaw. Source audit started **2026-10-23**; artifact verification d
 
 The author, MaxwellLaw, used AI as an assistive tool.
 
-**The analytic and exact-arithmetic certificate excludes all target points in the four displayed generated subgroups. The recorded Magma full-basis flags give a CAS-supported computational k = 6 corollary; no independently exported full-group certificate or Lean k = 6 endpoint is supplied. Erdős #677 for all lengths remains open.** The rank and full-basis flags below are Magma results, outside the Lean kernel. The exact map checks are independent SymPy calculations, also outside Lean. The later height certificates have a kernel-checked integer-polynomial layer; their canonical-height interpretation and rational-interval argument remain human mathematics with exact Python arithmetic. No external result in this directory is used as a Lean axiom.
+**The written proof and independent exact certificates now establish the k=6 noncollision theorem. The [independent rank and saturation proof](descent/RANK_PROOF.md) replaces the earlier reliance on Magma completion flags. There is no complete Lean k=6 endpoint; Erdős #677 for all lengths remains unresolved.** The rank and full-basis flags below are Magma results, outside the Lean kernel. The exact map checks are independent SymPy calculations, also outside Lean. The later height certificates have a kernel-checked integer-polynomial layer; their canonical-height interpretation and rational-interval argument remain human mathematics with exact Python arithmetic. The subsequent [integer lattice formalization](global-bound/LEAN_LATTICE.md) also kernel-checks the general dual-functional argument and all 25 concrete distance bounds, without assuming the external inverse or LLL output. No external result in this directory is used as a Lean axiom.
 
 ## Inputs and executed computations
 
@@ -23,7 +23,7 @@ The scripts were run with the official Magma calculator, **Magma 2.30-1**, in fr
 | (1,10) | (1,-1633,97763) | (221/4,3387/8), (14,279), (43,330) |
 | (2,5) | (1,-1633,32963) | (23,-90), (17,-102), (-1,186) |
 
-In all four cases Magma returned `Z + Z + Z`, `rankproved=true`, and `fullproved=true`. The separate model run reported trivial torsion and 2-Selmer upper bound 3 together with three independent rational points. Its informational analytic-rank line is not the justification for the rank. These are CAS certifications, not independently exported descent or saturation certificates.
+In all four cases Magma returned `Z + Z + Z`, `rankproved=true`, and `fullproved=true`. The separate model run reported trivial torsion and 2-Selmer upper bound 3 together with three independent rational points. Its informational analytic-rank line is not the justification for the rank. These historical outputs are CAS certifications. The later [independent proof](descent/RANK_PROOF.md) supplies separately replayable descent and saturation certificates.
 
 `models.m` constructs `EllipticCurve(C,C![1,1,1])`, takes `MinimalModel`, expands the composite map, and calls `IsInvertible` to compute the inverse. `Inverse` alone need not compute an inverse; an earlier exploratory call failed for that reason. Only successful transcripts are included here.
 
@@ -96,7 +96,7 @@ Here `h` is the absolute logarithmic rational height. The four numerators are po
 
 `0 < |L(P)| <= 26892 exp(5-M^2/100)`.
 
-This upper bound is now combined with David's theorem and the exact lattice certificates in [global-bound/README.md](global-bound/README.md), giving an initial bound `M<10^100` and final closed bounds 60,60,62,64. Representation of every rational point in the displayed basis remains supported by the external Magma full-group certification. Height normalizations require care: another common canonical height is `H/2`. Magma's `SilvermanBound` bounds `h-H` from above, the opposite direction to the inequality needed here. Our bound uses the coefficient estimate for duplication to prove `H-h<=log(C)/3<5`, with the direction tracked explicitly. See also the [height-difference API](https://docs.magma-maths.org/ArithmeticGeometry/EllipticCurvesOverQAndNumberFields/over_anf.html).
+This upper bound is now combined with David's theorem and the exact lattice certificates in [global-bound/README.md](global-bound/README.md), giving an initial bound `M<10^100` and final closed bounds 60,60,62,64. Representation of every rational point in the displayed basis is now established by the [independent full-group proof](descent/RANK_PROOF.md). Height normalizations require care: another common canonical height is `H/2`. Magma's `SilvermanBound` bounds `h-H` from above, the opposite direction to the inequality needed here. Our bound uses the coefficient estimate for duplication to prove `H-h<=log(C)/3<5`, with the direction tracked explicitly. See also the [height-difference API](https://docs.magma-maths.org/ArithmeticGeometry/EllipticCurvesOverQAndNumberFields/over_anf.html).
 
 The height computation uses seven exact duplications of each basis point and pairwise sum, rational logarithm enclosures, and positive rational principal minors for the pairing-matrix lower bound. `LcmSix/HeightCertificates.lean` proves the supplied integer Bézout identities, common-divisor bounds, and coefficient sums. It does not formalize the elliptic duplication formula, the real norm inequalities, canonical heights, or their quadratic-form law. Those steps and the exact arithmetic replay are documented separately; no floating-point eigenvalue is used as a certificate.
 
@@ -124,13 +124,13 @@ The [global-bound certificate](global-bound/README.md) now supplies:
    conservative treatment of modular map exceptions and rational reconstruction
    of every survivor. No original disjoint odd-square candidate remains.
 
-These steps prove exclusion for each explicit generated subgroup. Applying
-that conclusion to all rational points retains the external Magma full-basis
-certification. There is no exported independent full-group certificate, and
-none of this analytic completeness argument is imported into Lean as an axiom.
-The remaining formal endpoint must prove or replace that argument and verify
-the finite computation in the kernel. The original arbitrary-length problem
-requires a separate advance.
+These steps prove exclusion for each explicit generated subgroup. The later
+[independent rank and saturation certificate](descent/RANK_PROOF.md) proves
+these subgroups equal E(Q), giving the full mathematical/computational k=6
+statement. No external completion flag or analytic result is imported into
+Lean as an axiom. The remaining formal endpoint must prove or replace that
+argument and verify the finite computation in the kernel. The original
+arbitrary-length problem requires a separate advance.
 
 ## Reproduction
 

@@ -3,11 +3,13 @@
 Author: MaxwellLaw. Verification date: 2026-10-24, Asia/Shanghai.
 The author, MaxwellLaw, used AI as an assistive tool.
 
-**The analytic proof and exact arithmetic exclude the target points in four
-explicit generated subgroups. The recorded external Magma full-basis flags
-give a CAS-supported computational k=6 noncollision corollary.** A full-group
-certificate independently checkable outside Magma has not been exported.
-There is no Lean k=6 endpoint, and the all-length Erdős #677 remains open.
+**The analytic proof and exact arithmetic exclude the target points in the four
+explicit generated subgroups. The subsequent independent rank and saturation
+certificates prove that these subgroups are the full rational-point groups,
+completing the mathematical/computational k=6 noncollision theorem.**
+See [the full proof chain](../../docs/K6_THEOREM.md). Magma completion flags
+are now historical cross-checks, not assumptions of this conclusion. There
+is no complete Lean k=6 endpoint, and the all-length Erdős #677 remains open.
 
 ## Exact scoped theorem
 
@@ -32,15 +34,14 @@ assumption is needed for this statement, and no GRH or numerical rank
 assumption is used in its analytic proof. The statement is established by the
 human argument and exact arithmetic described below; it is not a Lean theorem.
 
-The conditional full-group corollary is precise: **if G=E(Q) in all four rows,
-then for all natural n,m with m>=n+6,
-`lcm(n+1,...,n+6) != lcm(m+1,...,m+6)`**. The separately kernel-checked
-four-curve equivalence connects this statement to the original LCM definition,
-including n=0 and m=n+6. Magma 2.30-1 returned `rankproved=true` and
-`fullproved=true` for all four triples, with trivial torsion. Using those
-recorded flags as external CAS certification yields the computational k=6
-corollary. The scripts here do not independently re-prove the descent or
-saturation behind the flags.
+The full-group corollary is precise: since G=E(Q) in all four rows, for all
+natural n,m with m>=n+6,
+`lcm(n+1,...,n+6) != lcm(m+1,...,m+6)`.
+The separately kernel-checked four-curve equivalence connects this statement
+to the original LCM definition, including n=0 and m=n+6. At the 2026-10-24
+checkpoint group coverage used Magma 2.30-1's `rankproved` and `fullproved`
+flags. The 2026-10-25 [independent group proof](../descent/RANK_PROOF.md)
+replaces that dependence with explicit rank and saturation certificates.
 
 ## Complete argument and arithmetic evidence
 
@@ -61,6 +62,10 @@ saturation behind the flags.
    **closed bounds 60,60,62,64**. The verifier checks all 25 steps, each
    unimodular transformation, rounding cell, inverse matrix and strict
    distance threshold. It needs no assertion about the quality of LLL's output.
+   The subsequent [Lean distance certificates](LEAN_LATTICE.md) prove the
+   integral dual-functional argument and all 25 concrete squared-distance
+   inequalities and conditional rounding-error transfer in the kernel;
+   actual real-logarithm enclosures remain outside Lean.
 4. [Complete residual enumeration](ENUMERATION.md) covers all **7,642,936**
    triples in those closed boxes. At good primes, an exact square-residue
    sieve retains every exceptional reduction conservatively. Every remaining
@@ -103,17 +108,18 @@ Full rational coordinates of every final survivor are in
 [residual_enumeration.json](residual_enumeration.json). The primary papers are
 linked and their inspected hashes recorded; their PDFs are not vendored.
 
-The Lean kernel checks the existing LCM reductions and integer-polynomial
-certificates. It does not check David's theorem, canonical-height theory,
+The Lean kernel checks the existing LCM reductions, integer-polynomial
+certificates, and the subsequent 25 integer lattice-distance certificates. It does not check David's theorem, canonical-height theory,
 elliptic integration, the reduction homomorphism or these Python finite
 computations. Those are documented human mathematical arguments with exact
-arithmetic evidence. Separately, the full-group step uses external Magma
-certification. No CAS return value or unproved analytic hypothesis is inserted
+arithmetic evidence. The full-group step now has independently replayable
+number-field, local-field and saturation certificates with a documented human
+proof. No CAS return value or unproved analytic hypothesis is inserted
 as a Lean axiom.
 
-The remaining fixed-length work is to export independent rank/saturation
-certificates and establish a Lean endpoint, either by formalizing this
-completeness argument or finding a different kernel-checkable route. The
+The remaining fixed-length work is to establish a complete Lean endpoint,
+either by formalizing this completeness argument or finding a different
+kernel-checkable route, and to address substantive external review. The
 unrestricted conjecture needs a uniform argument in k or an actual disjoint
 equal-length collision. A fixed-length result does not qualify as a complete
 JSP-000550 solution, so it does not support an awards solution PR or a

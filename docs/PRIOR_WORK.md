@@ -108,3 +108,12 @@ This audit does not submit an awards PR or claim. The research repository now pu
 ## Publication recheck, 2026-10-24
 
 GitHub search was repeated across all PR states for JSP-000550, Erdos677, equal-length intervals, and the Formal Conjectures 677 path. The relevant results remained partial or wrong-problem submissions. API checks still show #4846 and #4288 open and unmerged. An additional hit, [awards #2582](https://github.com/TheJustinSunPrize/awards/pull/2582), is closed/unmerged and actually changes the totient-preimage catalog entry; its pinned Erdos677.lean URL currently returns 404, so its Lean theorem type was not independently verified. Its actual catalog diff is unrelated to the LCM problem.
+
+## 2026-10-25 publication refresh
+
+The current all-state source checks found no new qualifying competing proof
+or review. The author's [new fixed-length theorem](K6_THEOREM.md) now has
+independent rank and saturation certificates; its complete Lean endpoint is
+still missing. The all-length requirement, lack of MathDB migration for this
+problem, and ineligibility for a whole-problem award submission remain
+unchanged. No awards solution PR or award claim has been created.

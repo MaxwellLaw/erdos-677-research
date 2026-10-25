@@ -1,0 +1,7519 @@
+{
+  "status": "finite-field witnesses verified exactly; human group/reduction interpretation, not Lean",
+  "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "saturation_primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89,
+    97,
+    101
+  ],
+  "scope": "torsion-free E(Q) and ell-saturation of the explicit rank-three subgroup at the listed ell; no rank upper bound, index bound, or all-prime saturation assertion",
+  "curves": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "a2_a4_a6": [
+        -1,
+        -65,
+        261
+      ],
+      "basis": [
+        [
+          "5",
+          "6"
+        ],
+        [
+          "13",
+          "38"
+        ],
+        [
+          "-7",
+          "18"
+        ]
+      ],
+      "torsion_prime_to_characteristic_certificate": [
+        {
+          "prime": 11,
+          "order": 15,
+          "prime_times_order": 165
+        },
+        {
+          "prime": 13,
+          "order": 19,
+          "prime_times_order": 247
+        }
+      ],
+      "torsion_augmented_order_gcd": 1,
+      "finite_group_records": [
+        {
+          "prime": 11,
+          "order": 15,
+          "generator": [
+            1,
+            3
+          ],
+          "basis_indices": [
+            11,
+            7,
+            2
+          ],
+          "full_table_sha256": "4600a716091f0bdb3324b2c71f816d2a24b903d1318947a1b6f3b2deb5a67ade"
+        },
+        {
+          "prime": 13,
+          "order": 19,
+          "generator": [
+            0,
+            1
+          ],
+          "basis_indices": [
+            11,
+            18,
+            5
+          ],
+          "full_table_sha256": "c454758e19a9bb67a0b5bea05c7173622c85ef6bbf1f59bfae46ec0a3c52ea8a"
+        },
+        {
+          "prime": 17,
+          "order": 26,
+          "generator": [
+            1,
+            3
+          ],
+          "basis_indices": [
+            10,
+            7,
+            12
+          ],
+          "full_table_sha256": "ab0e064e663bd28df8ba2ae58329074a283e007bfb667a907a0900758e2cbbc3"
+        },
+        {
+          "prime": 19,
+          "order": 20,
+          "generator": [
+            4,
+            7
+          ],
+          "basis_indices": [
+            12,
+            10,
+            7
+          ],
+          "full_table_sha256": "1bc4a7208dabc74a9628e6e3dfcab4b0a627c10ae90f8de5e6b7cd84f1660477"
+        },
+        {
+          "prime": 23,
+          "order": 27,
+          "generator": [
+            0,
+            10
+          ],
+          "basis_indices": [
+            19,
+            2,
+            15
+          ],
+          "full_table_sha256": "faf771e01ef03cb1e57e44f5daff78df1c5830f9dfd975aff122364e2592793a"
+        },
+        {
+          "prime": 31,
+          "order": 37,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            20,
+            33,
+            6
+          ],
+          "full_table_sha256": "5baf5389d779ace88a2f8f0040de9dfb4dafd77567927b347217536dbd242ac0"
+        },
+        {
+          "prime": 37,
+          "order": 47,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            32,
+            29,
+            12
+          ],
+          "full_table_sha256": "8a48c8c8a4b8fcefbb79c38812fd71edff2a6d58816f953844aafec45dee303d"
+        },
+        {
+          "prime": 41,
+          "order": 52,
+          "generator": [
+            3,
+            17
+          ],
+          "basis_indices": [
+            27,
+            28,
+            40
+          ],
+          "full_table_sha256": "bcc77f36b5ae25b046330790cc62c217b48b3b4061410b15f04d4e69c6bf4786"
+        },
+        {
+          "prime": 43,
+          "order": 47,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            22,
+            2,
+            7
+          ],
+          "full_table_sha256": "0dac81616e47de31621cfca35369f0e9c035f7cac97bf86009181f889768a1e8"
+        },
+        {
+          "prime": 47,
+          "order": 57,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            52,
+            9,
+            16
+          ],
+          "full_table_sha256": "5a8c1dfa5711c1cce6b5bcfe7b5263e0c7840095d8cd1514b005ce987b416bc7"
+        },
+        {
+          "prime": 53,
+          "order": 56,
+          "generator": [
+            0,
+            7
+          ],
+          "basis_indices": [
+            44,
+            45,
+            31
+          ],
+          "full_table_sha256": "9c61f1ab6bd3b8b9b185f3fd9e891076e3febc137dab688678744dddcf7684ef"
+        },
+        {
+          "prime": 59,
+          "order": 71,
+          "generator": [
+            0,
+            5
+          ],
+          "basis_indices": [
+            10,
+            63,
+            23
+          ],
+          "full_table_sha256": "fe7a341de1b80dc6e75d56a5e8d883e2b4b69bbdaeac5acfa3bdf8334421ddeb"
+        },
+        {
+          "prime": 67,
+          "order": 80,
+          "generator": [
+            0,
+            23
+          ],
+          "basis_indices": [
+            8,
+            54,
+            47
+          ],
+          "full_table_sha256": "b6c5c124d4514b6c9e66e3320bb633b7756939b05420590b1cc544380a633e0c"
+        },
+        {
+          "prime": 71,
+          "order": 86,
+          "generator": [
+            0,
+            30
+          ],
+          "basis_indices": [
+            52,
+            44,
+            45
+          ],
+          "full_table_sha256": "2487ae9f00e2d78c25b622a4eafa4ed21c1481518e13573af3c60740fae1b9d2"
+        },
+        {
+          "prime": 79,
+          "order": 66,
+          "generator": [
+            4,
+            7
+          ],
+          "basis_indices": [
+            61,
+            32,
+            4
+          ],
+          "full_table_sha256": "8fa356f1580cf6cccff9d83292f578d2e77ef8ea74a2b252a788bfbb938b3530"
+        },
+        {
+          "prime": 83,
+          "order": 85,
+          "generator": [
+            0,
+            26
+          ],
+          "basis_indices": [
+            80,
+            28,
+            48
+          ],
+          "full_table_sha256": "18575bce7a5482ee0c6b53e04b26e49895b09e0e745856ccbbea2a50767b167c"
+        },
+        {
+          "prime": 101,
+          "order": 111,
+          "generator": [
+            4,
+            7
+          ],
+          "basis_indices": [
+            105,
+            57,
+            5
+          ],
+          "full_table_sha256": "6945be2b83d52950abe968978c2051518741f74216507c406a06df80ccba6d5e"
+        },
+        {
+          "prime": 107,
+          "order": 99,
+          "generator": [
+            4,
+            7
+          ],
+          "basis_indices": [
+            27,
+            60,
+            71
+          ],
+          "full_table_sha256": "60b2d1ef18752d0e36adc0e0ccfc111628f64eb170f1d0862843a181939afa88"
+        },
+        {
+          "prime": 109,
+          "order": 124,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            27,
+            69,
+            5
+          ],
+          "full_table_sha256": "6347874286b82dc1a4237ac0c58d3a6ecb7187e7b4b3010ac7c600ea006ee924"
+        },
+        {
+          "prime": 127,
+          "order": 133,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            14,
+            104,
+            75
+          ],
+          "full_table_sha256": "fdfc7d33cc677381ad9950d360c6334779524f149a486202e2f5bb92bdf11dab"
+        },
+        {
+          "prime": 131,
+          "order": 138,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            38,
+            61,
+            46
+          ],
+          "full_table_sha256": "9c76aca2d1a2e064695ccc1ad29b5ec44cd50f17f2ede573ba201ecf22dc4a79"
+        },
+        {
+          "prime": 151,
+          "order": 158,
+          "generator": [
+            0,
+            67
+          ],
+          "basis_indices": [
+            52,
+            85,
+            5
+          ],
+          "full_table_sha256": "40e88ae5ee65d42ef7a4e3014f539886c030dbdc9d252268d9e26304ef26b750"
+        },
+        {
+          "prime": 157,
+          "order": 175,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            71,
+            32,
+            156
+          ],
+          "full_table_sha256": "9f463b8e32f8cdea0d950fa197ff5ae9b31f75567f67f0d2f2e8fa8d0112eb64"
+        },
+        {
+          "prime": 163,
+          "order": 176,
+          "generator": [
+            2,
+            61
+          ],
+          "basis_indices": [
+            82,
+            62,
+            90
+          ],
+          "full_table_sha256": "988cc9fcbf6f46bd28b0508033dce375a0cd62167c586f620bcdc3c10e99ab43"
+        },
+        {
+          "prime": 167,
+          "order": 177,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            110,
+            133,
+            136
+          ],
+          "full_table_sha256": "f1d934396315d1aa6f6f36132a31e1a76635c808232f2f7cacae15fb3d86dba4"
+        },
+        {
+          "prime": 179,
+          "order": 177,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            107,
+            139,
+            92
+          ],
+          "full_table_sha256": "49735fa26bd8b7f2e2b3395f35010130e2a9ac4531548328c62e75b3dcda54ff"
+        },
+        {
+          "prime": 199,
+          "order": 208,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            117,
+            181,
+            77
+          ],
+          "full_table_sha256": "117a261a3b71cbb0ff1b05af35ff42a51ba2b82e6c468f111345678bf7aff0df"
+        },
+        {
+          "prime": 227,
+          "order": 232,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            86,
+            59,
+            168
+          ],
+          "full_table_sha256": "c66148647c04760da1bde6476d7276f53006dd99c5a9108feab7cf2c605b65bb"
+        },
+        {
+          "prime": 229,
+          "order": 222,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            139,
+            165,
+            150
+          ],
+          "full_table_sha256": "0643d90b677bb5b0bdb99fc8a4a3b64bbfaa06d9e8659812a4f45842e3df0a9f"
+        },
+        {
+          "prime": 251,
+          "order": 261,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            118,
+            24,
+            99
+          ],
+          "full_table_sha256": "921cc921fed46693e907f8f774874facac0dcd3d9c9cbca61ecce044753abad7"
+        },
+        {
+          "prime": 257,
+          "order": 268,
+          "generator": [
+            2,
+            69
+          ],
+          "basis_indices": [
+            62,
+            238,
+            22
+          ],
+          "full_table_sha256": "9930748c8ee0f1c630adf28f29cc8551b6b994c5056ebd3d73d42bb623a76349"
+        },
+        {
+          "prime": 277,
+          "order": 246,
+          "generator": [
+            3,
+            19
+          ],
+          "basis_indices": [
+            59,
+            62,
+            85
+          ],
+          "full_table_sha256": "b897cc9c4ad330d672b971be48bc0d747dd4d9e3391df4e7c085cd7c960c574b"
+        },
+        {
+          "prime": 283,
+          "order": 284,
+          "generator": [
+            12,
+            102
+          ],
+          "basis_indices": [
+            240,
+            214,
+            134
+          ],
+          "full_table_sha256": "67d4dbf4956e66bda35852494f32304a28d44915f251febd0badcbf44806f17b"
+        },
+        {
+          "prime": 311,
+          "order": 306,
+          "generator": [
+            8,
+            74
+          ],
+          "basis_indices": [
+            2,
+            23,
+            82
+          ],
+          "full_table_sha256": "81d98a85de4fab9d1f038f08331d904e6fba8d59aacd737ae068515cfacd0ac9"
+        },
+        {
+          "prime": 317,
+          "order": 340,
+          "generator": [
+            2,
+            120
+          ],
+          "basis_indices": [
+            89,
+            297,
+            235
+          ],
+          "full_table_sha256": "b59077e936047992ab300a1a5f82735224893a273cf408cabfa62e4663806d12"
+        },
+        {
+          "prime": 331,
+          "order": 301,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            92,
+            116,
+            213
+          ],
+          "full_table_sha256": "524b91c10f7443b3d716fe64e77ad58b23175a923f7227f9b2f56a4e83d480d9"
+        },
+        {
+          "prime": 367,
+          "order": 356,
+          "generator": [
+            2,
+            52
+          ],
+          "basis_indices": [
+            197,
+            322,
+            172
+          ],
+          "full_table_sha256": "bb4f74b8e562f14c113e61c08992483059d4626d24729fdb2a50f090addc24ee"
+        },
+        {
+          "prime": 373,
+          "order": 403,
+          "generator": [
+            0,
+            117
+          ],
+          "basis_indices": [
+            324,
+            43,
+            184
+          ],
+          "full_table_sha256": "42cd1d18fd4b999087ae62387258282d3e1870bf45887affc75b23338e3b9ff5"
+        },
+        {
+          "prime": 389,
+          "order": 365,
+          "generator": [
+            4,
+            7
+          ],
+          "basis_indices": [
+            66,
+            53,
+            298
+          ],
+          "full_table_sha256": "09c946847570cbe64cabba8ceb45c13efa48da00277a32d575cb41d98acca698"
+        },
+        {
+          "prime": 409,
+          "order": 376,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            43,
+            289,
+            322
+          ],
+          "full_table_sha256": "dcb1ecbd43b28bd95604a8039c2ef2bd2adf4dba52c1807e019608d3ac190a87"
+        },
+        {
+          "prime": 421,
+          "order": 430,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            224,
+            411,
+            47
+          ],
+          "full_table_sha256": "f4837b394c747ffdfcb70dae665e61f00923361b9610c5bb2d492e4370dd8f2f"
+        },
+        {
+          "prime": 431,
+          "order": 403,
+          "generator": [
+            0,
+            152
+          ],
+          "basis_indices": [
+            203,
+            380,
+            392
+          ],
+          "full_table_sha256": "6b1eb05f0d3d7c8fca5ad45b059f2cf6801344d78f8a9b8ddd5f0339dd747620"
+        },
+        {
+          "prime": 433,
+          "order": 445,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            422,
+            45,
+            335
+          ],
+          "full_table_sha256": "af1d088a454c1af6c38b9fb5bc1b48fbeac7cdcebd4c218e8c950730c31a1411"
+        },
+        {
+          "prime": 443,
+          "order": 483,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            458,
+            49,
+            95
+          ],
+          "full_table_sha256": "f150eec1a254076567c7a781973032aec71956daf68f5578f2d74c9d8b54458a"
+        },
+        {
+          "prime": 449,
+          "order": 477,
+          "generator": [
+            4,
+            7
+          ],
+          "basis_indices": [
+            418,
+            346,
+            58
+          ],
+          "full_table_sha256": "00f179d81cd0055d7a245320172954f78e02a738cf77dc66c4895e5320db0e3c"
+        },
+        {
+          "prime": 491,
+          "order": 464,
+          "generator": [
+            2,
+            242
+          ],
+          "basis_indices": [
+            126,
+            40,
+            231
+          ],
+          "full_table_sha256": "a08b6169d6b69c673f27a3c0532f3186e69aa6d5f88f0d9212316e38a700a2da"
+        },
+        {
+          "prime": 499,
+          "order": 460,
+          "generator": [
+            0,
+            135
+          ],
+          "basis_indices": [
+            131,
+            124,
+            432
+          ],
+          "full_table_sha256": "c6b3e46e68b68801ce3761fc18754b1a3eafba6e2ca099d2a5c701c2d9df64cb"
+        },
+        {
+          "prime": 503,
+          "order": 498,
+          "generator": [
+            3,
+            133
+          ],
+          "basis_indices": [
+            156,
+            204,
+            28
+          ],
+          "full_table_sha256": "5f96282c1dac514667d4bbd69473f0b6e6d82edee1b3f8ee0aac38dc54425b46"
+        },
+        {
+          "prime": 587,
+          "order": 581,
+          "generator": [
+            3,
+            200
+          ],
+          "basis_indices": [
+            143,
+            246,
+            264
+          ],
+          "full_table_sha256": "2d50241e5f89ce6fab30d95de40836fbc65361017c30341b0076a8f88778d298"
+        },
+        {
+          "prime": 593,
+          "order": 574,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            267,
+            39,
+            571
+          ],
+          "full_table_sha256": "19b4544403ab2831172184d7068edb85c61b5c35f19182e13b44d5e30b1b49bc"
+        },
+        {
+          "prime": 601,
+          "order": 603,
+          "generator": [
+            2,
+            172
+          ],
+          "basis_indices": [
+            288,
+            552,
+            601
+          ],
+          "full_table_sha256": "6ec75060172eefa5cc030a2a8f1c3429c1ac073904dc422fa6e0ddabf34ac283"
+        },
+        {
+          "prime": 727,
+          "order": 767,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            592,
+            349,
+            142
+          ],
+          "full_table_sha256": "01cccf64f27d928934acb7c496460d84f363690d08d16c20202f4054f5aa46c3"
+        },
+        {
+          "prime": 751,
+          "order": 732,
+          "generator": [
+            3,
+            110
+          ],
+          "basis_indices": [
+            144,
+            166,
+            248
+          ],
+          "full_table_sha256": "8579417374411ceebb3a1ba29b9126809cb9182bb0d119d4d75c0a3a9cf9572e"
+        },
+        {
+          "prime": 773,
+          "order": 738,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            3,
+            731,
+            697
+          ],
+          "full_table_sha256": "6aa21cb2c520807016c99c1497de4b2b2d51ea9403a140851c2fd38433af448b"
+        },
+        {
+          "prime": 829,
+          "order": 803,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            630,
+            345,
+            304
+          ],
+          "full_table_sha256": "66fa6b1c4e8338d1c4a7bf3d926a1b17142c622bed22c911fae0ec02014715e3"
+        },
+        {
+          "prime": 1009,
+          "order": 1067,
+          "generator": [
+            0,
+            445
+          ],
+          "basis_indices": [
+            605,
+            65,
+            296
+          ],
+          "full_table_sha256": "1be18453737d33d874d938a2b4b96160c817aa4fc5a49d5560f06bbf760c1d86"
+        },
+        {
+          "prime": 1063,
+          "order": 1106,
+          "generator": [
+            10,
+            83
+          ],
+          "basis_indices": [
+            794,
+            408,
+            240
+          ],
+          "full_table_sha256": "be942c0ccf245e3100d04af05e8b5c5db33cad9028a2940011c5f62073a7b053"
+        },
+        {
+          "prime": 1103,
+          "order": 1162,
+          "generator": [
+            0,
+            76
+          ],
+          "basis_indices": [
+            744,
+            1156,
+            697
+          ],
+          "full_table_sha256": "110dd99e7ab4793bdd693ef849de09df6e80072ef896c10a61cae7916f67adee"
+        },
+        {
+          "prime": 1109,
+          "order": 1159,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            802,
+            713,
+            397
+          ],
+          "full_table_sha256": "4bbba93a888a6f2ebf7d3b8ddde6cd95d0885682eab0875a9ab6f4752beaa6a7"
+        },
+        {
+          "prime": 1187,
+          "order": 1185,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            729,
+            911,
+            339
+          ],
+          "full_table_sha256": "00e10d2a37f0018578d2e07f1d72c81459c1411cd8239ea1c05ad72931b53bea"
+        },
+        {
+          "prime": 1223,
+          "order": 1272,
+          "generator": [
+            4,
+            7
+          ],
+          "basis_indices": [
+            579,
+            855,
+            692
+          ],
+          "full_table_sha256": "bfcde23d878de0df763273aedb566f69baec5f87c3a27dafa188f85ead243092"
+        },
+        {
+          "prime": 1303,
+          "order": 1281,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            281,
+            718,
+            271
+          ],
+          "full_table_sha256": "94725c3c77d71e3ba110a2f8da369794ce4d06dba5445502911c7ae49cf46e24"
+        },
+        {
+          "prime": 1483,
+          "order": 1515,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            676,
+            162,
+            1263
+          ],
+          "full_table_sha256": "10d13b88fcad82a254d721e1157fb6cacb97c173a05d5c6ba2ad4d9a27399876"
+        },
+        {
+          "prime": 1487,
+          "order": 1491,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            632,
+            226,
+            1398
+          ],
+          "full_table_sha256": "ce0230c54aeb9554e5fc224b57fbe0cb5d0462d57782568991c46f63a3f12668"
+        },
+        {
+          "prime": 1549,
+          "order": 1616,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            165,
+            1285,
+            1167
+          ],
+          "full_table_sha256": "b19a681a63ffabe1934ff3579682bfcdf2266d68e0cd001d92b8e582526bfed0"
+        },
+        {
+          "prime": 1597,
+          "order": 1616,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            1093,
+            1045,
+            164
+          ],
+          "full_table_sha256": "f5c8c4ce477781025026f5d1aa41f114a382abff1e97444317f84a4934acac35"
+        },
+        {
+          "prime": 1697,
+          "order": 1742,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            1305,
+            873,
+            1415
+          ],
+          "full_table_sha256": "db56ccb7cbe4d206ab5e57bbe5d6ae739739a14f0cd3b0b8bc24208cc98e3d65"
+        },
+        {
+          "prime": 1709,
+          "order": 1780,
+          "generator": [
+            14,
+            570
+          ],
+          "basis_indices": [
+            1648,
+            1046,
+            1470
+          ],
+          "full_table_sha256": "b8fed3f62053ce555fe519ec01452aec187c004e7d67b1f9422cb91612b6bd1d"
+        },
+        {
+          "prime": 1747,
+          "order": 1746,
+          "generator": [
+            8,
+            44
+          ],
+          "basis_indices": [
+            440,
+            65,
+            1484
+          ],
+          "full_table_sha256": "5b73c3fc18f9b0243cec16669cf396786edb3676cba49b67fae3b2bc0a49f1a9"
+        },
+        {
+          "prime": 2593,
+          "order": 2650,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            1788,
+            1723,
+            1737
+          ],
+          "full_table_sha256": "b8641ec8c921d17763b4c43770ae08de99bf8d2a03bf5b331760b776c7d4a668"
+        },
+        {
+          "prime": 2861,
+          "order": 2813,
+          "generator": [
+            1,
+            14
+          ],
+          "basis_indices": [
+            1296,
+            220,
+            2339
+          ],
+          "full_table_sha256": "ac17be36916e8a425baaa7ebc1425aa2aedfab5f5775aa0abcc28228afac3679"
+        },
+        {
+          "prime": 2963,
+          "order": 2993,
+          "generator": [
+            0,
+            327
+          ],
+          "basis_indices": [
+            1101,
+            1111,
+            1599
+          ],
+          "full_table_sha256": "4f5582b2250f570e8bbb9ff6d4bc90c1ea8001be3fb19d696d3e4bb463dc89c9"
+        }
+      ],
+      "prime_saturation_certificates": [
+        {
+          "ell": 2,
+          "witnesses": [
+            {
+              "auxiliary_prime": 17,
+              "residue_row": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 19,
+              "residue_row": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 41,
+              "residue_row": [
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "determinant": 1,
+          "determinant_mod_ell": 1
+        },
+        {
+          "ell": 3,
+          "witnesses": [
+            {
+              "auxiliary_prime": 11,
+              "residue_row": [
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 23,
+              "residue_row": [
+                1,
+                2,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 47,
+              "residue_row": [
+                1,
+                0,
+                1
+              ]
+            }
+          ],
+          "determinant": -1,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 5,
+          "witnesses": [
+            {
+              "auxiliary_prime": 11,
+              "residue_row": [
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 19,
+              "residue_row": [
+                2,
+                0,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 67,
+              "residue_row": [
+                3,
+                4,
+                2
+              ]
+            }
+          ],
+          "determinant": 12,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 7,
+          "witnesses": [
+            {
+              "auxiliary_prime": 53,
+              "residue_row": [
+                2,
+                3,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 127,
+              "residue_row": [
+                0,
+                6,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 157,
+              "residue_row": [
+                1,
+                4,
+                2
+              ]
+            }
+          ],
+          "determinant": -19,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 11,
+          "witnesses": [
+            {
+              "auxiliary_prime": 79,
+              "residue_row": [
+                6,
+                10,
+                4
+              ]
+            },
+            {
+              "auxiliary_prime": 107,
+              "residue_row": [
+                5,
+                5,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 163,
+              "residue_row": [
+                5,
+                7,
+                2
+              ]
+            }
+          ],
+          "determinant": 40,
+          "determinant_mod_ell": 7
+        },
+        {
+          "ell": 13,
+          "witnesses": [
+            {
+              "auxiliary_prime": 17,
+              "residue_row": [
+                10,
+                7,
+                12
+              ]
+            },
+            {
+              "auxiliary_prime": 41,
+              "residue_row": [
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 199,
+              "residue_row": [
+                0,
+                12,
+                12
+              ]
+            }
+          ],
+          "determinant": 180,
+          "determinant_mod_ell": 11
+        },
+        {
+          "ell": 17,
+          "witnesses": [
+            {
+              "auxiliary_prime": 83,
+              "residue_row": [
+                12,
+                11,
+                14
+              ]
+            },
+            {
+              "auxiliary_prime": 311,
+              "residue_row": [
+                2,
+                6,
+                14
+              ]
+            },
+            {
+              "auxiliary_prime": 317,
+              "residue_row": [
+                4,
+                8,
+                14
+              ]
+            }
+          ],
+          "determinant": -140,
+          "determinant_mod_ell": 13
+        },
+        {
+          "ell": 19,
+          "witnesses": [
+            {
+              "auxiliary_prime": 13,
+              "residue_row": [
+                11,
+                18,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 47,
+              "residue_row": [
+                14,
+                9,
+                16
+              ]
+            },
+            {
+              "auxiliary_prime": 127,
+              "residue_row": [
+                14,
+                9,
+                18
+              ]
+            }
+          ],
+          "determinant": -306,
+          "determinant_mod_ell": 17
+        },
+        {
+          "ell": 23,
+          "witnesses": [
+            {
+              "auxiliary_prime": 131,
+              "residue_row": [
+                15,
+                15,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 443,
+              "residue_row": [
+                21,
+                3,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 499,
+              "residue_row": [
+                16,
+                9,
+                18
+              ]
+            }
+          ],
+          "determinant": -4545,
+          "determinant_mod_ell": 9
+        },
+        {
+          "ell": 29,
+          "witnesses": [
+            {
+              "auxiliary_prime": 227,
+              "residue_row": [
+                28,
+                1,
+                23
+              ]
+            },
+            {
+              "auxiliary_prime": 251,
+              "residue_row": [
+                2,
+                24,
+                12
+              ]
+            },
+            {
+              "auxiliary_prime": 491,
+              "residue_row": [
+                10,
+                11,
+                28
+              ]
+            }
+          ],
+          "determinant": 10170,
+          "determinant_mod_ell": 20
+        },
+        {
+          "ell": 31,
+          "witnesses": [
+            {
+              "auxiliary_prime": 109,
+              "residue_row": [
+                27,
+                7,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 373,
+              "residue_row": [
+                14,
+                12,
+                29
+              ]
+            },
+            {
+              "auxiliary_prime": 431,
+              "residue_row": [
+                17,
+                8,
+                20
+              ]
+            }
+          ],
+          "determinant": 1247,
+          "determinant_mod_ell": 7
+        },
+        {
+          "ell": 37,
+          "witnesses": [
+            {
+              "auxiliary_prime": 31,
+              "residue_row": [
+                20,
+                33,
+                6
+              ]
+            },
+            {
+              "auxiliary_prime": 101,
+              "residue_row": [
+                31,
+                20,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 229,
+              "residue_row": [
+                28,
+                17,
+                2
+              ]
+            }
+          ],
+          "determinant": 1476,
+          "determinant_mod_ell": 33
+        },
+        {
+          "ell": 41,
+          "witnesses": [
+            {
+              "auxiliary_prime": 277,
+              "residue_row": [
+                18,
+                21,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 593,
+              "residue_row": [
+                21,
+                39,
+                38
+              ]
+            },
+            {
+              "auxiliary_prime": 773,
+              "residue_row": [
+                3,
+                34,
+                0
+              ]
+            }
+          ],
+          "determinant": -19071,
+          "determinant_mod_ell": 35
+        },
+        {
+          "ell": 43,
+          "witnesses": [
+            {
+              "auxiliary_prime": 71,
+              "residue_row": [
+                9,
+                1,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 331,
+              "residue_row": [
+                6,
+                30,
+                41
+              ]
+            },
+            {
+              "auxiliary_prime": 421,
+              "residue_row": [
+                9,
+                24,
+                4
+              ]
+            }
+          ],
+          "determinant": -7683,
+          "determinant_mod_ell": 14
+        },
+        {
+          "ell": 47,
+          "witnesses": [
+            {
+              "auxiliary_prime": 37,
+              "residue_row": [
+                32,
+                29,
+                12
+              ]
+            },
+            {
+              "auxiliary_prime": 43,
+              "residue_row": [
+                22,
+                2,
+                7
+              ]
+            },
+            {
+              "auxiliary_prime": 409,
+              "residue_row": [
+                43,
+                7,
+                40
+              ]
+            }
+          ],
+          "determinant": -14983,
+          "determinant_mod_ell": 10
+        },
+        {
+          "ell": 53,
+          "witnesses": [
+            {
+              "auxiliary_prime": 449,
+              "residue_row": [
+                47,
+                28,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 1223,
+              "residue_row": [
+                49,
+                7,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 2593,
+              "residue_row": [
+                39,
+                27,
+                41
+              ]
+            }
+          ],
+          "determinant": -38044,
+          "determinant_mod_ell": 10
+        },
+        {
+          "ell": 59,
+          "witnesses": [
+            {
+              "auxiliary_prime": 167,
+              "residue_row": [
+                51,
+                15,
+                18
+              ]
+            },
+            {
+              "auxiliary_prime": 179,
+              "residue_row": [
+                48,
+                21,
+                33
+              ]
+            },
+            {
+              "auxiliary_prime": 727,
+              "residue_row": [
+                2,
+                54,
+                24
+              ]
+            }
+          ],
+          "determinant": -35568,
+          "determinant_mod_ell": 9
+        },
+        {
+          "ell": 61,
+          "witnesses": [
+            {
+              "auxiliary_prime": 751,
+              "residue_row": [
+                22,
+                44,
+                4
+              ]
+            },
+            {
+              "auxiliary_prime": 1109,
+              "residue_row": [
+                9,
+                42,
+                31
+              ]
+            },
+            {
+              "auxiliary_prime": 1303,
+              "residue_row": [
+                37,
+                47,
+                27
+              ]
+            }
+          ],
+          "determinant": 28146,
+          "determinant_mod_ell": 25
+        },
+        {
+          "ell": 67,
+          "witnesses": [
+            {
+              "auxiliary_prime": 257,
+              "residue_row": [
+                62,
+                37,
+                22
+              ]
+            },
+            {
+              "auxiliary_prime": 601,
+              "residue_row": [
+                20,
+                16,
+                65
+              ]
+            },
+            {
+              "auxiliary_prime": 1697,
+              "residue_row": [
+                32,
+                2,
+                8
+              ]
+            }
+          ],
+          "determinant": 60532,
+          "determinant_mod_ell": 31
+        },
+        {
+          "ell": 71,
+          "witnesses": [
+            {
+              "auxiliary_prime": 59,
+              "residue_row": [
+                10,
+                63,
+                23
+              ]
+            },
+            {
+              "auxiliary_prime": 283,
+              "residue_row": [
+                27,
+                1,
+                63
+              ]
+            },
+            {
+              "auxiliary_prime": 1487,
+              "residue_row": [
+                64,
+                13,
+                49
+              ]
+            }
+          ],
+          "determinant": 169568,
+          "determinant_mod_ell": 20
+        },
+        {
+          "ell": 73,
+          "witnesses": [
+            {
+              "auxiliary_prime": 389,
+              "residue_row": [
+                66,
+                53,
+                6
+              ]
+            },
+            {
+              "auxiliary_prime": 829,
+              "residue_row": [
+                46,
+                53,
+                12
+              ]
+            },
+            {
+              "auxiliary_prime": 2963,
+              "residue_row": [
+                6,
+                16,
+                66
+              ]
+            }
+          ],
+          "determinant": 63612,
+          "determinant_mod_ell": 29
+        },
+        {
+          "ell": 79,
+          "witnesses": [
+            {
+              "auxiliary_prime": 151,
+              "residue_row": [
+                52,
+                6,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 1063,
+              "residue_row": [
+                4,
+                13,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 1187,
+              "residue_row": [
+                18,
+                42,
+                23
+              ]
+            }
+          ],
+          "determinant": 8438,
+          "determinant_mod_ell": 64
+        },
+        {
+          "ell": 83,
+          "witnesses": [
+            {
+              "auxiliary_prime": 503,
+              "residue_row": [
+                73,
+                38,
+                28
+              ]
+            },
+            {
+              "auxiliary_prime": 587,
+              "residue_row": [
+                60,
+                80,
+                15
+              ]
+            },
+            {
+              "auxiliary_prime": 1103,
+              "residue_row": [
+                80,
+                77,
+                33
+              ]
+            }
+          ],
+          "determinant": 28925,
+          "determinant_mod_ell": 41
+        },
+        {
+          "ell": 89,
+          "witnesses": [
+            {
+              "auxiliary_prime": 367,
+              "residue_row": [
+                19,
+                55,
+                83
+              ]
+            },
+            {
+              "auxiliary_prime": 433,
+              "residue_row": [
+                66,
+                45,
+                68
+              ]
+            },
+            {
+              "auxiliary_prime": 1709,
+              "residue_row": [
+                46,
+                67,
+                46
+              ]
+            }
+          ],
+          "determinant": 153042,
+          "determinant_mod_ell": 51
+        },
+        {
+          "ell": 97,
+          "witnesses": [
+            {
+              "auxiliary_prime": 1009,
+              "residue_row": [
+                23,
+                65,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 1747,
+              "residue_row": [
+                52,
+                65,
+                29
+              ]
+            },
+            {
+              "auxiliary_prime": 2861,
+              "residue_row": [
+                35,
+                26,
+                11
+              ]
+            }
+          ],
+          "determinant": 23283,
+          "determinant_mod_ell": 3
+        },
+        {
+          "ell": 101,
+          "witnesses": [
+            {
+              "auxiliary_prime": 1483,
+              "residue_row": [
+                70,
+                61,
+                51
+              ]
+            },
+            {
+              "auxiliary_prime": 1549,
+              "residue_row": [
+                64,
+                73,
+                56
+              ]
+            },
+            {
+              "auxiliary_prime": 1597,
+              "residue_row": [
+                83,
+                35,
+                63
+              ]
+            }
+          ],
+          "determinant": 27537,
+          "determinant_mod_ell": 65
+        }
+      ],
+      "largest_auxiliary_prime_used": 2963
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "a2_a4_a6": [
+        -1,
+        -408,
+        6912
+      ],
+      "basis": [
+        [
+          "12",
+          "-60"
+        ],
+        [
+          "-4",
+          "92"
+        ],
+        [
+          "78",
+          "-666"
+        ]
+      ],
+      "torsion_prime_to_characteristic_certificate": [
+        {
+          "prime": 7,
+          "order": 9,
+          "prime_times_order": 63
+        },
+        {
+          "prime": 11,
+          "order": 16,
+          "prime_times_order": 176
+        }
+      ],
+      "torsion_augmented_order_gcd": 1,
+      "finite_group_records": [
+        {
+          "prime": 11,
+          "order": 16,
+          "generator": [
+            0,
+            2
+          ],
+          "basis_indices": [
+            7,
+            3,
+            9
+          ],
+          "full_table_sha256": "16b0595f50104d5448fe9cf636c017df4313afdaaa91c7456189ee77074ca43a"
+        },
+        {
+          "prime": 13,
+          "order": 19,
+          "generator": [
+            0,
+            3
+          ],
+          "basis_indices": [
+            11,
+            13,
+            18
+          ],
+          "full_table_sha256": "f4dc56f2d6f3bdb8d3d972547aa8b63886b33cd8e14e2d72d413e359b1ade680"
+        },
+        {
+          "prime": 17,
+          "order": 21,
+          "generator": [
+            5,
+            5
+          ],
+          "basis_indices": [
+            19,
+            6,
+            3
+          ],
+          "full_table_sha256": "1c5cee8c4ab54950a49194f4e516a0e2f57539358b21ed19f6ba0f43eefb5368"
+        },
+        {
+          "prime": 19,
+          "order": 21,
+          "generator": [
+            1,
+            5
+          ],
+          "basis_indices": [
+            18,
+            6,
+            14
+          ],
+          "full_table_sha256": "e625355053756dd950f4d2c5fd71d3acbff53e6e90ee9ac701c963ae5e5372e8"
+        },
+        {
+          "prime": 29,
+          "order": 30,
+          "generator": [
+            5,
+            10
+          ],
+          "basis_indices": [
+            24,
+            19,
+            20
+          ],
+          "full_table_sha256": "ad3df9dea90708f347847ecb6810d1d2bf7e118b2f2746d125abbe186d46e408"
+        },
+        {
+          "prime": 31,
+          "order": 41,
+          "generator": [
+            1,
+            5
+          ],
+          "basis_indices": [
+            31,
+            25,
+            32
+          ],
+          "full_table_sha256": "8fa46c3b446258a51b0080bc9f4fd4d1fbcfd4c96cf1e23b8da41a93dc0e11d3"
+        },
+        {
+          "prime": 37,
+          "order": 34,
+          "generator": [
+            9,
+            15
+          ],
+          "basis_indices": [
+            29,
+            13,
+            17
+          ],
+          "full_table_sha256": "2d1437a2d68a6dcb500d8695c8482e4bd14ba073ebc4d97d281fd9b5d3921e3e"
+        },
+        {
+          "prime": 41,
+          "order": 42,
+          "generator": [
+            4,
+            11
+          ],
+          "basis_indices": [
+            17,
+            30,
+            12
+          ],
+          "full_table_sha256": "bef0dd5190fcf4ac64c0a09ff753cd323ca490cbd5587b190b4f229f0c948e09"
+        },
+        {
+          "prime": 43,
+          "order": 38,
+          "generator": [
+            8,
+            21
+          ],
+          "basis_indices": [
+            6,
+            31,
+            17
+          ],
+          "full_table_sha256": "7ddd41ca344831d13e4ab5aaa6da1b056f74d4c04b6f30ee9021aada5fec59b1"
+        },
+        {
+          "prime": 59,
+          "order": 63,
+          "generator": [
+            0,
+            3
+          ],
+          "basis_indices": [
+            54,
+            33,
+            41
+          ],
+          "full_table_sha256": "9bf1b1ce8005d83d4bc3e199c104693892cb0930a2550fb94b3b84d2540ff307"
+        },
+        {
+          "prime": 67,
+          "order": 71,
+          "generator": [
+            4,
+            13
+          ],
+          "basis_indices": [
+            5,
+            53,
+            19
+          ],
+          "full_table_sha256": "fc28e42f6df6415be27ec824eb95f45a483d0ea739ec14f1d9f453faeb1365d6"
+        },
+        {
+          "prime": 73,
+          "order": 88,
+          "generator": [
+            0,
+            14
+          ],
+          "basis_indices": [
+            62,
+            4,
+            59
+          ],
+          "full_table_sha256": "1ea7ceef5ec7622a60794b056e22e679f650a8f7de0ee87f01bc3fbeb4192a1f"
+        },
+        {
+          "prime": 79,
+          "order": 90,
+          "generator": [
+            7,
+            20
+          ],
+          "basis_indices": [
+            54,
+            2,
+            26
+          ],
+          "full_table_sha256": "cec6afb584fcee7ecb84953ac87de6108c7dc8d38ae31839a4c4f7923e19fc1a"
+        },
+        {
+          "prime": 89,
+          "order": 87,
+          "generator": [
+            3,
+            30
+          ],
+          "basis_indices": [
+            20,
+            41,
+            72
+          ],
+          "full_table_sha256": "ca063b6d4cb5e1430a10663cb95066cc046a31fd6b326e3d80b96f7f2ddf8f34"
+        },
+        {
+          "prime": 107,
+          "order": 120,
+          "generator": [
+            0,
+            8
+          ],
+          "basis_indices": [
+            76,
+            9,
+            4
+          ],
+          "full_table_sha256": "bc5fc92872c4589e62c13e14238edb94c679b2e7da46aab5ec6cc93606a9f340"
+        },
+        {
+          "prime": 109,
+          "order": 101,
+          "generator": [
+            0,
+            46
+          ],
+          "basis_indices": [
+            78,
+            26,
+            76
+          ],
+          "full_table_sha256": "1659747b7b546b4e28872eed388f16eeb83a53b16ceacd12c0b20b81d4e73ae0"
+        },
+        {
+          "prime": 149,
+          "order": 129,
+          "generator": [
+            2,
+            17
+          ],
+          "basis_indices": [
+            22,
+            29,
+            120
+          ],
+          "full_table_sha256": "8362d98fbde14a359b6c074d6bd22bef45b425fccd90e395d7252dd150b64a6f"
+        },
+        {
+          "prime": 173,
+          "order": 159,
+          "generator": [
+            7,
+            5
+          ],
+          "basis_indices": [
+            38,
+            92,
+            116
+          ],
+          "full_table_sha256": "97d96408965f5629e4d20a958163da08a030f13b8790b9a1599bff5c10fcb8bd"
+        },
+        {
+          "prime": 179,
+          "order": 205,
+          "generator": [
+            1,
+            66
+          ],
+          "basis_indices": [
+            129,
+            193,
+            103
+          ],
+          "full_table_sha256": "88140ff9354bfab488fbb7d05f441fc6b80c5bdb514e47c35aed2c66bf81c58b"
+        },
+        {
+          "prime": 211,
+          "order": 235,
+          "generator": [
+            4,
+            105
+          ],
+          "basis_indices": [
+            181,
+            135,
+            171
+          ],
+          "full_table_sha256": "77ea31722db6380c4e3b95a5605ce27a42f3eadda5a2bccc05a4881e95fa5c7b"
+        },
+        {
+          "prime": 227,
+          "order": 220,
+          "generator": [
+            8,
+            64
+          ],
+          "basis_indices": [
+            68,
+            190,
+            203
+          ],
+          "full_table_sha256": "5bd870dca3ee7b2ac5527107496b35b7c049fb00c29d15162fb52fedaad5cbe3"
+        },
+        {
+          "prime": 229,
+          "order": 237,
+          "generator": [
+            2,
+            72
+          ],
+          "basis_indices": [
+            148,
+            81,
+            110
+          ],
+          "full_table_sha256": "9e777aa79a9cfc988cbaa7803288e3d93388de222b12e32f0298505b7302b9e7"
+        },
+        {
+          "prime": 233,
+          "order": 247,
+          "generator": [
+            4,
+            40
+          ],
+          "basis_indices": [
+            166,
+            182,
+            151
+          ],
+          "full_table_sha256": "1139341a3f0785c955270b6a408bb2185d951130f53cff6728e6d13780815ec1"
+        },
+        {
+          "prime": 239,
+          "order": 246,
+          "generator": [
+            0,
+            69
+          ],
+          "basis_indices": [
+            244,
+            129,
+            198
+          ],
+          "full_table_sha256": "55b3bc215efe3699a166a2f0862ce19963cdafce07d454b6d59bd786adef134f"
+        },
+        {
+          "prime": 241,
+          "order": 235,
+          "generator": [
+            1,
+            31
+          ],
+          "basis_indices": [
+            114,
+            144,
+            216
+          ],
+          "full_table_sha256": "e58f035ce2738a4ad0b9aaaa19331f2e5e020842e3ad6787ce2fd670e8d64c30"
+        },
+        {
+          "prime": 251,
+          "order": 259,
+          "generator": [
+            0,
+            117
+          ],
+          "basis_indices": [
+            194,
+            226,
+            222
+          ],
+          "full_table_sha256": "b2e79ee8b60f5db1662d097ca6c080b805b80a3bb4084f3ccdb245967a23b6c2"
+        },
+        {
+          "prime": 257,
+          "order": 237,
+          "generator": [
+            1,
+            74
+          ],
+          "basis_indices": [
+            180,
+            119,
+            148
+          ],
+          "full_table_sha256": "b39127fd1dc5b41039bd6491c954feed45ff93cfac8db5ec38d672b47bb56d69"
+        },
+        {
+          "prime": 263,
+          "order": 273,
+          "generator": [
+            1,
+            79
+          ],
+          "basis_indices": [
+            86,
+            35,
+            17
+          ],
+          "full_table_sha256": "212f9861ed0f144ea32701a8a5235cbd196128a777c9209d50357d982ed5247f"
+        },
+        {
+          "prime": 271,
+          "order": 290,
+          "generator": [
+            7,
+            37
+          ],
+          "basis_indices": [
+            188,
+            215,
+            66
+          ],
+          "full_table_sha256": "f1dea44cba94f75daf62b1448facbca58242276da824c8c74c8db1582d2cc5ac"
+        },
+        {
+          "prime": 283,
+          "order": 273,
+          "generator": [
+            5,
+            132
+          ],
+          "basis_indices": [
+            196,
+            129,
+            4
+          ],
+          "full_table_sha256": "fe2d355dafb6f2859ed96f59e22348f06cdb190f89114f149c75fcef94ae6602"
+        },
+        {
+          "prime": 313,
+          "order": 330,
+          "generator": [
+            10,
+            17
+          ],
+          "basis_indices": [
+            260,
+            56,
+            265
+          ],
+          "full_table_sha256": "960132dbcf822184596fa2a00edb4e78a726d7a96713f0c9e35790a64d788b41"
+        },
+        {
+          "prime": 349,
+          "order": 340,
+          "generator": [
+            3,
+            123
+          ],
+          "basis_indices": [
+            10,
+            165,
+            198
+          ],
+          "full_table_sha256": "ee2ab1578899867a6fbd72b9230dcbd630fa9cd453be524336809a9d4c47737b"
+        },
+        {
+          "prime": 353,
+          "order": 344,
+          "generator": [
+            3,
+            122
+          ],
+          "basis_indices": [
+            57,
+            323,
+            20
+          ],
+          "full_table_sha256": "66a84f2c4c62dff984b7f44008bddc66ed0f1262092106727cd748e47c7a947e"
+        },
+        {
+          "prime": 409,
+          "order": 434,
+          "generator": [
+            0,
+            116
+          ],
+          "basis_indices": [
+            342,
+            219,
+            333
+          ],
+          "full_table_sha256": "15f277e21a7d7f6eecd3576edea67d3e710af730d76488b5aa677531532802b4"
+        },
+        {
+          "prime": 443,
+          "order": 445,
+          "generator": [
+            0,
+            209
+          ],
+          "basis_indices": [
+            200,
+            19,
+            290
+          ],
+          "full_table_sha256": "280e2e8a1d5a21e47e536fb6a62b60482311dbc0e7a449ba550a878b9d1618bb"
+        },
+        {
+          "prime": 449,
+          "order": 445,
+          "generator": [
+            2,
+            183
+          ],
+          "basis_indices": [
+            280,
+            432,
+            64
+          ],
+          "full_table_sha256": "29de8dcab865d3e2e759f15e45b86c647dd5cb52aa661df93b0b3a1239de8273"
+        },
+        {
+          "prime": 461,
+          "order": 434,
+          "generator": [
+            15,
+            59
+          ],
+          "basis_indices": [
+            119,
+            164,
+            406
+          ],
+          "full_table_sha256": "1b6620dc109de723e865221fc3d1df4affbaaae46b87eeb76d4d3e34262d07f7"
+        },
+        {
+          "prime": 463,
+          "order": 469,
+          "generator": [
+            2,
+            9
+          ],
+          "basis_indices": [
+            399,
+            16,
+            376
+          ],
+          "full_table_sha256": "fc47927241d6111b482582d78103abe64e21d8832158a0a0134988a6dc2e67c0"
+        },
+        {
+          "prime": 467,
+          "order": 488,
+          "generator": [
+            1,
+            30
+          ],
+          "basis_indices": [
+            70,
+            116,
+            245
+          ],
+          "full_table_sha256": "e2fb3dac4697fe1c952ed5e64814bdd37c8f45313cffee5423e418840417347d"
+        },
+        {
+          "prime": 491,
+          "order": 472,
+          "generator": [
+            0,
+            23
+          ],
+          "basis_indices": [
+            31,
+            393,
+            244
+          ],
+          "full_table_sha256": "319d4d55678bcc7a56c0fec13f807aeabd39902bfe6f6c392123cc5499aa4bcb"
+        },
+        {
+          "prime": 503,
+          "order": 522,
+          "generator": [
+            5,
+            175
+          ],
+          "basis_indices": [
+            509,
+            41,
+            23
+          ],
+          "full_table_sha256": "47f5092335942e3adaa13d2bc8da3aed180bae720211f183bfdbacedc8df441d"
+        },
+        {
+          "prime": 521,
+          "order": 498,
+          "generator": [
+            8,
+            64
+          ],
+          "basis_indices": [
+            131,
+            76,
+            392
+          ],
+          "full_table_sha256": "87aa52bc6ccd8f4009672d5426693a46871c052af53dc472f6d5db53a9d8f86a"
+        },
+        {
+          "prime": 541,
+          "order": 564,
+          "generator": [
+            1,
+            114
+          ],
+          "basis_indices": [
+            446,
+            307,
+            394
+          ],
+          "full_table_sha256": "6b5da5a2e546226238817bdb51369505424edbb5e3ad35db9b3db26582678356"
+        },
+        {
+          "prime": 557,
+          "order": 534,
+          "generator": [
+            10,
+            163
+          ],
+          "basis_indices": [
+            358,
+            249,
+            166
+          ],
+          "full_table_sha256": "ca1621a0cf03803cfeb04aa302c6ca4cfd6996e4ef7982a381667519a05c6968"
+        },
+        {
+          "prime": 571,
+          "order": 606,
+          "generator": [
+            7,
+            271
+          ],
+          "basis_indices": [
+            165,
+            101,
+            538
+          ],
+          "full_table_sha256": "fb963ae4853380d765f90680d0732bcd28b97c4b50e638db820fa8987e836432"
+        },
+        {
+          "prime": 601,
+          "order": 610,
+          "generator": [
+            8,
+            64
+          ],
+          "basis_indices": [
+            87,
+            600,
+            260
+          ],
+          "full_table_sha256": "07955af28c70bd909ce1daf7ee2742d847c4b09a14edd9c7134716f9c3ba2372"
+        },
+        {
+          "prime": 619,
+          "order": 610,
+          "generator": [
+            4,
+            212
+          ],
+          "basis_indices": [
+            72,
+            128,
+            489
+          ],
+          "full_table_sha256": "be63b9d76ac164a73de3ca15676084592a1ff179e75069a5bd29826a790b025a"
+        },
+        {
+          "prime": 647,
+          "order": 651,
+          "generator": [
+            0,
+            33
+          ],
+          "basis_indices": [
+            169,
+            565,
+            257
+          ],
+          "full_table_sha256": "e4821eb05e38bd0e3aa5242a12cc47b5952c1bf40a91d3a1a75250a65692c7b2"
+        },
+        {
+          "prime": 659,
+          "order": 644,
+          "generator": [
+            0,
+            119
+          ],
+          "basis_indices": [
+            380,
+            236,
+            90
+          ],
+          "full_table_sha256": "0fa00a5e51cd35d0604442c13b3163591bec82a9987fec7d16a6f8a5ac31a8fb"
+        },
+        {
+          "prime": 863,
+          "order": 830,
+          "generator": [
+            0,
+            361
+          ],
+          "basis_indices": [
+            281,
+            264,
+            514
+          ],
+          "full_table_sha256": "632e303d1ab5d22241f0fd4911ec5d28a090c7a53e476cfe597e4f5f669e363c"
+        },
+        {
+          "prime": 881,
+          "order": 871,
+          "generator": [
+            2,
+            361
+          ],
+          "basis_indices": [
+            162,
+            565,
+            283
+          ],
+          "full_table_sha256": "bd380bcb9c5e19cb14f576a007fab212b4b7ed536d8fcf4b72691a639749160a"
+        },
+        {
+          "prime": 907,
+          "order": 885,
+          "generator": [
+            6,
+            181
+          ],
+          "basis_indices": [
+            341,
+            337,
+            581
+          ],
+          "full_table_sha256": "d122481a680014d30099ca40b3ee67e4cd1112eaf5803f5c55421a066fec8d7c"
+        },
+        {
+          "prime": 953,
+          "order": 952,
+          "generator": [
+            6,
+            97
+          ],
+          "basis_indices": [
+            600,
+            131,
+            864
+          ],
+          "full_table_sha256": "4775bc1e301c6ebe1ce0aad40d9b69675a5c598938e0bc40288471ded80a49b5"
+        },
+        {
+          "prime": 983,
+          "order": 1035,
+          "generator": [
+            4,
+            227
+          ],
+          "basis_indices": [
+            881,
+            143,
+            16
+          ],
+          "full_table_sha256": "0495bafe9163997aa62b6c1a186bcbaf242b4f87115d7bc2d25f838d4fa8f7de"
+        },
+        {
+          "prime": 991,
+          "order": 994,
+          "generator": [
+            2,
+            419
+          ],
+          "basis_indices": [
+            546,
+            266,
+            419
+          ],
+          "full_table_sha256": "6d71e4d916c581287a92351216b4b87ab5f5d637e754867b50c1148a1f350067"
+        },
+        {
+          "prime": 1009,
+          "order": 962,
+          "generator": [
+            0,
+            89
+          ],
+          "basis_indices": [
+            493,
+            687,
+            567
+          ],
+          "full_table_sha256": "ab5f35a1ed3cf61794a1106bdadfa83d6792d9faef5cccc1a727eec432dd6648"
+        },
+        {
+          "prime": 1063,
+          "order": 1111,
+          "generator": [
+            1,
+            219
+          ],
+          "basis_indices": [
+            205,
+            524,
+            52
+          ],
+          "full_table_sha256": "985b9987d0e849a1ba483294d17e5297bf1128949b7a280f40491941fcf727e0"
+        },
+        {
+          "prime": 1087,
+          "order": 1110,
+          "generator": [
+            5,
+            324
+          ],
+          "basis_indices": [
+            269,
+            945,
+            1058
+          ],
+          "full_table_sha256": "ac83464d4f5d0a1d1186a759df7f072a5e4b6ae78cc7a5a869935deee2488f13"
+        },
+        {
+          "prime": 1117,
+          "order": 1180,
+          "generator": [
+            0,
+            280
+          ],
+          "basis_indices": [
+            343,
+            1002,
+            304
+          ],
+          "full_table_sha256": "101cef9c21e6de7f5d9c425a7116e27a33afb4c9f609437951c9ef6d8e149b9c"
+        },
+        {
+          "prime": 1151,
+          "order": 1164,
+          "generator": [
+            7,
+            385
+          ],
+          "basis_indices": [
+            183,
+            24,
+            43
+          ],
+          "full_table_sha256": "93d4dcedb0f0290d8170d7e93873254e8ef399b6109cfb43d0db7365b8285758"
+        },
+        {
+          "prime": 1153,
+          "order": 1204,
+          "generator": [
+            0,
+            479
+          ],
+          "basis_indices": [
+            685,
+            1030,
+            244
+          ],
+          "full_table_sha256": "cff05f0d9e8b16f81b4b45452db6b30f6ef6b83f8f88c5c80b7bc3d75cb1063e"
+        },
+        {
+          "prime": 1181,
+          "order": 1196,
+          "generator": [
+            4,
+            353
+          ],
+          "basis_indices": [
+            304,
+            409,
+            517
+          ],
+          "full_table_sha256": "7232f549e46cc4d0a778ab4e0fc9dc1c4aa319b094212a4c74018aa7e5900bf6"
+        },
+        {
+          "prime": 1231,
+          "order": 1278,
+          "generator": [
+            3,
+            191
+          ],
+          "basis_indices": [
+            73,
+            38,
+            202
+          ],
+          "full_table_sha256": "74501adbcdb5cb1349256df0b598a7fffd1d2b5fbc5f085c9be430ad04fc35e4"
+        },
+        {
+          "prime": 1327,
+          "order": 1273,
+          "generator": [
+            3,
+            314
+          ],
+          "basis_indices": [
+            1253,
+            172,
+            1131
+          ],
+          "full_table_sha256": "0333cedc5b8b497f7a9d121eb4f3f9b57a7ba336a4081608f9e9d96ddc26cbd1"
+        },
+        {
+          "prime": 1367,
+          "order": 1314,
+          "generator": [
+            1,
+            605
+          ],
+          "basis_indices": [
+            333,
+            1133,
+            225
+          ],
+          "full_table_sha256": "5ad905427e8ed9d7221d5606f8b6f954bef62dbb04a3c3017bd1ba0d29b599f8"
+        },
+        {
+          "prime": 1471,
+          "order": 1460,
+          "generator": [
+            5,
+            264
+          ],
+          "basis_indices": [
+            147,
+            752,
+            18
+          ],
+          "full_table_sha256": "620aadd8e923ab6c4b78c63e4382e3b8a66b7db304383b1eb45b3341efb3a67d"
+        },
+        {
+          "prime": 1489,
+          "order": 1494,
+          "generator": [
+            4,
+            669
+          ],
+          "basis_indices": [
+            148,
+            203,
+            603
+          ],
+          "full_table_sha256": "f354d6d598cafc3a02cb64963e594066d923db9cd302ccb702ee56977868aaa8"
+        },
+        {
+          "prime": 1571,
+          "order": 1580,
+          "generator": [
+            8,
+            64
+          ],
+          "basis_indices": [
+            54,
+            1332,
+            161
+          ],
+          "full_table_sha256": "e7cedcbfd17c6d9e237caa9f5324c43c417df6a88b850a0984666966d344d381"
+        },
+        {
+          "prime": 1601,
+          "order": 1643,
+          "generator": [
+            1,
+            10
+          ],
+          "basis_indices": [
+            525,
+            806,
+            1411
+          ],
+          "full_table_sha256": "cc11d10994487b5a4d3edfef1439184df5d717c65db1badc07d9895ab38a6cf5"
+        },
+        {
+          "prime": 1811,
+          "order": 1825,
+          "generator": [
+            0,
+            450
+          ],
+          "basis_indices": [
+            1633,
+            1232,
+            1296
+          ],
+          "full_table_sha256": "c1c8404a3097668928ecaabefaf4a47853ef58ea1036451827df4d7063a82dc9"
+        },
+        {
+          "prime": 2213,
+          "order": 2173,
+          "generator": [
+            1,
+            399
+          ],
+          "basis_indices": [
+            936,
+            655,
+            205
+          ],
+          "full_table_sha256": "cd85b12f3e42167234534a7d277ed877e3c2311cff1d5d1d3937da4f24c800f9"
+        },
+        {
+          "prime": 2311,
+          "order": 2231,
+          "generator": [
+            3,
+            1133
+          ],
+          "basis_indices": [
+            1956,
+            966,
+            394
+          ],
+          "full_table_sha256": "c9f8b2a896bb72b01779dd1ffcb19dc1c806ddd3ef29308b8949b3291609f80e"
+        },
+        {
+          "prime": 2707,
+          "order": 2716,
+          "generator": [
+            6,
+            1318
+          ],
+          "basis_indices": [
+            1926,
+            1599,
+            48
+          ],
+          "full_table_sha256": "cb9a93018d934b0cae8cebda821632df64dbe7ceade5a37a523559b5c4868ea0"
+        }
+      ],
+      "prime_saturation_certificates": [
+        {
+          "ell": 2,
+          "witnesses": [
+            {
+              "auxiliary_prime": 11,
+              "residue_row": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 29,
+              "residue_row": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 41,
+              "residue_row": [
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "determinant": -1,
+          "determinant_mod_ell": 1
+        },
+        {
+          "ell": 3,
+          "witnesses": [
+            {
+              "auxiliary_prime": 17,
+              "residue_row": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 19,
+              "residue_row": [
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 29,
+              "residue_row": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "determinant": -2,
+          "determinant_mod_ell": 1
+        },
+        {
+          "ell": 5,
+          "witnesses": [
+            {
+              "auxiliary_prime": 29,
+              "residue_row": [
+                4,
+                4,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 79,
+              "residue_row": [
+                4,
+                2,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 107,
+              "residue_row": [
+                1,
+                4,
+                4
+              ]
+            }
+          ],
+          "determinant": -44,
+          "determinant_mod_ell": 1
+        },
+        {
+          "ell": 7,
+          "witnesses": [
+            {
+              "auxiliary_prime": 17,
+              "residue_row": [
+                5,
+                6,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 19,
+              "residue_row": [
+                4,
+                6,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 59,
+              "residue_row": [
+                5,
+                5,
+                6
+              ]
+            }
+          ],
+          "determinant": 6,
+          "determinant_mod_ell": 6
+        },
+        {
+          "ell": 11,
+          "witnesses": [
+            {
+              "auxiliary_prime": 73,
+              "residue_row": [
+                7,
+                4,
+                4
+              ]
+            },
+            {
+              "auxiliary_prime": 227,
+              "residue_row": [
+                2,
+                3,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 313,
+              "residue_row": [
+                7,
+                1,
+                1
+              ]
+            }
+          ],
+          "determinant": 42,
+          "determinant_mod_ell": 9
+        },
+        {
+          "ell": 13,
+          "witnesses": [
+            {
+              "auxiliary_prime": 233,
+              "residue_row": [
+                10,
+                0,
+                8
+              ]
+            },
+            {
+              "auxiliary_prime": 263,
+              "residue_row": [
+                8,
+                9,
+                4
+              ]
+            },
+            {
+              "auxiliary_prime": 283,
+              "residue_row": [
+                1,
+                12,
+                4
+              ]
+            }
+          ],
+          "determinant": 576,
+          "determinant_mod_ell": 4
+        },
+        {
+          "ell": 17,
+          "witnesses": [
+            {
+              "auxiliary_prime": 37,
+              "residue_row": [
+                12,
+                13,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 349,
+              "residue_row": [
+                10,
+                12,
+                11
+              ]
+            },
+            {
+              "auxiliary_prime": 953,
+              "residue_row": [
+                5,
+                12,
+                14
+              ]
+            }
+          ],
+          "determinant": -673,
+          "determinant_mod_ell": 7
+        },
+        {
+          "ell": 19,
+          "witnesses": [
+            {
+              "auxiliary_prime": 13,
+              "residue_row": [
+                11,
+                13,
+                18
+              ]
+            },
+            {
+              "auxiliary_prime": 43,
+              "residue_row": [
+                6,
+                12,
+                17
+              ]
+            },
+            {
+              "auxiliary_prime": 233,
+              "residue_row": [
+                14,
+                11,
+                18
+              ]
+            }
+          ],
+          "determinant": 173,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 23,
+          "witnesses": [
+            {
+              "auxiliary_prime": 659,
+              "residue_row": [
+                12,
+                6,
+                21
+              ]
+            },
+            {
+              "auxiliary_prime": 983,
+              "residue_row": [
+                7,
+                5,
+                16
+              ]
+            },
+            {
+              "auxiliary_prime": 1181,
+              "residue_row": [
+                5,
+                18,
+                11
+              ]
+            }
+          ],
+          "determinant": -657,
+          "determinant_mod_ell": 10
+        },
+        {
+          "ell": 29,
+          "witnesses": [
+            {
+              "auxiliary_prime": 89,
+              "residue_row": [
+                20,
+                12,
+                14
+              ]
+            },
+            {
+              "auxiliary_prime": 271,
+              "residue_row": [
+                14,
+                12,
+                8
+              ]
+            },
+            {
+              "auxiliary_prime": 503,
+              "residue_row": [
+                16,
+                12,
+                23
+              ]
+            }
+          ],
+          "determinant": 936,
+          "determinant_mod_ell": 8
+        },
+        {
+          "ell": 31,
+          "witnesses": [
+            {
+              "auxiliary_prime": 409,
+              "residue_row": [
+                1,
+                2,
+                23
+              ]
+            },
+            {
+              "auxiliary_prime": 461,
+              "residue_row": [
+                26,
+                9,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 647,
+              "residue_row": [
+                14,
+                7,
+                9
+              ]
+            }
+          ],
+          "determinant": 964,
+          "determinant_mod_ell": 3
+        },
+        {
+          "ell": 37,
+          "witnesses": [
+            {
+              "auxiliary_prime": 251,
+              "residue_row": [
+                9,
+                4,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 1009,
+              "residue_row": [
+                12,
+                21,
+                12
+              ]
+            },
+            {
+              "auxiliary_prime": 1087,
+              "residue_row": [
+                10,
+                20,
+                22
+              ]
+            }
+          ],
+          "determinant": 1422,
+          "determinant_mod_ell": 16
+        },
+        {
+          "ell": 41,
+          "witnesses": [
+            {
+              "auxiliary_prime": 31,
+              "residue_row": [
+                31,
+                25,
+                32
+              ]
+            },
+            {
+              "auxiliary_prime": 179,
+              "residue_row": [
+                6,
+                29,
+                21
+              ]
+            },
+            {
+              "auxiliary_prime": 239,
+              "residue_row": [
+                39,
+                6,
+                34
+              ]
+            }
+          ],
+          "determinant": 6995,
+          "determinant_mod_ell": 25
+        },
+        {
+          "ell": 43,
+          "witnesses": [
+            {
+              "auxiliary_prime": 149,
+              "residue_row": [
+                22,
+                29,
+                34
+              ]
+            },
+            {
+              "auxiliary_prime": 353,
+              "residue_row": [
+                14,
+                22,
+                20
+              ]
+            },
+            {
+              "auxiliary_prime": 1153,
+              "residue_row": [
+                40,
+                41,
+                29
+              ]
+            }
+          ],
+          "determinant": -2982,
+          "determinant_mod_ell": 28
+        },
+        {
+          "ell": 47,
+          "witnesses": [
+            {
+              "auxiliary_prime": 211,
+              "residue_row": [
+                40,
+                41,
+                30
+              ]
+            },
+            {
+              "auxiliary_prime": 241,
+              "residue_row": [
+                20,
+                3,
+                28
+              ]
+            },
+            {
+              "auxiliary_prime": 541,
+              "residue_row": [
+                23,
+                25,
+                18
+              ]
+            }
+          ],
+          "determinant": -1266,
+          "determinant_mod_ell": 3
+        },
+        {
+          "ell": 53,
+          "witnesses": [
+            {
+              "auxiliary_prime": 173,
+              "residue_row": [
+                38,
+                39,
+                10
+              ]
+            },
+            {
+              "auxiliary_prime": 1601,
+              "residue_row": [
+                48,
+                11,
+                33
+              ]
+            },
+            {
+              "auxiliary_prime": 2213,
+              "residue_row": [
+                35,
+                19,
+                46
+              ]
+            }
+          ],
+          "determinant": -40395,
+          "determinant_mod_ell": 44
+        },
+        {
+          "ell": 59,
+          "witnesses": [
+            {
+              "auxiliary_prime": 491,
+              "residue_row": [
+                31,
+                39,
+                8
+              ]
+            },
+            {
+              "auxiliary_prime": 907,
+              "residue_row": [
+                46,
+                42,
+                50
+              ]
+            },
+            {
+              "auxiliary_prime": 1117,
+              "residue_row": [
+                48,
+                58,
+                9
+              ]
+            }
+          ],
+          "determinant": 4488,
+          "determinant_mod_ell": 4
+        },
+        {
+          "ell": 61,
+          "witnesses": [
+            {
+              "auxiliary_prime": 467,
+              "residue_row": [
+                9,
+                55,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 601,
+              "residue_row": [
+                26,
+                51,
+                16
+              ]
+            },
+            {
+              "auxiliary_prime": 619,
+              "residue_row": [
+                11,
+                6,
+                1
+              ]
+            }
+          ],
+          "determinant": 7440,
+          "determinant_mod_ell": 59
+        },
+        {
+          "ell": 67,
+          "witnesses": [
+            {
+              "auxiliary_prime": 463,
+              "residue_row": [
+                64,
+                16,
+                41
+              ]
+            },
+            {
+              "auxiliary_prime": 881,
+              "residue_row": [
+                28,
+                29,
+                15
+              ]
+            },
+            {
+              "auxiliary_prime": 1327,
+              "residue_row": [
+                47,
+                38,
+                59
+              ]
+            }
+          ],
+          "determinant": 45613,
+          "determinant_mod_ell": 53
+        },
+        {
+          "ell": 71,
+          "witnesses": [
+            {
+              "auxiliary_prime": 67,
+              "residue_row": [
+                5,
+                53,
+                19
+              ]
+            },
+            {
+              "auxiliary_prime": 991,
+              "residue_row": [
+                49,
+                53,
+                64
+              ]
+            },
+            {
+              "auxiliary_prime": 1231,
+              "residue_row": [
+                2,
+                38,
+                60
+              ]
+            }
+          ],
+          "determinant": -111932,
+          "determinant_mod_ell": 35
+        },
+        {
+          "ell": 73,
+          "witnesses": [
+            {
+              "auxiliary_prime": 1367,
+              "residue_row": [
+                41,
+                38,
+                6
+              ]
+            },
+            {
+              "auxiliary_prime": 1471,
+              "residue_row": [
+                1,
+                22,
+                18
+              ]
+            },
+            {
+              "auxiliary_prime": 1811,
+              "residue_row": [
+                27,
+                64,
+                55
+              ]
+            }
+          ],
+          "determinant": 15576,
+          "determinant_mod_ell": 27
+        },
+        {
+          "ell": 79,
+          "witnesses": [
+            {
+              "auxiliary_prime": 229,
+              "residue_row": [
+                69,
+                2,
+                31
+              ]
+            },
+            {
+              "auxiliary_prime": 257,
+              "residue_row": [
+                22,
+                40,
+                69
+              ]
+            },
+            {
+              "auxiliary_prime": 1571,
+              "residue_row": [
+                54,
+                68,
+                3
+              ]
+            }
+          ],
+          "determinant": -328732,
+          "determinant_mod_ell": 66
+        },
+        {
+          "ell": 83,
+          "witnesses": [
+            {
+              "auxiliary_prime": 521,
+              "residue_row": [
+                48,
+                76,
+                60
+              ]
+            },
+            {
+              "auxiliary_prime": 863,
+              "residue_row": [
+                32,
+                15,
+                16
+              ]
+            },
+            {
+              "auxiliary_prime": 1489,
+              "residue_row": [
+                65,
+                37,
+                22
+              ]
+            }
+          ],
+          "determinant": 25500,
+          "determinant_mod_ell": 19
+        },
+        {
+          "ell": 89,
+          "witnesses": [
+            {
+              "auxiliary_prime": 443,
+              "residue_row": [
+                22,
+                19,
+                23
+              ]
+            },
+            {
+              "auxiliary_prime": 449,
+              "residue_row": [
+                13,
+                76,
+                64
+              ]
+            },
+            {
+              "auxiliary_prime": 557,
+              "residue_row": [
+                2,
+                71,
+                77
+              ]
+            }
+          ],
+          "determinant": 29922,
+          "determinant_mod_ell": 18
+        },
+        {
+          "ell": 97,
+          "witnesses": [
+            {
+              "auxiliary_prime": 1151,
+              "residue_row": [
+                86,
+                24,
+                43
+              ]
+            },
+            {
+              "auxiliary_prime": 2311,
+              "residue_row": [
+                16,
+                93,
+                6
+              ]
+            },
+            {
+              "auxiliary_prime": 2707,
+              "residue_row": [
+                83,
+                47,
+                48
+              ]
+            }
+          ],
+          "determinant": 53591,
+          "determinant_mod_ell": 47
+        },
+        {
+          "ell": 101,
+          "witnesses": [
+            {
+              "auxiliary_prime": 109,
+              "residue_row": [
+                78,
+                26,
+                76
+              ]
+            },
+            {
+              "auxiliary_prime": 571,
+              "residue_row": [
+                64,
+                0,
+                33
+              ]
+            },
+            {
+              "auxiliary_prime": 1063,
+              "residue_row": [
+                3,
+                19,
+                52
+              ]
+            }
+          ],
+          "determinant": -40444,
+          "determinant_mod_ell": 57
+        }
+      ],
+      "largest_auxiliary_prime_used": 2707
+    },
+    {
+      "pair": [
+        1,
+        10
+      ],
+      "a2_a4_a6": [
+        1,
+        -1633,
+        97763
+      ],
+      "basis": [
+        [
+          "221/4",
+          "3387/8"
+        ],
+        [
+          "14",
+          "279"
+        ],
+        [
+          "43",
+          "330"
+        ]
+      ],
+      "torsion_prime_to_characteristic_certificate": [
+        {
+          "prime": 7,
+          "order": 9,
+          "prime_times_order": 63
+        },
+        {
+          "prime": 19,
+          "order": 20,
+          "prime_times_order": 380
+        }
+      ],
+      "torsion_augmented_order_gcd": 1,
+      "finite_group_records": [
+        {
+          "prime": 13,
+          "order": 18,
+          "generator": [
+            1,
+            6
+          ],
+          "basis_indices": [
+            6,
+            1,
+            3
+          ],
+          "full_table_sha256": "b4b6275e3e37d47969dce4e6db76775721b7835f207be5d0fd7def6f2f2f1853"
+        },
+        {
+          "prime": 17,
+          "order": 15,
+          "generator": [
+            4,
+            2
+          ],
+          "basis_indices": [
+            10,
+            11,
+            13
+          ],
+          "full_table_sha256": "7c17254c9d191b6412ef3c6e6b06a91f5626c6a269c132420e3a0ad95e7181cf"
+        },
+        {
+          "prime": 19,
+          "order": 20,
+          "generator": [
+            1,
+            7
+          ],
+          "basis_indices": [
+            2,
+            15,
+            13
+          ],
+          "full_table_sha256": "9eed2ad724d09474561dcc1d7bf9812a667acc895f630d2f892642a9461e7960"
+        },
+        {
+          "prime": 23,
+          "order": 31,
+          "generator": [
+            0,
+            6
+          ],
+          "basis_indices": [
+            15,
+            10,
+            26
+          ],
+          "full_table_sha256": "96c6340e177dc6655a4546fd540bc93c2c0259f4bd12464797dbe56288fc8979"
+        },
+        {
+          "prime": 29,
+          "order": 39,
+          "generator": [
+            0,
+            2
+          ],
+          "basis_indices": [
+            10,
+            30,
+            9
+          ],
+          "full_table_sha256": "6b9a5669c78e93c42c55c479641757f64a03064a9131739870b103797ed05f29"
+        },
+        {
+          "prime": 31,
+          "order": 34,
+          "generator": [
+            0,
+            12
+          ],
+          "basis_indices": [
+            28,
+            17,
+            7
+          ],
+          "full_table_sha256": "c630e6aee73b655bbc7f6e15a78fbd877999da0b1ab3259358973971482ef867"
+        },
+        {
+          "prime": 37,
+          "order": 40,
+          "generator": [
+            3,
+            17
+          ],
+          "basis_indices": [
+            13,
+            22,
+            7
+          ],
+          "full_table_sha256": "214592275f9928fffc95abfa30a981b7a0daf52dd6385cee7f1148848270ad79"
+        },
+        {
+          "prime": 41,
+          "order": 48,
+          "generator": [
+            4,
+            2
+          ],
+          "basis_indices": [
+            47,
+            4,
+            8
+          ],
+          "full_table_sha256": "fb4af888356bea563ae74cf7a871d4474da9126e3eeaac93f01146b65988f47a"
+        },
+        {
+          "prime": 43,
+          "order": 52,
+          "generator": [
+            0,
+            14
+          ],
+          "basis_indices": [
+            19,
+            13,
+            51
+          ],
+          "full_table_sha256": "5d2c1bb86155154370a4e31b9da0daee242955e5bec119192dd42e3e1f4b97a6"
+        },
+        {
+          "prime": 47,
+          "order": 57,
+          "generator": [
+            0,
+            12
+          ],
+          "basis_indices": [
+            47,
+            51,
+            12
+          ],
+          "full_table_sha256": "34afb9c0b3d00a117b99ed2495c0373a22d2a45a9bbdd6ab958e16007278a6ae"
+        },
+        {
+          "prime": 53,
+          "order": 55,
+          "generator": [
+            1,
+            19
+          ],
+          "basis_indices": [
+            16,
+            10,
+            33
+          ],
+          "full_table_sha256": "7a8ce0432311e497cf08563203be032daf30a97f255f6971e3722840fddd301f"
+        },
+        {
+          "prime": 59,
+          "order": 68,
+          "generator": [
+            6,
+            22
+          ],
+          "basis_indices": [
+            11,
+            17,
+            43
+          ],
+          "full_table_sha256": "f4adc347e9cb0794c511ef58f479d03ca8911c1ede7d64554411d96574e5a13e"
+        },
+        {
+          "prime": 67,
+          "order": 74,
+          "generator": [
+            0,
+            12
+          ],
+          "basis_indices": [
+            49,
+            14,
+            65
+          ],
+          "full_table_sha256": "d61c00d942552e080ac264db2ba49ff8de05affbba1d6ba9b563ad4470b11479"
+        },
+        {
+          "prime": 71,
+          "order": 87,
+          "generator": [
+            2,
+            24
+          ],
+          "basis_indices": [
+            1,
+            54,
+            80
+          ],
+          "full_table_sha256": "852941b60d94614135165d3a44bf5023caad29cb8fe7da6b6d9fc6e0ceee3860"
+        },
+        {
+          "prime": 73,
+          "order": 84,
+          "generator": [
+            0,
+            4
+          ],
+          "basis_indices": [
+            71,
+            3,
+            54
+          ],
+          "full_table_sha256": "3d1b492b957df87bb1db2df2e770c58d6f013330fbfb7b29796fdfbf4b3af1d2"
+        },
+        {
+          "prime": 79,
+          "order": 76,
+          "generator": [
+            5,
+            2
+          ],
+          "basis_indices": [
+            39,
+            13,
+            68
+          ],
+          "full_table_sha256": "28432aecbfe3a9b70b7f8b1e52c3099236c6a21a265fa67b51c6c29c294d76de"
+        },
+        {
+          "prime": 89,
+          "order": 76,
+          "generator": [
+            2,
+            13
+          ],
+          "basis_indices": [
+            18,
+            68,
+            62
+          ],
+          "full_table_sha256": "9d8c03619a8a360b95f084374f617dde1df50ee27b921f02980ca88399d716c9"
+        },
+        {
+          "prime": 97,
+          "order": 111,
+          "generator": [
+            2,
+            15
+          ],
+          "basis_indices": [
+            106,
+            60,
+            104
+          ],
+          "full_table_sha256": "51f67d80dd620a90dd824d74bec0c50ad4588134361fff794133f6b65a105c63"
+        },
+        {
+          "prime": 101,
+          "order": 98,
+          "generator": [
+            0,
+            46
+          ],
+          "basis_indices": [
+            2,
+            61,
+            35
+          ],
+          "full_table_sha256": "00232333a17ff9cc183ec3811e6425873d24d9df74e5a2365a288fd485b63ef2"
+        },
+        {
+          "prime": 107,
+          "order": 118,
+          "generator": [
+            6,
+            7
+          ],
+          "basis_indices": [
+            82,
+            85,
+            91
+          ],
+          "full_table_sha256": "95d4c09fd86a27e80c2ded5d864273c4d9714111d248b0a83e5d412238bf1c20"
+        },
+        {
+          "prime": 109,
+          "order": 101,
+          "generator": [
+            4,
+            29
+          ],
+          "basis_indices": [
+            20,
+            78,
+            86
+          ],
+          "full_table_sha256": "d02964b2995d82a6592734d3e7d387812815e4c7abbdc5102c88a17a15cecbbc"
+        },
+        {
+          "prime": 113,
+          "order": 132,
+          "generator": [
+            2,
+            43
+          ],
+          "basis_indices": [
+            121,
+            119,
+            22
+          ],
+          "full_table_sha256": "30aa073d0636acc26e07e6b1853be51cbc0dc28908827e03b6ad43b5b6700482"
+        },
+        {
+          "prime": 131,
+          "order": 142,
+          "generator": [
+            1,
+            41
+          ],
+          "basis_indices": [
+            24,
+            51,
+            137
+          ],
+          "full_table_sha256": "9294ef8fdb058de8744301d6f25d3b84861a70c94dc20504aab72fb13f3d87b0"
+        },
+        {
+          "prime": 139,
+          "order": 147,
+          "generator": [
+            0,
+            18
+          ],
+          "basis_indices": [
+            94,
+            133,
+            20
+          ],
+          "full_table_sha256": "aa83137a81ac0c73d4ee5f82282ab7e8c56b5ac73b1917586f5486ba4a219b18"
+        },
+        {
+          "prime": 151,
+          "order": 156,
+          "generator": [
+            21,
+            36
+          ],
+          "basis_indices": [
+            138,
+            36,
+            113
+          ],
+          "full_table_sha256": "331778c2e1830c1a6b4e564036f405dd37adacc8db7bbb3fbc484d2c66525723"
+        },
+        {
+          "prime": 163,
+          "order": 176,
+          "generator": [
+            0,
+            17
+          ],
+          "basis_indices": [
+            60,
+            151,
+            136
+          ],
+          "full_table_sha256": "e9b7370a0131d9c17415c2ac9fff7eb7f5989c8e519486d22aaeaa913debe7bc"
+        },
+        {
+          "prime": 173,
+          "order": 183,
+          "generator": [
+            2,
+            33
+          ],
+          "basis_indices": [
+            168,
+            91,
+            19
+          ],
+          "full_table_sha256": "02e58eb49e9fc7a6c1e37254fdd1eace742c3c7416f4c1ca2356084629f3ca02"
+        },
+        {
+          "prime": 191,
+          "order": 212,
+          "generator": [
+            4,
+            83
+          ],
+          "basis_indices": [
+            189,
+            105,
+            151
+          ],
+          "full_table_sha256": "e630823cc5961709038dc7db9c598877e0805a170b86544e6cb093888723c29d"
+        },
+        {
+          "prime": 197,
+          "order": 222,
+          "generator": [
+            0,
+            53
+          ],
+          "basis_indices": [
+            87,
+            212,
+            108
+          ],
+          "full_table_sha256": "b9ea1e6e77099f9d7f6b2ee155fe4599342f380c9b0361c6f336ddb14655605f"
+        },
+        {
+          "prime": 227,
+          "order": 246,
+          "generator": [
+            3,
+            113
+          ],
+          "basis_indices": [
+            29,
+            145,
+            90
+          ],
+          "full_table_sha256": "6c5c6dd8bba13a26dbafe3c852d1ff6becdf74f182d05916b246d9afe982e2dd"
+        },
+        {
+          "prime": 229,
+          "order": 232,
+          "generator": [
+            2,
+            42
+          ],
+          "basis_indices": [
+            141,
+            199,
+            146
+          ],
+          "full_table_sha256": "075b077e6045dda4b6b0d3daab8604c3a1647340b369f2654b3a361cc7f07b7a"
+        },
+        {
+          "prime": 257,
+          "order": 282,
+          "generator": [
+            3,
+            61
+          ],
+          "basis_indices": [
+            156,
+            263,
+            150
+          ],
+          "full_table_sha256": "bfed75111e089e1a8a0cac8246b7701960808fc1c7ed44084d0464d21218d654"
+        },
+        {
+          "prime": 263,
+          "order": 282,
+          "generator": [
+            0,
+            106
+          ],
+          "basis_indices": [
+            136,
+            226,
+            97
+          ],
+          "full_table_sha256": "b4a3a13ae9bc954c4c7592c709f55219d40dab37ff2170e09159d2ae8dc256c6"
+        },
+        {
+          "prime": 269,
+          "order": 279,
+          "generator": [
+            1,
+            38
+          ],
+          "basis_indices": [
+            62,
+            93,
+            75
+          ],
+          "full_table_sha256": "9b3c45111a57aebc9dd6df7a6e6c1f2058f218d5daba2f4cf16ae27ac0f1fc26"
+        },
+        {
+          "prime": 271,
+          "order": 258,
+          "generator": [
+            1,
+            61
+          ],
+          "basis_indices": [
+            55,
+            127,
+            60
+          ],
+          "full_table_sha256": "b8fa821f3918c652c5ea36d2a8dd957f278494a57cad8e17128a182911f54b48"
+        },
+        {
+          "prime": 293,
+          "order": 295,
+          "generator": [
+            5,
+            26
+          ],
+          "basis_indices": [
+            178,
+            87,
+            186
+          ],
+          "full_table_sha256": "b70f49684589da604dfd4ea2f2ed62a5e7452e10700a4ae46c35bdb364dacb18"
+        },
+        {
+          "prime": 317,
+          "order": 318,
+          "generator": [
+            19,
+            27
+          ],
+          "basis_indices": [
+            301,
+            261,
+            256
+          ],
+          "full_table_sha256": "81686a00172ee31b5666b54f2616a637f5ecb53e676a6e83e6b14a1b84fa7095"
+        },
+        {
+          "prime": 359,
+          "order": 348,
+          "generator": [
+            0,
+            111
+          ],
+          "basis_indices": [
+            160,
+            338,
+            77
+          ],
+          "full_table_sha256": "e4ccc2c6cc3690a9a12c84cd73ceaa8362a053c1a263311d2dad71e2088dfd3c"
+        },
+        {
+          "prime": 389,
+          "order": 374,
+          "generator": [
+            1,
+            7
+          ],
+          "basis_indices": [
+            184,
+            346,
+            196
+          ],
+          "full_table_sha256": "f8b7441ba7dcbebc50483d96bf9ba10f50433e9137b7fe2e2ff59c0aadb05567"
+        },
+        {
+          "prime": 433,
+          "order": 426,
+          "generator": [
+            0,
+            80
+          ],
+          "basis_indices": [
+            424,
+            344,
+            253
+          ],
+          "full_table_sha256": "743922a1aa979d604d169a6339567509774b65a8ce36bb3e3cbe3166a15a104a"
+        },
+        {
+          "prime": 443,
+          "order": 423,
+          "generator": [
+            1,
+            1
+          ],
+          "basis_indices": [
+            250,
+            40,
+            229
+          ],
+          "full_table_sha256": "4ad68ebe7468d30a32256072df3c308dc24b5c276b81c300de0f58119e16b478"
+        },
+        {
+          "prime": 463,
+          "order": 460,
+          "generator": [
+            2,
+            184
+          ],
+          "basis_indices": [
+            115,
+            162,
+            26
+          ],
+          "full_table_sha256": "f1198878fecfeefb2f4c278ab19d257351ad516e17e5575933b46e1967fd884c"
+        },
+        {
+          "prime": 503,
+          "order": 492,
+          "generator": [
+            1,
+            131
+          ],
+          "basis_indices": [
+            137,
+            128,
+            339
+          ],
+          "full_table_sha256": "959d2db29b89827059dd65d00cbb87978b1e362bc91647907ee20510acc399ae"
+        },
+        {
+          "prime": 577,
+          "order": 552,
+          "generator": [
+            5,
+            119
+          ],
+          "basis_indices": [
+            183,
+            280,
+            201
+          ],
+          "full_table_sha256": "ea061bd35484aef3c4e81b596c82d6b9acc9aeb0387217b54a4b4fc6182886a4"
+        },
+        {
+          "prime": 593,
+          "order": 552,
+          "generator": [
+            3,
+            209
+          ],
+          "basis_indices": [
+            150,
+            259,
+            148
+          ],
+          "full_table_sha256": "a7a965ac575dd168559edc3a528796b26fa3401f57ab42e17ff1609eba3fa03f"
+        },
+        {
+          "prime": 617,
+          "order": 645,
+          "generator": [
+            0,
+            204
+          ],
+          "basis_indices": [
+            442,
+            639,
+            325
+          ],
+          "full_table_sha256": "a78914a4cc0adc8c3afb8e37bd656f56b4edd6da7983428c58dde8903eda54f6"
+        },
+        {
+          "prime": 659,
+          "order": 615,
+          "generator": [
+            2,
+            104
+          ],
+          "basis_indices": [
+            86,
+            249,
+            16
+          ],
+          "full_table_sha256": "e54b5baa7d07fe21255a1a8e2721938db88dee93bc8cc0a03aecd8e29763f2ac"
+        },
+        {
+          "prime": 677,
+          "order": 632,
+          "generator": [
+            5,
+            118
+          ],
+          "basis_indices": [
+            109,
+            279,
+            166
+          ],
+          "full_table_sha256": "e36003f44d444b38262b3946cf1a1004542e19943a4c270de655cbcee642d7dc"
+        },
+        {
+          "prime": 733,
+          "order": 731,
+          "generator": [
+            0,
+            332
+          ],
+          "basis_indices": [
+            188,
+            238,
+            577
+          ],
+          "full_table_sha256": "e7ce6aae23f24ad52c46ea9aa03932196b0ddc3cf9852bbf51e62c249c08af9d"
+        },
+        {
+          "prime": 769,
+          "order": 804,
+          "generator": [
+            3,
+            356
+          ],
+          "basis_indices": [
+            117,
+            236,
+            565
+          ],
+          "full_table_sha256": "f9a493ffbe9ae6cc24c67adcd4ca7b9e0c7dea1cea844ee8f4332b5d53054186"
+        },
+        {
+          "prime": 863,
+          "order": 913,
+          "generator": [
+            1,
+            325
+          ],
+          "basis_indices": [
+            820,
+            903,
+            15
+          ],
+          "full_table_sha256": "f70766ce64a3e7ec18d0796c840d47ec11638585daf6c286151bbd5a60bafbb7"
+        },
+        {
+          "prime": 881,
+          "order": 854,
+          "generator": [
+            4,
+            390
+          ],
+          "basis_indices": [
+            311,
+            341,
+            700
+          ],
+          "full_table_sha256": "98d564a1d543286e2bb30e01b0c53c4280ddfdfa82803921b30e9db8576cf762"
+        },
+        {
+          "prime": 919,
+          "order": 890,
+          "generator": [
+            2,
+            264
+          ],
+          "basis_indices": [
+            309,
+            246,
+            752
+          ],
+          "full_table_sha256": "db309f9d53fab875bac4db198f097f6c8068bfd4694f21ce6300b85987fd57ba"
+        },
+        {
+          "prime": 971,
+          "order": 976,
+          "generator": [
+            0,
+            465
+          ],
+          "basis_indices": [
+            720,
+            464,
+            904
+          ],
+          "full_table_sha256": "0d23a97ca6191a17457283e6a959b4b056ddeb91045035bce212544e1704319d"
+        },
+        {
+          "prime": 1013,
+          "order": 996,
+          "generator": [
+            13,
+            174
+          ],
+          "basis_indices": [
+            375,
+            127,
+            268
+          ],
+          "full_table_sha256": "235ee931e03103ed4166c5f9bb212a1e0f41e12188abb8d37769f60c7d701f0c"
+        },
+        {
+          "prime": 1061,
+          "order": 1116,
+          "generator": [
+            7,
+            141
+          ],
+          "basis_indices": [
+            838,
+            429,
+            454
+          ],
+          "full_table_sha256": "eea05cbcdb5df4912646ad112a1b29e6023477e9298916fe69cacba3ad4dcdd4"
+        },
+        {
+          "prime": 1069,
+          "order": 1067,
+          "generator": [
+            5,
+            377
+          ],
+          "basis_indices": [
+            462,
+            914,
+            521
+          ],
+          "full_table_sha256": "ec29efa309565b519f63c0ed2527eb60870fdd16ddea7887cee308f3be9747d5"
+        },
+        {
+          "prime": 1123,
+          "order": 1079,
+          "generator": [
+            0,
+            388
+          ],
+          "basis_indices": [
+            179,
+            519,
+            589
+          ],
+          "full_table_sha256": "8bf6ad9fa94ebaf7519b16d6ac4e6ece5178bdf8895201805b3c5ec16cddedc1"
+        },
+        {
+          "prime": 1213,
+          "order": 1264,
+          "generator": [
+            0,
+            44
+          ],
+          "basis_indices": [
+            151,
+            1146,
+            178
+          ],
+          "full_table_sha256": "2335420ba61ed07a83927116cb7021ce03523a3b4a0df08b9be03b345f02a5f5"
+        },
+        {
+          "prime": 1217,
+          "order": 1206,
+          "generator": [
+            3,
+            495
+          ],
+          "basis_indices": [
+            936,
+            1081,
+            36
+          ],
+          "full_table_sha256": "d286df1065dac418ed9b177287f26f92aa5c1d8d74fb2ebedff573a43f561296"
+        },
+        {
+          "prime": 1289,
+          "order": 1325,
+          "generator": [
+            1,
+            351
+          ],
+          "basis_indices": [
+            669,
+            840,
+            361
+          ],
+          "full_table_sha256": "ca0788d8348fb26fe68f5c6afb31aee3e7e34b7b7220c19775833784f0201328"
+        },
+        {
+          "prime": 1297,
+          "order": 1357,
+          "generator": [
+            0,
+            620
+          ],
+          "basis_indices": [
+            673,
+            422,
+            426
+          ],
+          "full_table_sha256": "13e358679d184d067053fa6eb573fac82376d3b5fab14ddf1b01e772f9cc4a27"
+        },
+        {
+          "prime": 1453,
+          "order": 1515,
+          "generator": [
+            4,
+            35
+          ],
+          "basis_indices": [
+            864,
+            1492,
+            1143
+          ],
+          "full_table_sha256": "f1601220f96ac9c88fe110d5173d51b7ddfdf1b67f03ee601c1c63e084b707bb"
+        },
+        {
+          "prime": 1483,
+          "order": 1455,
+          "generator": [
+            9,
+            612
+          ],
+          "basis_indices": [
+            338,
+            500,
+            345
+          ],
+          "full_table_sha256": "3386529030a213d9438e001f3d62c17deb9a140ec258de304e8db32edcf46b99"
+        },
+        {
+          "prime": 1511,
+          "order": 1455,
+          "generator": [
+            0,
+            636
+          ],
+          "basis_indices": [
+            808,
+            1372,
+            847
+          ],
+          "full_table_sha256": "f449873a0e27b4b919b4f6374106f9c1b54b453ad9c5bd9eb95ef5aa0ee404d7"
+        },
+        {
+          "prime": 1543,
+          "order": 1541,
+          "generator": [
+            2,
+            771
+          ],
+          "basis_indices": [
+            144,
+            631,
+            1014
+          ],
+          "full_table_sha256": "8acf85aa878ba7b5649be87352eaea4d32eb4b9c7b5c09a054344c5fb1cc3771"
+        },
+        {
+          "prime": 1699,
+          "order": 1659,
+          "generator": [
+            1,
+            699
+          ],
+          "basis_indices": [
+            223,
+            1647,
+            784
+          ],
+          "full_table_sha256": "74ccc3f4b85d39ef4e796e1323f289d553aeeb76518b2293edf6794a6085f9d8"
+        },
+        {
+          "prime": 1847,
+          "order": 1846,
+          "generator": [
+            3,
+            862
+          ],
+          "basis_indices": [
+            1060,
+            180,
+            44
+          ],
+          "full_table_sha256": "38ab3bd2de56396e3b362a951bd614b40e31099a81fe19332ddb53796d8aa6e4"
+        },
+        {
+          "prime": 2099,
+          "order": 2121,
+          "generator": [
+            5,
+            176
+          ],
+          "basis_indices": [
+            1356,
+            1158,
+            1265
+          ],
+          "full_table_sha256": "df960c5d738360ea738380f7ab8e61cc14f5198377b9f743b26f2520a810050d"
+        },
+        {
+          "prime": 2543,
+          "order": 2555,
+          "generator": [
+            3,
+            994
+          ],
+          "basis_indices": [
+            2395,
+            2094,
+            108
+          ],
+          "full_table_sha256": "99f05ffac2c39be70d8a67567d259ce700ac549ed02e62763b8474ac0bce57a3"
+        },
+        {
+          "prime": 3109,
+          "order": 3115,
+          "generator": [
+            0,
+            539
+          ],
+          "basis_indices": [
+            146,
+            1734,
+            2079
+          ],
+          "full_table_sha256": "db16285f07a66a993c51ca295b2d51128911e9d8eec6fedef9c75924f1006365"
+        },
+        {
+          "prime": 3823,
+          "order": 3916,
+          "generator": [
+            1,
+            1243
+          ],
+          "basis_indices": [
+            715,
+            2255,
+            614
+          ],
+          "full_table_sha256": "1e47693028d9f1839acb2a96c5b21aa4bcd7349b40a423bba14552f69ad5e1d9"
+        },
+        {
+          "prime": 3967,
+          "order": 4015,
+          "generator": [
+            5,
+            1945
+          ],
+          "basis_indices": [
+            3459,
+            3530,
+            2979
+          ],
+          "full_table_sha256": "37eedb01e7da5c2a7bbac0d72b921ec26930f2e8fc4883b8fb1c169ce2ff8a26"
+        },
+        {
+          "prime": 4211,
+          "order": 4161,
+          "generator": [
+            0,
+            197
+          ],
+          "basis_indices": [
+            3222,
+            1058,
+            2080
+          ],
+          "full_table_sha256": "c833247b7068da50a8a16cba0c40a345aa123b03f55cda4ee28ee95eae128708"
+        }
+      ],
+      "prime_saturation_certificates": [
+        {
+          "ell": 2,
+          "witnesses": [
+            {
+              "auxiliary_prime": 13,
+              "residue_row": [
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 37,
+              "residue_row": [
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 41,
+              "residue_row": [
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "determinant": 1,
+          "determinant_mod_ell": 1
+        },
+        {
+          "ell": 3,
+          "witnesses": [
+            {
+              "auxiliary_prime": 13,
+              "residue_row": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 17,
+              "residue_row": [
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 29,
+              "residue_row": [
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "determinant": 1,
+          "determinant_mod_ell": 1
+        },
+        {
+          "ell": 5,
+          "witnesses": [
+            {
+              "auxiliary_prime": 17,
+              "residue_row": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 19,
+              "residue_row": [
+                2,
+                0,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 37,
+              "residue_row": [
+                3,
+                2,
+                2
+              ]
+            }
+          ],
+          "determinant": 17,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 7,
+          "witnesses": [
+            {
+              "auxiliary_prime": 73,
+              "residue_row": [
+                1,
+                3,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 101,
+              "residue_row": [
+                2,
+                5,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 139,
+              "residue_row": [
+                3,
+                0,
+                6
+              ]
+            }
+          ],
+          "determinant": -81,
+          "determinant_mod_ell": 3
+        },
+        {
+          "ell": 11,
+          "witnesses": [
+            {
+              "auxiliary_prime": 53,
+              "residue_row": [
+                5,
+                10,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 113,
+              "residue_row": [
+                0,
+                9,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 163,
+              "residue_row": [
+                5,
+                8,
+                4
+              ]
+            }
+          ],
+          "determinant": 180,
+          "determinant_mod_ell": 4
+        },
+        {
+          "ell": 13,
+          "witnesses": [
+            {
+              "auxiliary_prime": 29,
+              "residue_row": [
+                10,
+                4,
+                9
+              ]
+            },
+            {
+              "auxiliary_prime": 43,
+              "residue_row": [
+                6,
+                0,
+                12
+              ]
+            },
+            {
+              "auxiliary_prime": 151,
+              "residue_row": [
+                8,
+                10,
+                9
+              ]
+            }
+          ],
+          "determinant": -492,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 17,
+          "witnesses": [
+            {
+              "auxiliary_prime": 31,
+              "residue_row": [
+                11,
+                0,
+                7
+              ]
+            },
+            {
+              "auxiliary_prime": 59,
+              "residue_row": [
+                11,
+                0,
+                9
+              ]
+            },
+            {
+              "auxiliary_prime": 389,
+              "residue_row": [
+                14,
+                6,
+                9
+              ]
+            }
+          ],
+          "determinant": -132,
+          "determinant_mod_ell": 4
+        },
+        {
+          "ell": 19,
+          "witnesses": [
+            {
+              "auxiliary_prime": 47,
+              "residue_row": [
+                9,
+                13,
+                12
+              ]
+            },
+            {
+              "auxiliary_prime": 79,
+              "residue_row": [
+                1,
+                13,
+                11
+              ]
+            },
+            {
+              "auxiliary_prime": 89,
+              "residue_row": [
+                18,
+                11,
+                5
+              ]
+            }
+          ],
+          "determinant": -671,
+          "determinant_mod_ell": 13
+        },
+        {
+          "ell": 23,
+          "witnesses": [
+            {
+              "auxiliary_prime": 463,
+              "residue_row": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 577,
+              "residue_row": [
+                22,
+                4,
+                17
+              ]
+            },
+            {
+              "auxiliary_prime": 593,
+              "residue_row": [
+                12,
+                6,
+                10
+              ]
+            }
+          ],
+          "determinant": 236,
+          "determinant_mod_ell": 6
+        },
+        {
+          "ell": 29,
+          "witnesses": [
+            {
+              "auxiliary_prime": 71,
+              "residue_row": [
+                1,
+                25,
+                22
+              ]
+            },
+            {
+              "auxiliary_prime": 229,
+              "residue_row": [
+                25,
+                25,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 359,
+              "residue_row": [
+                15,
+                19,
+                19
+              ]
+            }
+          ],
+          "determinant": -8844,
+          "determinant_mod_ell": 1
+        },
+        {
+          "ell": 31,
+          "witnesses": [
+            {
+              "auxiliary_prime": 23,
+              "residue_row": [
+                15,
+                10,
+                26
+              ]
+            },
+            {
+              "auxiliary_prime": 269,
+              "residue_row": [
+                0,
+                0,
+                13
+              ]
+            },
+            {
+              "auxiliary_prime": 1061,
+              "residue_row": [
+                1,
+                26,
+                20
+              ]
+            }
+          ],
+          "determinant": -4940,
+          "determinant_mod_ell": 20
+        },
+        {
+          "ell": 37,
+          "witnesses": [
+            {
+              "auxiliary_prime": 67,
+              "residue_row": [
+                12,
+                14,
+                28
+              ]
+            },
+            {
+              "auxiliary_prime": 97,
+              "residue_row": [
+                32,
+                23,
+                30
+              ]
+            },
+            {
+              "auxiliary_prime": 197,
+              "residue_row": [
+                13,
+                27,
+                34
+              ]
+            }
+          ],
+          "determinant": 5712,
+          "determinant_mod_ell": 14
+        },
+        {
+          "ell": 41,
+          "witnesses": [
+            {
+              "auxiliary_prime": 227,
+              "residue_row": [
+                29,
+                22,
+                8
+              ]
+            },
+            {
+              "auxiliary_prime": 503,
+              "residue_row": [
+                14,
+                5,
+                11
+              ]
+            },
+            {
+              "auxiliary_prime": 659,
+              "residue_row": [
+                4,
+                3,
+                16
+              ]
+            }
+          ],
+          "determinant": -2421,
+          "determinant_mod_ell": 39
+        },
+        {
+          "ell": 43,
+          "witnesses": [
+            {
+              "auxiliary_prime": 271,
+              "residue_row": [
+                12,
+                41,
+                17
+              ]
+            },
+            {
+              "auxiliary_prime": 617,
+              "residue_row": [
+                12,
+                37,
+                24
+              ]
+            },
+            {
+              "auxiliary_prime": 733,
+              "residue_row": [
+                16,
+                23,
+                18
+              ]
+            }
+          ],
+          "determinant": 2884,
+          "determinant_mod_ell": 3
+        },
+        {
+          "ell": 47,
+          "witnesses": [
+            {
+              "auxiliary_prime": 257,
+              "residue_row": [
+                15,
+                28,
+                9
+              ]
+            },
+            {
+              "auxiliary_prime": 263,
+              "residue_row": [
+                42,
+                38,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 443,
+              "residue_row": [
+                15,
+                40,
+                41
+              ]
+            }
+          ],
+          "determinant": -15396,
+          "determinant_mod_ell": 20
+        },
+        {
+          "ell": 53,
+          "witnesses": [
+            {
+              "auxiliary_prime": 191,
+              "residue_row": [
+                30,
+                52,
+                45
+              ]
+            },
+            {
+              "auxiliary_prime": 317,
+              "residue_row": [
+                36,
+                49,
+                44
+              ]
+            },
+            {
+              "auxiliary_prime": 1289,
+              "residue_row": [
+                33,
+                45,
+                43
+              ]
+            }
+          ],
+          "determinant": -1047,
+          "determinant_mod_ell": 13
+        },
+        {
+          "ell": 59,
+          "witnesses": [
+            {
+              "auxiliary_prime": 107,
+              "residue_row": [
+                23,
+                26,
+                32
+              ]
+            },
+            {
+              "auxiliary_prime": 293,
+              "residue_row": [
+                1,
+                28,
+                9
+              ]
+            },
+            {
+              "auxiliary_prime": 1297,
+              "residue_row": [
+                24,
+                9,
+                13
+              ]
+            }
+          ],
+          "determinant": -9429,
+          "determinant_mod_ell": 11
+        },
+        {
+          "ell": 61,
+          "witnesses": [
+            {
+              "auxiliary_prime": 173,
+              "residue_row": [
+                46,
+                30,
+                19
+              ]
+            },
+            {
+              "auxiliary_prime": 881,
+              "residue_row": [
+                6,
+                36,
+                29
+              ]
+            },
+            {
+              "auxiliary_prime": 971,
+              "residue_row": [
+                49,
+                37,
+                50
+              ]
+            }
+          ],
+          "determinant": 37774,
+          "determinant_mod_ell": 15
+        },
+        {
+          "ell": 67,
+          "witnesses": [
+            {
+              "auxiliary_prime": 769,
+              "residue_row": [
+                50,
+                35,
+                29
+              ]
+            },
+            {
+              "auxiliary_prime": 1217,
+              "residue_row": [
+                65,
+                9,
+                36
+              ]
+            },
+            {
+              "auxiliary_prime": 1543,
+              "residue_row": [
+                10,
+                28,
+                9
+              ]
+            }
+          ],
+          "determinant": -4055,
+          "determinant_mod_ell": 32
+        },
+        {
+          "ell": 71,
+          "witnesses": [
+            {
+              "auxiliary_prime": 131,
+              "residue_row": [
+                24,
+                51,
+                66
+              ]
+            },
+            {
+              "auxiliary_prime": 433,
+              "residue_row": [
+                69,
+                60,
+                40
+              ]
+            },
+            {
+              "auxiliary_prime": 1847,
+              "residue_row": [
+                66,
+                38,
+                44
+              ]
+            }
+          ],
+          "determinant": -81624,
+          "determinant_mod_ell": 26
+        },
+        {
+          "ell": 73,
+          "witnesses": [
+            {
+              "auxiliary_prime": 2543,
+              "residue_row": [
+                59,
+                50,
+                35
+              ]
+            },
+            {
+              "auxiliary_prime": 3967,
+              "residue_row": [
+                28,
+                26,
+                59
+              ]
+            },
+            {
+              "auxiliary_prime": 4211,
+              "residue_row": [
+                10,
+                36,
+                36
+              ]
+            }
+          ],
+          "determinant": -64812,
+          "determinant_mod_ell": 12
+        },
+        {
+          "ell": 79,
+          "witnesses": [
+            {
+              "auxiliary_prime": 677,
+              "residue_row": [
+                30,
+                42,
+                8
+              ]
+            },
+            {
+              "auxiliary_prime": 1213,
+              "residue_row": [
+                72,
+                40,
+                20
+              ]
+            },
+            {
+              "auxiliary_prime": 1699,
+              "residue_row": [
+                65,
+                67,
+                73
+              ]
+            }
+          ],
+          "determinant": -100960,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 83,
+          "witnesses": [
+            {
+              "auxiliary_prime": 863,
+              "residue_row": [
+                73,
+                73,
+                15
+              ]
+            },
+            {
+              "auxiliary_prime": 1013,
+              "residue_row": [
+                43,
+                44,
+                19
+              ]
+            },
+            {
+              "auxiliary_prime": 1123,
+              "residue_row": [
+                13,
+                21,
+                8
+              ]
+            }
+          ],
+          "determinant": -5547,
+          "determinant_mod_ell": 14
+        },
+        {
+          "ell": 89,
+          "witnesses": [
+            {
+              "auxiliary_prime": 919,
+              "residue_row": [
+                42,
+                68,
+                40
+              ]
+            },
+            {
+              "auxiliary_prime": 3109,
+              "residue_row": [
+                57,
+                43,
+                32
+              ]
+            },
+            {
+              "auxiliary_prime": 3823,
+              "residue_row": [
+                3,
+                30,
+                80
+              ]
+            }
+          ],
+          "determinant": -136152,
+          "determinant_mod_ell": 18
+        },
+        {
+          "ell": 97,
+          "witnesses": [
+            {
+              "auxiliary_prime": 1069,
+              "residue_row": [
+                74,
+                41,
+                36
+              ]
+            },
+            {
+              "auxiliary_prime": 1483,
+              "residue_row": [
+                47,
+                15,
+                54
+              ]
+            },
+            {
+              "auxiliary_prime": 1511,
+              "residue_row": [
+                32,
+                14,
+                71
+              ]
+            }
+          ],
+          "determinant": -36695,
+          "determinant_mod_ell": 68
+        },
+        {
+          "ell": 101,
+          "witnesses": [
+            {
+              "auxiliary_prime": 109,
+              "residue_row": [
+                20,
+                78,
+                86
+              ]
+            },
+            {
+              "auxiliary_prime": 1453,
+              "residue_row": [
+                56,
+                78,
+                32
+              ]
+            },
+            {
+              "auxiliary_prime": 2099,
+              "residue_row": [
+                43,
+                47,
+                53
+              ]
+            }
+          ],
+          "determinant": -133668,
+          "determinant_mod_ell": 56
+        }
+      ],
+      "largest_auxiliary_prime_used": 4211
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "a2_a4_a6": [
+        1,
+        -1633,
+        32963
+      ],
+      "basis": [
+        [
+          "23",
+          "-90"
+        ],
+        [
+          "17",
+          "-102"
+        ],
+        [
+          "-1",
+          "186"
+        ]
+      ],
+      "torsion_prime_to_characteristic_certificate": [
+        {
+          "prime": 13,
+          "order": 14,
+          "prime_times_order": 182
+        },
+        {
+          "prime": 37,
+          "order": 33,
+          "prime_times_order": 1221
+        }
+      ],
+      "torsion_augmented_order_gcd": 1,
+      "finite_group_records": [
+        {
+          "prime": 11,
+          "order": 16,
+          "generator": [
+            1,
+            2
+          ],
+          "basis_indices": [
+            15,
+            10,
+            4
+          ],
+          "full_table_sha256": "1ff775962b881f177bd04ed35c1fcb07e6bc156c9dac140e2f7fde4ca78eeb16"
+        },
+        {
+          "prime": 13,
+          "order": 14,
+          "generator": [
+            2,
+            2
+          ],
+          "basis_indices": [
+            11,
+            4,
+            2
+          ],
+          "full_table_sha256": "239bb80e9e3eb28c16d474e7b36d742ed9f2cb1b48cd11d652bbffa56bba191f"
+        },
+        {
+          "prime": 17,
+          "order": 24,
+          "generator": [
+            3,
+            4
+          ],
+          "basis_indices": [
+            3,
+            12,
+            20
+          ],
+          "full_table_sha256": "6a38a8c9a0d673a977a3c6fd3cb4ee76acedae42e308ab487abdc2719e5746aa"
+        },
+        {
+          "prime": 19,
+          "order": 26,
+          "generator": [
+            0,
+            6
+          ],
+          "basis_indices": [
+            11,
+            3,
+            16
+          ],
+          "full_table_sha256": "05a86802ce4adaa376aaba9d5ac3f0e3a7fc2b9f6711344115ad4c369968ddbe"
+        },
+        {
+          "prime": 29,
+          "order": 40,
+          "generator": [
+            9,
+            9
+          ],
+          "basis_indices": [
+            36,
+            7,
+            13
+          ],
+          "full_table_sha256": "b8a8f3a33610995bf87c04c528ebe6d54980cdabeb605b24c9c2834eae3cc1b6"
+        },
+        {
+          "prime": 31,
+          "order": 26,
+          "generator": [
+            10,
+            1
+          ],
+          "basis_indices": [
+            17,
+            2,
+            13
+          ],
+          "full_table_sha256": "8410bf07231d0aaa44ac2eea98fafe47b2af94551270a73f56db82658d3e7d10"
+        },
+        {
+          "prime": 37,
+          "order": 33,
+          "generator": [
+            0,
+            12
+          ],
+          "basis_indices": [
+            27,
+            5,
+            23
+          ],
+          "full_table_sha256": "cce386fd14bf7f0ed510a5e7e638f484ced1d400cd1cb09a1091ef2662e674f5"
+        },
+        {
+          "prime": 41,
+          "order": 39,
+          "generator": [
+            0,
+            9
+          ],
+          "basis_indices": [
+            34,
+            8,
+            13
+          ],
+          "full_table_sha256": "cce7f216edee9876d7e4e7dba9f07b9f1c3085a206c51d75199a23e577d0829b"
+        },
+        {
+          "prime": 43,
+          "order": 38,
+          "generator": [
+            4,
+            18
+          ],
+          "basis_indices": [
+            7,
+            22,
+            10
+          ],
+          "full_table_sha256": "278c1e6bca9e950bdef41e817705697225d6c9ae159969887bc7e0c856c78d78"
+        },
+        {
+          "prime": 47,
+          "order": 40,
+          "generator": [
+            4,
+            12
+          ],
+          "basis_indices": [
+            35,
+            28,
+            11
+          ],
+          "full_table_sha256": "1913e0b55031f3b29a1399dacbc588360d8e1db97b4e89bf31d4fc022394148e"
+        },
+        {
+          "prime": 53,
+          "order": 67,
+          "generator": [
+            1,
+            3
+          ],
+          "basis_indices": [
+            41,
+            7,
+            24
+          ],
+          "full_table_sha256": "4049b57ffbea211d9edf614a60a3d10adb73be56579364d956b8f96bc60236d8"
+        },
+        {
+          "prime": 61,
+          "order": 73,
+          "generator": [
+            1,
+            10
+          ],
+          "basis_indices": [
+            28,
+            32,
+            10
+          ],
+          "full_table_sha256": "fb93fb8846e5ea5dffbf3167f29eb7d03c60511501d38ef0505a998360d53531"
+        },
+        {
+          "prime": 67,
+          "order": 71,
+          "generator": [
+            5,
+            15
+          ],
+          "basis_indices": [
+            24,
+            36,
+            22
+          ],
+          "full_table_sha256": "f2991ae3e6d773e829a7f3d42b49769aee6bab6528f10b9c72b9f147ff23b320"
+        },
+        {
+          "prime": 71,
+          "order": 84,
+          "generator": [
+            10,
+            14
+          ],
+          "basis_indices": [
+            78,
+            43,
+            8
+          ],
+          "full_table_sha256": "299718c656479b258248e8f5c709988f8e4d9e0febd427fc0d5ab17c42e8c85f"
+        },
+        {
+          "prime": 73,
+          "order": 90,
+          "generator": [
+            2,
+            12
+          ],
+          "basis_indices": [
+            6,
+            31,
+            20
+          ],
+          "full_table_sha256": "15952006e4ad40dd82c5da275c31647068b6a733cb59f96f3c0841f7efc503c2"
+        },
+        {
+          "prime": 89,
+          "order": 102,
+          "generator": [
+            2,
+            28
+          ],
+          "basis_indices": [
+            97,
+            28,
+            99
+          ],
+          "full_table_sha256": "9458d0d836ee02c9843451273e6af6a0056d444130797e99044dc8f5e90f0af7"
+        },
+        {
+          "prime": 97,
+          "order": 99,
+          "generator": [
+            7,
+            14
+          ],
+          "basis_indices": [
+            34,
+            91,
+            79
+          ],
+          "full_table_sha256": "5df5c62ca99ea4119cfa63423ae4217c8bd0cb35422ed79ce59219de0c177480"
+        },
+        {
+          "prime": 101,
+          "order": 110,
+          "generator": [
+            5,
+            1
+          ],
+          "basis_indices": [
+            93,
+            8,
+            37
+          ],
+          "full_table_sha256": "e5403cd856c0c7b73bef3ec813f6aa25e5cd5831e7a093b3f07e3f17ea03899b"
+        },
+        {
+          "prime": 107,
+          "order": 93,
+          "generator": [
+            9,
+            43
+          ],
+          "basis_indices": [
+            79,
+            2,
+            17
+          ],
+          "full_table_sha256": "6e87d0f476e0846fa5e439331e14a49166b3c9c0a4c8d6fe27435dfdb8947bea"
+        },
+        {
+          "prime": 131,
+          "order": 129,
+          "generator": [
+            6,
+            19
+          ],
+          "basis_indices": [
+            32,
+            25,
+            35
+          ],
+          "full_table_sha256": "0c28ac89a05d9daa2925800b5fec3ed0a4a51ed81f9376840abd17e19ce27c24"
+        },
+        {
+          "prime": 149,
+          "order": 155,
+          "generator": [
+            1,
+            41
+          ],
+          "basis_indices": [
+            69,
+            5,
+            66
+          ],
+          "full_table_sha256": "7c546326f54359f890e5a2ddc55cee79028d639dcaddc0ad222fbd00367e0101"
+        },
+        {
+          "prime": 151,
+          "order": 171,
+          "generator": [
+            4,
+            29
+          ],
+          "basis_indices": [
+            33,
+            85,
+            71
+          ],
+          "full_table_sha256": "6724cfb6cb9ba7ac52a6474c236bef076fda3a92cdcdc0d327c826aaf1aa6583"
+        },
+        {
+          "prime": 163,
+          "order": 178,
+          "generator": [
+            3,
+            8
+          ],
+          "basis_indices": [
+            59,
+            71,
+            164
+          ],
+          "full_table_sha256": "645e2412a806646aaaf28ba4c2d7f0703812b7547eb6dedc1131650a2e1642a6"
+        },
+        {
+          "prime": 167,
+          "order": 170,
+          "generator": [
+            3,
+            82
+          ],
+          "basis_indices": [
+            40,
+            11,
+            33
+          ],
+          "full_table_sha256": "d5be05fd4bca578bc953df335365dc946605d972a23310ba33aa4269e26d8655"
+        },
+        {
+          "prime": 173,
+          "order": 161,
+          "generator": [
+            2,
+            68
+          ],
+          "basis_indices": [
+            120,
+            51,
+            156
+          ],
+          "full_table_sha256": "e262b6771475a01cba1e76b3b56c04aba1d656b179a311fe98435e5e4742b3b4"
+        },
+        {
+          "prime": 181,
+          "order": 202,
+          "generator": [
+            3,
+            81
+          ],
+          "basis_indices": [
+            15,
+            192,
+            150
+          ],
+          "full_table_sha256": "6d7ddce99fe66e28fad9ac357a2cb8ab5ce831535c7668a6240657a9158d9450"
+        },
+        {
+          "prime": 193,
+          "order": 215,
+          "generator": [
+            6,
+            8
+          ],
+          "basis_indices": [
+            13,
+            158,
+            53
+          ],
+          "full_table_sha256": "83ce97599206e09b798f3bd65ebd8636c147351c0e3c71aa7fac56540180da24"
+        },
+        {
+          "prime": 199,
+          "order": 201,
+          "generator": [
+            0,
+            39
+          ],
+          "basis_indices": [
+            103,
+            9,
+            72
+          ],
+          "full_table_sha256": "332ab2ecbbf3be5076e2c95d848c0fa46e5600e5d7c09b045ff6670fac4fd501"
+        },
+        {
+          "prime": 211,
+          "order": 230,
+          "generator": [
+            3,
+            44
+          ],
+          "basis_indices": [
+            59,
+            94,
+            186
+          ],
+          "full_table_sha256": "d7dc59bc5a5ea3e641d487ce2f8f015d2f2949ebef2c9ec0d7e748bece075c22"
+        },
+        {
+          "prime": 227,
+          "order": 221,
+          "generator": [
+            0,
+            27
+          ],
+          "basis_indices": [
+            79,
+            206,
+            123
+          ],
+          "full_table_sha256": "8ac8c2ea174c6df0e9f84d17aa43292db3f299f00848e6f59be5430f001596a8"
+        },
+        {
+          "prime": 241,
+          "order": 267,
+          "generator": [
+            0,
+            118
+          ],
+          "basis_indices": [
+            75,
+            224,
+            213
+          ],
+          "full_table_sha256": "41e85324664f02a06c0d931e55cb43eba865d823369b242f3d55a59442a41a8c"
+        },
+        {
+          "prime": 271,
+          "order": 303,
+          "generator": [
+            3,
+            27
+          ],
+          "basis_indices": [
+            100,
+            130,
+            86
+          ],
+          "full_table_sha256": "b1051a020f22ae3af3f59016422071be8fbc9471220b136015e42a407e94f896"
+        },
+        {
+          "prime": 277,
+          "order": 284,
+          "generator": [
+            2,
+            65
+          ],
+          "basis_indices": [
+            204,
+            211,
+            30
+          ],
+          "full_table_sha256": "e8aa07fc7df6a162ed5e47e85c57667b18514df5f02cdde69b954d15a4158db1"
+        },
+        {
+          "prime": 283,
+          "order": 276,
+          "generator": [
+            17,
+            102
+          ],
+          "basis_indices": [
+            205,
+            275,
+            186
+          ],
+          "full_table_sha256": "8679ca661e3abd2766e4a68a6204c815b69077f7e9c3a169e0b4ec4d87c5de8a"
+        },
+        {
+          "prime": 313,
+          "order": 292,
+          "generator": [
+            0,
+            99
+          ],
+          "basis_indices": [
+            181,
+            200,
+            191
+          ],
+          "full_table_sha256": "0fac660025e4da7d56b479bc5c559608b8304d02b105dadd69f53d6c66075195"
+        },
+        {
+          "prime": 337,
+          "order": 316,
+          "generator": [
+            0,
+            73
+          ],
+          "basis_indices": [
+            241,
+            197,
+            193
+          ],
+          "full_table_sha256": "09532f6f55ba55bba4ad312a9b5236c409927f542205cebbc219df2f871c42e3"
+        },
+        {
+          "prime": 349,
+          "order": 355,
+          "generator": [
+            0,
+            134
+          ],
+          "basis_indices": [
+            31,
+            87,
+            230
+          ],
+          "full_table_sha256": "3d99f8225bec8544abeb17ce35cf8fbbe10122f4814c78c592e6f79cb916d69c"
+        },
+        {
+          "prime": 353,
+          "order": 371,
+          "generator": [
+            3,
+            64
+          ],
+          "basis_indices": [
+            68,
+            54,
+            107
+          ],
+          "full_table_sha256": "810dbe2c363a33e45aefa5e25aafe210c5aeb2953da33761b08420cfa8ee78a2"
+        },
+        {
+          "prime": 379,
+          "order": 348,
+          "generator": [
+            0,
+            132
+          ],
+          "basis_indices": [
+            252,
+            100,
+            313
+          ],
+          "full_table_sha256": "ffadd71d4cf449ccae5e471fc6925ad718a1dc6a662a9f4434da266063212792"
+        },
+        {
+          "prime": 419,
+          "order": 435,
+          "generator": [
+            0,
+            117
+          ],
+          "basis_indices": [
+            189,
+            358,
+            204
+          ],
+          "full_table_sha256": "ee4b14ab408f1d9364b1bcd0e8573bfb0f9fb486d69c40bf74f28ec17d3e3cf5"
+        },
+        {
+          "prime": 503,
+          "order": 493,
+          "generator": [
+            0,
+            161
+          ],
+          "basis_indices": [
+            4,
+            93,
+            480
+          ],
+          "full_table_sha256": "1fd95aa95b8f858e69debf76273b1118587e88825814dfb3af3df92f2353eff0"
+        },
+        {
+          "prime": 509,
+          "order": 494,
+          "generator": [
+            0,
+            204
+          ],
+          "basis_indices": [
+            369,
+            59,
+            413
+          ],
+          "full_table_sha256": "9c4c459a44ad3824c743d1c7b898d98ae1c6bf9d417d350a83adb30426290691"
+        },
+        {
+          "prime": 599,
+          "order": 610,
+          "generator": [
+            7,
+            285
+          ],
+          "basis_indices": [
+            53,
+            219,
+            95
+          ],
+          "full_table_sha256": "63b9be7441de85312f82b474ee9062cabdd84d7693175befaeff604f44c15f50"
+        },
+        {
+          "prime": 617,
+          "order": 603,
+          "generator": [
+            1,
+            226
+          ],
+          "basis_indices": [
+            537,
+            355,
+            309
+          ],
+          "full_table_sha256": "5c9349f3be0176ae4959451793fb0f5f0add2ec5ae46bf57692d8f5fc6185a66"
+        },
+        {
+          "prime": 643,
+          "order": 657,
+          "generator": [
+            2,
+            81
+          ],
+          "basis_indices": [
+            573,
+            115,
+            144
+          ],
+          "full_table_sha256": "3ead0cec97c431336fbab87e2ea4fe95445a9a31556a364b96272605869dc40e"
+        },
+        {
+          "prime": 659,
+          "order": 651,
+          "generator": [
+            9,
+            51
+          ],
+          "basis_indices": [
+            557,
+            55,
+            189
+          ],
+          "full_table_sha256": "f03ae4c59fd560f953d04dc2a86ff631d95207c39827a733fc3ce7100ffa6716"
+        },
+        {
+          "prime": 661,
+          "order": 703,
+          "generator": [
+            1,
+            127
+          ],
+          "basis_indices": [
+            569,
+            443,
+            87
+          ],
+          "full_table_sha256": "4c248b7a20b56f0839786e97a940506d9ae8fefc7cc64755df5f1f32e1779b29"
+        },
+        {
+          "prime": 719,
+          "order": 747,
+          "generator": [
+            1,
+            183
+          ],
+          "basis_indices": [
+            237,
+            736,
+            363
+          ],
+          "full_table_sha256": "123e249a8b6d82b59a419b217095fbc338a71e578d93c91ee9c7bbc4f2ffe5ea"
+        },
+        {
+          "prime": 773,
+          "order": 742,
+          "generator": [
+            0,
+            325
+          ],
+          "basis_indices": [
+            174,
+            227,
+            478
+          ],
+          "full_table_sha256": "6b300c7d5b1b8f55d6ce978f6a789abe2e16e869ffb291b996baddaff06fbca3"
+        },
+        {
+          "prime": 947,
+          "order": 999,
+          "generator": [
+            0,
+            321
+          ],
+          "basis_indices": [
+            726,
+            493,
+            212
+          ],
+          "full_table_sha256": "fea891a519cac336b8ebfd427e13759de782f036b9864e94b535d3e2de8510dd"
+        },
+        {
+          "prime": 991,
+          "order": 944,
+          "generator": [
+            0,
+            492
+          ],
+          "basis_indices": [
+            577,
+            297,
+            912
+          ],
+          "full_table_sha256": "8e4706ef5e312087a7301531f96281df4d85f7e72917528b1d1164e2c6458261"
+        },
+        {
+          "prime": 997,
+          "order": 1034,
+          "generator": [
+            4,
+            191
+          ],
+          "basis_indices": [
+            40,
+            907,
+            944
+          ],
+          "full_table_sha256": "baca63f2cea0f8e1a7b1897ecef0dbd5f903c8346df0f18039f1426fb2541229"
+        },
+        {
+          "prime": 1021,
+          "order": 976,
+          "generator": [
+            2,
+            10
+          ],
+          "basis_indices": [
+            27,
+            768,
+            931
+          ],
+          "full_table_sha256": "bec47dbc315eed65ea81a9683830ab42f1757ccb819ffbe2a1283eada4242126"
+        },
+        {
+          "prime": 1039,
+          "order": 1025,
+          "generator": [
+            0,
+            286
+          ],
+          "basis_indices": [
+            705,
+            1007,
+            39
+          ],
+          "full_table_sha256": "d0dced32c5febf6f417c86ad0ef1363934d175dae015d915f46f05e716cbc29b"
+        },
+        {
+          "prime": 1097,
+          "order": 1147,
+          "generator": [
+            1,
+            377
+          ],
+          "basis_indices": [
+            214,
+            580,
+            936
+          ],
+          "full_table_sha256": "5a02482fc48cd71cff1ca58e133cec011ca971c1b1553b39031dd6e227470cf4"
+        },
+        {
+          "prime": 1109,
+          "order": 1113,
+          "generator": [
+            1,
+            164
+          ],
+          "basis_indices": [
+            795,
+            534,
+            392
+          ],
+          "full_table_sha256": "15313b7d2661ea9c45873b14be9e4232c0ae29cd516b1092794eb4001fe0ce78"
+        },
+        {
+          "prime": 1129,
+          "order": 1106,
+          "generator": [
+            17,
+            102
+          ],
+          "basis_indices": [
+            1102,
+            1105,
+            929
+          ],
+          "full_table_sha256": "036aac7cf5560dcb23e0098ebc7d8b68b604c0fc433c9e9a40c6fb1128e2bbec"
+        },
+        {
+          "prime": 1163,
+          "order": 1128,
+          "generator": [
+            0,
+            345
+          ],
+          "basis_indices": [
+            133,
+            417,
+            955
+          ],
+          "full_table_sha256": "69ddd803a9d3d675d570a5450cb2df2f9a14ad498dfa98e99486226636a1889f"
+        },
+        {
+          "prime": 1229,
+          "order": 1290,
+          "generator": [
+            7,
+            401
+          ],
+          "basis_indices": [
+            56,
+            371,
+            1187
+          ],
+          "full_table_sha256": "9e643778eabe2f0d87ed0d74f528cb426db67c97cff1f0634cb12df7552a13ff"
+        },
+        {
+          "prime": 1297,
+          "order": 1357,
+          "generator": [
+            2,
+            513
+          ],
+          "basis_indices": [
+            274,
+            1181,
+            473
+          ],
+          "full_table_sha256": "d45c4f17a30e22710b51a4e3f9c0d7f165f2377d966710afd9bcf2a4dab41c90"
+        },
+        {
+          "prime": 1301,
+          "order": 1281,
+          "generator": [
+            2,
+            425
+          ],
+          "basis_indices": [
+            1026,
+            790,
+            533
+          ],
+          "full_table_sha256": "ae5724144567f7fd837e532963ba90295582397662a6536b2303573b5d07934b"
+        },
+        {
+          "prime": 1373,
+          "order": 1394,
+          "generator": [
+            2,
+            395
+          ],
+          "basis_indices": [
+            22,
+            651,
+            137
+          ],
+          "full_table_sha256": "219c6f1417b3d237b3018c3c95f00f384123b7bd3267c96e8d66e218bed08661"
+        },
+        {
+          "prime": 1481,
+          "order": 1494,
+          "generator": [
+            1,
+            470
+          ],
+          "basis_indices": [
+            1049,
+            110,
+            1250
+          ],
+          "full_table_sha256": "e3a4d1fcd628e38935d72c8e182753d135b77147d7c40a8a3d020ca30c535b62"
+        },
+        {
+          "prime": 1483,
+          "order": 1558,
+          "generator": [
+            11,
+            666
+          ],
+          "basis_indices": [
+            308,
+            888,
+            660
+          ],
+          "full_table_sha256": "fef613cdf6f2c2dda35eb689bc74b4bd4ed20085bd099b75a40f936048940674"
+        },
+        {
+          "prime": 1607,
+          "order": 1534,
+          "generator": [
+            3,
+            282
+          ],
+          "basis_indices": [
+            1415,
+            370,
+            506
+          ],
+          "full_table_sha256": "314c2844a2c9531861a8d10744de2a5e57d2aed06508bb19aa8e56d1ed415907"
+        },
+        {
+          "prime": 1709,
+          "order": 1743,
+          "generator": [
+            0,
+            741
+          ],
+          "basis_indices": [
+            72,
+            651,
+            1155
+          ],
+          "full_table_sha256": "0b7decaf08344623f0344fd99ac974a78097b24a5ecd7e3c0caac279e83920b3"
+        },
+        {
+          "prime": 1811,
+          "order": 1738,
+          "generator": [
+            6,
+            574
+          ],
+          "basis_indices": [
+            1489,
+            285,
+            1303
+          ],
+          "full_table_sha256": "ca36e85e3e138d8148d94ff22a201d9225db02dfe619bba5a8d8ff9a18637655"
+        },
+        {
+          "prime": 2083,
+          "order": 2068,
+          "generator": [
+            3,
+            412
+          ],
+          "basis_indices": [
+            633,
+            2009,
+            377
+          ],
+          "full_table_sha256": "6c2d42a3d5275f67929c0636b33046a4b3797fb7b776fc3a79d2d5482b2c06de"
+        },
+        {
+          "prime": 2213,
+          "order": 2136,
+          "generator": [
+            3,
+            558
+          ],
+          "basis_indices": [
+            2104,
+            1422,
+            218
+          ],
+          "full_table_sha256": "94c1aac03fef8feec5e0d796c62d7978f92df5dbaed880958c08f08ffbe75930"
+        },
+        {
+          "prime": 2371,
+          "order": 2328,
+          "generator": [
+            1,
+            639
+          ],
+          "basis_indices": [
+            1058,
+            2018,
+            1973
+          ],
+          "full_table_sha256": "576a050270b85c39058ab0557b6d145667adfcffa89171ed410876eef8380dcf"
+        },
+        {
+          "prime": 3323,
+          "order": 3298,
+          "generator": [
+            3,
+            877
+          ],
+          "basis_indices": [
+            2251,
+            3156,
+            2149
+          ],
+          "full_table_sha256": "d8a816118fcbb63ceb85cb151dfcc320512257ddb6915bc1649b5a1d4084bf3c"
+        },
+        {
+          "prime": 3499,
+          "order": 3492,
+          "generator": [
+            7,
+            463
+          ],
+          "basis_indices": [
+            255,
+            3062,
+            1129
+          ],
+          "full_table_sha256": "cc831630737dced942531d0d26922c83a0f8048af8bc784a5a966b227c59ef69"
+        },
+        {
+          "prime": 6491,
+          "order": 6464,
+          "generator": [
+            1,
+            425
+          ],
+          "basis_indices": [
+            5753,
+            5625,
+            3359
+          ],
+          "full_table_sha256": "c50fd94e3c3741c4578d374c312860d0fbef23ff69c0f91becf350e36595b4a4"
+        }
+      ],
+      "prime_saturation_certificates": [
+        {
+          "ell": 2,
+          "witnesses": [
+            {
+              "auxiliary_prime": 11,
+              "residue_row": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 19,
+              "residue_row": [
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 29,
+              "residue_row": [
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "determinant": 1,
+          "determinant_mod_ell": 1
+        },
+        {
+          "ell": 3,
+          "witnesses": [
+            {
+              "auxiliary_prime": 17,
+              "residue_row": [
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 37,
+              "residue_row": [
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 41,
+              "residue_row": [
+                1,
+                2,
+                1
+              ]
+            }
+          ],
+          "determinant": -4,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 5,
+          "witnesses": [
+            {
+              "auxiliary_prime": 29,
+              "residue_row": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 47,
+              "residue_row": [
+                0,
+                3,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 73,
+              "residue_row": [
+                1,
+                1,
+                0
+              ]
+            }
+          ],
+          "determinant": -8,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 7,
+          "witnesses": [
+            {
+              "auxiliary_prime": 13,
+              "residue_row": [
+                4,
+                4,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 71,
+              "residue_row": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 173,
+              "residue_row": [
+                1,
+                2,
+                2
+              ]
+            }
+          ],
+          "determinant": -2,
+          "determinant_mod_ell": 5
+        },
+        {
+          "ell": 11,
+          "witnesses": [
+            {
+              "auxiliary_prime": 37,
+              "residue_row": [
+                5,
+                5,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 97,
+              "residue_row": [
+                1,
+                3,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 101,
+              "residue_row": [
+                5,
+                8,
+                4
+              ]
+            }
+          ],
+          "determinant": 3,
+          "determinant_mod_ell": 3
+        },
+        {
+          "ell": 13,
+          "witnesses": [
+            {
+              "auxiliary_prime": 19,
+              "residue_row": [
+                11,
+                3,
+                3
+              ]
+            },
+            {
+              "auxiliary_prime": 31,
+              "residue_row": [
+                4,
+                2,
+                0
+              ]
+            },
+            {
+              "auxiliary_prime": 41,
+              "residue_row": [
+                8,
+                8,
+                0
+              ]
+            }
+          ],
+          "determinant": 48,
+          "determinant_mod_ell": 9
+        },
+        {
+          "ell": 17,
+          "witnesses": [
+            {
+              "auxiliary_prime": 89,
+              "residue_row": [
+                12,
+                11,
+                14
+              ]
+            },
+            {
+              "auxiliary_prime": 167,
+              "residue_row": [
+                6,
+                11,
+                16
+              ]
+            },
+            {
+              "auxiliary_prime": 227,
+              "residue_row": [
+                11,
+                2,
+                4
+              ]
+            }
+          ],
+          "determinant": 290,
+          "determinant_mod_ell": 1
+        },
+        {
+          "ell": 19,
+          "witnesses": [
+            {
+              "auxiliary_prime": 43,
+              "residue_row": [
+                7,
+                3,
+                10
+              ]
+            },
+            {
+              "auxiliary_prime": 151,
+              "residue_row": [
+                14,
+                9,
+                14
+              ]
+            },
+            {
+              "auxiliary_prime": 509,
+              "residue_row": [
+                8,
+                2,
+                14
+              ]
+            }
+          ],
+          "determinant": -6,
+          "determinant_mod_ell": 13
+        },
+        {
+          "ell": 23,
+          "witnesses": [
+            {
+              "auxiliary_prime": 173,
+              "residue_row": [
+                5,
+                5,
+                18
+              ]
+            },
+            {
+              "auxiliary_prime": 211,
+              "residue_row": [
+                13,
+                2,
+                2
+              ]
+            },
+            {
+              "auxiliary_prime": 283,
+              "residue_row": [
+                21,
+                22,
+                2
+              ]
+            }
+          ],
+          "determinant": 4272,
+          "determinant_mod_ell": 17
+        },
+        {
+          "ell": 29,
+          "witnesses": [
+            {
+              "auxiliary_prime": 379,
+              "residue_row": [
+                20,
+                13,
+                23
+              ]
+            },
+            {
+              "auxiliary_prime": 419,
+              "residue_row": [
+                15,
+                10,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 503,
+              "residue_row": [
+                4,
+                6,
+                16
+              ]
+            }
+          ],
+          "determinant": 1162,
+          "determinant_mod_ell": 2
+        },
+        {
+          "ell": 31,
+          "witnesses": [
+            {
+              "auxiliary_prime": 107,
+              "residue_row": [
+                17,
+                2,
+                17
+              ]
+            },
+            {
+              "auxiliary_prime": 149,
+              "residue_row": [
+                7,
+                5,
+                4
+              ]
+            },
+            {
+              "auxiliary_prime": 659,
+              "residue_row": [
+                30,
+                24,
+                3
+              ]
+            }
+          ],
+          "determinant": -873,
+          "determinant_mod_ell": 26
+        },
+        {
+          "ell": 37,
+          "witnesses": [
+            {
+              "auxiliary_prime": 661,
+              "residue_row": [
+                14,
+                36,
+                13
+              ]
+            },
+            {
+              "auxiliary_prime": 947,
+              "residue_row": [
+                23,
+                12,
+                27
+              ]
+            },
+            {
+              "auxiliary_prime": 1097,
+              "residue_row": [
+                29,
+                25,
+                11
+              ]
+            }
+          ],
+          "determinant": 14429,
+          "determinant_mod_ell": 36
+        },
+        {
+          "ell": 41,
+          "witnesses": [
+            {
+              "auxiliary_prime": 1039,
+              "residue_row": [
+                8,
+                23,
+                39
+              ]
+            },
+            {
+              "auxiliary_prime": 1373,
+              "residue_row": [
+                22,
+                36,
+                14
+              ]
+            },
+            {
+              "auxiliary_prime": 1483,
+              "residue_row": [
+                21,
+                27,
+                4
+              ]
+            }
+          ],
+          "determinant": -3452,
+          "determinant_mod_ell": 33
+        },
+        {
+          "ell": 43,
+          "witnesses": [
+            {
+              "auxiliary_prime": 131,
+              "residue_row": [
+                32,
+                25,
+                35
+              ]
+            },
+            {
+              "auxiliary_prime": 193,
+              "residue_row": [
+                13,
+                29,
+                10
+              ]
+            },
+            {
+              "auxiliary_prime": 1229,
+              "residue_row": [
+                13,
+                27,
+                26
+              ]
+            }
+          ],
+          "determinant": 9378,
+          "determinant_mod_ell": 4
+        },
+        {
+          "ell": 47,
+          "witnesses": [
+            {
+              "auxiliary_prime": 997,
+              "residue_row": [
+                40,
+                14,
+                4
+              ]
+            },
+            {
+              "auxiliary_prime": 1163,
+              "residue_row": [
+                39,
+                41,
+                15
+              ]
+            },
+            {
+              "auxiliary_prime": 2083,
+              "residue_row": [
+                22,
+                35,
+                1
+              ]
+            }
+          ],
+          "determinant": -13434,
+          "determinant_mod_ell": 8
+        },
+        {
+          "ell": 53,
+          "witnesses": [
+            {
+              "auxiliary_prime": 353,
+              "residue_row": [
+                15,
+                1,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 773,
+              "residue_row": [
+                15,
+                15,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 1109,
+              "residue_row": [
+                0,
+                4,
+                21
+              ]
+            }
+          ],
+          "determinant": 4410,
+          "determinant_mod_ell": 11
+        },
+        {
+          "ell": 59,
+          "witnesses": [
+            {
+              "auxiliary_prime": 991,
+              "residue_row": [
+                46,
+                2,
+                27
+              ]
+            },
+            {
+              "auxiliary_prime": 1297,
+              "residue_row": [
+                38,
+                1,
+                1
+              ]
+            },
+            {
+              "auxiliary_prime": 1607,
+              "residue_row": [
+                58,
+                16,
+                34
+              ]
+            }
+          ],
+          "determinant": 13210,
+          "determinant_mod_ell": 53
+        },
+        {
+          "ell": 61,
+          "witnesses": [
+            {
+              "auxiliary_prime": 599,
+              "residue_row": [
+                53,
+                36,
+                34
+              ]
+            },
+            {
+              "auxiliary_prime": 1021,
+              "residue_row": [
+                27,
+                36,
+                16
+              ]
+            },
+            {
+              "auxiliary_prime": 1301,
+              "residue_row": [
+                50,
+                58,
+                45
+              ]
+            }
+          ],
+          "determinant": 13780,
+          "determinant_mod_ell": 55
+        },
+        {
+          "ell": 67,
+          "witnesses": [
+            {
+              "auxiliary_prime": 53,
+              "residue_row": [
+                41,
+                7,
+                24
+              ]
+            },
+            {
+              "auxiliary_prime": 199,
+              "residue_row": [
+                36,
+                9,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 617,
+              "residue_row": [
+                1,
+                20,
+                41
+              ]
+            }
+          ],
+          "determinant": 17796,
+          "determinant_mod_ell": 41
+        },
+        {
+          "ell": 71,
+          "witnesses": [
+            {
+              "auxiliary_prime": 67,
+              "residue_row": [
+                24,
+                36,
+                22
+              ]
+            },
+            {
+              "auxiliary_prime": 277,
+              "residue_row": [
+                62,
+                69,
+                30
+              ]
+            },
+            {
+              "auxiliary_prime": 349,
+              "residue_row": [
+                31,
+                16,
+                17
+              ]
+            }
+          ],
+          "determinant": -13066,
+          "determinant_mod_ell": 69
+        },
+        {
+          "ell": 73,
+          "witnesses": [
+            {
+              "auxiliary_prime": 61,
+              "residue_row": [
+                28,
+                32,
+                10
+              ]
+            },
+            {
+              "auxiliary_prime": 313,
+              "residue_row": [
+                35,
+                54,
+                45
+              ]
+            },
+            {
+              "auxiliary_prime": 643,
+              "residue_row": [
+                62,
+                42,
+                71
+              ]
+            }
+          ],
+          "determinant": 45412,
+          "determinant_mod_ell": 6
+        },
+        {
+          "ell": 79,
+          "witnesses": [
+            {
+              "auxiliary_prime": 337,
+              "residue_row": [
+                4,
+                39,
+                35
+              ]
+            },
+            {
+              "auxiliary_prime": 1129,
+              "residue_row": [
+                75,
+                78,
+                60
+              ]
+            },
+            {
+              "auxiliary_prime": 1811,
+              "residue_row": [
+                67,
+                48,
+                39
+              ]
+            }
+          ],
+          "determinant": -13557,
+          "determinant_mod_ell": 31
+        },
+        {
+          "ell": 83,
+          "witnesses": [
+            {
+              "auxiliary_prime": 719,
+              "residue_row": [
+                71,
+                72,
+                31
+              ]
+            },
+            {
+              "auxiliary_prime": 1481,
+              "residue_row": [
+                53,
+                27,
+                5
+              ]
+            },
+            {
+              "auxiliary_prime": 1709,
+              "residue_row": [
+                72,
+                70,
+                76
+              ]
+            }
+          ],
+          "determinant": -88508,
+          "determinant_mod_ell": 53
+        },
+        {
+          "ell": 89,
+          "witnesses": [
+            {
+              "auxiliary_prime": 163,
+              "residue_row": [
+                59,
+                71,
+                75
+              ]
+            },
+            {
+              "auxiliary_prime": 241,
+              "residue_row": [
+                75,
+                46,
+                35
+              ]
+            },
+            {
+              "auxiliary_prime": 2213,
+              "residue_row": [
+                57,
+                87,
+                40
+              ]
+            }
+          ],
+          "determinant": 150275,
+          "determinant_mod_ell": 43
+        },
+        {
+          "ell": 97,
+          "witnesses": [
+            {
+              "auxiliary_prime": 2371,
+              "residue_row": [
+                88,
+                78,
+                33
+              ]
+            },
+            {
+              "auxiliary_prime": 3323,
+              "residue_row": [
+                20,
+                52,
+                15
+              ]
+            },
+            {
+              "auxiliary_prime": 3499,
+              "residue_row": [
+                61,
+                55,
+                62
+              ]
+            }
+          ],
+          "determinant": 117386,
+          "determinant_mod_ell": 16
+        },
+        {
+          "ell": 101,
+          "witnesses": [
+            {
+              "auxiliary_prime": 181,
+              "residue_row": [
+                15,
+                91,
+                49
+              ]
+            },
+            {
+              "auxiliary_prime": 271,
+              "residue_row": [
+                100,
+                29,
+                86
+              ]
+            },
+            {
+              "auxiliary_prime": 6491,
+              "residue_row": [
+                97,
+                70,
+                26
+              ]
+            }
+          ],
+          "determinant": 648695,
+          "determinant_mod_ell": 73
+        }
+      ],
+      "largest_auxiliary_prime_used": 6491
+    }
+  ]
+}

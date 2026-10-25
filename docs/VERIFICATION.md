@@ -16,11 +16,14 @@ This document verifies the auxiliary results in this repository. **There is no L
 | Known gcd obstruction | `LcmSixGcd.common_divisor_square_dvd` | All integer coefficients and common divisors under the exact curve equation. |
 | Carry-specialized gcd bounds | Eight `centerGcd_dvd_*` and `slopeGcd_dvd_*` theorems in `CarryGcd.lean` | Necessary conditions for the four exact branches; no upper bound on n,m. |
 | Height certificate algebra | `HeightCertificates.common_divisor_of_bezout7` and five declarations in each of four branch namespaces in `HeightCertificates.lean` | Integer Bézout identities, common-divisor bounds, and exact coefficient sums C,D. No canonical-height or real-logarithm theorem is asserted by these Lean declarations. |
+| Integer lattice distances | Four generic theorems and 25 validity/distance pairs in `LatticeDistance.lean` and `LatticeCertificates.lean` | Every integer coefficient quadruple; explicit original rounded inputs and strict radius. No real-logarithm, rank, or k=6 endpoint assumption. |
+| Real rounding transfer | `rounding_error_bound`, `Certificate.real_linear_form_large` | Explicit rounding-error and coefficient hypotheses imply a strict bound on the scaled real linear form. Actual elliptic-logarithm enclosures remain external. |
+| Abstract saturation bridge | Three theorems in `SaturationBridge.lean` | Joint reduction detection and no ell-torsion imply ell-saturation; no claim that an actual elliptic curve satisfies these hypotheses. |
 | Congruence-sieve limitation | Four `ratio_*_survives_every_modulus` theorems in `ModularObstruction.lean` | For every positive modulus, nonnegative disjoint representatives satisfy the product congruence and carry residues. Not integer product equalities or LCM collisions. |
 
 The Lean proof of `defect_six` first proves a universal gcd-periodicity identity, then exhausts its 60 residue classes. This is a finite proof of an explicitly proved periodic formula, not a bounded search over interval starts. The small gcd case splits likewise follow proved uniform bounds on the gcd. Integer subtraction is used in Phi and the centered formulas, so natural subtraction cannot silently truncate a curve coefficient.
 
-`Audit.lean` now names 46 declarations, including 21 added for the height-certificate algebra. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. All 46 passed; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
+`Audit.lean` now names 105 declarations: the previous 46, including 21 for height-certificate algebra, plus six generic lattice/rounding lemmas, 25 concrete validity/distance pairs, and three abstract saturation lemmas. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. All 105 passed; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
 
 ## Toolchain and recorded checks
 
@@ -104,8 +107,40 @@ All seven Lean modules rebuilt, all 46 axiom reports used only the standard logi
 
 Actual commands and exit codes are in `verification/global-clean-record.json`; full output is in `global-clean-build.log`, `global-clean-axioms.log`, `global-clean-leanchecker.log`, `global-clean-reduction.log`, `global-clean-global.log`, and `global-clean-maps.log` in that directory. The subsequent publication changes add these records and correct two explanatory documentation sentences; no tested code or certificate changed.
 
+## Independent group and lattice formalization checkpoint, 2026-10-25
+
+The new lattice modules prove the integral dual-functional distance argument,
+all 25 concrete integer certificates, and conditional transfer to real linear
+forms with explicit rounding/coefficient hypotheses. `SaturationBridge.lean`
+proves three abstract reduction criteria; it does not instantiate them with
+elliptic curves. The working build completed 1283 jobs, all 105 explicit axiom
+reports passed with only standard logical axioms, and Lean kernel replay
+covered all eleven project modules. The 59 added audited declarations do not
+include a complete k=6 endpoint.
+
+The independent mathematical group proof has two parts. `cas/saturation/`
+proves torsion-freeness, H(P)>1/10 globally, regulator<8/5, index in the saturated
+hull below 80, and complete saturation using the 26 primes up to 101. Its
+small-height search is exhaustive under the proved global bound: the four
+boxes have B=19,86,234,113 and contain 51 points modulo y-sign, all excluded
+from low height by exact two-doubling inequalities. `cas/descent/` independently
+certifies maximal orders, class-group dimension upper bounds by a complete
+Minkowski ideal set, Kummer support, and the final local-3 rank restriction.
+It proves rank three and hence complete rational-point generation. No Magma
+class-group, Selmer-dimension, rank or full-basis flag is assumed.
+
+The finite-field verifier uses a different counting/addition method from its
+witness producer. The small-height verifier checks Bernstein identities by
+expansion, uses rational group addition for doubling, and checks regulator
+corners. The ideal audit independently checks all 2470 HNF operations through
+lattice containment and 158676 maximal minors, and all 438 characteristic
+polynomials by separate formulas. The local-3 verifier uses Sylvester resultants
+and characteristic-polynomial integrality, different from discovery. Each
+mathematical interpretation remains the explicit human proof; agreement of
+programs is not a substitute for that argument.
+
 ## Trust and review boundaries
 
 The final definitions, quantifiers, carry hypotheses and domain boundaries were inspected separately from tactic success. Additional agents reconstructed the human mathematics and reviewed the formal endpoint types; this is AI-assisted cross-checking, not an independent human referee report. No external mathematical review or award acceptance is claimed.
 
-Neither successful compilation, source-token scanning, nor finite tests alone establish that a theorem answers the original question. The declarations above deliberately state their narrower scope. The later calculation excludes those branches in four explicit generated subgroups. Extending that exclusion to all rational points currently uses external Magma full-basis certification; exporting an independent full-group certificate and proving a Lean k=6 endpoint remain unfinished. The unrestricted all-length question remains unresolved.
+Neither successful compilation, source-token scanning, nor finite tests alone establish that a theorem answers the original question. The declarations above deliberately state their narrower scope. The later calculation excludes those branches in four explicit generated subgroups. The subsequent independent rank and saturation proof extends that exclusion to all rational points without Magma completion flags. Its mathematical theory and exact Python arithmetic remain outside Lean; a complete Lean k=6 endpoint is unfinished. The unrestricted all-length question remains unresolved.

@@ -1,0 +1,170 @@
+{
+  "scope": "arithmetic supporting the written x-theta small-S valuation proof, not a Lean statement",
+  "algebra_sha256": "0b96e43c01b15e32908de5f4c9f40a6c9cb901145ebda9c7619f255387354a07",
+  "curves": [
+    {
+      "case": 1,
+      "rational_S": [
+        2,
+        3
+      ],
+      "power_order_index": 6,
+      "power_discriminant": -430128,
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          103,
+          1
+        ]
+      ],
+      "excluded_singular_residue_classes": [
+        {
+          "prime": 29,
+          "singular_roots": [
+            15
+          ],
+          "f_mod_p_squared": [
+            754
+          ]
+        },
+        {
+          "prime": 103,
+          "singular_roots": [
+            30
+          ],
+          "f_mod_p_squared": [
+            3193
+          ]
+        }
+      ]
+    },
+    {
+      "case": 2,
+      "rational_S": [
+        2,
+        3,
+        5
+      ],
+      "power_order_index": 120,
+      "power_discriminant": -967320000,
+      "factorization": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          2687,
+          1
+        ]
+      ],
+      "excluded_singular_residue_classes": [
+        {
+          "prime": 2687,
+          "singular_roots": [
+            1780
+          ],
+          "f_mod_p_squared": [
+            4288452
+          ]
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "rational_S": [
+        2,
+        3,
+        5
+      ],
+      "power_order_index": 270,
+      "power_discriminant": -243507870000,
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          33403,
+          1
+        ]
+      ],
+      "excluded_singular_residue_classes": [
+        {
+          "prime": 33403,
+          "singular_roots": [
+            22245
+          ],
+          "f_mod_p_squared": [
+            82772634
+          ]
+        }
+      ]
+    },
+    {
+      "case": 4,
+      "rational_S": [
+        2,
+        3,
+        5
+      ],
+      "power_order_index": 90,
+      "power_discriminant": -12884670000,
+      "factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          15907,
+          1
+        ]
+      ],
+      "excluded_singular_residue_classes": [
+        {
+          "prime": 15907,
+          "singular_roots": [
+            10581
+          ],
+          "f_mod_p_squared": [
+            18802074
+          ]
+        }
+      ]
+    }
+  ]
+}

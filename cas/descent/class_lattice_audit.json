@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checked_class_certificate_sha256": "ef2b4252af44e510c4f5cce7db13f7befe382a15449772d7388332e70c51ce66",
+  "reviewed_source_sha256": "3a91e3e5077a691c3964a007711956f289db26c8418cdd803e84cd267108461f",
+  "auditor_sha256": "e5d0eaf74726f1439c0a1395a80335c614ae93574352a1248536d19844647586",
+  "hnf_calls": 2470,
+  "maximal_minors_checked": 158676,
+  "charpolys_checked": 438,
+  "independence": "each HNF output checked by lattice inclusion plus gcd of every 3x3 minor; every quotient characteristic polynomial checked by independent degree<=3 formulas; full exact replay matches the saved class certificate"
+}

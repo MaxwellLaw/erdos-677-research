@@ -1,12 +1,11 @@
 # Current research obligations
 
-The analytic argument and exact arithmetic now exclude every admissible
-length-six candidate whose elliptic image belongs to one of the four explicit
-rank-three generated subgroups. Using the recorded external Magma full-basis
-flags gives a **CAS-supported computational k=6 noncollision corollary**. No
-independently exported descent/saturation certificate has replaced that CAS
-step, and no Lean k=6 endpoint has been proved. The unrestricted Erdős #677
-remains open; this result does not justify an original-problem award claim.
+The [written proof and independent exact certificates](K6_THEOREM.md) now
+establish the k=6 noncollision theorem for every n>=0 and m>=n+6.
+The 2026-10-25 rank and saturation certificates remove the earlier dependence
+on Magma completion flags. This is a mathematical/computational result;
+no complete Lean k=6 endpoint has been proved. The unrestricted Erdős #677
+remains unresolved and no whole-problem award claim is justified.
 
 ## Completed fixed-length chain
 
@@ -22,7 +21,10 @@ leaves no disjoint odd-square candidate. The three positive odd-square pairs
 that survive the square tests have interval gaps 2,1,1 and are overlapping.
 
 The integer Bézout identities, gcd bounds and coefficient sums are proved in
-Lean. Canonical heights, David's theorem, elliptic uniformization, logarithm
+Lean. The 2026-10-25 addition also proves the universal integral dual-functional
+distance argument and all 25 concrete lattice distances, including their
+explicit rounded integer inputs and strict thresholds. See
+[the exact Lean scope](../cas/global-bound/LEAN_LATTICE.md). Canonical heights, David's theorem, elliptic uniformization, logarithm
 integration and the interpretation of the finite-field sieve remain human
 mathematics with exact Python certificates. The exported lattice verifier
 checks unimodularity, inverse matrices, rounding cells and rational distance
@@ -38,17 +40,29 @@ Reproduce the recorded arithmetic with
 Actual execution records and the Lean boundary are in
 [VERIFICATION.md](VERIFICATION.md).
 
+## Independent group completeness, 2026-10-25
+
+The new [minimum-height and saturation proof](../cas/saturation/SMALL_HEIGHT.md)
+proves global H(P)>1/10, bounds the index in the saturated hull below 80, and
+excludes every possible prime divisor using complete finite-field certificates.
+The [rank proof](../cas/descent/RANK_PROOF.md) independently certifies maximal
+orders, sufficient class-group relations, Kummer support and global squareclass
+dimension bounds. A separate local-3 rank-four witness closes the last branch.
+Thus all four displayed triples generate E(Q). None of these conclusions
+assumes a Magma rank, class-group or full-basis flag.
+
 ## Remaining fixed-length obligations
 
-1. Export and independently check the full Mordell–Weil generation evidence,
-   including rank and saturation, instead of relying solely on Magma's
-   `rankproved` and `fullproved` flags.
-2. Develop a Lean endpoint for all n>=0 and m>=n+6. This requires formalizing
-   the analytic completeness argument or replacing it with a different
-   kernel-checkable complete method, as well as checking the finite arithmetic.
-   A fast Python replay is not a Lean proof.
-3. Continue source and priority checks and address substantive external review.
-   A mathematical or implementation error must update the same public record.
+1. Develop a complete Lean endpoint for all n>=0 and m>=n+6. The current
+   105 audited declarations cover specified reductions, certificate algebra,
+   integer lattice distances, conditional rounding and an abstract saturation
+   bridge. The full height, analytic, descent and finite computation chain
+   remains outside Lean and must be proved or replaced there.
+2. Continue source/priority checks and address substantive external review.
+   The completed independent group certificate is not an unfinished task to
+   be repeated; any specific discovered error must be corrected publicly.
+3. Pursue a uniform argument or counterexample for the unrestricted problem,
+   rather than treating further finite lists of lengths as a full solution.
 
 ## The all-length problem
 
