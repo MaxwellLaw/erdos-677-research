@@ -1,0 +1,84 @@
+{
+  "source_sha": "972f1d2c084ddfca72b2d2a7c904dd85be42b699",
+  "clone": "../reproduce-dynamics-20261025-pm",
+  "initial_project_objects": false,
+  "cache": "Only pinned .lake/packages linked; all 17 project modules rebuilt. No network CAS or SymPy environment used.",
+  "checks": [
+    {
+      "name": "build",
+      "command": [
+        "lake",
+        "--wfail",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 56.984,
+      "log": "verification/dynamics-clean-build.log"
+    },
+    {
+      "name": "axioms",
+      "command": [
+        "python3",
+        "scripts/check_axioms.py"
+      ],
+      "exit_code": 0,
+      "seconds": 18.716,
+      "log": "verification/dynamics-clean-axioms.log"
+    },
+    {
+      "name": "kernel",
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "LcmSix"
+      ],
+      "exit_code": 0,
+      "seconds": 34.757,
+      "log": "verification/dynamics-clean-kernel.log"
+    },
+    {
+      "name": "duplication",
+      "command": [
+        "python3",
+        "scripts/export_duplication_certificates.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.102,
+      "log": "verification/dynamics-clean-duplication.log"
+    },
+    {
+      "name": "lattice",
+      "command": [
+        "python3",
+        "scripts/export_lattice_certificates.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.065,
+      "log": "verification/dynamics-clean-lattice.log"
+    },
+    {
+      "name": "heights",
+      "command": [
+        "python3",
+        "scripts/verify_heights.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.718,
+      "log": "verification/dynamics-clean-heights.log"
+    },
+    {
+      "name": "saturation",
+      "command": [
+        "python3",
+        "cas/saturation/verify_all.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.399,
+      "log": "verification/dynamics-clean-saturation.log"
+    }
+  ],
+  "tracked_status": "",
+  "project_modules": 17
+}

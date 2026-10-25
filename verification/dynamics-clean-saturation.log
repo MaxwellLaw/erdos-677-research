@@ -1,0 +1,4 @@
+PASS: exact torsion and 104 prime-saturation matrices; 294 complete finite-group cycles.
+PASS: stronger global height bounds, all 51 small-height-box points, and regulator upper bounds.
+PASS: curve/basis/input hashes agree with the existing height certificates.
+Scope: arithmetic certificates with a documented human proof of complete saturation; rank upper bounds are certified separately in cas/descent; a complete Lean k=6 endpoint remains unfinished.

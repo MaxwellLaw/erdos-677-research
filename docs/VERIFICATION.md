@@ -197,4 +197,35 @@ Actual output is in `verification/dynamics-build.log`, `dynamics-axioms.log`,
 `dynamics-leanchecker.log`, and `dynamics-correspondence.log`. The pinned
 public dependency cache was reused. No new collision enumeration was needed
 for these additions; the existing complete residual proof and certificates
-are unchanged. A separate fresh-clone record follows when completed.
+are unchanged. The fresh-clone replay is recorded next.
+
+### Fresh clone of the coordinate-dynamics checkpoint
+
+A new clone of `972f1d2c084ddfca72b2d2a7c904dd85be42b699`, with no project
+objects initially present, passed all seven commands below with exit 0:
+
+```sh
+lake --wfail build
+python3 scripts/check_axioms.py
+lake env leanchecker -v LcmSix
+python3 scripts/export_duplication_certificates.py
+python3 scripts/export_lattice_certificates.py
+python3 scripts/verify_heights.py
+python3 cas/saturation/verify_all.py
+```
+
+All seventeen project modules rebuilt and replayed; all 172 explicit axiom
+reports used only the standard logical axioms. The clone's tracked tree
+remained clean. Only the pinned third-party `.lake/packages` directory was
+linked from the working checkout, reusing its public dependency cache. No
+network CAS, SymPy environment or from-source Mathlib rebuild was used.
+The unchanged global residual enumeration and descent certificates were not
+rerun as a new research experiment for this formalization change; their
+previous complete replay remains recorded above and the existing CI checks
+continue to cover them.
+
+Exact commands, exit codes and durations are in
+`verification/dynamics-clean-record.json`; output is in
+`verification/dynamics-clean-{build,axioms,kernel,duplication,lattice,heights,saturation}.log`.
+The only subsequent changes in this publication add this record and logs;
+no tested Lean/Python source or mathematical certificate changed.
