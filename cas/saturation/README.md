@@ -4,9 +4,9 @@ This directory supplies exact certificates and a human proof that each of the
 four specified rank-three subgroups is completely saturated in `E(Q)`. It
 combines the finite-prime reduction argument below with the global minimum
 height and bounded-index proof in [SMALL_HEIGHT.md](SMALL_HEIGHT.md).
-**It does not prove a rank upper bound.** Thus additional independent
-rational points, and consequently full rational-group coverage, remain
-unexcluded without a separate rank argument. The height/reduction arguments
+**This directory proves saturation; the separate [rank certificate](../descent/RANK_PROOF.md)
+now excludes additional independent directions and establishes full rational-group
+coverage.** The height/reduction arguments
 are not complete Lean theorems. No Magma output is used by these programs.
 
 The portable, read-only replay command from the repository root is:
@@ -132,4 +132,4 @@ Its real-circle method first treats the subgroup of points having good
 reduction at every place; passing to all rational points requires the
 Tamagawa-component multiplier. Omitting that multiplier is invalid.
 
-Subsequent work in `SMALL_HEIGHT.md` and its two exact programs establishes the missing global minimum-height/index assertion and, combined with these finite-prime certificates, complete saturation. The rank upper bound remains unproved independently. The finite-prime result documented above remains valid on its own.
+Subsequent work in `SMALL_HEIGHT.md` and its two exact programs establishes the missing global minimum-height/index assertion and, combined with these finite-prime certificates, complete saturation. The separate [independent rank proof](../descent/RANK_PROOF.md) now supplies the rank upper bound and completes rational-group generation. The finite-prime result documented above remains valid on its own.

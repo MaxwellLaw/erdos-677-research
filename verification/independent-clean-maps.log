@@ -1,0 +1,152 @@
+{
+  "sympy_version": "1.14.0",
+  "integrality_counterexamples": [
+    {
+      "a": 1,
+      "b": 2,
+      "U": 289,
+      "V": 361,
+      "n": 5,
+      "m": 6,
+      "x": "199/9",
+      "y": "-2582/27",
+      "lcm": 27720,
+      "overlap": true
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "U": 169,
+      "V": 225,
+      "n": 3,
+      "m": 4,
+      "x": "5177/49",
+      "y": "-351630/343",
+      "lcm": 2520,
+      "overlap": true
+    }
+  ],
+  "scope": "Exact birational map identities only; no integer-point completeness claim",
+  "cases": [
+    {
+      "a": 1,
+      "b": 2,
+      "minimal_a2_a4_a6": [
+        -1,
+        -65,
+        261
+      ],
+      "forward_x": "(16*u + v - 209)/(2*u - v - 1)",
+      "forward_y": "(-672*u - 36*v**2 + 1176*v - 468)/(2*u - v - 1)**2",
+      "inverse_denominator": "x**2 - 16*x + 9*y/4 + 64",
+      "inverse_u": "(x**2 - 154*x + 105*y/4 + 790)/(x**2 - 16*x + 9*y/4 + 64)",
+      "inverse_v": "(x**2 - 100*x + 201*y/4 + 736)/(x**2 - 16*x + 9*y/4 + 64)",
+      "six_map_checks": "PASS",
+      "forward_L_zero_intersection": "2*(u - 1)**2*(3*u - 35)",
+      "inverse_D_after_forward": "-36*(42*u + 27*v - 1093)/(4*u**2 - 4*u*v - 4*u + v**2 + 2*v + 1)",
+      "differential_dx_over_y_equals_k_dv_over_b_phi_prime_u": "-16",
+      "inverse_D_zero_resultant": "(16*x - 65)*(x**3 - 33*x**2 + 255*x - 683)/16",
+      "inverse_D_zero_rational_affine_points": [
+        [
+          "65/16",
+          "-441/64"
+        ]
+      ],
+      "point_at_infinity_qx": "(-t - 16)/(t - 2)",
+      "point_at_infinity_qy": "-36*t**2/(t**2 - 4*t + 4)",
+      "point_at_infinity_checks": "PASS",
+      "target_inverse_denominator_negative": "PASS",
+      "target_y_negative": "PASS"
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "minimal_a2_a4_a6": [
+        -1,
+        -408,
+        6912
+      ],
+      "forward_x": "(120*u + 48*v - 2088)/(5*u - v - 4)",
+      "forward_y": "(-1800*u**2 + 8400*u - 1080*v**2 + 31920*v - 37440)/(5*u - v - 4)**2",
+      "inverse_denominator": "x**2 - 39*x + 9*y/2 + 684",
+      "inverse_u": "(x**2 - 411*x + 57*y/2 + 8748)/(x**2 - 39*x + 9*y/2 + 684)",
+      "inverse_v": "(x**2 + 21*x + 249*y/2 + 7884)/(x**2 - 39*x + 9*y/2 + 684)",
+      "six_map_checks": "PASS",
+      "forward_L_zero_intersection": "40*(u - 1)**2*(3*u - 19)",
+      "inverse_D_after_forward": "-1440*(45*u + 87*v - 2692)/(25*u**2 - 10*u*v - 40*u + v**2 + 8*v + 16)",
+      "differential_dx_over_y_equals_k_dv_over_b_phi_prime_u": "-16",
+      "inverse_D_zero_resultant": "(4*x - 69)*(x**3 - 81*x**2 + 1512*x - 19008)/4",
+      "inverse_D_zero_rational_affine_points": [
+        [
+          "69/4",
+          "-549/8"
+        ]
+      ],
+      "point_at_infinity_qx": "(-48*t - 120)/(t - 5)",
+      "point_at_infinity_qy": "(-1080*t**2 - 1800)/(t**2 - 10*t + 25)",
+      "point_at_infinity_checks": "PASS",
+      "target_inverse_denominator_negative": "PASS",
+      "target_y_negative": "PASS"
+    },
+    {
+      "a": 1,
+      "b": 10,
+      "minimal_a2_a4_a6": [
+        1,
+        -1633,
+        97763
+      ],
+      "forward_x": "(500*u + 247*v - 9387)/(10*u - v - 9)",
+      "forward_y": "(-43200*u**2 + 453600*u - 10260*v**2 + 294840*v - 694980)/(10*u - v - 9)**2",
+      "inverse_denominator": "x**2 - 76*x + 33*y/4 + 4864",
+      "inverse_u": "(x**2 - 838*x + 129*y/4 + 62890)/(x**2 - 76*x + 33*y/4 + 4864)",
+      "inverse_v": "(x**2 + 944*x + 993*y/4 + 57544)/(x**2 - 76*x + 33*y/4 + 4864)",
+      "six_map_checks": "PASS",
+      "forward_L_zero_intersection": "90*(u - 1)**2*(11*u - 43)",
+      "inverse_D_after_forward": "1620*(590*u - 1643*v + 47133)/(100*u**2 - 20*u*v - 180*u + v**2 + 18*v + 81)",
+      "differential_dx_over_y_equals_k_dv_over_b_phi_prime_u": "-16",
+      "inverse_D_zero_resultant": "(16*x - 977)*(x**3 - 159*x**2 + 5727*x - 278477)/16",
+      "inverse_D_zero_rational_affine_points": [
+        [
+          "977/16",
+          "-30657/64"
+        ]
+      ],
+      "point_at_infinity_qx": "(-247*t - 500)/(t - 10)",
+      "point_at_infinity_qy": "(-10260*t**2 - 43200)/(t**2 - 20*t + 100)",
+      "point_at_infinity_checks": "PASS",
+      "target_inverse_denominator_negative": "PASS",
+      "target_y_negative": "PASS"
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "minimal_a2_a4_a6": [
+        1,
+        -1633,
+        32963
+      ],
+      "forward_x": "(205*u + 44*v - 3129)/(5*u - 2*v - 3)",
+      "forward_y": "(-900*u**2 - 37800*u - 2880*v**2 + 90720*v - 49140)/(5*u - 2*v - 3)**2",
+      "inverse_denominator": "x**2 - 76*x + 21*y/4 + 1624",
+      "inverse_u": "(x**2 - 784*x + 213*y/4 + 20608)/(x**2 - 76*x + 21*y/4 + 1624)",
+      "inverse_v": "(x**2 - 406*x + 501*y/4 + 19474)/(x**2 - 76*x + 21*y/4 + 1624)",
+      "six_map_checks": "PASS",
+      "forward_L_zero_intersection": "15*(u - 1)**2*(7*u - 71)/4",
+      "inverse_D_after_forward": "-540*(545*u + 454*v - 16359)/(25*u**2 - 20*u*v - 30*u + 4*v**2 + 12*v + 9)",
+      "differential_dx_over_y_equals_k_dv_over_b_phi_prime_u": "-16",
+      "inverse_D_zero_resultant": "(16*x - 329)*(x**3 - 159*x**2 + 5727*x - 84077)/16",
+      "inverse_D_zero_rational_affine_points": [
+        [
+          "329/16",
+          "-5901/64"
+        ]
+      ],
+      "point_at_infinity_qx": "(-44*t - 205)/(2*t - 5)",
+      "point_at_infinity_qy": "(-2880*t**2 - 900)/(4*t**2 - 20*t + 25)",
+      "point_at_infinity_checks": "PASS",
+      "target_inverse_denominator_negative": "PASS",
+      "target_y_negative": "PASS"
+    }
+  ]
+}

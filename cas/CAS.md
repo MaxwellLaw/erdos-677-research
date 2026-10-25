@@ -1,4 +1,4 @@
-# The four k = 6 cubics: exact maps and the remaining completeness problem
+# The four k = 6 cubics: exact maps and independent group completeness
 
 Author: MaxwellLaw. Source audit started **2026-10-23**; artifact verification dated **2026-10-24 (Asia/Shanghai)**.
 

@@ -237,8 +237,9 @@ If `I>1`, a prime divisor `ell` of `I` is at most 79. The finite abelian group
 `S/G` then has an element of order `ell`, contradicting the independently
 certified ell-saturation for every prime at most 101. Thus `I=1` and `G=S`:
 **G is completely saturated in E(Q).** Extra independent directions in
-`E(Q)` are not excluded by saturation. Establishing rank at most three is
-the remaining step before concluding `G=E(Q)` without a CAS basis flag.
+`E(Q)` are not excluded by saturation alone. The separate
+[independent rank proof](../descent/RANK_PROOF.md) supplies rank at most three
+and therefore concludes `G=E(Q)` without a CAS basis flag.
 
 For the general lattice theorem, see Conrad–Landesman, *Undergraduate Number
 Theory*, Theorem 27.9 and its proof:

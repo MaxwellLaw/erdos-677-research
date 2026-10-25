@@ -1,0 +1,9 @@
+PASS: prior exact height constants
+PASS: algebraic height parameters
+PASS: period-area parameters
+PASS: David constants and initial cutoff
+PASS: rigorous real-log intervals
+PASS: 25 independently checked lattice-distance steps
+PASS: complete cyclic-group residual sieve
+PASS: independent complete-group translation sieve
+PASS: both exhaustive implementations agree on all 46 residual points; no admissible pair.

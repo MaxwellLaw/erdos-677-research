@@ -139,6 +139,26 @@ and characteristic-polynomial integrality, different from discovery. Each
 mathematical interpretation remains the explicit human proof; agreement of
 programs is not a substitute for that argument.
 
+### Clean clone of the independent group checkpoint
+
+A new clone of `5a7eb71fc99513c133d5300059074498b4cbd0bc`, initially without
+project object files, completed all nine commands from the
+[k=6 reproduction entry](K6_THEOREM.md) with exit 0: project build, 105-declaration
+axiom audit, eleven-module kernel replay, original reduction sanity check,
+25-certificate correspondence, complete global-bound/residual replay, complete
+saturation replay, complete independent descent replay, and symbolic maps.
+The map output was byte-identical to the saved certificate and the tracked
+working tree remained clean.
+
+The clone linked only the pinned third-party `.lake/packages` directory and
+reused the separate pinned SymPy environment. All eleven project modules
+were rebuilt. No Magma service was invoked, and no from-source rebuild of
+all Mathlib dependencies is claimed. Full output is in
+`verification/independent-clean-*.log`; exact command/exit records and path
+normalization are in `verification/independent-clean-record.json`. Subsequent
+publication changes add these records and update cross-references in prose;
+no tested Lean/Python source or mathematical certificate changed.
+
 ## Trust and review boundaries
 
 The final definitions, quantifiers, carry hypotheses and domain boundaries were inspected separately from tactic success. Additional agents reconstructed the human mathematics and reviewed the formal endpoint types; this is AI-assisted cross-checking, not an independent human referee report. No external mathematical review or award acceptance is claimed.

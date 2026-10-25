@@ -1,0 +1,104 @@
+{
+  "source_commit": "5a7eb71fc99513c133d5300059074498b4cbd0bc",
+  "initial_project_objects_present": false,
+  "dependency_cache": "Pinned .lake/packages linked from working checkout; all project modules rebuilt; separate pinned SymPy environment reused",
+  "commands": [
+    {
+      "name": "build",
+      "command": [
+        "lake",
+        "--wfail",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 29.311,
+      "log": "independent-clean-build.log"
+    },
+    {
+      "name": "axioms",
+      "command": [
+        "python3",
+        "scripts/check_axioms.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.671,
+      "log": "independent-clean-axioms.log"
+    },
+    {
+      "name": "leanchecker",
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "LcmSix"
+      ],
+      "exit_code": 0,
+      "seconds": 21.134,
+      "log": "independent-clean-leanchecker.log"
+    },
+    {
+      "name": "reduction",
+      "command": [
+        "python3",
+        "scripts/verify_reduction.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.108,
+      "log": "independent-clean-reduction.log"
+    },
+    {
+      "name": "lattice",
+      "command": [
+        "python3",
+        "scripts/export_lattice_certificates.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.172,
+      "log": "independent-clean-lattice.log"
+    },
+    {
+      "name": "global",
+      "command": [
+        "python3",
+        "scripts/verify_global_bound.py"
+      ],
+      "exit_code": 0,
+      "seconds": 32.119,
+      "log": "independent-clean-global.log"
+    },
+    {
+      "name": "saturation",
+      "command": [
+        "python3",
+        "cas/saturation/verify_all.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.399,
+      "log": "independent-clean-saturation.log"
+    },
+    {
+      "name": "descent",
+      "command": [
+        "python3",
+        "cas/descent/verify_all.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.777,
+      "log": "independent-clean-descent.log"
+    },
+    {
+      "name": "maps",
+      "command": [
+        "../literature/reproduce-venv/bin/python",
+        "cas/verify_k6_maps.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.653,
+      "log": "independent-clean-maps.log"
+    }
+  ],
+  "symbolic_map_output_byte_identical": true,
+  "tracked_tree_status": "",
+  "path_normalization": "The public record normalizes the local absolute SymPy interpreter path to its equivalent path relative to the clean clone; the separate pinned environment was reused."
+}

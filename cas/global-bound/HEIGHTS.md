@@ -228,9 +228,10 @@ log(Vi) >= 3*pi*|ui|²/(D*|omega1|²*Im(tau)),
 choose compatible lifts and a reduced period basis, meet the E conditions,
 and handle the coefficient B thresholds. Here D=3. Neither period estimates
 nor those remaining steps are certified by this note. It therefore proves
-no M0. Applying any eventual bound to every rational point also retains the
-separate full-Mordell-Weil-group obligation currently supported by Magma's
-flags, not a new claim made here.
+no M0 by itself. The completed [initial-bound proof](INITIAL_BOUND.md)
+supplies that bound, and the later [independent full-group certificate](../descent/RANK_PROOF.md)
+justifies applying it to every rational point. Those are separate proofs,
+not claims made by this height-parameter note alone.
 
 Reproduction from this directory:
 

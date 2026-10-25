@@ -1,0 +1,12 @@
+✔ [1083/1097] Built LcmSix.GcdBound (4.5s)
+✔ [1089/1097] Built LcmSix.Core (4.7s)
+✔ [1091/1097] Built LcmSix.HeightCertificates (1.5s)
+✔ [1093/1111] Built LcmSix.ModularObstruction (1.6s)
+✔ [1106/1117] Built LcmSix.Reduction (2.2s)
+✔ [1108/1144] Built LcmSix.CarryGcd (1.7s)
+✔ [1278/1283] Built LcmSix.SaturationBridge (2.4s)
+✔ [1279/1283] Built LcmSix.LatticeDistance (10s)
+✔ [1280/1283] Built LcmSix.LatticeRounding (2.1s)
+✔ [1281/1283] Built LcmSix.LatticeCertificates (2.5s)
+✔ [1282/1283] Built LcmSix (3.5s)
+Build completed successfully (1283 jobs).

@@ -1,0 +1,12 @@
+PASS: 4 maximal orders, trace discriminants, units, square norms and irreducibility witnesses
+output_sha256 0b96e43c01b15e32908de5f4c9f40a6c9cb901145ebda9c7619f255387354a07
+PASS: all four units are neither a square nor the negative of a square
+output_sha256 dd8042fd81de19cb155b69e86e067dc3e897d440fd93fec54d2e4ec2886e3095
+PASS: maximal-order prime decompositions, Minkowski generating set, principal relations; norm-kernel dimensions <=3,5,3,3
+output_sha256 ef2b4252af44e510c4f5cce7db13f7befe382a15449772d7388332e70c51ce66
+PASS: all power-order indices supported on S and all excluded singular residue classes have odd f-valuation.
+PASS: reproduced four global S-supported norm-square witnesses and independent local-3 rank four.
+PASS: maximal-order prime decompositions, Minkowski generating set, principal relations; norm-kernel dimensions <=3,5,3,3
+output_sha256 ef2b4252af44e510c4f5cce7db13f7befe382a15449772d7388332e70c51ce66
+PASS: independent audit of 2470 HNF outputs, 158676 maximal minors, and 438 quotient characteristic polynomials.
+PASS: independent maximal-order, class-relation, Kummer-support, and local-3 arithmetic; all saved certificates match.
