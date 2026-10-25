@@ -61,6 +61,7 @@ The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, adm
 - [Direct Thue-substitution route and its obstruction](cas/thue-route/README.md)
 - [Current research obligations](docs/RESEARCH_STATUS.md)
 - [A uniform two-matching necessary condition, not an all-length solution](docs/UNIFORM_STRUCTURE.md)
+- [Effective component resonance and pure-cycle exclusion](docs/UNIFORM_CYCLES.md)
 - [Kernel-checked real bounds and canonical coordinate dynamics](cas/height-bounds/LEAN_DYNAMICS.md)
 
 The current awards rules require a complete solution of the original problem. The computational fixed-length result and partial Lean formalization do not settle the all-length conjecture. No awards solution PR or whole-problem award claim is justified by this result. Remaining obligations include a complete Lean k = 6 endpoint, continued external review, and a separate argument or counterexample for arbitrary k.

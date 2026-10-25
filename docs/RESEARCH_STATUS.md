@@ -108,3 +108,10 @@ real quartic bounds and unconditional canonical limits for all four actual
 primitive coordinate maps, including H-h<5. It does not yet connect them to
 Mathlib's elliptic group law or formalize the pairing, descent, analytic or
 residual-computation chain. These are now the precise formalization boundaries.
+
+The later [component/cycle argument](UNIFORM_CYCLES.md) adds explicit necessary
+conditions: component sizes are multiples of the radical degree d, and for
+d>=4 sufficiently large collisions require at least 2k+1 occupied packets.
+Thus pure alternating cycle covers are excluded in that degree range; graphs
+with additional branching remain the precise uniform obstruction. The proof
+is written mathematics, with no collision enumeration or Lean endpoint.

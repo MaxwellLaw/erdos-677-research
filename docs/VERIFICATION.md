@@ -229,3 +229,9 @@ Exact commands, exit codes and durations are in
 `verification/dynamics-clean-{build,axioms,kernel,duplication,lattice,heights,saturation}.log`.
 The only subsequent changes in this publication add this record and logs;
 no tested Lean/Python source or mathematical certificate changed.
+
+The subsequent component-resonance and pure-cycle exclusion note changes only
+written research documentation. Its symbolic proof and explicit inequalities
+were separately reconstructed; no claim is made that it is a Lean theorem
+or a numerically enumerated result. The tested Lean/Python source and original
+exact certificates are unchanged from the clean source SHA above.

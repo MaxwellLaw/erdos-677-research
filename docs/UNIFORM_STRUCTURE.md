@@ -271,3 +271,11 @@ https://github.com/HuanHuanHuanFFF/lean-math-lab/blob/37e42aca251c33c62cbc2c40f2
 This note uses neither that conditional theorem nor its constants. It can be
 compared with it without attributing a new origin to existing bridge or
 binomial estimates. No build or transitive-axiom replay of that third-party project is claimed.
+
+## Subsequent component and cycle restrictions
+
+The [effective continuation](UNIFORM_CYCLES.md) proves component-size resonance
+and, when the product-ratio radical has degree at least four, excludes pure
+cycle-cover support beyond another explicit bound. It forces at least 2k+1
+occupied packets in that range. Extra branching remains unresolved. These
+are separate written necessary conditions, not Lean or all-length endpoints.
