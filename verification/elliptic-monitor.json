@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-26",
+  "own_previous_sha": "96d9c06cbefcd3c5f61e905ba67bd014f9f10b46",
+  "awards_sha": "c06d67a66a8ba426c68e475eff22ee98a86f4e75",
+  "formal_conjectures_sha": "039378b7951df701428aa5c6732a94a149a077e1",
+  "formal_677_blob": "303699d56147eb8edd96b0c493dd2b1e53af23e3",
+  "site": {
+    "method": "Chrome CUA live read-only after web HTTP403 and unavailable IAB",
+    "url": "https://www.erdosproblems.com/677",
+    "comments_count": 8,
+    "proof_expositions_count": 0,
+    "proof_claims_count": 0,
+    "latest_post": "https://www.erdosproblems.com/forum/thread/677#post-5214",
+    "latest_post_time_site": "22:59 on 02 Apr 2026",
+    "claims_page": "https://www.erdosproblems.com/forum/thread/677/proof-claims",
+    "claims_text": "No proof claims have been submitted yet.",
+    "comments_suspended": true,
+    "temporary_tab_closed": true
+  },
+  "assessment": "No new external review, CI failure, competing complete proof or eligibility change. Awards/catalog/pilot remain unchanged. FormalConjectures default branch advanced for unrelated AME(4,6) PR7502, while 677 source blob unchanged. Mathematical k6 yes; full Lean k6 no; all lengths no. No upstream full-problem PR or claim qualified.",
+  "math_audits": {
+    "LOW_DEGREE_AUDIT.md": "b293687b75ede7c66009c6dcf0fd1fb4245b84346c9b55aeef650cb4c7f104b2",
+    "ELLIPTIC_AUDIT.md": "d6371d7e7f7ac454a7adc9058c6a9c354bedf8cd0668fea083536e241568ec90"
+  }
+}

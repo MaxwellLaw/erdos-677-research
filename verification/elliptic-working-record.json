@@ -1,0 +1,42 @@
+[
+  {
+    "name": "build",
+    "command": [
+      "lake",
+      "--wfail",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 7.379
+  },
+  {
+    "name": "axioms",
+    "command": [
+      "python3",
+      "scripts/check_axioms.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 23.358
+  },
+  {
+    "name": "kernel",
+    "command": [
+      "lake",
+      "env",
+      "leanchecker",
+      "-v",
+      "LcmSix"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 34.316
+  },
+  {
+    "name": "cubic",
+    "command": [
+      "python3",
+      "cas/uniform/cubic_obstruction_certificate.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.033
+  }
+]

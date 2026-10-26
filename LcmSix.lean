@@ -14,3 +14,5 @@ import LcmSix.DuplicationCertificates
 import LcmSix.DuplicationHeight
 import LcmSix.HeightConstants
 import LcmSix.PrimitiveDynamics
+import LcmSix.CanonicalQuadratic
+import LcmSix.EllipticDuplication

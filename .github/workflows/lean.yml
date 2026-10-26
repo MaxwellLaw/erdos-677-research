@@ -37,3 +37,7 @@ jobs:
         run: python3 cas/saturation/verify_all.py
       - name: Independent descent and rank certificates
         run: python3 cas/descent/verify_all.py
+      - name: Exact cubic transport obstruction witnesses
+        run: |
+          python3 cas/uniform/cubic_obstruction_certificate.py
+          python3 cas/uniform/verify_cubic_discriminants.py

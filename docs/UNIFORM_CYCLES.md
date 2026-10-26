@@ -3,7 +3,11 @@
 Author: MaxwellLaw. Written mathematical checkpoint, 25 October 2026.
 The author, MaxwellLaw, used AI as an assistive tool.
 
-**Scope.** Under explicit large-start bounds, component sizes satisfy a
+The [26 October continuation](UNIFORM_LOW_DEGREE.md) removes the d>=4
+restriction below. The earlier proof and its exact original scope are
+preserved here; the remaining obstruction is additional branching.
+
+**Scope of this 25 October argument.** Under explicit large-start bounds, component sizes satisfy a
 radical-degree divisibility condition. If that degree is at least four, a
 genuine collision must have at least `2k+1` occupied prime-power packets;
 its support cannot consist solely of an alternating cycle cover. Graphs

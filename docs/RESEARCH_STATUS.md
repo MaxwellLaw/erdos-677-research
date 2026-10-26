@@ -24,7 +24,7 @@ The integer Bézout identities, gcd bounds and coefficient sums are proved in
 Lean. The 2026-10-25 addition also proves the universal integral dual-functional
 distance argument and all 25 concrete lattice distances, including their
 explicit rounded integer inputs and strict thresholds. See
-[the exact Lean scope](../cas/global-bound/LEAN_LATTICE.md). Elliptic-group height identification and quadraticity, David's theorem, elliptic uniformization, logarithm
+[the exact Lean scope](../cas/global-bound/LEAN_LATTICE.md). The actual-curve bounded parallelogram input, David's theorem, elliptic uniformization, logarithm
 integration and the interpretation of the finite-field sieve remain human
 mathematics with exact Python certificates. The exported lattice verifier
 checks unimodularity, inverse matrices, rounding cells and rational distance
@@ -54,10 +54,10 @@ assumes a Magma rank, class-group or full-basis flag.
 ## Remaining fixed-length obligations
 
 1. Develop a complete Lean endpoint for all n>=0 and m>=n+6. The current
-   172 audited declarations cover specified reductions, certificate algebra,
+   223 audited declarations cover specified reductions, certificate algebra,
    integer lattice distances, conditional rounding and an abstract saturation
    bridge, real quartic bounds and actual primitive coordinate-height limits.
-   Elliptic-group height identification and quadraticity, and the analytic,
+   Actual-curve quadraticity (its bounded parallelogram input), and the analytic,
    descent and finite computation chain
    remains outside Lean and must be proved or replaced there.
 2. Continue source/priority checks and address substantive external review.
@@ -105,9 +105,9 @@ is not an integer counterexample. No additional collision enumeration was run.
 
 The [new Lean height layer](../cas/height-bounds/LEAN_DYNAMICS.md) now proves
 real quartic bounds and unconditional canonical limits for all four actual
-primitive coordinate maps, including H-h<5. It does not yet connect them to
-Mathlib's elliptic group law or formalize the pairing, descent, analytic or
-residual-computation chain. These are now the precise formalization boundaries.
+primitive coordinate maps, including H-h<5. At that checkpoint it did not
+yet connect them to Mathlib's elliptic group law. The subsequent bridge below
+closes that obligation; the actual pairing input and later chain remain open.
 
 The later [component/cycle argument](UNIFORM_CYCLES.md) adds explicit necessary
 conditions: component sizes are multiples of the radical degree d, and for
@@ -115,3 +115,22 @@ d>=4 sufficiently large collisions require at least 2k+1 occupied packets.
 Thus pure alternating cycle covers are excluded in that degree range; graphs
 with additional branching remain the precise uniform obstruction. The proof
 is written mathematics, with no collision enumeration or Lean endpoint.
+
+## Actual elliptic heights and all-degree cycle exclusion, 2026-10-26
+
+The [elliptic bridge](LEAN_ELLIPTIC_HEIGHT.md) removes the group-identification
+obligation: the actual Mathlib point group, projective x-height and every
+primitive-coordinate iterate are linked in Lean. All four curves now have
+unconditional group-height convergence and H-h<5 endpoints, including O.
+A separate generic theorem derives exact quadraticity and a biadditive pairing
+from a uniform bounded naive parallelogram defect. Proving that specific
+input on the four curves remains unfinished; it is not silently assumed.
+
+The [low-degree continuation](UNIFORM_LOW_DEGREE.md) removes the d>=4
+restriction from the pure-cycle exclusion. Exact normalized coefficient
+support excludes d=2 and leaves just two d=3 branches; five finite-field
+witnesses exclude their cycle products. Thus, for every k>=2 beyond the
+existing explicit threshold, a hypothetical collision requires at least
+2k+1 occupied packets. Additional branching remains unresolved. This written
+structural theorem is not Lean-formalized and does not solve the original
+problem or change award eligibility.

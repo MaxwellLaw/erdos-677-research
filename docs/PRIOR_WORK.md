@@ -144,3 +144,15 @@ Live checks of all states, the three specifically watched awards PRs, the
 original discussion and proof-claim pages found no new complete competing
 proof or review action. This source inspection does not assert worldwide
 absence or mathematical priority.
+
+## Live refresh, 2026-10-26
+
+The awards head remains `c06d67a66a8ba426c68e475eff22ee98a86f4e75`;
+the contribution/claim templates, JSP-000550 catalog and MathDB applicability
+are unchanged. Formal Conjectures advanced to
+`039378b7951df701428aa5c6732a94a149a077e1` for an unrelated problem;
+its 677 source remains blob `303699d56147eb8edd96b0c493dd2b1e53af23e3`.
+The original site still has eight discussion comments and zero proof claims
+or expositions. All-state searches and the watched PR/source checks found
+no new relevant complete proof or external review. The fixed-length result
+still does not meet the whole-problem award requirements.

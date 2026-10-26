@@ -69,12 +69,17 @@ lemmas, integer height-certificate algebra, the universal integer lattice
 argument, all 25 concrete lattice-distance certificates, conditional
 real rounding-error transfer, and an abstract saturation bridge. The
 [verification table](VERIFICATION.md) names their exact types and scopes.
-There are 172 explicit audited declarations, using only standard logical axioms. The later
+There are 223 explicit audited declarations, using only standard logical axioms. The later
 [coordinate-height formalization](../cas/height-bounds/LEAN_DYNAMICS.md) also
 proves the actual four gcd-normalized dynamical limits, geometric errors,
 uniqueness, and H-h<5, with all polynomial and divisor premises discharged.
 
-Elliptic-group identification and quadraticity of the canonical height,
+The [actual elliptic-group bridge](LEAN_ELLIPTIC_HEIGHT.md) now proves group
+doubling compatibility, convergence and H-h<5 on all four curves. A generic
+bounded parallelogram premise implies an exact biadditive height pairing,
+but that premise on the actual curves is still open in Lean.
+
+The remaining actual-curve quadraticity input, strong local gcd bounds,
 David's theorem, elliptic integration, Kummer descent,
 number-field completeness, actual finite reductions and the full residual
 computation are documented mathematics with exact arithmetic outside Lean.

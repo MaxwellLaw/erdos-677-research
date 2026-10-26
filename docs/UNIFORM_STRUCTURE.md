@@ -279,3 +279,5 @@ and, when the product-ratio radical has degree at least four, excludes pure
 cycle-cover support beyond another explicit bound. It forces at least 2k+1
 occupied packets in that range. Extra branching remains unresolved. These
 are separate written necessary conditions, not Lean or all-length endpoints.
+
+The [low-degree continuation](UNIFORM_LOW_DEGREE.md) now removes the radical-degree restriction from that cycle exclusion, with the same explicit threshold. Extra branching remains unresolved.

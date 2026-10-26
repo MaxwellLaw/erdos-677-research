@@ -22,12 +22,14 @@ This document verifies the auxiliary results in this repository. **There is no L
 | Real duplication bounds | `DuplicationBounds.Branch*.global_lower`, `integer_lower` | Every real or integer p,q on each of the four actual quartic pairs, with all 34 Bernstein leaves and two-chart coverage proved. |
 | Logarithmic transfer | `DuplicationBounds.logarithmic_defect`, `Branch*.defect_bounds` | Explicit divisor bounds and nonzero coordinate pair; specialized strong gcd bounds remain hypotheses here. |
 | Elementary canonical limit | `CanonicalLimit.tendsto_normalized`, `limit_tail_bounds`, `canonical_map`, `limit_eq_of_bounded_difference`, `canonical_unique` | Explicit bounded recurrence defects; convergence, asymmetric tails, scaling, bounded-change invariance and uniqueness are proved. |
-| Actual coordinate dynamics | `PrimitiveDynamics.branch*_converges`, `branch*_height_error`; `Model.canonical_enclosure` | All primitive integer pairs; actual gcd-normalized steps, with every polynomial/divisor premise discharged for all four models. Proves H-h<5; elliptic-group identification and pairing remain unformalized. |
+| Actual coordinate dynamics | `PrimitiveDynamics.branch*_converges`, `branch*_height_error`; `Model.canonical_enclosure` | All primitive integer pairs; actual gcd-normalized steps, with every polynomial/divisor premise discharged for all four models. Proves H-h<5; actual elliptic-group identification is now covered by the next row, and the concrete pairing input remains unformalized. |
+| Actual elliptic doubling and heights | 33 declarations in `EllipticDuplication.lean` | Every point of the four exact rational curves; group doubling, primitive representatives, projective naive-height equality, canonical-limit convergence, scaling, finite-iterate bounds and H-h<5, including infinity and y=0. Four nonzero discriminants and IsElliptic instances are proved. |
+| Conditional canonical quadraticity | 18 declarations in `CanonicalQuadratic.lean` | An arbitrary abelian group with an explicit uniform bounded naive parallelogram defect; convergence, exact parallelogram, symmetric biadditive pairing and all integer homogeneity follow. The defect premise on the four curves remains unproved. |
 | Congruence-sieve limitation | Four `ratio_*_survives_every_modulus` theorems in `ModularObstruction.lean` | For every positive modulus, nonnegative disjoint representatives satisfy the product congruence and carry residues. Not integer product equalities or LCM collisions. |
 
 The Lean proof of `defect_six` first proves a universal gcd-periodicity identity, then exhausts its 60 residue classes. This is a finite proof of an explicitly proved periodic formula, not a bounded search over interval starts. The small gcd case splits likewise follow proved uniform bounds on the gcd. Integer subtraction is used in Phi and the centered formulas, so natural subtraction cannot silently truncate a curve coefficient.
 
-`Audit.lean` now names 172 declarations: the previous 105 plus 67 for real quartic bounds, logarithmic transfer, canonical limits, exact constants and the four actual primitive-coordinate maps. Earlier dated checkpoints below retain their historical counts. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. The allowed dependency set is unchanged; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
+`Audit.lean` now names 223 declarations: the previous 172 plus 33 for actual elliptic-group doubling/heights and 18 for the explicitly conditional quadraticity construction. Earlier dated checkpoints below retain their historical counts. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. The allowed dependency set is unchanged; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
 
 ## Toolchain and recorded checks
 
@@ -235,3 +237,32 @@ written research documentation. Its symbolic proof and explicit inequalities
 were separately reconstructed; no claim is made that it is a Lean theorem
 or a numerically enumerated result. The tested Lean/Python source and original
 exact certificates are unchanged from the clean source SHA above.
+
+## Actual elliptic-group and quadraticity checkpoint, 2026-10-26
+
+The two new modules add 51 explicit audited declarations, bringing the total
+to 223. `EllipticDuplication.lean` proves the actual group-doubling connection,
+naive-height identity and four unconditional group convergence/H-h<5 pairs.
+`CanonicalQuadratic.lean` proves the standard limit/polarization theorem
+under its explicit bounded naive parallelogram premise. That premise has
+not been proved for the four actual curves. See the
+[exact definitions and remaining boundary](LEAN_ELLIPTIC_HEIGHT.md).
+
+The final working build completed 3411 jobs with exit 0, the 223-declaration
+axiom audit passed, and `leanchecker` replayed all nineteen project modules.
+The five cubic obstruction witnesses passed both a complete finite-field
+root test and an independent Euler-discriminant test; these do not enumerate
+LCM collisions. The first check also requires exact agreement with its saved
+JSON certificate. Source/hypothesis review independently covered all
+exceptional point charts and the low-degree mathematical proof. It is not
+an external referee report.
+
+Commands were `lake --wfail build`, `python3 scripts/check_axioms.py`,
+`lake env leanchecker -v LcmSix`,
+`python3 cas/uniform/cubic_obstruction_certificate.py` and
+`python3 cas/uniform/verify_cubic_discriminants.py`. Actual logs are
+`verification/elliptic-{build,axioms,kernel,cubic,cubic-independent}.log`.
+Pinned public Mathlib dependency objects were reused. No network CAS or
+SymPy was required by these proof and witness replays. The unchanged earlier
+global enumeration is not presented as new research or rerun to create new
+evidence of noncollision.
