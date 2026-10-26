@@ -66,6 +66,7 @@ The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, adm
 - [Kernel-checked real bounds and canonical coordinate dynamics](cas/height-bounds/LEAN_DYNAMICS.md)
 - [Actual elliptic doubling, group heights and the remaining quadraticity input](docs/LEAN_ELLIPTIC_HEIGHT.md)
 - [Cycle exclusion for all radical degrees](docs/UNIFORM_LOW_DEGREE.md)
+- [A lower size bound on packets outside every cycle cover](docs/UNIFORM_BRANCHING.md)
 
 The current awards rules require a complete solution of the original problem. The computational fixed-length result and partial Lean formalization do not settle the all-length conjecture. No awards solution PR or whole-problem award claim is justified by this result. Remaining obligations include a complete Lean k = 6 endpoint, continued external review, and a separate argument or counterexample for arbitrary k.
 

@@ -270,3 +270,5 @@ python3 cas/uniform/verify_cubic_discriminants.py
 ```
 
 The second checker independently tests the quadratic discriminants by Euler's criterion, without importing the first checker or enumerating roots. Separate internal review reconstructed the normalization, graph forcing and norm-bound substitution. This is not external referee approval.
+
+The [quantitative continuation](UNIFORM_BRANCHING.md) proves that for every selected spanning cycle cover, the omitted packet product W satisfies n<=Ncycle*W^(2d). It restricts the size of branching without excluding unbounded W.

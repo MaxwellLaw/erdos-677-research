@@ -20,6 +20,7 @@
   "assessment": "No new external review, CI failure, competing complete proof or eligibility change. Awards/catalog/pilot remain unchanged. FormalConjectures default branch advanced for unrelated AME(4,6) PR7502, while 677 source blob unchanged. Mathematical k6 yes; full Lean k6 no; all lengths no. No upstream full-problem PR or claim qualified.",
   "math_audits": {
     "LOW_DEGREE_AUDIT.md": "b293687b75ede7c66009c6dcf0fd1fb4245b84346c9b55aeef650cb4c7f104b2",
-    "ELLIPTIC_AUDIT.md": "d6371d7e7f7ac454a7adc9058c6a9c354bedf8cd0668fea083536e241568ec90"
+    "ELLIPTIC_AUDIT.md": "d6371d7e7f7ac454a7adc9058c6a9c354bedf8cd0668fea083536e241568ec90",
+    "BRANCHING_MASS_AUDIT.md": "34a5fe630932e1dcf62a838a1fbb5d980b62fb726a29ed6b1964a12086966ba1"
   }
 }

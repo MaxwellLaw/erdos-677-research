@@ -1,0 +1,75 @@
+{
+  "author": "MaxwellLaw",
+  "branches": [
+    {
+      "all_owner_factors_nonconstant": true,
+      "b": 2,
+      "cubic_root": 7,
+      "k": 3,
+      "left": 2,
+      "norm": 66,
+      "norm_quotient": 6,
+      "prime": 11,
+      "quadratic_cofactor_roots": 0,
+      "right": -1,
+      "trial_divisors_through": 3
+    },
+    {
+      "all_owner_factors_nonconstant": true,
+      "b": 8,
+      "cubic_root": 81,
+      "k": 9,
+      "left": 10,
+      "norm": -43392000,
+      "norm_quotient": -384000,
+      "prime": 113,
+      "quadratic_cofactor_roots": 0,
+      "right": 280,
+      "trial_divisors_through": 10
+    },
+    {
+      "all_owner_factors_nonconstant": true,
+      "b": 8,
+      "cubic_root": 567,
+      "k": 9,
+      "left": 10,
+      "norm": 597750,
+      "norm_quotient": 750,
+      "prime": 797,
+      "quadratic_cofactor_roots": 0,
+      "right": -35,
+      "trial_divisors_through": 28
+    },
+    {
+      "all_owner_factors_nonconstant": true,
+      "b": 8,
+      "cubic_root": 8,
+      "k": 9,
+      "left": 10,
+      "norm": 510000,
+      "norm_quotient": 30000,
+      "prime": 17,
+      "quadratic_cofactor_roots": 0,
+      "right": 10,
+      "trial_divisors_through": 4
+    },
+    {
+      "all_owner_factors_nonconstant": true,
+      "b": 8,
+      "cubic_root": 667,
+      "k": 9,
+      "left": 10,
+      "norm": 512250,
+      "norm_quotient": 750,
+      "prime": 683,
+      "quadratic_cofactor_roots": 0,
+      "right": -5,
+      "trial_divisors_through": 26
+    }
+  ],
+  "k3_nonforbidden_left_vertex_count": 1,
+  "k3_only_nonforbidden_left_weight": -1,
+  "k9_only_unlisted_right_weight": 4,
+  "k9_unlisted_right_vertex_count": 1,
+  "scope": "Cubic coefficient obstructions only; not a collision search"
+}

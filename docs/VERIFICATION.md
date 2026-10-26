@@ -266,3 +266,21 @@ Pinned public Mathlib dependency objects were reused. No network CAS or
 SymPy was required by these proof and witness replays. The unchanged earlier
 global enumeration is not presented as new research or rerun to create new
 evidence of noncollision.
+
+### Clean clone of the actual elliptic-group checkpoint
+
+A fresh clone of `524fd021ab744a14a8a02bd243ef6145d802f1e3`, initially without
+project object files, completed all five commands above with exit 0. All
+nineteen project modules rebuilt and kernel replayed; all 223 explicit
+axiom reports passed. Both cubic witness implementations passed, and every
+file in `verification/elliptic-source-hashes.json` matched. The tracked
+clone remained clean. The recorded Python runtime was 3.14.6.
+
+Only the pinned third-party `.lake/packages` directory was linked. No
+network CAS or SymPy environment was used, and no full from-source Mathlib
+rebuild is claimed. Machine-readable commands/exits are in
+`verification/elliptic-clean-record.json`; full logs are
+`elliptic-clean-{build,axioms,kernel,cubic,cubic-independent}.log` in the
+same directory. Subsequent publication changes add this record and the
+written quantitative branching consequence only; tested Lean/Python source,
+workflow and certificates remain unchanged.

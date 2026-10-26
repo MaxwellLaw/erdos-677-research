@@ -134,3 +134,10 @@ existing explicit threshold, a hypothetical collision requires at least
 2k+1 occupied packets. Additional branching remains unresolved. This written
 structural theorem is not Lean-formalized and does not solve the original
 problem or change award eligibility.
+
+The [quantitative branching bound](UNIFORM_BRANCHING.md) also proves
+`n<=Ncycle*W^(2d)` for the product W of packets outside any chosen spanning
+two-factor, with no new height or CAS assumption. Consequently bounded extra
+packets cannot sustain arbitrarily large starts at fixed k. Unbounded W
+remains possible under these necessary conditions; no global contradiction
+or valid collision has been obtained.
