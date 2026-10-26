@@ -317,3 +317,28 @@ canonical-height application, not a claim to first formalization.
 The numerical Gram bounds and the remaining k=6 certificate chain still
 need a Lean connection. The complete Lean k=6 endpoint and arbitrary-k
 original problem remain unfinished.
+
+### Clean clone of the actual canonical-pairing checkpoint
+
+A fresh clone of `85e0151679b57ebbe7802f549de5552ac2348864`, initially
+without project object files, passed all three commands above with exit 0.
+The build completed 3416 jobs, all 21 project modules were rebuilt and kernel
+replayed, and all 253 explicit axiom reports passed. The 29 source/workflow/
+dependency files in `verification/pairing-source-hashes.json` matched. The
+tracked clone remained clean. Python was 3.14.6.
+
+Only the pinned third-party `.lake/packages` directory was linked; no project
+object files were copied. No network CAS, SymPy environment or full
+from-source Mathlib rebuild was used. Commands, exits and durations are in
+`verification/pairing-clean-record.json`; outputs are in
+`verification/pairing-clean-{build,axioms,kernel}.log`. The unchanged global
+certificate chain is still covered by the existing CI. It was not rerun as
+a new research enumeration for these symbolic and Lean changes.
+
+Subsequent publication changes add these verification records and correct
+a documentary comparison of lower-height constants: all four models have
+`32*R<D`, so the formal lower tail is stronger than the original Gram
+script's tail. This is distinct from the stronger rational-point local gcd
+bound still needed for the separate small-height argument. No tested Lean/
+Python source, workflow or mathematical certificate changed after the clean
+source commit.

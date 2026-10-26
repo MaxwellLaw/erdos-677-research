@@ -18,6 +18,15 @@
   },
   "internal_audit_hashes": {
     "LOCAL_BRANCHING_AUDIT.md": "522259499820a1ac5461d454498d0db8912ee3b98543d00e8a82804a661d5200",
-    "ADDSUB_PARALLELOGRAM_AUDIT.md": "7290250ddafe83a444df09db4f2e96479be02f91e71719d69051c42f5af29a07"
+    "ADDSUB_PARALLELOGRAM_AUDIT.md": "7290250ddafe83a444df09db4f2e96479be02f91e71719d69051c42f5af29a07",
+    "ELLIPTIC_PAIRING_AUDIT.md": "41bdd1cbb832a1f60cadfb139c86461f435357ba54f9a0e31de7f543d58ca369"
+  },
+  "independent_copied_source_replay": {
+    "declarations": 30,
+    "lean_trust_zero_exit": 0,
+    "leanchecker_exit": 0,
+    "snapshot_olean_sha256": "226ff39a112cf40fac0be6373fcc7c0e343519a33cf3b6bd6f0179cb3d6eaf6e",
+    "target_oleans_imported": false,
+    "dependency_objects_reused": true
   }
 }

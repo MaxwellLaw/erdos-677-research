@@ -1,0 +1,40 @@
+{
+  "source_sha": "85e0151679b57ebbe7802f549de5552ac2348864",
+  "dependency_cache": "Only pinned .lake/packages linked; no initial project objects",
+  "runtime": "Python 3.14.6",
+  "commands": [
+    {
+      "name": "build",
+      "command": [
+        "lake",
+        "--wfail",
+        "build"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 206.096
+    },
+    {
+      "name": "axioms",
+      "command": [
+        "python3",
+        "scripts/check_axioms.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 25.79
+    },
+    {
+      "name": "kernel",
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "LcmSix"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 48.115
+    }
+  ],
+  "tracked_clean": true,
+  "source_hashes_match": true
+}
