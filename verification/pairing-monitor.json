@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26 evening",
+  "prior_public_sha": "a9349ad912227e939c162a7749fc263c225e5854",
+  "prior_ci": "https://github.com/MaxwellLaw/erdos-677-research/actions/runs/40259366186",
+  "awards_sha": "c06d67a66a8ba426c68e475eff22ee98a86f4e75",
+  "formal_677_blob": "303699d56147eb8edd96b0c493dd2b1e53af23e3",
+  "external_changes": "No actionable review, competing complete proof or eligibility change.",
+  "erdos_site": {
+    "comments": 8,
+    "expositions": 0,
+    "proof_claims": 0
+  },
+  "prior_mathlib": {
+    "compatibility_sha": "69fe4f49ffbc9580a2c3ae6d29591ef6d1d4131e",
+    "approximate_law_sha": "751af11de0208780dda5326b40c54b3859607d03",
+    "author": "Michael Stoll",
+    "scope": "Earlier general actual compatibility and approximate parallelogram; our contribution is specialized pinned-version integration and canonical applications."
+  },
+  "internal_audit_hashes": {
+    "LOCAL_BRANCHING_AUDIT.md": "522259499820a1ac5461d454498d0db8912ee3b98543d00e8a82804a661d5200",
+    "ADDSUB_PARALLELOGRAM_AUDIT.md": "7290250ddafe83a444df09db4f2e96479be02f91e71719d69051c42f5af29a07"
+  }
+}

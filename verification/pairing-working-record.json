@@ -1,0 +1,33 @@
+[
+  {
+    "name": "build",
+    "command": [
+      "lake",
+      "--wfail",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 71.174
+  },
+  {
+    "name": "axioms",
+    "command": [
+      "python3",
+      "scripts/check_axioms.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 10.919
+  },
+  {
+    "name": "kernel",
+    "command": [
+      "lake",
+      "env",
+      "leanchecker",
+      "-v",
+      "LcmSix"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 41.104
+  }
+]

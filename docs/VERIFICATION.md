@@ -22,14 +22,16 @@ This document verifies the auxiliary results in this repository. **There is no L
 | Real duplication bounds | `DuplicationBounds.Branch*.global_lower`, `integer_lower` | Every real or integer p,q on each of the four actual quartic pairs, with all 34 Bernstein leaves and two-chart coverage proved. |
 | Logarithmic transfer | `DuplicationBounds.logarithmic_defect`, `Branch*.defect_bounds` | Explicit divisor bounds and nonzero coordinate pair; specialized strong gcd bounds remain hypotheses here. |
 | Elementary canonical limit | `CanonicalLimit.tendsto_normalized`, `limit_tail_bounds`, `canonical_map`, `limit_eq_of_bounded_difference`, `canonical_unique` | Explicit bounded recurrence defects; convergence, asymmetric tails, scaling, bounded-change invariance and uniqueness are proved. |
-| Actual coordinate dynamics | `PrimitiveDynamics.branch*_converges`, `branch*_height_error`; `Model.canonical_enclosure` | All primitive integer pairs; actual gcd-normalized steps, with every polynomial/divisor premise discharged for all four models. Proves H-h<5; actual elliptic-group identification is now covered by the next row, and the concrete pairing input remains unformalized. |
+| Actual coordinate dynamics | `PrimitiveDynamics.branch*_converges`, `branch*_height_error`; `Model.canonical_enclosure` | All primitive integer pairs; actual gcd-normalized steps, with every polynomial/divisor premise discharged for all four models. Proves H-h<5; actual elliptic-group identification is now covered by the next row, and actual pairing is covered by the later pairing row. |
 | Actual elliptic doubling and heights | 33 declarations in `EllipticDuplication.lean` | Every point of the four exact rational curves; group doubling, primitive representatives, projective naive-height equality, canonical-limit convergence, scaling, finite-iterate bounds and H-h<5, including infinity and y=0. Four nonzero discriminants and IsElliptic instances are proved. |
-| Conditional canonical quadraticity | 18 declarations in `CanonicalQuadratic.lean` | An arbitrary abelian group with an explicit uniform bounded naive parallelogram defect; convergence, exact parallelogram, symmetric biadditive pairing and all integer homogeneity follow. The defect premise on the four curves remains unproved. |
+| Conditional canonical quadraticity | 18 declarations in `CanonicalQuadratic.lean` | An arbitrary abelian group with an explicit uniform bounded naive parallelogram defect; convergence, exact parallelogram, symmetric biadditive pairing and all integer homogeneity follow. The separate actual pairing module now discharges the defect premise on the four curves. |
+| Actual addition/subtraction compatibility | Eight declarations in `EllipticAddSub.lean` | Rational a1=a3=0 models; the actual Mathlib group operations and map agree projectively with a nonzero scalar for every point pair, including all exceptional charts. Prior general Mathlib main work is credited. |
+| Actual canonical pairing | 22 declarations in `EllipticParallelogram.lean` | Bounded naive parallelogram error, exact canonical law, symmetric biadditive pairing, all integer homogeneity, nonnegativity and finite Gram expansion. Four concrete branch endpoints discharge model and defect premises. Numerical Gram certificate bounds remain external. |
 | Congruence-sieve limitation | Four `ratio_*_survives_every_modulus` theorems in `ModularObstruction.lean` | For every positive modulus, nonnegative disjoint representatives satisfy the product congruence and carry residues. Not integer product equalities or LCM collisions. |
 
 The Lean proof of `defect_six` first proves a universal gcd-periodicity identity, then exhausts its 60 residue classes. This is a finite proof of an explicitly proved periodic formula, not a bounded search over interval starts. The small gcd case splits likewise follow proved uniform bounds on the gcd. Integer subtraction is used in Phi and the centered formulas, so natural subtraction cannot silently truncate a curve coefficient.
 
-`Audit.lean` now names 223 declarations: the previous 172 plus 33 for actual elliptic-group doubling/heights and 18 for the explicitly conditional quadraticity construction. Earlier dated checkpoints below retain their historical counts. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. The allowed dependency set is unchanged; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
+`Audit.lean` now names 253 declarations: the previous 223 plus eight for addition/subtraction compatibility and 22 for actual canonical pairing, including the bundled pairing and model-instance bridges. Earlier dated checkpoints below retain their historical counts. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. The allowed dependency set is unchanged; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
 
 ## Toolchain and recorded checks
 
@@ -244,8 +246,8 @@ The two new modules add 51 explicit audited declarations, bringing the total
 to 223. `EllipticDuplication.lean` proves the actual group-doubling connection,
 naive-height identity and four unconditional group convergence/H-h<5 pairs.
 `CanonicalQuadratic.lean` proves the standard limit/polarization theorem
-under its explicit bounded naive parallelogram premise. That premise has
-not been proved for the four actual curves. See the
+under its explicit bounded naive parallelogram premise. At this morning checkpoint that premise had
+not been proved for the four actual curves; the evening checkpoint below discharges it. See the
 [exact definitions and remaining boundary](LEAN_ELLIPTIC_HEIGHT.md).
 
 The final working build completed 3411 jobs with exit 0, the 223-declaration
@@ -284,3 +286,34 @@ rebuild is claimed. Machine-readable commands/exits are in
 same directory. Subsequent publication changes add this record and the
 written quantitative branching consequence only; tested Lean/Python source,
 workflow and certificates remain unchanged.
+
+## Actual canonical pairing and local branching, 2026-10-26 evening
+
+`EllipticAddSub.lean` adds eight audited theorems covering the actual
+addition/subtraction map, including all exceptional point charts.
+`EllipticParallelogram.lean` adds 22 audited declarations: actual bounded
+naive parallelogram error, canonical parallelogram law, symmetric biadditive
+pairing, integer quadraticity and a finite Gram expansion. The four concrete
+curves discharge the ellipticity assumptions. The project now audits 253
+declarations across 21 project modules. The actual-curve bounded-defect
+premise is no longer an open formalization obligation.
+
+The working `lake --wfail build` completed 3416 jobs;
+`python3 scripts/check_axioms.py` and
+`lake env leanchecker -v LcmSix` also returned exit 0. The axiom reports
+contain only Lean's standard logical axioms. Exact commands, durations and
+exits are in `verification/pairing-working-record.json`; output is in
+`verification/pairing-{build,axioms,kernel}.log`. An independent copied-source
+replay of both new files also passed `lean --trust=0` and `leanchecker`,
+without importing the two target object files; it reused dependency objects.
+The new symbolic [local branching argument](UNIFORM_LOCAL_BRANCHING.md) was
+independently reconstructed. It has not been Lean-formalized and performs
+no new collision enumeration.
+
+[Prior work](LEAN_PAIRING.md#prior-formalization-and-the-scope-of-this-integration)
+credits Michael Stoll's earlier, more general Mathlib main results with
+full source commits. This is a fixed-version integration and concrete
+canonical-height application, not a claim to first formalization.
+The numerical Gram bounds and the remaining k=6 certificate chain still
+need a Lean connection. The complete Lean k=6 endpoint and arbitrary-k
+original problem remain unfinished.

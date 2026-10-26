@@ -156,3 +156,21 @@ The original site still has eight discussion comments and zero proof claims
 or expositions. All-state searches and the watched PR/source checks found
 no new relevant complete proof or external review. The fixed-length result
 still does not meet the whole-problem award requirements.
+
+## Mathlib formalization provenance, 2026-10-26 evening
+
+The pinned dependency lacks the actual map compatibility and approximate
+parallelogram theorems, but current Mathlib main contains Michael Stoll's
+earlier general results. Compatibility is present at main commit
+`69fe4f49ffbc9580a2c3ae6d29591ef6d1d4131e` (5 September 2026, PR43292),
+and the general approximate law at
+`751af11de0208780dda5326b40c54b3859607d03` (7 September 2026, PR43463).
+They are credited with fixed primary links in [LEAN_PAIRING.md](LEAN_PAIRING.md).
+The new project modules are specialized fixed-version integration and
+canonical-height applications; no first formalization claim is made for
+those earlier theorems. No duplicate Mathlib PR is being submitted.
+
+The current monitoring found no new external research review or complete
+Erdős677 proof, and no awards/MathDB eligibility change. Formal Conjectures
+advanced for unrelated CI work; its 677 source blob remains
+`303699d56147eb8edd96b0c493dd2b1e53af23e3`.

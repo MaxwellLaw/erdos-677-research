@@ -5,14 +5,15 @@ The author, MaxwellLaw, used AI as an assistive tool.
 
 The subsequent [actual elliptic bridge](../../docs/LEAN_ELLIPTIC_HEIGHT.md)
 now identifies these maps and heights with Mathlib group doubling. The
-remaining actual-curve quadraticity input is stated explicitly there.
+[subsequent pairing integration](../../docs/LEAN_PAIRING.md) now also discharges
+the actual-curve quadraticity input.
 
 This 25 October addition proves the real quartic bounds and the canonical limit for the
 four actual gcd-normalized integer-coordinate maps. It formalizes a substantial
 part of the height argument, including `H-h<5`. At that checkpoint it did not identify these
 maps with Mathlib's elliptic-curve doubling operation. That identification
-is now proved; the actual-curve pairing input and full Lean k=6 endpoint
-remain unfinished. The mathematical k=6
+and the actual-curve pairing input are now proved; the full Lean k=6 endpoint
+remains unfinished. The mathematical k=6
 result was already established in the earlier written/certificate proof.
 
 ## Exact objects and endpoints
@@ -97,8 +98,8 @@ arithmetic implementation, not the logical justification for these Lean terms.
 ## Remaining boundary
 
 The new H is an actual dynamical height on primitive coordinate pairs.
-The actual elliptic-group connection is now proved in the linked continuation.
-Proving the bounded naive parallelogram input on those curves, the strong local-square gcd bounds, full descent,
+The actual elliptic-group connection and bounded parallelogram input are now
+proved in the linked continuations. The strong local-square gcd bounds, full descent,
 David's theorem, elliptic-logarithm integration and complete residual sieve
 remain to be formalized or replaced. The unconditional convergence endpoints
 do not by themselves close any of those obligations. No all-length solution

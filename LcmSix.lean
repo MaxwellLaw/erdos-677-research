@@ -16,3 +16,5 @@ import LcmSix.HeightConstants
 import LcmSix.PrimitiveDynamics
 import LcmSix.CanonicalQuadratic
 import LcmSix.EllipticDuplication
+import LcmSix.EllipticAddSub
+import LcmSix.EllipticParallelogram

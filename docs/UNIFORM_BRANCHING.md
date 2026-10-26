@@ -101,3 +101,5 @@ on branching mass rather than a contradiction. No collision enumeration,
 CAS output, or unproved group-height assertion is involved.
 
 The proof and exact exponent of W were reconstructed in separate internal review. It is written mathematics, not a Lean theorem or external referee approval. The ownership packets and quadratic lifts retain the attribution in the linked source notes.
+
+The later [local branching theorem](UNIFORM_LOCAL_BRANCHING.md) imposes a necessary bound at every vertex and forces minimum degree three beyond an explicit threshold. The unrestricted branching problem remains open.

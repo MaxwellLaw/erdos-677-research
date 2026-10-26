@@ -24,7 +24,7 @@ The integer Bézout identities, gcd bounds and coefficient sums are proved in
 Lean. The 2026-10-25 addition also proves the universal integral dual-functional
 distance argument and all 25 concrete lattice distances, including their
 explicit rounded integer inputs and strict thresholds. See
-[the exact Lean scope](../cas/global-bound/LEAN_LATTICE.md). The actual-curve bounded parallelogram input, David's theorem, elliptic uniformization, logarithm
+[the exact Lean scope](../cas/global-bound/LEAN_LATTICE.md). The numerical Gram certificate connection, David's theorem, elliptic uniformization, logarithm
 integration and the interpretation of the finite-field sieve remain human
 mathematics with exact Python certificates. The exported lattice verifier
 checks unimodularity, inverse matrices, rounding cells and rational distance
@@ -54,10 +54,10 @@ assumes a Magma rank, class-group or full-basis flag.
 ## Remaining fixed-length obligations
 
 1. Develop a complete Lean endpoint for all n>=0 and m>=n+6. The current
-   223 audited declarations cover specified reductions, certificate algebra,
+   253 audited declarations cover specified reductions, certificate algebra,
    integer lattice distances, conditional rounding and an abstract saturation
    bridge, real quartic bounds and actual primitive coordinate-height limits.
-   Actual-curve quadraticity (its bounded parallelogram input), and the analytic,
+   Numerical Gram certificate interpretation, and the analytic,
    descent and finite computation chain
    remains outside Lean and must be proved or replaced there.
 2. Continue source/priority checks and address substantive external review.
@@ -107,7 +107,8 @@ The [new Lean height layer](../cas/height-bounds/LEAN_DYNAMICS.md) now proves
 real quartic bounds and unconditional canonical limits for all four actual
 primitive coordinate maps, including H-h<5. At that checkpoint it did not
 yet connect them to Mathlib's elliptic group law. The subsequent bridge below
-closes that obligation; the actual pairing input and later chain remain open.
+closes that obligation. The evening pairing integration below also closes the
+actual pairing input; the later numerical and certificate chain remains open.
 
 The later [component/cycle argument](UNIFORM_CYCLES.md) adds explicit necessary
 conditions: component sizes are multiples of the radical degree d, and for
@@ -141,3 +142,22 @@ two-factor, with no new height or CAS assumption. Consequently bounded extra
 packets cannot sustain arbitrarily large starts at fixed k. Unbounded W
 remains possible under these necessary conditions; no global contradiction
 or valid collision has been obtained.
+
+## Actual pairing and local branching, 2026-10-26 evening
+
+The [pairing integration](LEAN_PAIRING.md) proves the actual-curve bounded
+parallelogram input, symmetric biadditive canonical pairing, integer
+quadraticity, nonnegativity and finite Gram expansion in the pinned project.
+The previous pairing obligation is closed. Michael Stoll's earlier general
+Mathlib main formalizations are explicitly credited; this is a specialized
+fixed-version integration and concrete canonical-height application.
+The numerical interval/matrix certificates and later k=6 chain remain
+unconnected to their actual Lean objects.
+
+The [local branching theorem](UNIFORM_LOCAL_BRANCHING.md) proves
+`n<=Nvertex*V^(2d)` at every vertex after removing any two incident packets.
+Beyond an explicit k-dependent threshold every vertex has degree at least
+three, hence at least 3k occupied packets are necessary. No perfect matching
+hypothesis is needed. Unbounded local complements and minimum-degree-three
+graphs remain unresolved. This written result is not Lean-formalized and
+does not settle arbitrary k or change whole-problem eligibility.

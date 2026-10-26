@@ -3,7 +3,11 @@
 Author: MaxwellLaw. Checkpoint: 26 October 2026 (Asia/Shanghai).
 The author, MaxwellLaw, used AI as an assistive tool.
 
-This checkpoint connects the previously formalized primitive-coordinate map
+The subsequent [evening pairing integration](LEAN_PAIRING.md) has now proved
+the actual-curve bounded-defect premise and its concrete canonical pairing
+consequences. The morning checkpoint below is retained as history.
+
+This morning checkpoint connects the previously formalized primitive-coordinate map
 to Mathlib's actual nonsingular elliptic point group. It also formalizes the
 standard implication from a bounded naive parallelogram error to an exact
 canonical quadratic height. The latter error estimate on the four actual
