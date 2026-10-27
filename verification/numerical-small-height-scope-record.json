@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "cas/saturation/verify_small_height.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.107,
+  "change": "Only the returned scope message changed; certificate arithmetic and input bytes are unchanged.",
+  "result": "PASS"
+}

@@ -403,5 +403,11 @@ network CAS or SymPy was used. Exact commands, exits and durations are in
 
 Subsequent publication changes add these records and clarify that the remaining
 height obligation is the stronger global minimum-height/index argument. All
-tested Lean/Python source, workflows and mathematical certificates are unchanged
-from the clean source SHA.
+tested Lean and new numerical-certificate Python source, workflows and
+mathematical certificates are unchanged from the clean source SHA. A later
+correction changes only the legacy `verify_small_height.py` JSON scope message: it
+now points to the completed independent rank certificate rather than retaining
+the original checkpoint's obsolete rank-status wording. That checker was rerun
+with exit 0; its output and command are in
+`verification/numerical-small-height-scope.log` and
+`verification/numerical-small-height-scope-record.json`.

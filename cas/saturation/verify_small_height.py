@@ -145,7 +145,7 @@ def main():
                         'bernstein_leaves':leaf_count,'regulator_upper_strictly_below':'8/5'})
     result={'status':'PASS','certificate_sha256':hashlib.sha256(raw).hexdigest(),
         'verifier_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-        'scope':'exact arithmetic replay; human height theory gives global H>1/10; rank3 remains unproved independently',
+        'scope':'exact arithmetic replay; the written height proof gives global H>1/10; independent rank certificates are in cas/descent; this checker does not certify rank',
         'curves':summary}
     if args.output:args.output.write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "certificate_sha256": "61dbc9566c9dee8a3e3cbfcbf5b34ca0c746e2a0dea4fba838d74a19730c5075",
+  "verifier_sha256": "1bb17c2facad63609fcbabab43997035e949969c7c29ee3893d91d2a302951d5",
+  "scope": "exact arithmetic replay; the written height proof gives global H>1/10; independent rank certificates are in cas/descent; this checker does not certify rank",
+  "curves": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "stronger_D": 4608,
+      "small_height_box_B": 19,
+      "points_modulo_sign": 11,
+      "bernstein_leaves": 6,
+      "regulator_upper_strictly_below": "8/5"
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "stronger_D": 460800,
+      "small_height_box_B": 86,
+      "points_modulo_sign": 12,
+      "bernstein_leaves": 8,
+      "regulator_upper_strictly_below": "8/5"
+    },
+    {
+      "pair": [
+        1,
+        10
+      ],
+      "stronger_D": 9331200,
+      "small_height_box_B": 234,
+      "points_modulo_sign": 14,
+      "bernstein_leaves": 11,
+      "regulator_upper_strictly_below": "8/5"
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "stronger_D": 1036800,
+      "small_height_box_B": 113,
+      "points_modulo_sign": 14,
+      "bernstein_leaves": 9,
+      "regulator_upper_strictly_below": "8/5"
+    }
+  ]
+}
