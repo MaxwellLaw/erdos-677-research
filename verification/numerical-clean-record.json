@@ -1,0 +1,80 @@
+{
+  "source_sha": "3baf2947683b4943b45927d44b1d8bf7a94a3c19",
+  "dependency_cache": "Only pinned .lake/packages linked; no initial project objects",
+  "runtime": "Python 3.14.6",
+  "commands": [
+    {
+      "name": "build",
+      "command": [
+        "lake",
+        "--wfail",
+        "build"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 169.146
+    },
+    {
+      "name": "axioms",
+      "command": [
+        "python3",
+        "scripts/check_axioms.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.511
+    },
+    {
+      "name": "kernel",
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "LcmSix"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 100.095
+    },
+    {
+      "name": "orbits",
+      "command": [
+        "python3",
+        "scripts/export_height_orbits.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 25.847
+    },
+    {
+      "name": "logs",
+      "command": [
+        "python3",
+        "scripts/export_log_certificates.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.211
+    },
+    {
+      "name": "intervals",
+      "command": [
+        "python3",
+        "scripts/export_height_intervals.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.13
+    },
+    {
+      "name": "gram",
+      "command": [
+        "python3",
+        "scripts/export_gram_certificates.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.063
+    }
+  ],
+  "tracked_clean": true,
+  "source_hashes_match": true,
+  "source_hash_count": 47,
+  "project_modules_replayed": 31,
+  "explicit_axiom_reports": 494
+}

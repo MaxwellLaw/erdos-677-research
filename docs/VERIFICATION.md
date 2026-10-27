@@ -385,3 +385,23 @@ source/workflow/dependency manifest is
 `verification/numerical-source-hashes.json` (47 files). The existing global
 residual, descent and saturation certificates are unchanged; CI continues
 to replay them as existing verification, not as new research enumeration.
+
+### Fresh clone of the actual numerical-height checkpoint
+
+A fresh clone of `3baf2947683b4943b45927d44b1d8bf7a94a3c19`, initially
+without project object files, completed all seven commands above with exit 0.
+The build completed 3614 jobs and rebuilt all 31 project modules. All 494
+explicit axiom reports passed, and all 31 modules were kernel replayed.
+All four new exporter checks passed and all 47 manifest files matched.
+The tracked clone remained clean; its Python runtime was 3.14.6.
+
+Only the pinned third-party `.lake/packages` directory was linked. No project
+objects were copied, no full from-source Mathlib rebuild is claimed, and no
+network CAS or SymPy was used. Exact commands, exits and durations are in
+`verification/numerical-clean-record.json`; logs are
+`verification/numerical-clean-{build,axioms,kernel,orbits,logs,intervals,gram}.log`.
+
+Subsequent publication changes add these records and clarify that the remaining
+height obligation is the stronger global minimum-height/index argument. All
+tested Lean/Python source, workflows and mathematical certificates are unchanged
+from the clean source SHA.
