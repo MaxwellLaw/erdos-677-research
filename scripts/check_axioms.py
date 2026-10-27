@@ -14,6 +14,7 @@ print(result.stdout, end='')
 if result.returncode:
     raise SystemExit(result.returncode)
 reports = re.findall(r"'([^']+)' depends on axioms:\s*\[([^\]]*)\]", result.stdout)
+reports += [(name, '') for name in re.findall(r"'([^']+)' does not depend on any axioms", result.stdout)]
 allowed = {'propext', 'Classical.choice', 'Quot.sound'}
 actual = {}
 for name, items in reports:

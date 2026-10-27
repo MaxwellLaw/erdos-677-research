@@ -6,7 +6,8 @@ The author, MaxwellLaw, used AI as an assistive tool.
 The subsequent [actual elliptic bridge](../../docs/LEAN_ELLIPTIC_HEIGHT.md)
 now identifies these maps and heights with Mathlib group doubling. The
 [subsequent pairing integration](../../docs/LEAN_PAIRING.md) now also discharges
-the actual-curve quadraticity input.
+the actual-curve quadraticity input. The [numerical Gram layer](../../docs/NUMERICAL_GRAM.md)
+now also verifies the actual finite-orbit and numerical subgroup bounds.
 
 This 25 October addition proves the real quartic bounds and the canonical limit for the
 four actual gcd-normalized integer-coordinate maps. It formalizes a substantial

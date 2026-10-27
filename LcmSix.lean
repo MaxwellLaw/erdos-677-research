@@ -18,3 +18,13 @@ import LcmSix.CanonicalQuadratic
 import LcmSix.EllipticDuplication
 import LcmSix.EllipticAddSub
 import LcmSix.EllipticParallelogram
+import LcmSix.LogBounds
+import LcmSix.LogCertificates
+import LcmSix.HeightPoints
+import LcmSix.HeightOrbits
+import LcmSix.HeightEnclosure
+import LcmSix.HeightIntervals
+import LcmSix.GramBounds
+import LcmSix.GramCertificates
+import LcmSix.HeightGram
+import LcmSix.HeightLowerBound

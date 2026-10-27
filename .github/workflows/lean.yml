@@ -27,6 +27,12 @@ jobs:
         run: python3 scripts/export_lattice_certificates.py
       - name: Real duplication certificate correspondence
         run: python3 scripts/export_duplication_certificates.py
+      - name: Actual numerical height certificate correspondence
+        run: |
+          python3 scripts/export_height_orbits.py --check
+          python3 scripts/export_log_certificates.py
+          python3 scripts/export_height_intervals.py
+          python3 scripts/export_gram_certificates.py
       - name: Independent exact-arithmetic sanity checks
         run: python3 scripts/verify_reduction.py
       - name: Exact rational height certificates

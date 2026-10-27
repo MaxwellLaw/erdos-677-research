@@ -13,10 +13,12 @@ For natural numbers n,k, define M(n,k) = lcm(n+1,...,n+k). The original question
 - `LcmSix.no_collision_of_carry_le` excludes all n<m whose later carry factor is at most the earlier one. This is an infinite subfamily, not all starts.
 - `LcmSixGcd.common_divisor_square_dvd` proves that any common divisor d of X,Y satisfies d² | 225(b-a) under the curve equation.
 - `LcmSix.CarryGcd` specializes the known gcd restrictions with the exact carry filters: the center gcd divides 15,3,9,3 and the slope gcd divides 15,12,81,9 in the respective four branches. These bounds do not bound the interval starts.
-- `HeightCertificates` proves the integer Bézout identities for all four duplication-polynomial pairs, their common-divisor bounds at primitive integer coordinates, and the exact coefficient sums C,D. The interpretation as actual elliptic-curve doubling and the resulting height limit are now formalized in `EllipticDuplication.lean`; actual pairing is now formalized separately, while numerical certificates and later analytic steps remain separate.
+- `HeightCertificates` proves the integer Bézout identities for all four duplication-polynomial pairs, their common-divisor bounds at primitive integer coordinates, and the exact coefficient sums C,D. The interpretation as actual elliptic-curve doubling and the resulting height limit are now formalized in `EllipticDuplication.lean`; actual pairing and the numerical Gram certificates are now formalized separately, while later analytic steps remain separate.
 - `LcmSix.LatticeDistance` proves the universal integer dual-functional distance argument and all 25 explicit squared-distance bounds used in the global reduction. The rounded integer linear forms and thresholds are expanded in the concrete theorem types. The generic rounding-error transfer to real linear forms is also kernel checked; actual elliptic-logarithm enclosures remain a separate human argument.
 - The new real duplication and primitive-dynamics modules prove all four global quartic lower bounds, actual gcd-normalized coordinate-height convergence, finite-iterate enclosures, uniqueness and the strict bound `H-h<5`. These are unconditional results on primitive integer pairs. The [actual elliptic-group bridge](docs/LEAN_ELLIPTIC_HEIGHT.md) now transfers them to every rational point of the four curves. The [actual pairing integration](docs/LEAN_PAIRING.md) now proves the bounded parallelogram law, exact symmetric biadditive pairing and integer quadraticity on all four curves. This uses credited standard Mathlib mathematics. See [the exact scope](cas/height-bounds/LEAN_DYNAMICS.md).
 - `LcmSix.ModularObstruction` proves that specified product-congruence and carry sieves have positive disjoint surviving representatives for every positive modulus. These are congruence witnesses, **not integer-product equalities or LCM counterexamples**.
+
+The [numerical Gram formalization](docs/NUMERICAL_GRAM.md) now proves the unconditional bound `H(sum m_i P_i)>=sum m_i²/100` for all integer triples on each actual displayed subgroup, and proves that all integer relations are trivial. It verifies the 24 actual seven-step orbits, 32 real logarithm intervals and four exact matrix certificates inside Lean. It does not yet formalize full-group generation.
 
 The separate [rigorous height calculation](cas/height-bounds/README.md) establishes `H(P)-h(x(P))<5` on all four elliptic curves and `H(sum m_i P_i)>=sum m_i²/100` on each displayed generated subgroup, using exact rational intervals and a human canonical-height argument. Here H is the x-normalized canonical height. The [global coefficient bound and residual certificate](cas/global-bound/README.md) now combine these estimates with David's elliptic-logarithm theorem, certified real logarithms and exact lattice-distance bounds. They reduce the four coefficient boxes to closed bounds 60,60,62,64 and exhaust all 7,642,936 triples. No admissible disjoint odd-square pair remains. The [independent rank and generation certificate](cas/descent/RANK_PROOF.md) now proves coverage of the entire rational-point group. Its number-field, height and finite-field interpretation, and the analytic/enumeration layers, remain outside Lean.
 
@@ -34,6 +36,10 @@ lake --wfail build
 python3 scripts/check_axioms.py
 python3 scripts/export_lattice_certificates.py
 python3 scripts/export_duplication_certificates.py
+python3 scripts/export_height_orbits.py --check
+python3 scripts/export_log_certificates.py
+python3 scripts/export_height_intervals.py
+python3 scripts/export_gram_certificates.py
 lake env leanchecker -v LcmSix
 python3 scripts/verify_reduction.py
 python3 scripts/verify_heights.py
@@ -43,7 +49,7 @@ python3 cas/descent/verify_all.py
 python3 cas/uniform/cubic_obstruction_certificate.py
 ```
 
-The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, admit, custom mathematical axioms, or native_decide. Externally discovered polynomial coefficients and integral lattice witnesses are supplied as explicit data and their obligations are proved by the kernel; no CAS assertion is accepted as an axiom. The printed dependencies are standard Lean logical axioms only. Mathlib dependency binaries may come from its public cache; all project modules are rebuilt for the clean-checkout test. The reduction sanity check is finite. The height replay verifies exact arithmetic certificates whose global implications use the documented height theory. Actual elliptic-group doubling, naive-height identification and the canonical limit are kernel checked. Actual canonical pairing and finite Gram expansion are also kernel checked; numerical Gram certificates and the later analytic, descent and residual layers remain outside Lean. The global-bound replay checks the recorded height parameters, real-logarithm intervals, initial-bound constants, lattice reductions and complete coefficient boxes. Its mathematical interpretation also uses the documented analytic and reduction theorems. Magma rank and full-basis results are retained as historical cross-checks; independent certificates now replace their role in the mathematical proof. None is a Lean assumption.
+The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, admit, custom mathematical axioms, or native_decide. Externally discovered polynomial coefficients and integral lattice witnesses are supplied as explicit data and their obligations are proved by the kernel; no CAS assertion is accepted as an axiom. The printed dependencies are standard Lean logical axioms only. Mathlib dependency binaries may come from its public cache; all project modules are rebuilt for the clean-checkout test. The reduction sanity check is finite. The height replay verifies exact arithmetic certificates whose global implications use the documented height theory. Actual elliptic-group doubling, naive-height identification and the canonical limit are kernel checked. Actual canonical pairing, finite Gram expansion and all numerical Gram certificates are also kernel checked; the stronger local minimum-height argument and later analytic, descent and residual layers remain outside Lean. The global-bound replay checks the recorded height parameters, real-logarithm intervals, initial-bound constants, lattice reductions and complete coefficient boxes. Its mathematical interpretation also uses the documented analytic and reduction theorems. Magma rank and full-basis results are retained as historical cross-checks; independent certificates now replace their role in the mathematical proof. None is a Lean assumption.
 
 ## Research and submission record
 
@@ -64,11 +70,12 @@ The Lean proofs use ordinary kernel-replayed tactics. They contain no sorry, adm
 - [A uniform two-matching necessary condition, not an all-length solution](docs/UNIFORM_STRUCTURE.md)
 - [Effective component resonance and pure-cycle exclusion](docs/UNIFORM_CYCLES.md)
 - [Kernel-checked real bounds and canonical coordinate dynamics](cas/height-bounds/LEAN_DYNAMICS.md)
-- [Actual elliptic doubling, group heights and the remaining quadraticity input](docs/LEAN_ELLIPTIC_HEIGHT.md)
+- [Actual elliptic doubling and group heights](docs/LEAN_ELLIPTIC_HEIGHT.md)
 - [Cycle exclusion for all radical degrees](docs/UNIFORM_LOW_DEGREE.md)
 - [A lower size bound on packets outside every cycle cover](docs/UNIFORM_BRANCHING.md)
 - [Actual canonical pairing in the pinned project](docs/LEAN_PAIRING.md)
 - [Local branching at every ownership vertex](docs/UNIFORM_LOCAL_BRANCHING.md)
+- [Kernel-checked numerical heights of the actual point triples](docs/NUMERICAL_GRAM.md)
 
 The current awards rules require a complete solution of the original problem. The computational fixed-length result and partial Lean formalization do not settle the all-length conjecture. No awards solution PR or whole-problem award claim is justified by this result. Remaining obligations include a complete Lean k = 6 endpoint, continued external review, and a separate argument or counterexample for arbitrary k.
 

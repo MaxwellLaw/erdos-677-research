@@ -24,7 +24,7 @@ The integer Bézout identities, gcd bounds and coefficient sums are proved in
 Lean. The 2026-10-25 addition also proves the universal integral dual-functional
 distance argument and all 25 concrete lattice distances, including their
 explicit rounded integer inputs and strict thresholds. See
-[the exact Lean scope](../cas/global-bound/LEAN_LATTICE.md). The numerical Gram certificate connection, David's theorem, elliptic uniformization, logarithm
+[the exact Lean scope](../cas/global-bound/LEAN_LATTICE.md). The numerical Gram certificate connection is now kernel checked. David's theorem, elliptic uniformization, logarithm
 integration and the interpretation of the finite-field sieve remain human
 mathematics with exact Python certificates. The exported lattice verifier
 checks unimodularity, inverse matrices, rounding cells and rational distance
@@ -54,12 +54,11 @@ assumes a Magma rank, class-group or full-basis flag.
 ## Remaining fixed-length obligations
 
 1. Develop a complete Lean endpoint for all n>=0 and m>=n+6. The current
-   253 audited declarations cover specified reductions, certificate algebra,
-   integer lattice distances, conditional rounding and an abstract saturation
-   bridge, real quartic bounds and actual primitive coordinate-height limits.
-   Numerical Gram certificate interpretation, and the analytic,
-   descent and finite computation chain
-   remains outside Lean and must be proved or replaced there.
+   494 audited declarations cover the reductions, integral lattice certificates,
+   actual group heights, canonical pairing and numerical subgroup bounds.
+   The stronger local gcd/minimum-height argument and analytic, descent,
+   saturation and residual chain remain outside Lean and must be proved
+   or replaced there.
 2. Continue source/priority checks and address substantive external review.
    The completed independent group certificate is not an unfinished task to
    be repeated; any specific discovered error must be corrected publicly.
@@ -108,7 +107,8 @@ real quartic bounds and unconditional canonical limits for all four actual
 primitive coordinate maps, including H-h<5. At that checkpoint it did not
 yet connect them to Mathlib's elliptic group law. The subsequent bridge below
 closes that obligation. The evening pairing integration below also closes the
-actual pairing input; the later numerical and certificate chain remains open.
+actual pairing input. The numerical Gram stage is now also complete in the
+27 October continuation; the later certificate chain remains open.
 
 The later [component/cycle argument](UNIFORM_CYCLES.md) adds explicit necessary
 conditions: component sizes are multiples of the radical degree d, and for
@@ -151,8 +151,9 @@ quadraticity, nonnegativity and finite Gram expansion in the pinned project.
 The previous pairing obligation is closed. Michael Stoll's earlier general
 Mathlib main formalizations are explicitly credited; this is a specialized
 fixed-version integration and concrete canonical-height application.
-The numerical interval/matrix certificates and later k=6 chain remain
-unconnected to their actual Lean objects.
+At this checkpoint the numerical interval/matrix certificates and later k=6
+chain remained unconnected; the 27 October continuation below closes the
+numerical Gram stage.
 
 The [local branching theorem](UNIFORM_LOCAL_BRANCHING.md) proves
 `n<=Nvertex*V^(2d)` at every vertex after removing any two incident packets.
@@ -161,3 +162,21 @@ three, hence at least 3k occupied packets are necessary. No perfect matching
 hypothesis is needed. Unbounded local complements and minimum-degree-three
 graphs remain unresolved. This written result is not Lean-formalized and
 does not settle arbitrary k or change whole-problem eligibility.
+
+## Actual numerical subgroup heights, 2026-10-27 morning
+
+The [new numerical Gram layer](NUMERICAL_GRAM.md) closes the previous actual
+interval/matrix obligation. All 24 seven-step actual group orbits, 32 real
+logarithm enclosures, 24 original height intervals and four rational
+sum-of-squares matrix certificates are now Lean-checked. Four unconditional
+endpoints prove H(sum m_i P_i)>=sum m_i²/100 for every integer triple, and
+four further endpoints prove that integer relations are trivial. There are
+494 explicit audited declarations across 31 project modules.
+
+The written/exact k=6 proof remains complete; full-group generation and the
+complete k=6 endpoint have not thereby become Lean theorems. Remaining
+formal layers include the stronger rational-point gcd and global minimum
+height, descent/full-saturation interpretations, elliptic-logarithm analysis
+and residual exclusion. The uniform problem is unchanged: unbounded local
+complement products and branching remain possible under known necessary
+conditions. No additional collision enumeration was performed as research.

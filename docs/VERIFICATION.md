@@ -26,12 +26,17 @@ This document verifies the auxiliary results in this repository. **There is no L
 | Actual elliptic doubling and heights | 33 declarations in `EllipticDuplication.lean` | Every point of the four exact rational curves; group doubling, primitive representatives, projective naive-height equality, canonical-limit convergence, scaling, finite-iterate bounds and H-h<5, including infinity and y=0. Four nonzero discriminants and IsElliptic instances are proved. |
 | Conditional canonical quadraticity | 18 declarations in `CanonicalQuadratic.lean` | An arbitrary abelian group with an explicit uniform bounded naive parallelogram defect; convergence, exact parallelogram, symmetric biadditive pairing and all integer homogeneity follow. The separate actual pairing module now discharges the defect premise on the four curves. |
 | Actual addition/subtraction compatibility | Eight declarations in `EllipticAddSub.lean` | Rational a1=a3=0 models; the actual Mathlib group operations and map agree projectively with a nonzero scalar for every point pair, including all exceptional charts. Prior general Mathlib main work is credited. |
-| Actual canonical pairing | 22 declarations in `EllipticParallelogram.lean` | Bounded naive parallelogram error, exact canonical law, symmetric biadditive pairing, all integer homogeneity, nonnegativity and finite Gram expansion. Four concrete branch endpoints discharge model and defect premises. Numerical Gram certificate bounds remain external. |
+| Actual canonical pairing | 22 declarations in `EllipticParallelogram.lean` | Bounded naive parallelogram error, exact canonical law, symmetric biadditive pairing, all integer homogeneity, nonnegativity and finite Gram expansion. Four concrete branch endpoints discharge model and defect premises. Numerical Gram bounds are discharged by the subsequent rows. |
+| Actual point and orbit certificates | 135 declarations in `HeightPoints.lean` and `HeightOrbits.lean` | 24 actual points, 12 actual sums, 168 finite projective steps, final Bezout primitivity, and exact naive heights of all actual seventh doubles. Ordinary kernel arithmetic; no external orbit premise. |
+| Real logarithm certificates | Six `LogBounds` theorems and 32 `LogCertificates` endpoints | Analytic inequalities from Mathlib plus kernel-checked rational series and natural-number binary brackets prove every required real log enclosure. |
+| Actual canonical-height intervals | `HeightEnclosure.from_seven_steps` and 24 `HeightIntervals` endpoints | Every actual finite orbit, log and rounding premise is discharged; the original closed intervals hold for the actual group heights. |
+| Numerical Gram lower bounds | 27 declarations in `GramBounds`/`GramCertificates`, six in `HeightGram` | Rational square factorizations, interval-error bounds and actual group expansion; intermediate six-height premises are explicit. |
+| Unconditional actual subgroup endpoints | Ten declarations in `HeightLowerBound.lean` | Four numerical lower bounds for all integer triples and four relation-triviality consequences, with actual points and no remaining numerical premise. Also H(0)=0 and the generic coefficient argument. Full-group generation and the complete k=6 endpoint remain separate. |
 | Congruence-sieve limitation | Four `ratio_*_survives_every_modulus` theorems in `ModularObstruction.lean` | For every positive modulus, nonnegative disjoint representatives satisfy the product congruence and carry residues. Not integer product equalities or LCM collisions. |
 
 The Lean proof of `defect_six` first proves a universal gcd-periodicity identity, then exhausts its 60 residue classes. This is a finite proof of an explicitly proved periodic formula, not a bounded search over interval starts. The small gcd case splits likewise follow proved uniform bounds on the gcd. Integer subtraction is used in Phi and the centered formulas, so natural subtraction cannot silently truncate a curve coefficient.
 
-`Audit.lean` now names 253 declarations: the previous 223 plus eight for addition/subtraction compatibility and 22 for actual canonical pairing, including the bundled pairing and model-instance bridges. Earlier dated checkpoints below retain their historical counts. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. The allowed dependency set is unchanged; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
+`Audit.lean` now names 494 declarations: the previous 253 plus 241 for actual points, finite orbits, real logarithms, height intervals, rational matrices and unconditional subgroup endpoints. Earlier dated checkpoints below retain their historical counts. `scripts/check_axioms.py` runs Lean, requires exactly those reports, and rejects every dependency outside `propext`, `Classical.choice`, and `Quot.sound`. The parser also recognizes Lean's explicit "does not depend on any axioms" output for the new arithmetic declarations; the allowed dependency set is unchanged; no `sorryAx`, custom mathematical axiom, unproved key assumption, `Lean.ofReduceBool`, or CAS certificate appears in their dependency reports.
 
 ## Toolchain and recorded checks
 
@@ -77,7 +82,7 @@ The build reported 1096 jobs, reusing dependency objects. The axiom audit passed
 
 The separate standard-library Python verifier recomputes the polynomial identities, seven rational doublings for each of 24 point inputs, outward rational logarithm intervals, and positive principal minors of four rational matrices. It proves the numerical certificate obligations used in the [human height proof](../cas/height-bounds/README.md): globally `H(P)-h(x(P))<5`, and `H(sum m_i P_i)>=sum m_i^2/100` on each displayed generated subgroup. Every mathematical JSON field must match the saved output; only the Python runtime string is excluded. The saved output has SHA256 `2a988af3758fc58d84e7220160fc608e73194f703033099c96a97b580595f450`. A separate replay reproduced it byte-for-byte on Python 3.14.6.
 
-This numerical certification is exact arithmetic plus the stated human canonical-height argument. Its logarithm bounds, limiting argument, quadraticity and matrix analysis are **not Lean theorems**. Only the specified integer algebra is kernel checked. Extending the subgroup statement to a representation of every rational point still uses the separately recorded Magma full-basis assertion; this calculation does not independently certify saturation. That height-only checkpoint supplied no initial coefficient bound or lattice completeness conclusion; the subsequent global calculation is recorded below.
+At this original numerical checkpoint the certification was exact arithmetic plus the stated human canonical-height argument; only the specified integer algebra was kernel checked. The subsequent 27 October numerical Gram layer now proves the actual subgroup endpoint in Lean. Full-group generation is established by the separate independent written rank/saturation proof, which replaced the earlier Magma completion flags; it is still not a complete Lean group-generation theorem. That height-only checkpoint supplied no initial coefficient bound or lattice completeness conclusion; the subsequent global calculation is recorded below.
 
 ### Clean clone of the height-certificate checkpoint
 
@@ -342,3 +347,41 @@ script's tail. This is distinct from the stronger rational-point local gcd
 bound still needed for the separate small-height argument. No tested Lean/
 Python source, workflow or mathematical certificate changed after the clean
 source commit.
+
+## Actual numerical subgroup bounds, 2026-10-27 morning
+
+Ten new modules add 241 explicit audited declarations. All 24 actual points,
+12 sums, 24 seven-step orbits, 32 logarithm enclosures, 24 original height
+intervals and four exact matrix factorizations connect to four unconditional
+actual subgroup bounds and four integer-independence consequences. See
+[the complete scoped statement](NUMERICAL_GRAM.md).
+
+Independent source/arithmetic review directly parsed the Lean certificate
+fields and checked all 168 F/G steps, nonzero scalars, final Bezout witnesses,
+original saved coordinates, 60 unit-series enclosures, 32 binary/log
+certificates and all four rational matrix factorizations. It also reviewed
+the actual group types and every remaining hypothesis. This is an internal
+independent implementation audit, not an external referee report. The Lean
+proofs do not rely on the Python audit or exporter succeeding.
+
+The `decide` uses are ordinary kernel reductions. The exponentiation threshold
+is raised to 300000 to evaluate the largest recorded exponent 221661, without
+native evaluation or additional axioms. The axiom parser was updated to
+recognize Lean's zero-axiom report format while preserving the same allowed
+standard logical axioms and exact required-name set.
+
+The final working project build completed 3614 jobs. The 494-declaration
+axiom audit passed, and `leanchecker` replayed all 31 project modules with
+exit 0. All four new exporter correspondence checks also passed. Exact
+commands, exits and durations are in
+`verification/numerical-working-record.json`; output is in
+`verification/numerical-{build,axioms,kernel,orbits,logs,intervals,gram}.log`.
+The pinned third-party cache was reused. No CAS service, SymPy, floating-point
+logarithm or new collision search was used for this addition.
+
+`verification/numerical-independent-audit.json` records the independent
+source/arithmetic review and its frozen source hashes. The full selected
+source/workflow/dependency manifest is
+`verification/numerical-source-hashes.json` (47 files). The existing global
+residual, descent and saturation certificates are unchanged; CI continues
+to replay them as existing verification, not as new research enumeration.

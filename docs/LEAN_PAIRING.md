@@ -99,6 +99,8 @@ pairing assumption in those concrete endpoints.
 
 ## Remaining formal boundary
 
+**Later checkpoint:** the [numerical Gram connection](NUMERICAL_GRAM.md) now discharges the numerical intervals, finite orbits and matrix bounds described below. The following paragraph records the boundary at this 26 October checkpoint.
+
 The finite Gram identity is not yet the numerical lower bound
 `H(sum_i m_i P_i)>=sum_i m_i^2/100`: the exact logarithm intervals, actual
 finite-iterate point certificates and matrix positivity must still be linked

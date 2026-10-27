@@ -1,0 +1,70 @@
+[
+  {
+    "name": "build",
+    "command": [
+      "lake",
+      "--wfail",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 8.212
+  },
+  {
+    "name": "axioms",
+    "command": [
+      "python3",
+      "scripts/check_axioms.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 23.621
+  },
+  {
+    "name": "kernel",
+    "command": [
+      "lake",
+      "env",
+      "leanchecker",
+      "-v",
+      "LcmSix"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 147.322
+  },
+  {
+    "name": "orbits",
+    "command": [
+      "python3",
+      "scripts/export_height_orbits.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 25.578
+  },
+  {
+    "name": "logs",
+    "command": [
+      "python3",
+      "scripts/export_log_certificates.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.174
+  },
+  {
+    "name": "intervals",
+    "command": [
+      "python3",
+      "scripts/export_height_intervals.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.103
+  },
+  {
+    "name": "gram",
+    "command": [
+      "python3",
+      "scripts/export_gram_certificates.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.048
+  }
+]

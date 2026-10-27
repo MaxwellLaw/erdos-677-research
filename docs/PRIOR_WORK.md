@@ -174,3 +174,18 @@ The current monitoring found no new external research review or complete
 Erdős677 proof, and no awards/MathDB eligibility change. Formal Conjectures
 advanced for unrelated CI work; its 677 source blob remains
 `303699d56147eb8edd96b0c493dd2b1e53af23e3`.
+
+### 27 October numerical-height checkpoint
+
+The latest source/competition check found no actionable new proof, review or
+eligibility change. Awards remains at `c06d67a66a8ba426c68e475eff22ee98a86f4e75`;
+JSP-000550 remains outside the MathDB pilot and requires the original all-length
+problem. The Formal Conjectures 677 file remains blob
+`303699d56147eb8edd96b0c493dd2b1e53af23e3`. Stoll's previously cited general
+Mathlib compatibility/parallelogram results retain their attribution.
+
+The new contribution here is the actual finite-orbit, real-logarithm, interval
+and matrix connection to the existing subgroup height lower bounds, including
+integer independence in Lean. It is not new canonical-height theory or a
+claim to first formalization. The original all-length problem remains
+unresolved, so no awards solution PR or whole-problem claim is submitted.
